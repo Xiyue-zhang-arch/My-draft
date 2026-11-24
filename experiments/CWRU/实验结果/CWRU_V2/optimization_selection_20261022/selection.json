@@ -1,0 +1,224 @@
+{
+  "selected_config_id": "data_aux_ce_a0p1_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20",
+  "selected_aux_weight": 0.1,
+  "assessments": {
+    "data_aux_ce_a0p01_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20": {
+      "candidate_id": "data_aux_ce_a0p01_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20",
+      "reference_id": "data_aux_ce_a0p1_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20",
+      "data_id": "baseline_data_v6201_e30_s100_p20",
+      "passed": false,
+      "checks": {
+        "noisy_gain": false,
+        "positive_pairs": false,
+        "or_preservation": true,
+        "clean_preservation": true,
+        "each_budget_preservation": true,
+        "data_reference": true
+      },
+      "noisy_gain_pp": -0.2060883620689658,
+      "noisy_balanced_acc": 0.8773766762452107,
+      "positive_pair_fraction": 0.4444444444444444,
+      "or_gain_pp": -0.2604166666666667,
+      "clean_gain_pp": {
+        "clean_only": 0.2170138888888889,
+        "awgn_mixed": 0.5208333333333333
+      },
+      "per_budget_gain_pp": {
+        "0.1": 0.013170498084291094,
+        "0.2": -0.4253472222222227
+      },
+      "max_seed_sd_pp": 4.194359257027998,
+      "max_paired_sd_pp": 3.706561096071801,
+      "seed_sd_over_0_5pp": true,
+      "paired_sd_over_0_5pp": true,
+      "sd_is_hard_gate": false,
+      "data_gap_pp": 29.199742576628353,
+      "min_data_condition_gap_pp": 28.397090517241374,
+      "max_data_paired_sd_pp": 8.724012637667366,
+      "data_paired_sd_over_0_5pp": true,
+      "data_positive_pair_fraction": 1.0,
+      "minimum_seeds_per_subset": 3,
+      "paired_model_count": 18,
+      "require_gain": true,
+      "full_sample_rule": false,
+      "decision_data": "fixed validation only; test metrics prohibited",
+      "stability_rule": "SD is descriptive, not an acceptance gate or significance test; report paired improvement coverage separately"
+    },
+    "data_aux_ce_a0p03_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20": {
+      "candidate_id": "data_aux_ce_a0p03_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20",
+      "reference_id": "data_aux_ce_a0p1_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20",
+      "data_id": "baseline_data_v6201_e30_s100_p20",
+      "passed": false,
+      "checks": {
+        "noisy_gain": false,
+        "positive_pairs": false,
+        "or_preservation": true,
+        "clean_preservation": true,
+        "each_budget_preservation": true,
+        "data_reference": true
+      },
+      "noisy_gain_pp": -0.31025502873563243,
+      "noisy_balanced_acc": 0.876335009578544,
+      "positive_pair_fraction": 0.2222222222222222,
+      "or_gain_pp": -0.3472222222222222,
+      "clean_gain_pp": {
+        "clean_only": 0.3038194444444445,
+        "awgn_mixed": 0.0
+      },
+      "per_budget_gain_pp": {
+        "0.1": -0.29932950191570906,
+        "0.2": -0.3211805555555558
+      },
+      "max_seed_sd_pp": 4.0830244761687915,
+      "max_paired_sd_pp": 1.9719999331894527,
+      "seed_sd_over_0_5pp": true,
+      "paired_sd_over_0_5pp": true,
+      "sd_is_hard_gate": false,
+      "data_gap_pp": 29.095575909961692,
+      "min_data_condition_gap_pp": 28.09327107279693,
+      "max_data_paired_sd_pp": 8.724012637667366,
+      "data_paired_sd_over_0_5pp": true,
+      "data_positive_pair_fraction": 1.0,
+      "minimum_seeds_per_subset": 3,
+      "paired_model_count": 18,
+      "require_gain": true,
+      "full_sample_rule": false,
+      "decision_data": "fixed validation only; test metrics prohibited",
+      "stability_rule": "SD is descriptive, not an acceptance gate or significance test; report paired improvement coverage separately"
+    },
+    "data_aux_ce_a0p1_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20": {
+      "candidate_id": "data_aux_ce_a0p1_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20",
+      "reference_id": "data_aux_ce_a0p1_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20",
+      "data_id": "baseline_data_v6201_e30_s100_p20",
+      "passed": false,
+      "checks": {
+        "noisy_gain": false,
+        "positive_pairs": false,
+        "or_preservation": true,
+        "clean_preservation": true,
+        "each_budget_preservation": true,
+        "data_reference": true
+      },
+      "noisy_gain_pp": 0.0,
+      "noisy_balanced_acc": 0.8794375598659004,
+      "positive_pair_fraction": 0.0,
+      "or_gain_pp": 0.0,
+      "clean_gain_pp": {
+        "clean_only": 0.0,
+        "awgn_mixed": 0.0
+      },
+      "per_budget_gain_pp": {
+        "0.1": 0.0,
+        "0.2": 0.0
+      },
+      "max_seed_sd_pp": 3.90625,
+      "max_paired_sd_pp": 0.0,
+      "seed_sd_over_0_5pp": true,
+      "paired_sd_over_0_5pp": false,
+      "sd_is_hard_gate": false,
+      "data_gap_pp": 29.40583093869732,
+      "min_data_condition_gap_pp": 28.220785440613028,
+      "max_data_paired_sd_pp": 8.599279717524364,
+      "data_paired_sd_over_0_5pp": true,
+      "data_positive_pair_fraction": 1.0,
+      "minimum_seeds_per_subset": 3,
+      "paired_model_count": 18,
+      "require_gain": true,
+      "full_sample_rule": false,
+      "decision_data": "fixed validation only; test metrics prohibited",
+      "stability_rule": "SD is descriptive, not an acceptance gate or significance test; report paired improvement coverage separately"
+    },
+    "data_aux_ce_a0p3_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20": {
+      "candidate_id": "data_aux_ce_a0p3_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20",
+      "reference_id": "data_aux_ce_a0p1_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20",
+      "data_id": "baseline_data_v6201_e30_s100_p20",
+      "passed": false,
+      "checks": {
+        "noisy_gain": false,
+        "positive_pairs": false,
+        "or_preservation": true,
+        "clean_preservation": false,
+        "each_budget_preservation": true,
+        "data_reference": true
+      },
+      "noisy_gain_pp": 0.11703783524904193,
+      "noisy_balanced_acc": 0.8806079382183907,
+      "positive_pair_fraction": 0.4444444444444444,
+      "or_gain_pp": 0.954861111111111,
+      "clean_gain_pp": {
+        "clean_only": -0.564236111111111,
+        "awgn_mixed": -0.3472222222222222
+      },
+      "per_budget_gain_pp": {
+        "0.1": 0.27747844827586166,
+        "0.2": -0.04340277777777778
+      },
+      "max_seed_sd_pp": 5.357421701858354,
+      "max_paired_sd_pp": 3.2979170391087798,
+      "seed_sd_over_0_5pp": true,
+      "paired_sd_over_0_5pp": true,
+      "sd_is_hard_gate": false,
+      "data_gap_pp": 29.522868773946364,
+      "min_data_condition_gap_pp": 27.656549329501917,
+      "max_data_paired_sd_pp": 9.349354186853317,
+      "data_paired_sd_over_0_5pp": true,
+      "data_positive_pair_fraction": 1.0,
+      "minimum_seeds_per_subset": 3,
+      "paired_model_count": 18,
+      "require_gain": true,
+      "full_sample_rule": false,
+      "decision_data": "fixed validation only; test metrics prohibited",
+      "stability_rule": "SD is descriptive, not an acceptance gate or significance test; report paired improvement coverage separately"
+    },
+    "data_aux_ce_a1_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20": {
+      "candidate_id": "data_aux_ce_a1_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20",
+      "reference_id": "data_aux_ce_a0p1_fitmatched_noise_headshared_fitseed6301_fitrep3_v6201_e30_s100_p20",
+      "data_id": "baseline_data_v6201_e30_s100_p20",
+      "passed": false,
+      "checks": {
+        "noisy_gain": false,
+        "positive_pairs": false,
+        "or_preservation": true,
+        "clean_preservation": false,
+        "each_budget_preservation": false,
+        "data_reference": true
+      },
+      "noisy_gain_pp": -1.1545138888888886,
+      "noisy_balanced_acc": 0.8678924209770116,
+      "positive_pair_fraction": 0.3333333333333333,
+      "or_gain_pp": 3.385416666666667,
+      "clean_gain_pp": {
+        "clean_only": -1.4322916666666665,
+        "awgn_mixed": -3.1684027777777777
+      },
+      "per_budget_gain_pp": {
+        "0.1": -1.788194444444444,
+        "0.2": -0.5208333333333333
+      },
+      "max_seed_sd_pp": 5.903248307429698,
+      "max_paired_sd_pp": 4.878904686248749,
+      "seed_sd_over_0_5pp": true,
+      "paired_sd_over_0_5pp": true,
+      "sd_is_hard_gate": false,
+      "data_gap_pp": 28.251317049808435,
+      "min_data_condition_gap_pp": 26.53855363984674,
+      "max_data_paired_sd_pp": 7.821273685208363,
+      "data_paired_sd_over_0_5pp": true,
+      "data_positive_pair_fraction": 1.0,
+      "minimum_seeds_per_subset": 3,
+      "paired_model_count": 18,
+      "require_gain": true,
+      "full_sample_rule": false,
+      "decision_data": "fixed validation only; test metrics prohibited",
+      "stability_rule": "SD is descriptive, not an acceptance gate or significance test; report paired improvement coverage separately"
+    }
+  },
+  "adopted": false,
+  "passed": false,
+  "reference_retained": true,
+  "sd_is_hard_gate": false,
+  "eligible_config_ids": [],
+  "reason": "没有新系数通过全部验证规则，保留0.1，失败结果全部保留；下一阶段以原配置为参照。",
+  "decision_data": "fixed validation only; no test metrics",
+  "tie_break": "maximum noisy validation BA, then nearest to 0.1, then smaller lambda"
+}

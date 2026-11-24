@@ -1,0 +1,12 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "cpu_threads": 4,
+  "batch": 1,
+  "warmups": 10,
+  "repeats": 50,
+  "timing": "CUDA synchronized wall-clock; normalization, full live front-end and network",
+  "excludes": "disk/MAT decode/H2D",
+  "training": "actual complete epochs after5; excludes validation; clean Proposed features cached, preparation reported separately",
+  "memory": "peak PyTorch allocated MiB"
+}

@@ -1,0 +1,2 @@
+condition,noise_seed,validation_nll,acc,balanced_acc,f1_macro,recall_N,recall_IR,recall_OR,recall_B,job_id,config_id,variant,stage,domain,ratio,subset,protocol,seed,source_load_hp,target_load_hp,aux_weight,physics_fit,aux_head,val_noise_count,epochs_limit,control_config_id
+clean,0,1.058821411220112,0.46601941747572817,0.5703125,0.4111349803079126,1.0,1.0,0.0,0.28125,m0015,baseline_data_v6201_e30_s100_p20,baseline_data,lambda_selection,window_random,0.1,4103,clean_only,1708,-1,-1,0.0,matched_noise,shared,1,30,baseline_data_v6201_e30_s100_p20

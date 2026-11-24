@@ -1,0 +1,152 @@
+[
+  {
+    "model_id": "m0001",
+    "seed": 1706,
+    "method": "equal"
+  },
+  {
+    "model_id": "m0002",
+    "seed": 1706,
+    "method": "late_concat"
+  },
+  {
+    "model_id": "m0003",
+    "seed": 1706,
+    "method": "physical"
+  },
+  {
+    "model_id": "m0004",
+    "seed": 1706,
+    "method": "wrong"
+  },
+  {
+    "model_id": "m0005",
+    "seed": 1706,
+    "method": "statistics"
+  },
+  {
+    "model_id": "m0006",
+    "seed": 1706,
+    "method": "self_only"
+  },
+  {
+    "model_id": "m0007",
+    "seed": 1707,
+    "method": "equal"
+  },
+  {
+    "model_id": "m0008",
+    "seed": 1707,
+    "method": "late_concat"
+  },
+  {
+    "model_id": "m0009",
+    "seed": 1707,
+    "method": "physical"
+  },
+  {
+    "model_id": "m0010",
+    "seed": 1707,
+    "method": "wrong"
+  },
+  {
+    "model_id": "m0011",
+    "seed": 1707,
+    "method": "statistics"
+  },
+  {
+    "model_id": "m0012",
+    "seed": 1707,
+    "method": "self_only"
+  },
+  {
+    "model_id": "m0013",
+    "seed": 1708,
+    "method": "equal"
+  },
+  {
+    "model_id": "m0014",
+    "seed": 1708,
+    "method": "late_concat"
+  },
+  {
+    "model_id": "m0015",
+    "seed": 1708,
+    "method": "physical"
+  },
+  {
+    "model_id": "m0016",
+    "seed": 1708,
+    "method": "wrong"
+  },
+  {
+    "model_id": "m0017",
+    "seed": 1708,
+    "method": "statistics"
+  },
+  {
+    "model_id": "m0018",
+    "seed": 1708,
+    "method": "self_only"
+  },
+  {
+    "model_id": "m0019",
+    "seed": 1709,
+    "method": "equal"
+  },
+  {
+    "model_id": "m0020",
+    "seed": 1709,
+    "method": "late_concat"
+  },
+  {
+    "model_id": "m0021",
+    "seed": 1709,
+    "method": "physical"
+  },
+  {
+    "model_id": "m0022",
+    "seed": 1709,
+    "method": "wrong"
+  },
+  {
+    "model_id": "m0023",
+    "seed": 1709,
+    "method": "statistics"
+  },
+  {
+    "model_id": "m0024",
+    "seed": 1709,
+    "method": "self_only"
+  },
+  {
+    "model_id": "m0025",
+    "seed": 1710,
+    "method": "equal"
+  },
+  {
+    "model_id": "m0026",
+    "seed": 1710,
+    "method": "late_concat"
+  },
+  {
+    "model_id": "m0027",
+    "seed": 1710,
+    "method": "physical"
+  },
+  {
+    "model_id": "m0028",
+    "seed": 1710,
+    "method": "wrong"
+  },
+  {
+    "model_id": "m0029",
+    "seed": 1710,
+    "method": "statistics"
+  },
+  {
+    "model_id": "m0030",
+    "seed": 1710,
+    "method": "self_only"
+  }
+]

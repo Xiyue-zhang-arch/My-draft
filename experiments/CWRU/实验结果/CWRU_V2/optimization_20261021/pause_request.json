@@ -1,0 +1,11 @@
+{
+  "status": "paused",
+  "requested_at": "2026-10-21T20:16:48.385783+08:00",
+  "after_lambda": 0.03,
+  "pid": 92944,
+  "process_created": 1792580882.747985,
+  "automatic_resume": false,
+  "paused_at": "2026-10-21T20:38:11.771812+08:00",
+  "trained_models": 72,
+  "completed_lambda_0_03_models": 36
+}

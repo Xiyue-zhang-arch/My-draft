@@ -1,0 +1,21 @@
+{
+  "stage": "source_prepared",
+  "train_windows": 3200,
+  "val_windows": 800,
+  "record_overlap": 0,
+  "target_waveforms_accessed": false,
+  "copied_original_cache": true,
+  "source_files_sha256": {
+    "prepare.py": "15269735b015bef94b8cb1ba2f524b88f7c7aa9e50c9f3ea708e39618a7f8eaa",
+    "encoder.py": "03a734efe5ec277fa5b25734de8adde495aee167c5a7f9094b0c959ada1389a6",
+    "descriptors.py": "d5c0779973ffbbc06bc6496f0cf6e60a01352ba33aca74e438aa8240f6c42075"
+  },
+  "files_sha256": {
+    "data_reference.json": "d2312722042817fc996d3d7348587ac27a7ce756caa03bfeea27f12db65067a7",
+    "normalization.json": "4566f23a62dcb2026270c0864352f0cde521b7a41edee860b68a17d6f7935bfb",
+    "physical_source.npy": "25b494791de42c5e8421e5cbb31232690d2b7471799c88db9cb9d9c9e6a76905",
+    "protected_before.json": "a66c6420a8d7cec258d6690b9230f3f33a479255683b1461c0ff1e9face0df6a",
+    "record_split.json": "8907a34f952952f6dcf1eb6b03146362951dea1fd5056f16549410d147716a1d",
+    "split_indices.npz": "5c75f2222e15de1972b58addbdbc0f47816acda736ea20e16fa0f71f0eb63d26"
+  }
+}

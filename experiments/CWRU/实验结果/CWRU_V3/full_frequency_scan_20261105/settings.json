@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-05",
+  "scope": "full0–24kHz scan at widths24/12/6/3kHz;15bands;no500/20k boundaries",
+  "source_raw_analysis": "D:\\Project\\MY draft\\results\\CWRU_V3\\full_raw_band_analysis_20261105",
+  "no_recomputation": "whole-record raw statistics,PSD,SK and tail scope read-only reused from full_raw_band_analysis_20261105",
+  "local_data": "all687 complete0.5s segments across40records,independent of train/validation/test role;tails covered in referenced full-record analysis,not in fixed-length periodic descriptors",
+  "grid": [
+    [
+      0,
+      24000,
+      0
+    ],
+    [
+      0,
+      12000,
+      1
+    ],
+    [
+      12000,
+      24000,
+      1
+    ],
+    [
+      0,
+      6000,
+      2
+    ],
+    [
+      6000,
+      12000,
+      2
+    ],
+    [
+      12000,
+      18000,
+      2
+    ],
+    [
+      18000,
+      24000,
+      2
+    ],
+    [
+      0,
+      3000,
+      3
+    ],
+    [
+      3000,
+      6000,
+      3
+    ],
+    [
+      6000,
+      9000,
+      3
+    ],
+    [
+      9000,
+      12000,
+      3
+    ],
+    [
+      12000,
+      15000,
+      3
+    ],
+    [
+      15000,
+      18000,
+      3
+    ],
+    [
+      18000,
+      21000,
+      3
+    ],
+    [
+      21000,
+      24000,
+      3
+    ]
+  ],
+  "filter": "full:analytic only;0-start:lowpass;24k-end:highpass;interior:bandpass;Butterworth prototype4;|response|^2*positive analytic mask",
+  "caveat": "low/highpass total order4 versus interior bandpass order8;passband shapes differ;not an exact matched-filterbank partition",
+  "unchanged": "all other Evidence equations:48k→3k envelope,25msedgecrop,6harmonics,offset refs,3periods",
+  "intent": "descriptive response localization,not optimizing bounds or selecting features;not Fast Kurtogram",
+  "inference": "no training,modelweights or testpredictions;allloads/datahistoricallyexposed;post-hocexploratory",
+  "references": [
+    "shaft",
+    "FTF",
+    "BSF",
+    "2BSF",
+    "BPFO",
+    "BPFI"
+  ],
+  "analytic_endpoint_convention": "same as existing Evidence: DC and Nyquist0;strictpositive2",
+  "raw_frequency_range_hz": [
+    0,
+    24000
+  ],
+  "envelope_sampling_rate_hz": 3000,
+  "envelope_frequency_limit_hz": 1500,
+  "complete_segments": 687,
+  "records": 40
+}

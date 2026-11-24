@@ -1,0 +1,1168 @@
+
+
+=== PDF PAGE 1 ===
+  Condition Monitoring of Bearing Damage in Electromechanical Drive
+     Systems by Using Motor Current Signals of Electric Motors: A
+         Benchmark Data Set for Data-Driven Classification
+
+
+                     Christian Lessmeier1, James Kuria Kimotho2, Detmar Zimmer3 and Walter Sextro4
+
+                                  1,3 Chair of Design and Drive Technology, Faculty of Mechanical Engineering,
+                       Paderborn University, Pohlweg 47 – 49, 33098 Paderborn, Germany
+                                               christian.lessmeier@uni-paderborn.de
+                                             detmar.zimmer@uni-paderborn.de
+
+                                   2,4 Chair of Mechatronics and Dynamics, Faculty of Mechanical Engineering,
+                       Paderborn University, Pohlweg 47 – 49, 33098 Paderborn, Germany
+                                             james.kuria.kimotho@uni-paderborn.de
+                                                 walter.sextro@uni-paderborn.de
+
+
+              ABSTRACT
+                                                                     1. INTRODUCTION
+This paper presents a benchmark data  set for condition
+monitoring  of  rolling  bearings  in combination with an    According to statistics, 40-70% of electro-mechanic drive
+extensive description of the corresponding bearing damage,    systems and motor failures are caused by rolling bearing
+the data set generation by experiments and results of data-    damages, which can lead  to high  costs  in  applications
+driven  classifications used as a diagnostic method. The    because of downtimes (Bonnett & Yung, 2008; Djeddi,
+diagnostic method uses the motor  current  signal of an    Granjon, & Leprettre, 2007). Thus, high-risk applications or
+electromechanical drive system for bearing diagnostic. The    those  with  high  maintenance  costs  are  continuously
+advantage of this approach in general is that no additional    monitored.  Detection  of  bearing  damage  is  typically
+sensors  are  required,  as  current measurements  can be    monitored by vibration analysis using acceleration sensors.
+performed in existing frequency inverters. This will help to    These additional acceleration sensors are widely utilized,
+reduce the cost of future condition monitoring systems. A     especially in large applications such as wind power turbines
+particular novelty of the present approach is the monitoring    or cement mills. In industrial applications which use a great
+of damage in external bearings which are installed in the    number  of  inexpensive  small  electric  motors  with an
+drive system but outside the electric motor. Nevertheless,    approximate power consumption of around 1 kW or less, the
+the motor current signal is used as input for the detection of     cost for additional sensors is financially not feasible. For
+the damage. Moreover,  a wide  distribution  of  bearing     this reason, several research projects focus on detecting
+damage  is considered  for the benchmark data  set. The    bearing damage by using existing signals such as motor
+results of the classifications show that the motor current     currents, which can be measured by the already existing
+signal can be used to identify and classify bearing damage    frequency   inverters.   Researchers   prefer   data-driven
+within  the  drive  system.  However,  the  classification     classification methods that are based on machine learning
+accuracy is still low compared to classifications based on    algorithms  to  detect damage  states by using the motor
+vibration signals. Further, dependency on properties of those     current signals (MCS). These methods are often examined
+bearing damage that were used for the generation of training     in case studies of special applications and damages such as
+data are observed, because training with data of artificially    broken  rotor  bars  or  bearing  damages. The  condition
+generated  and  real  bearing damages  lead  to  different    monitoring (CM) methods based on MCS are  still being
+accuracies.  Altogether  a   verified  and  systematically    investigated and not yet prevalent in industrial applications
+generated data set  is presented and published online for    as they continue to have restrictions.  (Bellini,  Filippetti,
+further research.                                               Tassoni, & Capolino, 2008; Herold, Piantsop Mbo’o, &
+                                                     Hameyer, 2013; Paschke et  al., 2013; Picot et  al., 2014;
+Christian Lessmeier et al. This is an open-access article distributed under                                                                Stack, Habetler, & Harley, 2003)the terms of the Creative Commons Attribution 3.0 United States License,
+which permits unrestricted use,  distribution, and reproduction in any
+medium, provided the original author and source are credited.
+
+=== PDF PAGE 2 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+For MCS-based methods, it has to be distinguished between    the development of reliable CM systems based on MCS.
+bearing damage in the motor itself (internal bearings) and     (Bellini et al., 2008; Stack et al., 2003).
+bearings in the remaining drive train (external bearings).
+                                                          Thus,  it  is no surprise that some authors report a high
+Damage of the internal motor bearings or other faults in the    discrepancy between the proposed methods in science and
+motor  itself, as for example broken rotor bars or  rotor     their application in industry. Stack assumes that one reason
+eccentricity, directly influence the airgap of the motor and     for this discrepancy is the use of the simple artificial defects
+induce vibrations at characteristic frequencies in the motor     in the form of single point damages in research. For a more
+current. Detection of damage in external bearings is more     detailed  consideration,  bearing  damage   is  nowadays
+complex as the damage signature has to be transmitted    separated into single point and distributed damage. (Nandi,
+indirectly through torque variations along the drive train.     Toliyat, &  Li,  2005;  Stack  et  al.,  2003; Tandon &
+Therefore, it is damped and superimposed with disturbances    Choudhury, 1999)
+from  the powered  process,  leading  to  noisy and  hard
+                                                              Single  point damages  are  characterized by  their  small
+detectable signals. (Blödt, Granjon, Raison, & Rostaing,
+                                                           extend at a localized position, for example a crack or a small
+2008; Herold et  al., 2013; Schoen, Habetler, Kamran, &
+                                                                                pit. When the rolling elements run across these defects,
+Bartfield, 1995).
+                                                        shock  pulses  stimulate  vibrations  at  the  characteristic
+Schön  et  al. (1995) discuss both  situations, damage  in    bearing frequencies (Randall, 2011). Distributed damages,
+internal and external bearings, and derive formulas for the     also called generalized roughness (Stack et  al., 2003) or
+theoretically expected frequencies and sidebands in each    extended   faults   (Randall,   2011),  induce  broadband
+situation. However, these frequencies can only be detected     vibrations which are often not easy to separate from the
+reliably in special cases because they are influenced by    noise of the signal. In general, these damages are caused by
+operating conditions, machine design, external noise etc.    wear, corrosion or plastic deformation, but also by extensive
+and have usually only been investigated for large scale     pitting (fatigue) damages (Nandi et al., 2005). The authors
+damages. (Bellini et al., 2008; Mbo'o, Herold, & Hameyer,    of  the present paper  also observed  the combination of
+2004). Hence, additional investigations are required.             different damage types  in one  bearing, which leads  to
+                                                         superimposed signals for CM.
+It  is assumed  that good  results  for diagnostics can be
+achieved  with  data-driven  classification  methods  using    While the bearing damage signature of vibrations is well
+machine  learning (ML)  (Bellini  et  al.,  2008;  Kankar,    known, there is little experience with the MCS of external
+Sharma, & Harsha, 2011; Paschke et al., 2013). The low    bearing damage and the correlation of the artificial damages
+availability of training and testing data with the MCS of    used in research with real damages in the industry (Bellini et
+external bearing for ML procedures limits further research,      al., 2008). Especially for MCS-based condition monitoring,
+so that there is insufficient knowledge about the capability     the authors of this paper think a more detailed description of
+of industrial usage. To overcome this limitation, research    damage is required as the separation into single point and
+has to address the systematic generation of training data     distributed damage  is not sufficient. Moreover, a precise
+with mechanical bearing damage. (Nectoux et  al., 2012;     description  of  specific  test  damages  and  test  bearing
+Stack et al., 2003; Zarei & Poshtan, 2009)                        specifications for experimental examinations are needed.
+                                                              Therefore,  a  systematic  methodology  is  necessary  to
+This results in two subjects of activity, which should be
+                                                                 characterize the appearance of damage for CM, as existing
+considered in more detail for the generation of training data:
+                                                          methodologies are not very specific. Given the need for
+a systematic generation of the bearing damages themselves                                                                    further research the present paper focuses on the systematic
+and their systematic specification.
+                                                              generation of training data for ML classification algorithms
+In the industry, a wide variety of bearing damages occur.    based on MCS.
+Especially the development of fatigue damages or damages
+                                               To create a systematic data  set,  first a method  for the
+caused  by  solid  particles  is  randomly  influenced;  in
+                                                              systematic description of the  rolling bearing damage  is
+addition, the appearance of damages can change over time.                                                             described (section 2). Afterwards, the generation of artificial
+In the literature, six main damage modes and more than 20
+                                                       and  real bearing damages  to be used  for  training data
+different damage symptoms in bearings are treated. (ISO
+                                                              generation  in  the  experiments  (section  3)  and  the
+15243, 2010; Bartz, 1985; Schaeffler Technologies AG &
+                                                            experimental set-up itself (section 4) are explained. Section
+Co. KG, 2015) Recent research studies on CM address only
+                                                    5 gives details on the database and their availability for
+some of these damages. Furthermore, many of the available
+                                                                    further research.
+research papers focus only on artificial bearing damages
+because these are easy to generate. (Pacas, Villwock, &   To validate the data set and as a proof of concept for the
+Dietrich, 2009) Publications show that in most cases only    general method, the paper points out some damage detection
+single point damages are used for research, which inhibits     results as  well. In section 6 the established method of
+                                                          envelope  analysis  is  used  to  prove  the  proper  data
+
+
+
+                                                                                                               2
+
+=== PDF PAGE 3 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+acquisition and to allow an initial evaluation of the bearing    important when model based approaches are used and, for
+damages.   Section  7  shows   that  machine   learning    example,  the  geometry   is  needed  to  calculate  the
+classification algorithms are able to identify the damaged     characteristic frequencies.
+bearings in industrial drive trains using MSC, but require
+                                                                     Criteria   in  the   third  category  “application   specific
+sophisticated training data, as classification accuracies differ
+                                                             information” list the specific information of the individual
+depending  on  the  training  data  sets.  Therefore,  the
+                                                             bearing in the form of  distinct identification codes and
+dependency of the classification results on different damage
+                                                             information concerning  the  place  of  operation and  the
+types and manifestations of damage is examined.
+                                                           corresponding  operating  conditions.  This information  is
+                                                                 especially valuable to help figure out the damage causes in
+2. CATEGORIZATION OF BEARING DAMAGE                                                                industry applications. Further on in this paper the four-digit
+For systematic approaches of the examination of bearing    code for each specific bearing is used for identification. It
+damages, a comprehensive methodology for categorizing     consists of two letters and two numbers, e.g. KA01, KB23.
+bearings and their specific damages is needed. The proper
+                                                  The damage itself in the fourth group is described by its
+description and categorization of bearing damages and their
+                                                             type and  subtype  according  to ISO 15243  (2010),  its
+cause is not an easy task as bearing damages occur as an
+interaction of different causes and conditions. Moreover, the            Table 1. Categorization of bearing damage.
+patterns of damages may vary widely and often occur in
+combinations.  Bearing  damages  can  have   different      Category and sub-category        Criterion                   Example
+development states and not all of them lead to a sudden                                        Bearing Type                      ball bearing
+                                                                                                                     Bearing designation
+failure.                                                                     General info                      (dimension series, bore            6203
+                                                                                       (bearing)                                                                                                                       code)
+ISO 15243 gives a methodology for the classification of                                            Suffix                                 n/a
+bearing damage and failures. The damages are categorized                                       Diameter of inner raceway        24.0 mm
+into six main damage modes and their sub-modes. The six                                       DiameterPitch circleofdiameterouter raceway        28.5533.1 mmmm
+main damage modes are: fatigue, wear, corrosion, electrical                     Geometry      Number of rolling elements        8 pc.
+                                                                           Manufacturer
+erosion, plastic deformation, and fracture and cracking.               specific                           Rolling element diameter          6.75 mm
+                                                                                                                Length of rolling element         6.75 mm
+                                                                                  information
+This existing methodology of categorization is helpful to      about bearing                  Nominal pressure angle             0° N
+                                                                                                                                            Static load rating                4750 N
+describe  damages  and   to  figure  out   their  causes.                        Parameters      Dynamic load rating             9500 N
+Nevertheless, it only considers the damage modes in general                                     Speed limit                   12000 rpm
+and does not describe the detailed physiognomy of the                                        Manufacturer               FAG
+                                                                                                                     Bearing code (used for
+damage.                                                                                                          Identification     datasets)                   KB24
+                                                                                                           Sample number                   12-01
+The authors do not know of any extensive and established                                                 Installation site                   01
+method to describe the physiognomy of bearing damages in                         Place of           Installation type (system      KAt - lifetime
+detail. Therefore, a method for general categorization and       Application      operation         type)Operator                                testKAtrig
+detailed  specification was developed.  It focuses on the        specific                     Number of load cycles           2769500
+detailed  description  of  the damage  as  well  as on  the       information                       Lifetime                       15:01 h:min
+                                                                                                        Load                         3800 N
+corresponding  bearing  and  its  application.  Description                        Operation       Dynamic equivalent load         3800 N
+criteria were gathered using brainstorming methods and                          conditions        Rotational speed               2900 rpm
+sorting them into a hierarchic structure of categories. The                                    Load direction                   0 °
+categories and criteria are shown in Table 1.                                                 Comment                             n/a
+                                                                                           Mode                                fatigue
+                                                                                         Type of
+The criteria were grouped into four main categories, the first                   Damage        Sub-mode                             n/a
+three giving information about the bearing and the fourth                                 Symptom                             pitting                                                                                                      Component                       outer ring
+providing detailed information about the damage. According                                            Position of damage              raceway
+to these criteria, a detailed profile (or fact sheet) can be                   Damage        Damage combination              multiple
+                                                                                                                 location         Arrangement of the
+created for any damaged bearing.                                                                                          repetitive and multiple         no repetition
+                                                                                                           damages
+The  criteria of the  first group “general info” name the     Damage                         Length                            9.4 mm
+bearing type and the standardized code according to the                                          Extent of damage                  3
+standards of each bearing series.                                                      Geometry       Width                               total raceway
+                                                                                                            Depth                                 n/a
+The  criteria in the second group “manufacturer specific                                              Characteristic of damage          distributed                                                                                                                                                                        acc. lifetime
+information” give information about the internal geometry                                 Damage method                         test
+                                                                                  Damage
+and parameters of the bearing as these are not standardized.                        occurrence      Cause of damage (category)       operating
+Consequently, these parameters differ from manufacturer to                                     Cause of damage (detailed)      load,conditionslubricant
+manufacturer. Especially for CM, these parameters may be
+
+
+
+                                                                                                               3
+
+=== PDF PAGE 4 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+location, geometry, and occurrence. If there is more than a    Extent of damage: The extent of the damage describes the
+single damage to one bearing, the criteria of the last group     size  of  the damage  in  normalized  levels,  which  are
+are repeated to get a detailed and full description of all    independent of the bearing size. The levels are based on the
+occurring damages.                                            length of the damage, as this is a determining factor for the
+                                                                  signal output in CM and the intensity of the damage from
+As this paper focuses on CM of bearing damages, some of
+                                                                 the point of view of a machine operator. For  this the
+the most important criteria concerning the description of
+                                                             percentage  of  length  relative  to  pitch circumference  is
+bearing damages for CM are explained in detail. For a better
+                                                                 calculated and then assigned to five levels according to
+understanding, an example is given in the last column of
+                                                         Table 2.
+Table 1.
+                                                          Table 2. Damage levels to determine the extent of damage.
+Damage  combination:  This  criterion  characterizes  the
+occurrence of combined or repetitive damage based on the                   Assigned
+                                                Damage                  Limits for bearingdamage symptoms. This  is important  for  real damages                   percentage
+                                                                          level                        6203which are not plain single point damages. It is described by                      values
+the following three options:                                     1         0-2 %           ≤ 2 mm
+                                                           2         2-5 %           >2 mm   Single damage: One single component of the rolling
+                                                           3        5-15 %            >4.5 mm    bearing is affected by a single damage, for example a
+                                                           4        15-35 %          >13.5 mm     single pitting on the inner ring.
+                                                           5       >35%           >31.5 mm
+   Repetitive damage:  Identical damage symptoms are
+    repeated  at  several  places  on  the  same  bearing
+    component,   for  example   several,  non-continuous     Characteristic  of damage: The  characteristic of damage
+     pittings on the inner ring raceway.                          assigns the damages into the already mentioned groups of
+                                                                  single point and distributed damages. For a clear and easy   Multiple damage: Different damage symptoms occur in
+                                                                 division between these groups the dividing value is set to     the bearing or identical damage symptoms occur on
+                                                                 the diameter of the rolling elements, to which the damage     different bearing components. This option can include
+                                                               length is compared. This guarantees that for the single point     repetitive damages.
+                                                                 defects only one rolling element has contact to the damage
+Arrangement of the repetitive and multiple damages: This                                                                   in  all cases and the extent of the damage  is small  in
+criterion  characterizes  the  arrangement  of  the damage                                                        comparison to the bearing size.
+symptoms on each component (e.g., the inner ring) for the
+repetitive and multiple damages (see above). This criterion      It should be noted that the appearance of the damages can
+is described by the following options:                        have a simultaneous influence on several of the  critera.
+                                                            Therefore the criteria are not independent. The dependency
+   Regular: The damage symptoms recur  in a regular                                                                               is  tolerated  in  order  to  gain a  detailed  description  of
+     pattern on the component.                                                        damages, due to the facts, that the damage diversity is high
+   Random: Random  distribution of  the  local damage    and the real phenomena intermix.
+    symptoms.                                                                Altogether, this method of categorizing gives a very detailed
+  No repetition: The damage occurs only once and this     description of the regarded bearings and their damages. The
+     criterion does not apply.                                       difficulty is to collect all the information and parameters, as
+Geometrical size: The geometrical size of the damage is   some of them are not obvious and hard to obtain. The
+described by the length, width, and depth of the damage,    method was developed using a wide approach and can thus
+according to the directions quoted in VDI 3832 (2013) and    be used to investigate the damage causes or other bearing
+depicted in Figure 1.                                   damage related issues as well.
+
+                            position of rolling element         rolling element
+                                                                     3. GENERATION OF BEARING DAMAGE
+                                length
+                                    A main focus of this research paper is to generate systematic
+rolling direction                                                    data of measurement signals for condition monitoring with a
+                                                                                   width                           broad variety of bearing damage. As an intermediate step,
+                                                                 the bearing damages had to be generated, requiring a special
+                                                   damage preparation for the bearings.
+             damage                               depth          To keep the amount of experiments manageable, research
+          Figure 1. Parameters for describing the            was limited to ball bearings of type 6203. The types of
+             geometry of bearing damages.               damage  were  processed  and  selected  respecting  the
+                                                                 technical  possibilities  of  their  manufacturing and  their
+
+
+
+                                                                                                               4
+
+=== PDF PAGE 5 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+representation of bearing damage in industrial applications.    between the damage and the undamaged raceway areas is
+Two groups of damages in ball bearings were used in the    apparent. To examine  this correlation, the third type of
+experiments:  artificial and  real damages. Both types of     artificial damage caused by a manual electric engraver is
+damage exist at the inner and outer ring of the ball bearing    prepared, which has an irregular surface structure and lower
+6203. For this paper bearings of the manufacturers FAG,    depth, thus resembling real pitting damage.
+MTK and IBU/IBB are used. All these bearings have eight
+                                                                    Table 3. Artificial bearing damage.
+rolling  elements  and  the  geometrical  sizes  are  nearly
+identical, so that the characteristic kinematic frequencies do
+not vary more than 1-2%.
+
+The  artificial damages were  introduced manually using
+machining tools (see 3.1). For the generation of the real
+bearing damages an apparatus for accelerated lifetime tests
+                                                                      Sharp trench by EDM                                 Artificial pitting by
+was used (see 3.2).                                                                                       Drilling - KA09                                                                                                           - KA01                                      electric engraver - KA03
+
+3.1. Artificial Damage
+                                                                 Details about the size and a categorization of the available
+The use of artificial damages to develop CM methods is                                                                           test  bearings  according  to  the  developed  criteria  (see
+very common, as reported in several research papers. Often                                                                 section 2) are listed in Table 4.
+rather extensive bearing damages such as holes in the outer
+race of the bearing are used. (Blödt et al., 2008; Nandi et al.,           Table 4. Test bearings with artificial damage.
+2005; Zarei & Poshtan, 2009)                                                              of
+Some      researchers                 use                    only                           outer                                 ring                                damages,                                         even though                                                                                                                                                                                                                                        (level)inner ring         damages                    are                   more                                likely                                      to                                    occur because                                                    of the                              Bearing                                                                                                                                                                                                                                    Damage Method                                                                                                             Code                Extent Damagehigher Hertzian stress. Furthermore, inner ring damage is                                                                Component
+not as easy to detect as outer ring damage because in most        KA01 OR    1        EDM
+situations, the signal is disguised by a modulation because        KA03 OR    2          electric engraver
+of the rotation of the inner ring. (Obaid, Habetler, & Stack,                                                KA05 OR    1          electric engraver
+2003; Pacas et al., 2009)                                                KA06 OR    2          electric engraver
+Most  commonly  used  methods  for   artificial  damage        KA07 OR    1               drilling
+preparation are:                                     KA08 OR    2               drilling
+                                                KA09 OR    2               drilling
+   Trenches generated by electrical discharge machining                                                         KI01  IR     1        EDM
+   (EDM). (Niknam, Thomas, Hines, & Sawhney, 2013),                                                         KI03  IR     1          electric engraver
+    (Villwock, 2007; Yang, Mathew, & Ma, 2005; Zoubek,                                                         KI05  IR     1          electric engraver
+    Villwock, & Pacas, 2008), (Niknam et al., 2013; Patil,
+                                                         KI07  IR     2          electric engraver
+    Mathew, Rajendrakumar, & Desai, 2010)
+                                                         KI08  IR     2          electric engraver
+   Drilling holes into the rings: The bore diameter, the                                                          OR: outer ring;  IR: inner ring;
+     orientation, and the position depend on the bearing type
+    and  size. (Amirat, Choqueuse, & Benbouzid, 2013;                                                                                     It has to be mentioned that all the artificial damages are
+    Blödt et al., 2008; Djeddi et al., 2007; Silva & Cardoso,                                                                  single point damages without a repetition or combination
+    2005; Zarei & Poshtan, 2009)                                                           with other damages (compare section 2 - Categorization of
+The artificial damages used in this paper were caused by    Bearing Damage)
+three different methods:
+1.   electric discharge machining (trench of 0.25 mm length     3.2. Generating Real Bearing Damage Samples by
+     in rolling direction and depth of 1-2 mm),                    Accelerated Lifetime Tests
+2.   drilling (diameter: 0.9 mm, 2 mm, 3 mm), and            There are two options to test and develop CM methods with
+3.  manual   electric  engraving  (damage  length  from    measurement data of  real bearing damages:  to measure
+    1-4 mm).                                                bearing damages in real or in scientific test rigs.
+Table 3 shows three examples of damages caused by each of   The successful use of data from industry applications  is
+the three methods. The first two methods are very precise     quite difficult, as it is complicated to receive systematical
+and easy to reproduce. Therefore, these artificial damages    and comparable training data for different damages. This is
+are appropriate for comparing research results with other    because of the long lifetime of most bearings and, if damage
+studies. A lack of correlation to real bearing damage  is      is recognized, bearings are replaced before failure, so that
+assumed though, because a very abrupt and sharp transition
+
+
+
+                                                                                                               5
+
+=== PDF PAGE 6 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+defect  states are seldom. Therefore, often only a small    characterized according to the damage with the highest
+number of damage states are available. Moreover, there are     extent.
+many different bearing types, sizes and machine types, and
+                                                             Table 5. Test bearings with real damages caused bythe operating conditions may change irregularly as they
+                                                                                  accelerated lifetime test.
+depend on the application. Therefore, measurements are
+expected to be influenced by various factors. This is helpful
+                                                                                                    ofat later development stages to increase the robustness, but           code                 mode
+distracting for the development of the basic methods. To                                                                                                                                                                                                                                                                                                  symptom)                                                                                                         damage                                                                                                                                                                                                                                                                                        Bearing element                                                                                                                                                                                                             Damage                                                                                                                                                                                                                                                                                                            Extent damage                                                                                                             ofreduce the external influences, scientific test rigs are used,                                                                                                                                                                                (main                                                                                                                                                                                                                 Bearing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Combination                           Arrangement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Characteristic                                                                                                             andwhich enable the generation of realistic bearing damages by
+accelerated  lifetime  tests. Furthermore, damages  for the                                            no                single
+                                                      KA04    fatigue: pitting   OR    S              1
+needed bearing types and geometries can be systematically                                                      repetition            point
+generated    at   reproducible   conditions.   The   main    KA15    Plastic deform.:   OR    S      no      1       single
+                                                                                          Indentations                       repetition            pointdisadvantage  is  that  this consumes a  lot  of time and                                                                                                                                                      single
+resources. (Nectoux et al., 2012; Qiu, Lee, Lin, & Yu, 2006)    KA16    fatigue: pitting   OR   R    random    2       point
+                                                                                                        no                single
+For  the present research paper,  ball bearings with  real    KA22    fatigue: pitting   OR    S              1                                                                                                                                     repetition            point
+damages were obtained from an accelerated life time test.                Plastic deform.:
+                                                      KA30              OR   R    random    1    distributedThe accelerated  life time  test  rig consists of a bearing                 Indentations
+housing and an electric motor, which powers a shaft with    KB23    fatigue: pitting     IR   M    random    2       single
+four test bearings of type 6203 in the housing (Figure 2).                           (+OR)                               point
+                                                                                            IR            no
+The test bearings rotate under a radial load which is applied    KB24    fatigue: pitting   (+OR)  M    repetition   3    distributed
+by a spring-screw mechanism. The applied radial force is                Plastic deform.:  OR +
+                                                       KB27               M    random    1    distributed
+higher than in usual bearing applications to accelerate the                 Indentations      IR
+appearance of fatigue damages, but still low enough to not     KI04     fatigue: pitting     IR   M      no      1       single
+                                                                                                                                     repetition            point
+exceed the static load capacity of the bearing. Moreover,                                                                                                        no                single
+low  viscosity  oil was  used, which  leads  to  improper     KI14     fatigue: pitting     IR   M    repetition   1       point
+lubrication  conditions  and  favors  the  appearance  of                                            no                single
+                                                                KI16     fatigue: pitting     IR     S              3
+damages.                                                                                                                         repetition            point
+                                                                                                                                                      single
+                                                                KI17     fatigue: pitting     IR    R    random    1
+                                                                                                                                                 point
+                                                                                                        no                single
+                                                                KI18     fatigue: pitting     IR     S              2
+                                                                                                                                     repetition            point
+                                                                                                        no                single
+                                                                KI21     fatigue: pitting     IR     S              1
+                                                                                                                                     repetition            point
+                                                           OR: outer ring;  IR: inner ring;
+                                                                              S: single damage;  R: repetitive damage;  M: multiple damage
+
+
+                                                            Figure 3 shows two examples of bearing damages generated
+                                                                   in the accelerated lifetime test.
+
+     Figure 2. Apparatus for accelerated life time test.
+Several damaged bearings were obtained by the lifetime test                                   outer ring
+and categorized according to the developed  criteria (see                                                               inner ring
+section 2). 33 damages were recognized in 18 bearings out
+of a test amount of 108 bearings used in the lifetime test.
+Around 70 %  of  the  occurred damages were  fatigue
+damages, which arise in the form of pittings. The rest of the
+bearings, except for one fracture, were damaged by plastic
+deformation,  i.e.  in the form of indentations caused by                   inner ring                                        outer ring
+debris. Pitting damages occurred both on the inner and outer
+ring of the bearings. Indentations were found at the outer     Figure 3. Indentation at the raceway of the outer ring (left);
+ring only. Damage at the rolling elements was not observed.        small pitting at the raceway of the inner ring (right).
+The extent of the damage was categorized by the length of
+                                                          Bearing KB27   (left)  shows  indentations  from  debris
+the damaged surface in rolling direction into the levels 1 to
+                                                                     particles at the outer ring. As the damage is repeated along
+3 (compare Table 2 and Table 5). Multiple damages were
+                                                                 the raceway only some of them are shown. Bearing KI14
+                                                                        (right) has a very small pitting at an early stage (level 1) at
+
+
+
+                                                                                                               6
+
+=== PDF PAGE 7 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+the inner ring. For the experiments, representative samples    modulation of the  inverter. (Lessmeier, Piantsop Mbo'o,
+with different properties were selected (see Table 5).           Coenen, Zimmer, & Hameyer, 2012)
+
+                                                            Figure 5 shows the schema of the measurement procedure
+4. EXPERIMENTAL SET-UP                                                       and the recorded measurands. The motor phase currents are
+To generate the experimental data for the development of    measured by a current transducer of the type LEM CKSR
+CM methods of damaged bearings by using motor current   15-NP with an accuracy of 0.8 % of IPN = 15 A. The MCS
+signals, a specific test rig was designed and operated at the    are then filtered by a 25 kHz low-pass filter and converted
+Chair  of  Design  and  Drive  Technology,  Paderborn    from an analogue to a digital signal with a sampling rate of
+University. The  test  rig  is a modular system to ensure    64 kHz. The current transducers are used instead of the
+flexible use of  different  defects  in an  electrical driven     internal ammeters of the inverter because of  their easy
+mechanical drive train. Defects in mechanical components,     signal access as the currents can be measured externally
+as they occur  in gearboxes  or  electrical machines,  are    between motor and inverter.
+experimentally reproduced to generate failure data using the
+test rig. For the generation of the measurement data, the
+                                                                                        motor                                                                                                                                                                   load motorcurrent  signals  of  the  electric  motor  are  recorded.                               measuring             bearing                                                                                                                                     shaft             module
+Additionally, the vibration signal of the housing of the test                                                                                          testbed
+                                                                                                                                                               surface                                                                                                                                                                         acceleration                                                                                                                                                                                                                                                           - abearings are measured as reference.                                                                         speed - n
+                                                                                                                                                                                         radial                                                                                                                                                                                     force- F
+                                                                                                       current                    torque- M             temperature - T
+4.1. Test Rig                                                                                transducer           Current
+The test rig consists of several modules: an electric motor                                         u, v            A/D
+                                                                                                                                          converter(1), a torque-measurement shaft (2), a rolling bearing test            frequency                                                                                                                                                                data
+module  (3), a flywheel  (4) and a load motor  (5), see              inverter                                                         storage
+Figure 4. The ball bearings with different types of damage
+are mounted in the bearing  test module to generate the                                                                   Figure 5. Schema of measurement procedure.
+experimental data.
+                                                     At this scientific level of development, a high sampling rate
+The rolling bearing module provides the possibility of using                                                       and  accuracy  are  additional  advantages  of  this  setup.
+a test bearing under a constant radial load, which can be                                                               Nevertheless, the used transducers are similar to the ones
+continuously adjusted up to 10 kN before each experiment.                                                 commonly  used  in  industry  applications,  so  that few
+An adapter gives the possibility to measure the vibration of                                                                         difficulties are expected transferring the research outcomes
+the inner housing, which holds the test bearing in the main                                                                   to industrial CM systems.
+direction of the load. The precise design of the bearing
+module and additional features, such as the possibility to    The acceleration of the bearing housing is measured at the
+simulate  tilting  faults or the use of  roller bearings, are    adapter at the top end of the rolling bearing module using a
+described  by  Lessmeier,  Enge-Rosenblatt,  Bayer, &     piezoelectric  accelerometer  (Model  No.  336C04, PCB
+Zimmer, 2014.                                                  Piezotronics, Inc.) and a charge amplifier (Type 5015A,
+                                                                   Kistler Group) with a low-pass filter at 30 kHz. The signal
+                                                                               is digitalized and saved synchronously to the MCS with a
+                                                         sampling rate of 64 kHz.
+
+                                                  The flywheel and the load machine simulate inertia and load
+                                                               of the driven equipment, respectively. The load motor is a
+                                    PMSM with a nominal torque of 6 Nm (power of 1.7 kW).
+
+                Figure 4. Modular test rig.               To record the operating conditions the following additional
+The motor (1) is a 425 W Permanent Magnet Synchronous    parameters  are  measured  synchronously  to  the  motor
+Motor (PMSM) with a nominal torque of T = 1.35 Nm, a     currents and vibration signal but with lower sampling rates:
+nominal speed of n = 3,000 rpm, a nominal current of    the radial force on the bearings (Compression and Tension
+I = 2.3 A and a pole pair number p = 4 (Type SD4CDu8S-    Force Sensor Type K11, Lorenz, 10 kN), the load torque at
+009, Hanning Elektro-Werke GmbH & Co. KG).  It  is    the torque-measuring shaft, the rotational speed (Torque
+operated by a frequency inverter (KEB Combivert 07F5E    Transducer Model  305,  Magtrol, 2 Nm)  and  the  oil
+1D-2B0A) with a switching frequency of 16 kHz. This    temperature in the bearing module.
+standard industrial inverter  is used to provide conditions
+similar to motors used in the industry because the current     4.2. Experiments
+signals show  significant  noise  due  to  the  pulse-width                                                  The  test  rig  was  operated  under  different  operating
+                                                               conditions to analyze the influence of operation parameters
+
+
+
+                                                                                                               7
+
+=== PDF PAGE 8 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+and to ensure the robustness of the CM methods at different    bearing diagnostics employing ML-algorithms.
+operating conditions.
+                                              Some diagnostic data sets for bearing damages are publicly
+The rotational speed of the drive system, the radial force     available; the most popular and comprehensive ones are
+onto the test bearing and the load torque in the drive train     listed below:
+are the main operation parameters. To ensure comparability
+                                                           CWRU: Bearing Data Center/ Seeded Fault Test Data1of the experiments,  fixed  levels were defined  for each
+parameter  (Table  6).  All  three  parameters  were  kept      FEMTO Bearing Data Set2
+constant for the time of each measurement. At the basic      MFPT Fault Data Sets3
+setup (Set no. 0) of the operation parameters, the test rig                                                            Bearing Data Set IMS4runs at n = 1,500 rpm with a load torque of M = 0.7 Nm and
+a  radial  force on  the bearing of F = 1,000 N. Three    These  data  sets  focus on  different  aspects. Some  use
+additional settings are used by reducing the parameters one     artificial damages (CWRU, MFPT), others use real damages
+by one to n = 900 rpm, M = 0.1 Nm and F = 400 N (set No.   (FEMTO,  IMS). CWRU  and FEMTO  use  different
+1-3), respectively. For each of the settings, 20 measurements    operating conditions by varying load and speed; others use
+of 4 seconds each were recorded. Another parameter is the    only different load situations (MFPT) or just one condition
+temperature, which was kept roughly at 45-50 °C during all    (IMS). The FEMTO data set provides run-to-failure data
+experiments.                                               with measurements over a long period, but does not give
+                                                      any information about the properties of the damages.
+In  total,  experiments  with 32  different  bearings  were
+performed: 12 bearings with  artificial damages and 14    Altogether,  the  data  sets  mentioned  use  the  classical
+bearings with damages from accelerated lifetime tests (see     vibration  signals  for  bearing  diagnostics. To  the  best
+Table 4 and Table 5). Moreover, experiments with 6 healthy    knowledge of the authors of the present paper, no publicly
+bearings and a different time of operation were performed as     available data set providing data for diagnostics of external
+reference states as shown in Table 7.                           bearing damages based on MCS is known.
+                                                              Therefore, the focus was to systematically create a high
+5. DATABASE                                                                  quality data set which takes into account several operating
+Nowadays, a huge amount of data is collected in industry    conditions and a wide distribution of artificial as well as
+and science for different purposes; some of it is made public     realistic bearing damages.
+in repositories or on websites. But obtaining the appropriate                                                       Smith and Randall demand some properties for benchmark
+data  in the needed quality and quantity  for specialized                                                               data sets which are based on their experience with different
+research often is still challenging, especially, if a wide range                                                                diagnostic methods used on a vibration-based CM data set
+of different types of damages or the yet rarely used MCS are                                                                    for bearings. They list three requirements (Smith & Randall,
+the target of interest. This also applies to training data for                                                            2015), which can be applied accordingly to MCS data sets:
+              Table 6. Operating parameters.                   Systematic and comprehensive documentation.
+        Rotational   Load    Radial    Name of          High sampling rates (>40 kHz).
+  No.     speed     Torque    force       Setting           Data  verification  with  established  methods  before
+          [rpm]      [Nm]      [N]                             publication of the data.
+   0      1500         0.7     1000   N15_M07_F10    The first two issues are already addressed in this paper by
+   1      900         0.7     1000   N09_M07_F10     the   characterization   of  damage  and   the   extensive
+                                                         documentation  of  the  experiments,  including  a  high   2      1500         0.1     1000   N15_M01_F10
+                                                         sampling rate for the two main signals (64 kHz).
+   3      1500         0.7      400   N15_M07_F04
+
+
+    Table 7. Operating parameter of healthy (undamaged)
+               bearings during run-in period.                       1 Case Western Reserve  University (CWRU),  Cleveland, Ohio, USA
+                                                                               http://csegroups.case.edu/bearingdatacenter/home
+   Bearing  Run-in Period   Radial Load    Speed           2
+                                                        FEMTO-ST    Institute,   Besançon,   France;   http://www.femto-    Code           [h]            [N]         [min-1]                                                                      st.fr/en/Research-departments/AS2M/Research-groups/PHM/IEEE-PHM-
+    K001        >50        1000-3000   1500-2000       2012-Data-challenge.php
+    K002        19          3000       2900            3 Mechanical Failures Prevention Group (MFPT) Society (a Division of the
+    K003         1           3000       3000           Vibration        Institute),     Oak      Brook,        IL,     USA,
+    K004         5           3000       3000           http://www.mfpt.org/FaultData/FaultData.htm4
+                                                                                                        J. Lee, H. Qiu, G. Yu, J. Lin, and Rexnord Technical Services, NSF
+    K005        10          3000       3000                                                             I/UCR Center for Intelligent Maintenance Systems, Milwaukee, WI, USA:
+    K006        16          3000       2900            http://ti.arc.nasa.gov/tech/dash/pcoe/prognostic-data-repository/
+
+
+
+                                                                                                               8
+
+=== PDF PAGE 9 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+The examination of the data with established methods will     6. ENVELOPE ANALYSIS FOR VIBRATION SIGNALS
+be addressed in the next chapter, so that the provided data
+                                                                       First of all, the bearing damage diagnostic is performed with
+set  and  the  corresponding  documentation   fulfill  the
+                                                                 the envelope analysis based on the vibration, as this is arequirements. Therefore,  it  is assumed  that  the data  is
+                                                       well-known and established procedure. The objective of this
+beneficial to further research.
+                                                          examination is to verify the data and check the execution of
+To enable and encourage  collaboration  in  the  field  of    experiments  for  mistakes  and  errors.  Moreover,  the
+bearing condition monitoring and to allow researchers to use    detection of the damages provides a first estimate of the
+the  generated  data  as benchmark  data  sets  for  further     attitude  of  signals and  corresponding damages  to  the
+research, the data is published online. The data is licensed     authors.
+under the Creative Commons Attribution-NonCommercial
+                                                                                     It can be demonstrated  that the results of the envelope4.0 International License.5 Noncommercial academic use of
+                                                                 analysis correspond to the description in  literature. The
+the data is explicitly allowed, but a citation of the origin is
+                                                             bearing damages  cause  typical  characteristic  kinematicrequired and expected.6 For commercial use, please contact
+                                                              frequencies  that can be observed  in the  signals. These
+the author. The download page  is available at the KAt-
+                                                              frequencies can be calculated for localized damages when
+DataCenter  website  of  the Chair  of Design and Drive
+                                                                 the position of the damage (e.g. outer or inner ring) and theTechnology, Paderborn University, Germany:
+                                                             geometrical parameters of the bearing are known. (Randall,
+         http://mb.uni-paderborn.de/kat/datacenter            2011)
+
+The  data  consists  of  measurements  from 32  different   Two single point damages, one at the inner ring (KA04) and
+bearing experiments. The bearings belong to three main    one at the outer ring (KI18) are considered exemplarily. The
+groups:                                                   envelope spectra in Figure 6 clearly shows the ballpass
+                                                           frequency of the outer raceway (fo) and their harmonics. The   Undamaged (healthy) bearings (6x), see Table 6.                                                          envelope spectra of the damage at the inner raceway in
+    Artificially damaged bearings (12x), see Table 4.           Figure 7 shows the fundamental rotation frequency of the
+   Bearings  with  real damages caused by  accelerated     shaft and its harmonics (fn), the ballpass frequency of the
+     lifetime tests, (14x) see Table 5.                            inner race (fi), and its sidebands as well as its corresponding
+                                                           harmonics.
+The specifications of the bearings are listed in the tables
+above.                                                                                                                        0
+                                                                                                                                                                                                                                                                                                                                                                                fn=25Hz;
+                                                                                                                                                      -10                                     fo                           2fo                                                          fo =76,25HzIn summary, the main characteristic of the data set are:
+                                                                                                                                                                                     [dB] -20                                                                                        3fo
+   Synchronously measured motor currents and vibration                  -30
+     signals with high resolution and sampling rate of 26                                                                                                                                                                                                                                                                                                                                                                                                                      Amplitude -40
+    damaged bearing  states and 6 undamaged (healthy)
+     states for reference.                                                                                                  -50
+                                                                                                                                                      -60
+   Supportive measurement of speed, torque, radial load,                  0   data set: N15_M07_F10_KA04_150              100       Frequency[Hz]150             200             250             300
+    and temperature.                                                                   Figure 6. Envelope spectra of vibration signal
+   Four different operating conditions (Table 6).                            for bearing damage at the outer ring.
+   20 measurements of 4 seconds each for each setting,
+    saved as a matlab file with a name consisting of the              0                                                                                                                                                  fn =25Hz;
+
+                                                                                                                                                                                                                                                                                                                                                                     fi    code                                                                                                                       -10                                                                             f=123,3Hzi          of              the                  operating                             condition and  the  four-digit                                                                                                                                                                                                              f-fi  n
+                                                                                                                                                                                                                         n                                                                                                                                                                                        f+fi                                                                                                                                                                2fn     f-2fi   n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      i  n                                                                                                                                                                                                                                 2f-f                                                                                                                                                                     [dB] -20             fn                                                                                                                                                                                                                                                                                                                                                                                                                                                           fi      2f+fi  n                                                                                                                                                                                   f+2fi    n  2f-2fi   n
+                                                                                                                                                          f-3fi   n                                                                                                                                                                                                                                                   n    bearing           code                    (e.g.                  N15_M07_F10_KA01_1.mat).                                                                                                                                                                            3fn                                                                                                                                                                                               f+3fi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   i   n                                                                                                                                                                                         2f-3f                                                                                                                                                                                                       f+4fi    n                                                                                                                                                                                      4fn
+   Systematic  description  of  the  bearing damage by             -30   f-4fi   n                                           5fn                                                                                                                                                                                                                                                                                                                                                                                   Amplitude -40
+    uniform fact sheets (according to the categorization in
+    section 2 - Categorization of Bearing Damage).                               -50
+                                                                                                                                          -60
+                                                                                                                          0               50              100             150             200             250             300
+                                                                                                                        data set: N15_M07_F10_KI18_1       Frequency [Hz]
+                                                                   Figure 7. Envelope spectra of vibration signal
+                                                                                for bearing damage at the inner ring.
+
+5                                                                    7. CLASSIFICATION ALGORITHM AND RESULTS
+ To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/6                                                  The most common analysis for bearing damages involving Please cite this paper and give name of the author, institute and link to the                                     MCS  is  to  convert  the  time domain  signals  into  theKat-DataCenter: Christian Lessmeier et al., KAt-DataCenter: http://mb.uni-
+paderborn.de/kat/datacenter,  Chair  of  Design  and  Drive  Technology,    frequency domain and check for the bearing characteristic
+University Paderborn.
+
+
+
+                                                                                                               9
+
+=== PDF PAGE 10 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+
+
+
+     Figure 8. Frequency spectrum from MCS for (a) healthy bearing, (b) outer ring damage and (c) inner ring damage.
+
+frequencies (Blödt et al., 2008). However, in most cases the    (CART), random forests (RF), Boosted Trees (BT), neural
+raw signals are masked by external noise, what makes this    networks (NN), support vector machines with parameters
+method very difficult to apply. Figure 8 shows exemplary    optimally tuned using particle swarm optimization (SVM-
+plots of the power spectral density of a healthy bearing, a    PSO), extreme  learning machine (ELM), and  k-nearest
+bearing with outer ring damage, and a bearing with inner    neighbors (kNN).
+ring damage. From Figure  8, only the  electrical supply
+frequency (𝑓𝑒) and its harmonics are easily observable. This
+is mainly due  to  the masking of bearing  characteristic
+frequencies by external noise and  also  the presence of
+distributed damages which  are  difficult  to  detect using
+characteristic frequency approaches (Yang, Merrild, Runge,
+Pedersen, & Hakon Børsting, 2009).
+
+However, by extracting features from the raw MCS,  it is
+possible to observe the clustering of various damage classes
+of the bearing through a feature plot as seen in Figure 9.
+This shows that machine learning (ML) algorithms can be
+trained to identify various damages on the bearings from
+extracted features.
+
+Figure 10 shows the workflow of the application of machine
+learning for the classification of various bearing damages.
+The machine learning algorithm learns to map the input
+features to the corresponding target which consists of a class
+label representing the type of damage. A  classification
+model is obtained which can be used to predict the type of
+damage for a given set of input features. In this work, the
+bearings were categorized in three classes as either healthy,
+having inner ring damage, or having outer ring damage.
+                                                             Figure 9. Clustering of bearing health states for (a) features
+Seven state of the art algorithms and an ensemble of the
+                                                                from MCS and (b) vibration signals.
+algorithms using majority voting were implemented. These
+algorithms  include:  classification  and  regression  trees
+
+
+                                             Target                                 TRAINING
+
+
+                                                             Feature                                                ML              Classification                                   Data                                                           Extraction and                                   Acquisition                                Algorithm          Model                                                               Selection
+
+
+
+                            Data               Extraction of                Fault                  Predicted
+                                                                                   Classification                            Acquisition          Selected Features                                      Class
+                                                              Model
+
+                                   TESTING/ONLINE DIAGNOSIS
+
+                          Figure 10. Application of machine learning (ML) for fault diagnosis.
+
+                                                                                                             10
+
+=== PDF PAGE 11 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+    7.1 Feature Extraction and Selection                    In the current study, a selection criterion of 𝑑̅𝑗≥0.7 was
+                                                        found to yield the best results. In this case, 9 out of 23Feature extraction involves deriving time-, frequency,- and
+                                                                  features are selected from each of the two MCS per sampletime-frequency-domain  features  from  the  raw  signals.
+                                                       and 15 features from the vibration signals.Signals acquired from machinery components such as faulty
+bearings are normally considered non-stationary, meaning
+                                                                   7.2 Training with Data from Bearings withthat frequency components of the signal vary over time.
+                                                                            Artificially Induced DamagesTherefore,  the  extraction  of  time-frequency  features  is
+necessary.  In  this work,  wavelet  packet decomposition    At first, the algorithms were trained with features extracted
+(WPD) is employed for the extraction of the time-frequency    from  measurements  with   artificially  induced  bearing
+features. The raw signal is decomposed up to 3 levels. The    damages  (see  Table  8). The  objective was  to  use  a
+detailed coefficients and approximate coefficients of level 1    combination of healthy bearings and  artificial damaged
+to 3 are obtained and from which the wavelet energy is    bearings to identify bearings with real damages and classify
+computed. Fast Fourier Transform (FFT) and power spectral    them as either healthy, inner ring damage or outer ring
+density (PSD) are used to extract the frequency domain    damage  (3-class approach). In the  testing  part,  features
+features. A total of 23 features are extracted from each    extracted from data with real damages (Table 8) were used
+signal. A  list of the extracted features can be found in    as the input to the classification model. The output was the
+(Kimotho &  Sextro,  2014). Since  not  all  features  are     class label.
+suitable for  fault  classification,  it  is necessary to select
+                                                         Table 9 shows the classification accuracy of the machinefeatures that contain most information on the health status of
+                                                                learning algorithms used with features extracted from MCSa component to avoid over-fitting and to improve accuracy.
+                                                       and vibration signals under operating conditions in setting 0Suitable  features  for  fault  or  health  state  classification
+should provide a good separation between different classes.     (see  Table  6),  which  was  found  to  produce  better
+In this study, a feature selection method based on maximum    performance. Features from vibration signals result in a
+separation  distance between  different  health  states was     better classification accuracy than those from MCS.
+employed.                                                      Table 8. List of data sets used for training and
+                                                                                testing the machine learning algorithms.Given  a  feature  set  of  𝑗 = 1, 2, . . . 𝑄  features  in 𝑐 =
+ 1, 2, . . . 𝑁𝑐 classes or health states, the feature selection is            Class               Training  Testing
+performed as follows:                                                             1      Healthy     K002    K001
+     1.  Normalize the features between 0 and 1.                                        KA22
+                                                                 KA01    KA04
+     2.  Compute the mean (𝑚𝑗𝑐) of each feature 𝑗 within            2   OR Damage   KA05    KA15
+         class 𝑐 as follows                                                                 KA07    KA30
+                1  𝑛                                                           KA16
+      𝑚𝑗𝑐= 𝑛∑ 𝑖=1 𝑥𝑖𝑗𝑐 ,                                                                 KI14
+       where 𝑥 is the feature and 𝑛 is the number of                              KI01     KI21
+        samples.                                               3    IR Damage    KI05     KI17
+                                                                             KI07     KI18
+     3.  Compute  the mean  of  the  squared  Euclidean
+                                                                                      KI16
+         distance (𝑑𝑗) between each feature data point 𝑖 and
+         the mean of the same feature in each class
+                1   𝑁𝑐   𝑁𝑐   𝑛               2                  Table 9. Performance of various algorithms trained with      𝑑𝑗=   ∑ 𝑘=1 ∑ 𝑐=1 ∑ 𝑖=1 (𝑥𝑖𝑗𝑘−𝑚𝑗𝑐)  .                 𝑛𝑁𝑐2                                                   features of bearings with artificially induced damages and
+                                                                          tested with features of bearings with real damages.     4.  Normalize  the  separation  distance  with  the
+      maximum feature separation distance to produce a           Algorithm   Classification Accuracy [%]
+        performance evaluation criteria                          MCS   Vibration Signals
+                  𝑑𝑗                                  CART       26.8           65.9
+        𝑑̅𝑗= max (𝑑).                                   RF           45.0           64.1
+                                               BT           38.6           62.3     5.   Select the distance with a performance greater than
+                                          NN          45.5           65.5        a predetermined threshold. The threshold can be
+                                                SVM-PSO    60.9           65.5        defined by evaluating the classification accuracy
+         for each combined set of features.                  ELM         45.5           65.9
+                                              kNN         45.5           63.2
+                                                             Ensemble     45.9           75.0
+
+
+
+                                                                                                             11
+
+=== PDF PAGE 12 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+Using features extracted from MCS, the support vector                                       Vibration Signals
+machine approach with parameters optimally tuned by using                            20     0      0   100%                                                                                         1
+particle swarm optimization (SVM-PSO) shows the best                          9.1%  0.0%  0.0%  0.0%
+performance of  all algorithms with 60.9%  classification                             0     45     0   100%                                                                                                                                                                                                  Class 2  0.0%  20.5%  0.0%  0.0%accuracy. Figure 11 depicts the confusion matrix for SVM-
+PSO. On the confusion matrix, the rows correspond to the
+                                                                                              0     55    100   64.5%
+                                                                                         3predicted  class and the columns  to the  true  class. The                                                                                       0.0%  25.0%  45.5% 35.5%                                                                                                                                                                                                                                                                                                                                                            Predicted
+diagonal cells represent the correctly predicted class, while
+the  off-diagonal  cells show  misclassifications. The  left                       100%  45.0%  100%  75.0%                                                                                       0.0%  55.0%  0.0%  25.0%
+column  displays  the  false  positives  (healthy  samples
+                                                                                              1      2      3classified as damaged) and the upper row the false negatives
+(samples with damages classified as healthy). The bottom                                            Target Class
+row indicate the accuracy and misclassification rate for each          Figure 12. Confusion matrix for ensemble of all
+true class while the right column shows the accuracy and      algorithms trained with features extracted from vibration
+misclassification rate of each predicted class. The cell in the       signals of bearings with artificially induced damages and
+bottom right gives the overall accuracy. Bearings with inner          tested with features of bearings with real damages.
+ring damages (class 3) record the highest misclassification
+rate, with the majority of the cases being  classified as         7.3 Training with Data of Bearings with Real
+having outer ring damages (class 2).                            Damages
+                       MCS                        The data sets in Table 10 of healthy bearings and those with
+                        20     0      4    83.3%                      real damages were used for training and testing in a 5-fold                   1
+                      9.1%   0.0%   1.8%  16.7%                     cross-validation manner. For each combination, three data
+                                    Class 2  0.0%0    35.5%78   27.3%60   56.5%43.5%                      setsfor testing,from eachresultingclass werein 10 usedcombinations.for training and the other two
+
+                        0     22     36   62.1%                        Table 10. Categorization of data sets for healthy                   3                                                                 Predicted    0.0%  10.0%  16.4%  37.9%                             bearings and bearings with real damages.
+                   100%  78.0%  36.0%  60.9%
+                      0.0%  22.0%  64.0%  39.1%                    Healthy  Outer ring damage  Inner ring damage
+                                                               (Class 1)        (Class 2)             (Class 3)
+                        1      2      3
+                                                  K001        KA04              KI04
+                                      Target Class
+                                                  K002        KA15              KI14
+  Figure 11. Confusion matrix for SVM-PSO trained with        K003        KA16              KI16
+  features extracted from MCS of bearings with artificially        K004        KA22              KI18
+ induced damages and tested with MCS features of bearings       K005        KA30              KI21
+                   with real damages.
+
+Using  features  extracted  from  vibration  signals,  the                                                                  Similarly, features from both MCS and vibration signals
+ensemble algorithms with majority voting shows the best                                                      were used separately. The mean classification accuracy for
+performance  of  all  algorithms  with 75%  classification                                                                 the 10 combinations was computed and  is presented in
+accuracy and no false positives or false negatives (Figure                                                         Table 11. Random Forest and the ensemble algorithm have
+12). However, bearings with outer ring damages have the                                                                 the highest classification rates of 93.3% using the MCS data
+highest misclassification rate, with the majority of samples                                                           while  CART,  RF,  and  ensemble  have  the  highest
+being classified as having inner ring damages.                                                                     classification  rate  of 98.5%  using  the  vibration  data.
+                                                     However,  the  overall  performance  of  other  algorithms
+                                                          remains relatively the same regardless of the sensor data
+                                                               used.
+
+                                                            Figure  13  is  the  confusion  matrix  of  the  ensemble
+                                                                 predictions using features from MCS. There are no false
+                                                                  positives    or    negatives.   However,    the    highest
+                                                                  misclassification rate is recorded with the outer ring damage
+                                                                     (class 2), as is the case with the ML methods trained with
+                                                               data of bearings with artificially induced damages. A closer
+                                                           look at the results indicates that the misclassified samples
+                                                          belong  to  the  data  sets KA04 and KA22 which have
+                                                    damages of level 1 (see Table 5).
+
+
+
+                                                                                                             12
+
+=== PDF PAGE 13 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+                                                                   7.4 Training with Data of Bearings with Multiple
+                                                      Damages
+  Table 11. Performance of various algorithms trained and
+     tested with features of bearings with real damages.         Further tests were carried out by including data sets from
+                                                              bearings with multiple damages at both raceways, at inner
+       Algorithm   Classification Accuracy [%]                                                       and outer ring (KB23, KB24 and KB27). According to the
+            MCS   Vibration Signals                                                       dominant damage type KB23 and KB24 were assigned to
+     CART       66.7           98.3                                                                 the inner ring damage (class 3), while KB27 was assigned to
+      RF           83.3           98.3                                                                 the outer ring damage (class 2).
+     BT           81.7           83.3
+     NN          65.8           44.2                    Training and testing was done in a 5-fold cross validation
+                                                     manner based on the KAxx and KIxx data sets as described     SVM-PSO    56.7           75.8
+                                                                   in section 7.3. In addition, KB23 and KB24 were used     ELM         69.2           60.8
+                                                             interchangeably for training and testing in a way that when     kNN         68.3           62.5
+                                                      one was used for training, the other was used for testing.       Ensemble     93.3           98.3
+                                            KB27 was only used for testing since it is the only data set
+                                                      where the outer ring damage is dominant. Table 13 shows
+Figure 14  is  the confusion matrix of  the ensemble of    the average performance of the algorithms for this case. For
+algorithms using features from vibration signals. A few    the neural networks, parameters such as the number of
+misclassification instances are observed in samples with    hidden layers and neurons were not tuned and this explains
+outer ring (KA04) and inner ring (KI21) damages also with    the poor performance.
+damages of level 1.
+                                                           Table 13. Performance of various algorithms trained and
+                       MCS                                     tested with features of bearings with real damages.
+                       400     0      0   100%
+                   1                     33.3%  0.0%  0.0%  0.0%                                          Classification Accuracy [%]                                                            Algorithm
+                                               MCS   Vibration Signals
+                                             CART       86.3           91.3                                    Class 2  0.0%0   26.7%320   0.0%0   100%0.0%
+                                                 RF           68.1           91.3
+                        0     80    400   83.3%                  BT           63.7           79.4                   3                                                                 Predicted    0.0%  6.7%  33.3% 16.7%                                         NN          66.3           33.2
+                   100%  80.0%  100%  93.3%                   SVM-PSO    80.6           70.8
+                     0.0%  20.0%  0.0%  6.7%                 ELM         81.9           71.9
+                        1      2      3                       kNN         61.3           70.0
+                                      Target Class                              Ensemble     86.3           91.3
+       Figure 13. Confusion matrix for ensemble of
+      algorithms trained and tested with MCS features                                                             Figures 15 and 16  are  the confusion  matrices  for  the
+              of bearings with real damages.                                                       ensemble of algorithms with the inclusion of the data sets of
+                                                              bearings with multiple damages. The inclusion of these data
+                                                                      sets  reduces  classification  accuracy,  with  the  highest
+                                 Vibration Signals
+                                                                  misclassification rate falling within the KB27 and with most
+                       400     0      0   100%                    of  the  samples  being  classified  as  having  inner  ring                   1                     33.3%  0.0%  0.0%  0.0%
+                                                        damages.
+                                    Class 2  0.0%0   32.5%390   0.8%10   97.5%2.5%
+
+                        0     10    390   97.5%                   3                                                                 Predicted    0.0%  0.8%  32.5%  2.5%
+
+                   100%  97.5%  97.5%  98.3%
+                     0.0%  2.5%  2.5%  1.7%
+
+                        1      2      3
+                                      Target Class
+
+       Figure 14. Confusion matrix for ensemble of
+    algorithms trained and tested with vibration features
+              of bearings with real damages.
+
+
+
+
+
+                                                                                                             13
+
+=== PDF PAGE 14 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+                       MCS                               to  improve  their  generalization,  for  instance  through
+                       400     0      0   100%                     selection of suitable kernel functions or optimal parameter
+                   1
+                     33.3%  0.0%  0.0%  0.0%                     tuning.
+                                    Class 2  0.0%0   22.6%280   2.4%30   90.3%9.7%                  Conclusion for application: real industry applications with
+                                                                     different electromechanical systems will lead to lower rates,
+                        0     140    400   73.6%                    therefore  the  development  and   selection  of  robust
+                   3                                                                 Predicted    0.0%  11.3%  31.5% 26.4%                   algorithms is important. Data sets of the benchmark data
+                   100%  66.7%  92.9%  86.3%                     will support researchers in developing these algorithms.
+                     0.0%  33.3%  7.1%  13.7%
+                        1      2      3                               8. CONCLUSION
+                                      Target Class                          Application  of  data-driven  classification  algorithms  for
+       Figure 15. Confusion matrix for ensemble of            vibration-based diagnosis of damages in rolling element
+   algorithms with the inclusion of data sets with multiple       bearings has been researched widely and appears to be a
+        damages (features extracted from MCS).             mature approach. From the present results, it is evident that
+                                     MCS also have a great potential for  fault diagnosis of
+                                                                 external rolling element bearings in electromechanical drive
+                                 Vibration Signals                        systems. The advantage of this approach in general is that
+                       400     0      0   100%                 no additional sensors are required, consequently reducing
+                   1
+                     33.3%  0.0%  0.0%  0.0%                     the cost of the condition monitoring system.
+                                    Class 2  0.0%0   26.3%326   0.0%0   100%0.0%                The particular novelties of the present research include the
+                                                               consideration of damage in external bearings (positioned
+                        0     94    420   81.7%                    outside the electric motor) and using the MCS as input for                   3                                                                 Predicted    0.0%  7.6%  33.9% 18.3%                    the detection of the damage. Moreover, a wide variety of
+                   100%  77.6%  100%  92.4%                   bearing damage is considered.
+                     0.0%  22.4%  0.0%  7.6%
+                                                           This paper presents important steps in the development of
+                        1      2      3                            condition monitoring methods for electromechanical drive
+                                      Target Class
+                                                             systems. The main features of this study can be summarized
+       Figure 16. Confusion matrix for ensemble of              as:
+   algorithms with the inclusion of data sets with multiple
+                                                            Development of a systematic categorization method to   damages (features extracted from vibration signals).
+                                                                   describe specific bearing damages in detail.
+    7.5 Summary of Classification Results                    Generation of artificial and realistic bearing damages.
+                                                            Synchronous acquisition of vibration and motor currentThe following conclusions can be drawn from the results
+                                                                      signals with a modular experimental setup to gatherabove:
+                                                                   data   sets   for  the  development  and   testing  of
+   Classifications  based  on  vibration  signals  achieve          classification algorithms.
+    higher   classification   accuracy   than  MCS-based                                                            Verification  of  measurement  data  by  using  the
+     classifications in all cases.                                                                     established method of envelope analysis based on the
+   Training with artificial damage (7.2) and testing with         vibration signals. It proves the proper data acquisition
+     real damages achieve quite low accuracies.                   and compares  it with the state of the art approaches
+   Training and  testing with  real damages  (7.3) from        proposed in literature.
+    accelerated lifetime test yield a lot better results.              Application of ML classification algorithms show that
+   Conclusion: For a realistic application of classification        they are able to identify the damaged bearings using
+    methods in CM systems the use of training data with      MCS, but require sophisticated training data.
+     artificial damages is apparently not sufficient.            The results show that the MCS can be used together with
+   Training and  testing  with  an  additional  focus on    machine learning algorithms to identify and classify bearing
+    multiple damages (7.4) yield even lower accuracies, as    damages within the external drive systems. However, the
+    an example for different damage behavior according to     classification accuracy of the machine learning algorithms
+    the categorization of possible industrial damages.          with the MCS is still low in comparison to vibration signal
+                                                             approaches. Especially the use of signals from artificiallyThe discrepancy in the classification results of some of the
+                                                          induced damages  to  identify  real damages in the drivemachine  learning  algorithms  could  be  attributed  to
+                                                          systems needs to be further investigated as the damageoverfitting. Therefore, further investigations should be done
+
+
+
+                                                                                                             14
+
+=== PDF PAGE 15 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+recognition  rate   is  quite  low.  Moreover,  significant        of Electrical and Electronics Engineers (Ed.), 2007 IEEE
+differences  are observed using  different groups of  real        International Symposium on Diagnostics for Electric
+damage (single and repetitive damages in comparison to       Machines, Power Electronics & Drives (pp. 23–28).
+multiple damages).                                              Piscataway, NJ, USA: IEEE.
+Therefore, more research should be conducted on improving    Herold, T., Piantsop Mbo’o, C., & Hameyer, K. (2013).
+bearing damage detection from MCS in order to have low       Evaluation of the use of an electrical drive as a sensor
+cost  and  accurate  condition  monitoring  system  for        for the detection of bearing damage. In Conference on
+electromechanical  drive  systems.  To  promote  further        Acoustics, AIA-DAGA 2013. Meran, Italy. Retrieved
+research, the experimental raw data is published alongside       from http://134.130.107.200/uploads/bibliotest/2013TH
+with this publication as a benchmark to develop and test        Evaluation.pdf
+data-driven   classifiers  or  other  condition  monitoring     International Standards Organization (ISO) (2004). Rolling
+methods.  More  detailed  examinations  concerning  the         bearings - Damage and failures - Terms, characteristics
+behavior of different damages as e.g. with different damage        and  causes. ISO 15243:2010. Genève,  Switzerland:
+levels can be carried out with the provided data and the         International Standards Organization.
+associated damage description. As only a few aspects of the    Kankar, P., Sharma, S. C., & Harsha, S. (2011). Fault
+classification  behavior  could  be  examined   in   this        diagnosis of ball bearings using machine learning
+publication, the examination of CM methods should be       methods. Expert Systems with Applications, 38, pp.
+intensified using the data sets.                                 1876–1886.
+Moreover, some open questions remain, which could be    Kimotho, J. K., & Sextro, W. (2014). An approach for
+examined  using  future  data  sets.  Industrial  application        feature extraction and selection from non-trending data
+requires the detection of damages under variable operating        for machinery prognosis. Second European Conference
+conditions. In addition, other mechanical faults in the drive        of the Prognostics and Health Management Society, July
+train and other bearing damages should be investigated        8-10, Nantes.
+since this work covers only two main modes of damages out    Lessmeier, C., Piantsop Mbo'o, C., Coenen, I., Zimmer, D.,
+of a possible six.  Finally, the implementation into industry    & Hameyer, K. (2012). Untersuchung von
+applications and related issues have to be discussed and       Bauteilschäden elektrischer Antriebsstränge im
+tested.                                                          Belastungsprüfstand mittels Statorstromanalyse. In K.
+                                                          Nienhaus & P. Burgwinkel (Eds.): Vol. 81. Aachener
+REFERENCES                                                       Schriften zur Rohstoff- und Entsorgungstechnik des
+                                                                             Instituts für Maschinentechnik der Rohstoffindustrie,
+Amirat, Y., Choqueuse, V., & Benbouzid, M. (2013).                                               AKIDA 2012. Aachener Kolloquium für Instandhaltung,
+   EEMD-based wind turbine bearing failure detection                                                         Diagnose und Anlagenüberwachung (1st ed., pp. 509–
+   using the generator stator current homopolar component.                                                                  521). Aachen: Zillekens.
+   Mechanical Systems and Signal Processing, 41(1-2),
+                                                            Lessmeier, C., Enge-Rosenblatt, O., Bayer, C., & Zimmer,   667–678. doi:10.1016/j.ymssp.2013.06.012
+                                                         D. (2014). Data Acquisition and Signal Analysis from
+Bartz, W. J. (1985). Wälzlagertechnik // Lagerungen,                                                        Measured Motor Currents for Defect Detection in
+   Technologie, Berechnungen, Auswahl, Konstruktion und                                                               Electromechanical Drive Systems. Second European
+   Anwendung. Sindelfingen: Expert Verlag.                                                            Conference of the Prognostics and Health Management
+Bellini, A., Filippetti, F., Tassoni, C., & Capolino, G.-A.            Society, July 8-10, Nantes.
+   (2008). Advances in Diagnostic Techniques for                                                        Mbo'o, C. P., Herold, T., & Hameyer, K. (2004). Impact of
+   Induction Machines. IEEE Transactions on Industrial                                                                    the load in the detection of bearing faults by using the
+    Electronics, 55(12), pp. 4109–4126.                                                                           stator current in PMSM's. In XXI International
+   doi:10.1109/TIE.2008.2007527                                                            Conference on Electrical Machines (ICEM) (pp. 1621–
+Blödt, M., Granjon, P., Raison, B., & Rostaing, G. (2008).          1627).
+   Models for Bearing Damage Detection in Induction                                                          Nandi, S., Toliyat, H. A., & Li, X. (2005). Condition
+   Motors Using Stator Current Monitoring. IEEE                                                            Monitoring and Fault Diagnosis of Electrical Motors—A
+   Transactions on Industrial Electronics, 55(4), pp. 1813–                                                           Review. IEEE Transactions on Energy Conversion,
+   1822. doi:10.1109/TIE.2008.917108                                                                    20(4), 719–729. doi:10.1109/TEC.2005.847955
+Bonnett, A., & Yung, C. (2008). Increased Efficiency                                                          Nectoux, P., Gouriveau, R., Medjaher, K., Ramasso, E.,
+   Versus Increased Reliability. IEEE Industry Applications                                                               Morello, B., Zerhouni, N., & Varnier, C. (2012).
+   Magazine, 14(1), 29–36. doi:10.1109/MIA.2007.909802                                            PRONOSTIA : An experimental platform for bearings
+Djeddi, M., Granjon, P., & Leprettre, B. (2007). Bearing            accelerated degradation tests. IEEE International
+   Fault Diagnosis in Induction Machine Based on Current        Conference on Prognostics and Health Management,
+   Analysis Using High-Resolution Technique. In Institute       PHM'12, July 18 -21, Denver.
+
+
+
+                                                                                                             15
+
+=== PDF PAGE 16 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+Niknam, S. A., Thomas, T., Hines, W. J., & Sawhney, R.            Industrial Electronics Society, 2005. IECON 2005 (pp. 6
+   (2013). Analysis of Acoustic Emission Data for Bearings        pp).
+    subject to Unbalance. International Journal of              Smith, W. A., & Randall, R. B. (2015). Rolling element
+   Prognostics and Health Management, 2013(015).               bearing diagnostics using the Case Western Reserve
+Obaid, R. R., Habetler, T. G., & Stack, J. R. (2003). Stator          University data: A benchmark study. Mechanical
+    current analysis for bearing damage detection in               Systems and Signal Processing.
+   induction motors. In IEEE International Symposium on         doi:10.1016/j.ymssp.2015.04.021
+   Diagnostics for Electric Machines, Power Electronics       Stack, J. R., Habetler, T. G., & Harley, R. G. (2003,
+   and Drives (pp. 182–187).                                    August). Fault classification and fault signature
+Pacas, M., Villwock, S., & Dietrich, R. Bearing damage            production for rolling element bearings in electric
+   detection in permanent magnet synchronous machines          machines. IEEE. Diagnostics for Electric Machines,
+   (2009). In 2009 IEEE Energy Conversion Congress and       Power Electronics and Drives,
+   Exposition. ECCE 2009 (pp. 1098–1103).                 Tandon, N., & Choudhury, A. (1999). A review of vibration
+Paschke, F., Bayer, C., Bator, M., Mönks, U., Dicks, A.,          and acoustic measurement methods for the detection of
+   Enge-Rosenblatt, O., & Lohwe, V. (2013). Sensorlose           defects in rolling element bearings. Tribology
+   Zustandsüberwachung an Synchronmotoren. In F.                International, 32(8), pp. 469–480. doi:10.1016/S0301-
+   Hoffmann & E. Hüllermeier (Eds.), Schriftenreihe des         679X(99)00077-8
+    Instituts für Angewandte Informatik,                 VDI 3832 (2013). Measurement of structure-borne sound of
+   Automatisierungstechnik am Karlsruher Institut für              rolling element bearings in machines and plants for
+   Technologie: Vol. 46. Proceedings / 23. Workshop              evaluation of condition. Verein Deutscher Ingenieure
+   Computational Intelligence. Dortmund, 5. - 6. Dezember         e.V., Düsseldorf: Beuth Verlag GmbH.
+   2013 . Karlsruhe: KIT Scientific Publ.
+                                                           Villwock, S. (2007). Identifikationsmethoden für die
+Patil, M. S., Mathew, J., Rajendrakumar, P. K., & Desai, S.         automatisierte Inbetriebnahme und
+   (2010). A theoretical model to predict the effect of            Zustandsüberwachung elektrischer Antriebe
+    localized defect on vibrations associated with ball                (Dissertation). Universität Siegen.
+    bearing. Special Issue on Advances in Materials and
+                                                      Yang, H., Mathew, J., & Ma, L. (2005). Fault diagnosis of   Processing Technologies, 52(9), pp. 1193–1201.
+                                                                         rolling element bearings using basis pursuit. Mechanical
+   doi:10.1016/j.ijmecsci.2010.05.005
+                                                             Systems and Signal Processing, 19(2), pp. 341–356.
+Picot, A., Obeid, Z., Régnier, J., Poignant, S., Darnis, O., &        doi:10.1016/j.ymssp.2004.03.008
+   Maussion, P. (2014). Statistic-based spectral indicator
+                                                      Yang, Z., Merrild, U. C., Runge, M. T., Pedersen, G. K., &
+    for bearing fault detection in permanent-magnet
+                                                    Hakon Børsting. (2009). A Study of Rolling-Element
+   synchronous machines using the stator current.
+                                                             Bearing Fault Diagnosis Using Motor’s Vibration and   Mechanical Systems and Signal Processing, 46(2), pp.
+                                                               Current Signatures. I F A C Workshop Series, pp. 354–
+   424–441. doi:10.1016/j.ymssp.2014.01.006
+                                                               359.
+Qiu, H., Lee, J., Lin, J., & Yu, G. (2006). Wavelet filter-
+                                                                   Zarei, J., & Poshtan, J. (2009). An advanced Park’s vectors
+   based weak signature detection method and its
+                                                            approach for bearing fault detection. Tribology
+    application on rolling element bearing prognostics.
+                                                                      International, 42, pp. 213–219.
+   Journal of Sound and Vibration, 289(4-5), pp.1066–
+   1090. doi:10.1016/j.jsv.2005.03.007                      Zoubek, H., Villwock, S., & Pacas, M. (2008). Frequency
+                                                          Response Analysis for Rolling-Bearing Damage
+Randall, R. B. (2011). Vibration-based Condition
+                                                                 Diagnosis. IEEE Transactions on Industrial Electronics,
+   Monitoring. Chichester, UK: John Wiley & Sons, Ltd.
+                                                                  55(12), 4270–4276. doi:10.1109/TIE.2008.2005020
+Schaeffler Technologies AG & Co. KG. (2015).
+   Wälzlagerpraxis: Handbuch zur Gestaltung und                                                  BIOGRAPHIES
+   Berechnung von Wälzlagerungen (4. Aufl.). Mainz:
+   Vereinigte Fachverl.                                                 Christian Lessmeier (Dipl.-Ing.) was born in
+                                                                                 Bielefeld, Germany in 1985. He received hisSchoen, R. R., Habetler, T. G., Kamran, F., & Bartfield, R.
+                                                                        degree  in  Mechanical  Engineering  from   G. (1995). Motor bearing damage detection using stator
+                                                                     Paderborn  University,  Germany,  in  2010.    current monitoring. IEEE Transactions on Industry
+                                                                        Since 2010, he has been working as a research   Applications, 31(6), 1274–1279. doi:10.1109/28.475697
+                                                                                     assistant with Prof. Zimmer at the Chair of
+Silva, J., & Cardoso, A. (2005). Bearing failures diagnosis                                                                   Design  and  Drive  Technology,  Paderborn
+    in three-phase induction motors by extended Park's                                                                University. He has managed and worked  in a publicly
+   vector approach. In 31st Annual Conference of IEEE                                                         funded research project, assists different lectures, and  is
+                                                                presently working on his PhD thesis. His current research
+
+
+
+                                                                                                             16
+
+=== PDF PAGE 17 ===
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+area focuses on condition monitoring in electro-mechanical    the  research group Mechatronics and Dynamics  at  the
+drive systems, especially artificial damage generation and    University of Paderborn.
+systematic database creation.
+
+           James  Kuria  Kimotho  (MSc.)  studied
+             mechanical engineering at the Jomo Kenyatta
+              University of Agriculture and Technology,
+           Kenya and received his Master of Science
+             degree in 2009. Since 2012, he is with the
+              research group Mechatronics and Dynamics at
+              the  University  of Paderborn. His  research
+focuses  on  prognostics  and  health  management  of
+mechatronic systems.
+
+          Detmar Zimmer  (Prof.  Dr.-Ing.), born  in
+            1958, received his Doctor of Engineering with
+            honors in 1989 at the Institute for Machine
+            Design and Gearings  at  the  University of
+               Stuttgart. His dissertation was commended by
+              the  GfT   (Gesellschaft   für   Tribologie,
+            Germany).
+
+From 1990 to 2001, he worked for the drive system and
+automation supplier Lenze AG, Germany,  initially as a
+R&D manager for geared motors; later, he was responsible
+for the geared motors business unit as an authorized officer.
+He represented Lenze in the scientific board of the FVA
+(Forschungsvereinigung Antriebstechnik, Germany).
+
+Since July 2001, he has been holding the Chair of Design
+and Drive Technology at Paderborn University, Germany.
+He is a member of WiGeP (Wissenschaftliche Gesellschaft
+für  Produktentwickung),  the  Scientific Community  for
+Product Development  in Germany, and  of  the  Direct
+Manufacturing Research Center (DMRC) in Paderborn. In
+Paderborn, he  is also responsible for the cooperation of
+Paderborn University with the Chinese German Technical
+Faculty (CDTF) in Qingdao, China.
+
+His main research interests are theoretical and experimental
+investigations of drive train concepts and expansion of their
+application  limits. A  further  field  of  interest  is  the
+optimization  of   parts,  assemblies  and  machines  by
+systematic, function- and production-oriented design.
+
+           Walter  Sextro   (Prof.   Dr.-Ing.)   studied
+            mechanical   engineering   at   the   Leibniz
+             University of Hannover and at the Imperial
+             College  in  London.  Afterwards,  he  was
+            development engineer at Baker Hughes Inteq
+               in Celle, Germany and Houston, Texas. Back
+              as  research  assistant  at  the  University  of
+Hanover he was awarded the academic degree Dr.-Ing. in
+1997. Afterward he habilitated in the domain of mechanics
+under the topic Dynamical contact problems with friction:
+Models, Methods, Experiments and  Applications. From
+2004-2009 he was professor for mechanical engineering at
+the Technical University of Graz, Austria. Since March
+2009 he is professor for mechanical engineering and head of
+
+
+
+                                                                                                             17

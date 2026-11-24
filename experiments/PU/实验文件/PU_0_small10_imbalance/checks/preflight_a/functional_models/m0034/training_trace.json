@@ -1,0 +1,8 @@
+[
+  {
+    "epoch": 1,
+    "global_window_permutation_sha256": "2670a882d9fda38538fb5fa20487d3abc564bbd1c9628cb85b0d99569444d553",
+    "ordinal_permutation_sha256": "e0904e07c6d418dd565be9d99ba887800dea101a5441db36c81820009b05e807",
+    "CUDA_rng_start_sha256": "aee149e3503d5a01d4ed60895b9b1ac48df8d4600b022f9ba18ee165863baf58"
+  }
+]

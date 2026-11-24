@@ -1,0 +1,18 @@
+{
+  "stage": "prepared",
+  "started_at": "2026-11-13 19:22:21",
+  "condition_order": [
+    "N15_M07_F10",
+    "N09_M07_F10",
+    "N15_M01_F10",
+    "N15_M07_F04"
+  ],
+  "expected_windows": 16000,
+  "source_windows": 4000,
+  "target_windows_each": 4000,
+  "formal_models": 0,
+  "target_inference_accessed": false,
+  "prepared_bearing_condition_groups": 32,
+  "prepared_windows": 16000,
+  "finished_at": "2026-11-13 19:23:46"
+}

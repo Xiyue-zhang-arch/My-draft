@@ -1,0 +1,34 @@
+{
+  "stage": "complete",
+  "baseline": "D:\\Project\\MY draft\\results\\CWRU_V1\\baseline_20261020",
+  "trained_models": 180,
+  "target_test_accessed": true,
+  "diagnosis_models": 20,
+  "decision": "proceed_paired_small_sample_baseline",
+  "hardware": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "precision": "CUDA encoder BF16, remainder FP32",
+  "baseline_small_planned": 108,
+  "max_candidate_count": 2,
+  "seed_list": [
+    1706,
+    1707,
+    1708
+  ],
+  "subset_seeds": [
+    4101,
+    4102,
+    4103
+  ],
+  "validation_only_selection": true,
+  "candidate_order": [
+    "data_aux_ce",
+    "residual_scale"
+  ],
+  "referenced_v1_models": 20,
+  "last_update": "2026-10-20T23:08:48.715464+08:00",
+  "selected_candidate": null,
+  "decisions_locked": true,
+  "evaluated_pairs": 200,
+  "completed_at": "2026-10-20T23:08:51.964590+08:00",
+  "metric_rows": 2700
+}

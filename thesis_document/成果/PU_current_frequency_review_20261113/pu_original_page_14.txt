@@ -1,0 +1,62 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+                       MCS                               to  improve  their  generalization,  for  instance  through
+                       400     0      0   100%                     selection of suitable kernel functions or optimal parameter
+                   1
+                     33.3%  0.0%  0.0%  0.0%                     tuning.
+                                    Class 2  0.0%0   22.6%280   2.4%30   90.3%9.7%                  Conclusion for application: real industry applications with
+                                                                     different electromechanical systems will lead to lower rates,
+                        0     140    400   73.6%                    therefore  the  development  and   selection  of  robust
+                   3                                                                 Predicted    0.0%  11.3%  31.5% 26.4%                   algorithms is important. Data sets of the benchmark data
+                   100%  66.7%  92.9%  86.3%                     will support researchers in developing these algorithms.
+                     0.0%  33.3%  7.1%  13.7%
+                        1      2      3                               8. CONCLUSION
+                                      Target Class                          Application  of  data-driven  classification  algorithms  for
+       Figure 15. Confusion matrix for ensemble of            vibration-based diagnosis of damages in rolling element
+   algorithms with the inclusion of data sets with multiple       bearings has been researched widely and appears to be a
+        damages (features extracted from MCS).             mature approach. From the present results, it is evident that
+                                     MCS also have a great potential for  fault diagnosis of
+                                                                 external rolling element bearings in electromechanical drive
+                                 Vibration Signals                        systems. The advantage of this approach in general is that
+                       400     0      0   100%                 no additional sensors are required, consequently reducing
+                   1
+                     33.3%  0.0%  0.0%  0.0%                     the cost of the condition monitoring system.
+                                    Class 2  0.0%0   26.3%326   0.0%0   100%0.0%                The particular novelties of the present research include the
+                                                               consideration of damage in external bearings (positioned
+                        0     94    420   81.7%                    outside the electric motor) and using the MCS as input for                   3                                                                 Predicted    0.0%  7.6%  33.9% 18.3%                    the detection of the damage. Moreover, a wide variety of
+                   100%  77.6%  100%  92.4%                   bearing damage is considered.
+                     0.0%  22.4%  0.0%  7.6%
+                                                           This paper presents important steps in the development of
+                        1      2      3                            condition monitoring methods for electromechanical drive
+                                      Target Class
+                                                             systems. The main features of this study can be summarized
+       Figure 16. Confusion matrix for ensemble of              as:
+   algorithms with the inclusion of data sets with multiple
+                                                            Development of a systematic categorization method to   damages (features extracted from vibration signals).
+                                                                   describe specific bearing damages in detail.
+    7.5 Summary of Classification Results                    Generation of artificial and realistic bearing damages.
+                                                            Synchronous acquisition of vibration and motor currentThe following conclusions can be drawn from the results
+                                                                      signals with a modular experimental setup to gatherabove:
+                                                                   data   sets   for  the  development  and   testing  of
+   Classifications  based  on  vibration  signals  achieve          classification algorithms.
+    higher   classification   accuracy   than  MCS-based                                                            Verification  of  measurement  data  by  using  the
+     classifications in all cases.                                                                     established method of envelope analysis based on the
+   Training with artificial damage (7.2) and testing with         vibration signals. It proves the proper data acquisition
+     real damages achieve quite low accuracies.                   and compares  it with the state of the art approaches
+   Training and  testing with  real damages  (7.3) from        proposed in literature.
+    accelerated lifetime test yield a lot better results.              Application of ML classification algorithms show that
+   Conclusion: For a realistic application of classification        they are able to identify the damaged bearings using
+    methods in CM systems the use of training data with      MCS, but require sophisticated training data.
+     artificial damages is apparently not sufficient.            The results show that the MCS can be used together with
+   Training and  testing  with  an  additional  focus on    machine learning algorithms to identify and classify bearing
+    multiple damages (7.4) yield even lower accuracies, as    damages within the external drive systems. However, the
+    an example for different damage behavior according to     classification accuracy of the machine learning algorithms
+    the categorization of possible industrial damages.          with the MCS is still low in comparison to vibration signal
+                                                             approaches. Especially the use of signals from artificiallyThe discrepancy in the classification results of some of the
+                                                          induced damages  to  identify  real damages in the drivemachine  learning  algorithms  could  be  attributed  to
+                                                          systems needs to be further investigated as the damageoverfitting. Therefore, further investigations should be done
+
+
+
+                                                                                                             14

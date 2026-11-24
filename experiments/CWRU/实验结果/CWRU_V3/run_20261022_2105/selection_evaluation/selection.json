@@ -1,0 +1,74 @@
+{
+  "selected_aux_weight": 0.3,
+  "candidates": [
+    {
+      "aux_weight": 0.01,
+      "mean_best_validation_ce": 8.201328059884457e-06,
+      "sample_sd": 1.3983738145404099e-06,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 0.03,
+      "mean_best_validation_ce": 7.2374787405969635e-06,
+      "sample_sd": 9.156571455742011e-07,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 0.1,
+      "mean_best_validation_ce": 6.466906454732859e-06,
+      "sample_sd": 6.029581257731883e-07,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 0.3,
+      "mean_best_validation_ce": 5.702120448333818e-06,
+      "sample_sd": 8.531124102739971e-07,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 1.0,
+      "mean_best_validation_ce": 5.811838745659452e-06,
+      "sample_sd": 5.921383913761087e-07,
+      "seeds": 5
+    }
+  ],
+  "selection_rule": "mean_of_five_best_validation_window_mean_ce; exact_tie_lower_lambda",
+  "locked_at": "2026-10-22T23:14:13.876494+08:00",
+  "lambda_locked": true,
+  "cohort_locked": true,
+  "decisions_locked": false,
+  "test_accessed": false,
+  "cohort": [
+    "m0001",
+    "m0002",
+    "m0003",
+    "m0004",
+    "m0005",
+    "m0006",
+    "m0007",
+    "m0008",
+    "m0009",
+    "m0010",
+    "m0011",
+    "m0012",
+    "m0013",
+    "m0014",
+    "m0015",
+    "m0016",
+    "m0017",
+    "m0018",
+    "m0019",
+    "m0020",
+    "m0021",
+    "m0022",
+    "m0023",
+    "m0024",
+    "m0025",
+    "m0026",
+    "m0027",
+    "m0028",
+    "m0029",
+    "m0030"
+  ],
+  "scope": "30 full-sample clean models; fixed103 clean test only"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "requested_at": "2026-10-21T20:41:50.064258+08:00",
+  "coefficients": [
+    0.01,
+    0.03
+  ],
+  "scope": "全部72新模型完成后，与36历史数据对照一起测试；不继续训练",
+  "started_at": "2026-10-21T20:41:50.066521+08:00",
+  "completed_at": "2026-10-21T20:44:41.554486+08:00",
+  "training_remains_paused": true
+}

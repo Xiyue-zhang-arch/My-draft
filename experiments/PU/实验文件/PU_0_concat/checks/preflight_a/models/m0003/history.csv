@@ -1,0 +1,2 @@
+epoch,train_CE,val_CE,val_BA,updates,gradient_v,gradient_c,gradient_condition,seconds
+1,1.026131820678711,0.7661498224884152,0.63875,50,0.0,2.8142292499542236,0.0,0.3717692999634892

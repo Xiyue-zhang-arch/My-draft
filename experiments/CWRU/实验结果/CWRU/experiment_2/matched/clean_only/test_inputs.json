@@ -1,0 +1,7 @@
+{
+  "role": "test",
+  "conditions": [],
+  "clean_sha256": "b934f84c132bc74fda5ee8a7fe34d1d23f0bedcb175fa4204a00b686f68e5c8d",
+  "windows": 200,
+  "identical_to_reference": true
+}

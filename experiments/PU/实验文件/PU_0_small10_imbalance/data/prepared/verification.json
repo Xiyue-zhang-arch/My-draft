@@ -1,0 +1,34 @@
+{
+  "stage": "source_prepared",
+  "record_overlap": 0,
+  "test_statistics_used": 0,
+  "cache_windows": 1600,
+  "training_counts": {
+    "balanced10": 1120,
+    "imbalanced": 364,
+    "matched_balanced": 364
+  },
+  "validation_windows": 320,
+  "test_windows": 160,
+  "formal_models": 0,
+  "test_network_inference_calls": 0,
+  "files_sha256": {
+    "archive_hashes.json": "fef3b11a3cd25b1851f5653615b334b89c0bc899dacdf544c22afa2c11cf757c",
+    "normalization_balanced10.json": "1b0835eeba042c3503ae2f99037bda968c0edb31b816312339fc654eec7e8a53",
+    "normalization_imbalanced.json": "50c478f5b3dcdc941a86bc1be141a0f55926171c85d03112c30504983fd82ccf",
+    "normalization_matched_balanced.json": "ebcb81724f9b1c3e1ac2e0528ed32c4a541f432dcc75a3e1e8fd7a2bacdf38c1",
+    "old_artifacts_before.json": "c303e4e38f986d4eba7f62d9b44a7d1e5e1efa2b32c987985592378a1af45b20",
+    "parent_indices.npz": "db1d1d95ecbd164932b2fb8ab98822c385baf6408a6540232fa9a416d8c94674",
+    "physical_all.npy": "b112dc4a4a1e24e021443c771c8546157d1428d2737e98450b5185de9102a5a8",
+    "provenance.json": "cdd6ebdf52e718a3794f8cdee3b6d750d5e440d532815198d60a90a54e16e7a2",
+    "records.json": "67ec585d46019ac03ac6edfec7c781dcdcc319bd4803d121f9ec0c3518ff4b93",
+    "selected_records.csv": "6c6fcf1795f9225b12f54ca0ebb3eb3a78730fe8a409491b9a28c5147d6a69c6",
+    "signals.npy": "9d1d4cf0f9c9628496e6e5fbfd65d159dc2260280f20763feb2aa7bcde112c75",
+    "split_class_counts.csv": "65b6e5682353719084547046dadc988ac61ddc721fef2c472fcd3e26bbbe7df8",
+    "split_indices.npz": "c3a7c798833cb2a18c72aed87e29221da6d10ef1c6a26ff5df38eda525d208f9",
+    "statistics_all.npy": "cdbc5cf9a1b861179adb42a7ea9c2966b629e1ef8747b085c3d11cff7d47764f",
+    "vibration_noise_templates.npy": "b7761fffece6862965962d4e00f4287d4224f23910c090b44301e9a81bf69615",
+    "windows.json": "e7be59ff1dbdd8651132d7a522b042ca75b5d06d6a6e4b063b09d6fc9dac1ec8",
+    "wrong_all.npy": "38a7f6dd709dca9b0213d1515369596ac357a37887c620256c7c4a45373ec0fd"
+  }
+}

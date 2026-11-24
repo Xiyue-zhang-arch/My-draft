@@ -1,0 +1,12 @@
+{
+  "stage": "complete",
+  "started_at": "2026-11-04T19:50:05.240249+08:00",
+  "output": "D:\\Project\\MY draft\\results\\CWRU_V3\\author_comparison_summary_20261104_chain",
+  "sequence": "D:\\Project\\MY draft\\results\\CWRU_V3\\author_sequence_20261104_chain",
+  "sequence_stage": "running",
+  "sequence_pid": 133476,
+  "updated_at": "2026-11-05T00:07:15.147776+08:00",
+  "summary_pid": 86068,
+  "exit_code": 0,
+  "completed_at": "2026-11-05T00:07:15.147776+08:00"
+}

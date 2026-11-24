@@ -1,0 +1,13 @@
+{
+  "baseline_validation_reproduced": true,
+  "next_stage": "paired_small_sample_baseline",
+  "candidate_order": [
+    "residual_scale",
+    "data_aux_ce"
+  ],
+  "residual_scaling_supported_by_counterfactual_nll": false,
+  "baseline_noisy_validation_nll": 0.012610438230586449,
+  "reduced_noisy_validation_nll": 0.49940861549064974,
+  "test_predictions_read": false,
+  "notes": "干预只用于诊断，不视为候选模型结果；按预定两候选上限探索"
+}

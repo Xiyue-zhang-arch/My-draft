@@ -1,0 +1,126 @@
+{
+  "experiment": "CWRU_V1_baseline",
+  "stage": "complete",
+  "started_at": "2026-10-20T16:42:53.319319+08:00",
+  "planned_models": 100,
+  "trained_models": 100,
+  "planned_evaluations": 260,
+  "evaluated_pairs": 260,
+  "planned_metric_rows": 3510,
+  "split_names": [
+    "window_random",
+    "load_source_0",
+    "load_source_1",
+    "load_source_2",
+    "load_source_3"
+  ],
+  "excluded_records": [],
+  "original_records": 40,
+  "original_windows": 687,
+  "source_training_windows": [
+    73,
+    156,
+    160,
+    160
+  ],
+  "source_validation_windows": [
+    19,
+    39,
+    40,
+    40
+  ],
+  "seeds": [
+    1706,
+    1707,
+    1708,
+    1709,
+    1710
+  ],
+  "protocols": [
+    "clean_only",
+    "awgn_mixed"
+  ],
+  "methods": [
+    "fusion",
+    "data_only"
+  ],
+  "max_epochs": 100,
+  "patience": 20,
+  "validation_interval_epochs": 1,
+  "selection_min_delta": 1e-06,
+  "loss": "cross_entropy",
+  "label_smoothing": 0.0,
+  "batch_size": 32,
+  "from_scratch": true,
+  "optimizer": "AdamW lr0.0005 weight_decay0.001",
+  "scheduler": "cosine epoch T_max100 eta_min0.00001",
+  "sampling": "class then record then window with replacement; ceil(N/32)*32 per epoch",
+  "selection": "class-record balanced NLL; clean_only clean1; awgn clean0.5+each noise0.1",
+  "validation_noise_seed": 6201,
+  "test_noise_seeds": [
+    7201,
+    7202,
+    7203,
+    7204,
+    7205
+  ],
+  "small_sample": false,
+  "budget_matched": false,
+  "structure_exploration": false,
+  "prior_test_exposed": true,
+  "model_config": {
+    "window_samples": 24000,
+    "width": 32,
+    "dropout": 0.3,
+    "bands_hz": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "orders": [
+      1.0,
+      0.39828,
+      2.35675,
+      4.7135,
+      3.5848,
+      5.4152
+    ],
+    "families": [
+      "shaft",
+      "FTF",
+      "BSF",
+      "2BSF",
+      "BPFO",
+      "BPFI"
+    ],
+    "sham_multipliers": [
+      0.72,
+      0.82,
+      0.92,
+      1.08,
+      1.18,
+      1.28
+    ]
+  },
+  "hardware": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "device": "cuda",
+  "torch": "2.11.0+cu128",
+  "precision": "CUDA encoder BF16, remainder FP32",
+  "instability_threshold_percentage_points": 0.5,
+  "last_completed_model": "models\\load_source_3\\awgn_mixed\\data_only\\seed_1710",
+  "metric_rows": 3510,
+  "completed_at": "2026-10-20T18:50:36.460163+08:00"
+}

@@ -1,0 +1,38 @@
+{
+  "role": "validation",
+  "conditions": [
+    {
+      "condition": "white_-4",
+      "noise_seed": 6201,
+      "sha256": "939f57ab0a90ec3e5d7cc469d779c3e40d22a924f8aeb21e8d78e95b9ef41520",
+      "realized_snr": -4.002904891967773
+    },
+    {
+      "condition": "white_-2",
+      "noise_seed": 6201,
+      "sha256": "dfcfe378b680d9d0aca94b5c198014ba174cd3ca7457846f2075ba25ddee93be",
+      "realized_snr": -2.0029046535491943
+    },
+    {
+      "condition": "white_+0",
+      "noise_seed": 6201,
+      "sha256": "355fa9afa66f02672f0dfee37bb3b835c8e40628f03718810606622eb5496adf",
+      "realized_snr": -0.002904543885961175
+    },
+    {
+      "condition": "white_+2",
+      "noise_seed": 6201,
+      "sha256": "ab1b1a931a0de99f898af89eb3bd05558f7e3e4b9dfb7b13506a1761e98a22e1",
+      "realized_snr": 1.9970953464508057
+    },
+    {
+      "condition": "white_+4",
+      "noise_seed": 6201,
+      "sha256": "52faf73aa9831eec056499777572af9a4b7ee017a1da2cade2fc1098619f59db",
+      "realized_snr": 3.9970946311950684
+    }
+  ],
+  "clean_sha256": "2c0a599cae79d96b780586faa4b7dce95a93eb7dc972737f8801b939b4e10eb9",
+  "windows": 200,
+  "identical_to_reference": true
+}

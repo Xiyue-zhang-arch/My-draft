@@ -1,0 +1,330 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+\documentclass[UTF8,a4paper,11pt,fontset=windows]{ctexart}
+\usepackage[left=19mm,right=19mm,top=20mm,bottom=19mm,headheight=16pt,headsep=5mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,tabularx,array,xcolor,graphicx,tikz}
+\usepackage[unicode,hidelinks,pdfstartview=FitH]{hyperref}
+\hypersetup{pdftitle={从冲击到故障特征频率},pdfsubject={CWRU V3 信号讲解与 39 维物理特征设计}}
+\definecolor{navy}{HTML}{143451}
+\definecolor{blue}{HTML}{2573A4}
+\definecolor{teal}{HTML}{147D75}
+\definecolor{orange}{HTML}{C85624}
+\definecolor{ink}{HTML}{263A4A}
+\definecolor{slate}{HTML}{4B6073}
+\definecolor{pale}{HTML}{ECF5F4}
+\definecolor{lightblue}{HTML}{EFF5FA}
+\definecolor{ruleblue}{HTML}{D2E1EB}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.25}
+\linespread{1.13}
+\graphicspath{{cwru_assets/}}
+\makeatletter
+\newcommand{\ps@cwru}{%
+  \def\@oddhead{\vbox{\hbox to\textwidth{\small\bfseries\color{navy}CWRU\_V3%
+    \hfill{\normalfont\small\color{slate}轴承振动与物理特征}}\vskip 3pt{\color{ruleblue}\hrule height .35pt}}}%
+  \def\@oddfoot{\small\color{slate}\leftmark\hfill{\bfseries\color{navy}\thepage}}%
+  \let\@evenhead\@oddhead\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{cwru}
+\ctexset{section={format=\Large\bfseries\color{navy}},
+  subsection={format=\large\bfseries\color{navy},beforeskip=9pt,afterskip=3pt}}
+\newcommand{\eyebrow}[1]{\par\noindent{\small\bfseries\color{teal}#1}\par}
+\newcommand{\pageheading}[3]{%
+  \pdfbookmark[1]{#2}{page-#1}%
+  \noindent{\small\bfseries\color{teal}#1}\par\vspace{2pt}%
+  {\fontsize{25}{34}\selectfont\bfseries\color{navy}#2\par}%
+  {\large\color{slate}#3\par}\vspace{5pt}%
+  {\color{ruleblue}\hrule}\vspace{7pt}%
+}
+\newenvironment{takeaway}
+  {\par\medskip\noindent\begin{lrbox}{\takeawaybox}\begin{minipage}{\dimexpr\linewidth-24pt\relax}\color{navy}}
+  {\end{minipage}\end{lrbox}\begingroup\setlength{\fboxsep}{12pt}\colorbox{pale}{\usebox{\takeawaybox}}\endgroup\par\medskip}
+\newsavebox{\takeawaybox}
+\newcommand{\plotpanel}[4]{%
+  \par\medskip\begingroup\centering
+    \includegraphics[width=\linewidth,height=#2,keepaspectratio]{#1}\par
+  \endgroup
+  \noindent{\small\color{slate}\textbf{\color{navy}#3}\quad #4\par}\medskip
+}
+\newcommand{\minicard}[2]{\colorbox{lightblue}{\parbox[t]{\dimexpr.483\linewidth-18pt\relax}{%
+   \vspace{2pt}{\bfseries\color{navy}#1}\par\smallskip #2\vspace{2pt}}}}
+\AtBeginDocument{\color{ink}}
+\begin{document}
+\markboth{第一部分\quad 从冲击到故障频率}{}
+\pageheading{01}{从冲击到故障特征频率}{先分清轴承里同时出现的两种节奏}
+
+\noindent\begin{minipage}[c]{.46\linewidth}
+\centering
+\begin{tikzpicture}[x=1cm,y=1cm,font=\small]
+  \fill[lightblue] (0,0) circle (1.5);
+  \fill[white] (0,0) circle (.81);
+  \draw[navy,line width=.8pt] (0,0) circle (1.5);
+  \draw[navy,line width=.8pt] (0,0) circle (.81);
+  \foreach \a in {0,40,...,320}
+    \filldraw[fill=blue!22,draw=blue] (\a:1.14) circle (.235);
+  \filldraw[fill=orange!26,draw=orange,line width=.9pt] (0:1.14) circle (.235);
+  \draw[orange,line width=2.7pt,line cap=round] (-5:1.46) arc[start angle=-5,end angle=5,radius=1.46];
+  \draw[orange,<-] (1.55,0) -- (2.02,0) -- (2.22,.33) node[right,text=navy]{外圈缺陷};
+  \draw[blue,<-] (41:1.38) -- (1.47,1.2) -- (2.12,1.2) node[right,text=navy]{滚动体};
+  \draw[teal,->,line width=.8pt] (122:1.75) arc[start angle=122,end angle=213,radius=1.75];
+\end{tikzpicture}
+\end{minipage}\hfill
+\begin{minipage}[c]{.50\linewidth}
+我先从外圈的一处缺陷讲起。外圈固定，滚动体依次经过缺陷位置，每经过一次就可能产生一次短促冲击。
+
+冲击把周围结构激起一串很快、逐渐减弱的振动，就像敲一下钟后，钟声还会持续片刻。
+\end{minipage}
+
+\plotpanel{01_impacts.pdf}{.46\textheight}{图 1\quad 从冲击到振铃}{上图标记冲击时刻，中图给出结构响应，下图放大一次振铃。}
+
+\noindent\begingroup\setlength{\fboxsep}{9pt}%
+\minicard{\color{orange}10 ms \quad 冲击间隔}{我沿着时间轴看相邻两次冲击。间隔 10 ms，对应每秒重复 100 次。}%
+\hfill
+\minicard{\color{blue}0.25 ms \quad 振铃周期}{我放大同一次冲击后的细波纹。一个周期约 0.25 ms，对应 4 kHz。}%
+\endgroup
+
+\begin{takeaway}
+我用 \textbf{100 Hz} 说冲击多久来一次，用 \textbf{4 kHz} 说结构在一次冲击后振得多快。前者由重复事件的间隔决定，后者由结构的振动响应决定。
+\end{takeaway}
+
+{\footnotesize\color{slate}图 1 至图 5 使用同一周期冲击模型。单次振铃按 4 kHz 正弦振动和 1.5 ms 指数衰减时间常数构造。采样率为 48 kHz，分析窗口为 0.5 s。原始信号另叠加一个 30 Hz 转频分量。}
+
+\clearpage
+\pageheading{02}{先在原始频谱里找共振}{我从传感器振动出发，先选出适合提取包络的频带}
+
+把传感器振动 \(x(t)\) 直接做傅里叶变换，得到\textbf{原始频谱}。它把时间波形换成频率成分。我先看全图，再放大 4 kHz 附近。
+
+\plotpanel{02_raw_spectrum.pdf}{.48\textheight}{图 2\quad 原始振动的单边幅值谱}{横轴是振动频率。着色区域标出我选择的 3 至 6 kHz 频带。}
+
+{\bfseries\color{navy}我在这张图上读两种信息}
+
+\begin{enumerate}\setlength{\itemsep}{3pt}
+  \item 低频端的 30 Hz 峰来自叠加的轴转频分量。4 kHz 附近的一簇谱线处在结构响应较强的区域。
+  \item 放大后，谱线约每隔 100 Hz 出现一次。周期冲击提供等间隔的频率成分，单次振铃的频率响应决定这些成分在哪一带更强。这里的峰群位置与峰间距分别对应两种时间尺度。
+\end{enumerate}
+
+\begin{takeaway}
+我先用 3 至 6 kHz 带通得到 \(x_b(t)\)，突出共振响应并压低带外成分。带通后的振铃仍然是快速振动。下一步，我从振幅随时间的变化中读冲击节奏。
+\end{takeaway}
+
+{\footnotesize\color{slate}实际选带还要考虑其他振源和噪声。关于冲击响应和共振区谱线的关系，见 \href{https://doi.org/10.1016/j.ymssp.2010.07.017}{Randall 与 Antoni（2011）}。}
+
+\clearpage
+\pageheading{03}{从快速振动提取包络}{我把每一串振铃的强弱变化单独画出来}
+
+我把带通信号记作 \(x_b(t)\)。用希尔伯特变换 \(\mathcal H\) 构造解析信号，再取其模，得到非负的\textbf{包络} \(e(t)\)。
+\[
+z(t)=x_b(t)+i\,\mathcal H\{x_b(t)\},\qquad
+e(t)=|z(t)|=\sqrt{x_b(t)^2+\mathcal H\{x_b(t)\}^{\,2}}.
+\]
+
+\plotpanel{03_envelope.pdf}{.48\textheight}{图 3\quad 在同一时间轴上读振铃和包络}{上图的橙色实线是包络，虚线是其负向镜像。下图只保留 \(e(t)\)。}
+
+我沿橙线看，每次冲击附近幅值抬高，随后衰减。到下一次冲击附近，幅值又抬高。图 1 的 10 ms 冲击间隔，现在可以直接在包络上量。包络的横轴仍然是时间，表示选中频带的幅值怎样变化。
+
+\begin{takeaway}
+到这一步，我已经把注意力从一串振铃内部的快速起伏，转到了振铃何时增强、何时减弱。接下来我对包络去均值再做 FFT，把这段时间里的重复节奏表示成频率。
+\end{takeaway}
+
+{\footnotesize\color{slate}处理定义见 MathWorks \href{https://www.mathworks.com/help/signal/ref/envspectrum.html}{\texttt{envspectrum} 的 Hilbert 算法说明}。}
+
+\medskip
+\noindent\begin{tikzpicture}[font=\small,text=navy,>=stealth,
+  stepbox/.style={draw=ruleblue,fill=lightblue,rounded corners=2pt,
+    minimum width=3.13cm,minimum height=1.05cm,align=center}]
+  \node[stepbox] (v) at (0,0) {原始振动\\\(x(t)\)};
+  \node[stepbox] (b) at (4.45,0) {带通振铃\\\(x_b(t)\)};
+  \node[stepbox,fill=pale] (e) at (8.90,0) {包络\\\(e(t)=|z(t)|\)};
+  \node[stepbox,fill=pale] (p) at (13.35,0) {包络幅值谱\\\(\left|\operatorname{FFT}(e-\bar e)\right|\)};
+  \draw[->,teal] (v) -- (b);
+  \draw[->,teal] (b) -- (e);
+  \draw[->,teal] (e) -- (p);
+\end{tikzpicture}
+
+\clearpage
+\pageheading{04}{把重复节奏读成基频和倍频}{我在包络谱上先找峰间距，再与轴承运动学对照}
+
+我对去均值的包络 \(e(t)-\bar e\) 做 FFT，得到\textbf{包络频谱}。这里的频率描述包络变化的快慢。10 ms 重复一次，对应基频 \(f_d=1/0.01=100\,\mathrm{Hz}\)。
+
+\plotpanel{04_harmonics.pdf}{.39\textheight}{图 4\quad 包络的单边幅值谱}{标出的峰依次对应 \(f_d\)、\(2f_d\)、\(3f_d\) 和 \(4f_d\)。}
+
+包络每 10 ms 重复一轮。只保留 100 Hz，合成的波形是正弦。我再按谱中的幅值和相位加上 200、300 和 400 Hz，波峰变尖，重复间隔仍为 10 ms。峰高取决于每一轮的形状，最大峰也可以出现在倍频处。
+
+\plotpanel{05_reconstruction.pdf}{.20\textheight}{图 5\quad 把谱线加回时间轴}{我比较只保留基频和保留前四阶的结果。橙线为同一包络去均值后的形状。}
+
+\smallskip
+\begin{tabularx}{\linewidth}{@{}p{.25\linewidth} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{我比较的量} & \textbf{怎样得到} & \textbf{怎样使用}\\
+\midrule
+轴转频 \(f_r\)（1X） & 1800 r/min 除以 60 得到 30 Hz & 轴转一圈的频率，供阶次换算\\
+外圈通过频率 BPFO & \(3.58480 f_r\)，此处约 107.54 Hz & 预计的外圈冲击重复频率\\
+\bottomrule
+\end{tabularx}
+
+\begin{takeaway}
+我用 100 Hz 的计算波形说明基频和倍频怎样形成。分析实测记录时，我用该记录的转速和轴承阶次来定搜索位置。按表中的转速，我会在 107.54、215.09 和 322.63 Hz 附近找一组相符的峰。
+\end{takeaway}
+
+{\footnotesize\color{slate}滑移和转速变化都可能使峰偏移或展宽。谱峰与候选频率吻合只提供诊断线索。图中绘制幅值谱，后文特征使用包络 FFT 的模平方。}
+
+\clearpage
+\markboth{第二部分\quad CWRU\_V3 物理特征设计}{}
+
+\pageheading{05}{我怎样把四条包络压成 39 维}{CWRU 方法设计}
+我把前四页的读图步骤用到 CWRU 驱动端振动上。每个 48 kHz 窗口含 24000 点，共 0.50 秒。我对同一个窗口分别做四次带通和解调，比较各带中显现出的冲击节律。39 维方案最初为 V3 的 212 维物理描述符拟定，后来在 V5 中实现。下面我按 V5 的实现口径讲特征。
+
+\eyebrow{同一条振动记录，四个解调视角}
+\begin{center}
+\begin{tikzpicture}[x=0.66cm,y=0.80cm,every node/.style={font=\small}]
+  \foreach \i/\lo/\hi/\col in {1/0.5/3/blue,2/3/6/teal,3/6/12/cyan,4/12/20/orange}{
+    \fill[\col!15] (\lo,0) rectangle (\hi,0.47);
+    \draw[\col!65!black,thick] (\lo,0) -- (\lo,0.47) -- (\hi,0.47) -- (\hi,0);
+    \node[\col!50!black,font=\small\bfseries] at ({(\lo+\hi)/2},0.75) {带 \i};
+  }
+  \draw[->,black!65] (0,0) -- (24.8,0);
+  \foreach \f in {0.5,3,6,12,20,24}{
+    \draw[black!60] (\f,0.06) -- (\f,-0.09);
+    \node[anchor=north,font=\footnotesize] at (\f,-0.12) {\f};
+  }
+  \node[anchor=north east,font=\footnotesize] at (24.8,-0.61) {原振动频率 / kHz};
+\end{tikzpicture}
+\end{center}
+我将各带包络在频域截断后重采样至 3 kHz，两端各裁掉 75 点，并将负值置零。留下的 1350 点对应 0.45 秒。此时包络谱最高频率为 1500 Hz，FFT 频点间隔约为 2.22 Hz。上图横轴对应带通前的振动频率，1500 Hz 则是解调后包络谱的频率上限。
+
+\eyebrow{我在每条包络上问四个问题}
+\begin{center}
+\renewcommand{\arraystretch}{1.30}
+\begin{tabularx}{\linewidth}{@{}p{0.47\linewidth}ccX@{}}
+\toprule
+我想知道什么 & 每带 & 四带 & 对应量\\
+\midrule
+功率集中在哪些故障频率及倍频附近？ & 4 & 16 & 四种 $R_{b,m}$\\
+包络有多像按候选周期重复？ & 2 & 8 & $U_b,\ V_b$\\
+包络平方和是否集中在少量高幅值点？ & 1 & 4 & $F_{b,1}$\\
+整个谱有多平？最高峰落在哪里？ & 2 & 8 & $F_{b,5},\ \rho_b$\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+四带各得到 9 项。我再以第 4 带为参照，对比前三带的包络幅值，追加 3 项，总计 \(4\times9+3=39\) 项。
+
+\begin{takeaway}
+四个频带是沿用的固定分析范围。我要比较的是每个频带解调后的节律及幅值。频带边界的最优性和具体结构模态需要另行验证。
+\end{takeaway}
+
+\clearpage
+\pageheading{06}{我如何对齐故障频率，再检查重复性}{每带 6 项}
+我用记录转频 \(f_r=\mathrm{RPM}/60\) 乘以轴承阶次，得到候选频率 \(f_m=o_m f_r\)。转频 \(1X\) 用来换算。候选频率的二倍频、三倍频等按 \(hf_m\) 计算。
+
+\begin{center}
+\renewcommand{\arraystretch}{1.17}
+\begin{tabularx}{\linewidth}{@{}lXr@{}}
+\toprule
+候选 & 运动学含义 & 阶次 \(o_m\)\\
+\midrule
+FTF & 保持架转动 & 0.39828\\
+BSF & 滚动体自转 & 2.35675\\
+BPFO & 滚动体通过外圈上的缺陷位置 & 3.58480\\
+BPFI & 滚动体通过内圈上的缺陷位置 & 5.41520\\
+\bottomrule
+\end{tabularx}
+\end{center}
+\href{https://engineering.case.edu/bearingdatacenter/bearing-information}{CWRU 官网驱动端 SKF 6205 表}中的 Rolling Element 为 \(4.7135X\)。我用 \(2.35675X\) 表示滚动体自转，把 \(4.7135X\) 放在 BSF 的二倍频。
+
+\eyebrow{先在包络谱上圈出频点}
+我将第 \(b\) 带包络 \(e_b[n]\) 去均值，乘周期型 Hann 窗，再取单边 FFT 的模平方得到 \(P_b[k]\)。这是加窗包络的功率谱。对每个 \(f_m\)，我在前六阶有效谐波附近取频点并集 \(\mathcal K_m\)。
+\[
+R_{b,m}=\frac{\sum_{k\in\mathcal K_m}P_b[k]}{\sum_{k=1}^{675}P_b[k]+\varepsilon_R}.
+\]
+我用 \(\max(2\,\mathrm{Hz},\,0.015hf_m)\) 作邻域半宽，跳过中心超过 1500 Hz 的谐波，同一机理内的重叠频点只计一次。分母排除直流。正频功率总和不超过 \(\varepsilon_R=10^{-12}\) 时，\(R_{b,m}\) 取零。不同候选机理可以用到同一频点。
+
+\eyebrow{再回到包络时间轴}
+\textbf{自相关 \(U_{b,m}\)。} 我在候选周期的 1、2、3 倍附近平移去均值包络，每次取局部相关最大值，再求平均。相关以零延迟能量归一化。V5 将空延迟项填零，再对三项求平均。原设计曾建议剔除无效候选并重归一化。
+
+\textbf{事件相位 \(V_{b,m}\)。} 我用基于中位数和 MAD 的幅值阈值，在 7 点邻域找局部峰，排除首尾各 3 点。把事件时刻 \(t_j\) 按候选周期折回一圈。相位 \(2\pi s f_m t_j\) 越集中，平均单位向量越长。我对 \(s=0.985,1,1.015\) 取最大结果，少于 5 个事件时取零。
+
+我按谱集中度给 BSF、BPFO、BPFI 加权，分别得到 \(U_b\) 和 \(V_b\)。三个权重的分母为三种 \(R_{b,m}\) 之和加数值保护项。响应总和近零时，两项取零。FTF 在短窗内的周期数较少，我只保留它的谱集中度。
+
+\begin{takeaway}
+我用 \(R\) 衡量谐波模板附近的谱功率，用 \(U\) 和 \(V\) 描述同一条包络的整体重复和局部相位集中。三者共享信息。较高的 \(R\) 表示模板匹配较强，故障类别还需结合其他证据判断。
+\end{takeaway}
+
+\clearpage
+\pageheading{07}{我如何概括包络形态和跨带幅值}{每带 3 项，另外跨带 3 项}
+谐波模板只回答指定位置附近有没有谱功率。我还看整条包络与整个包络谱，记录幅值集中程度、谱形和主峰位置。
+
+\eyebrow{01\quad 少数高点贡献了多少？}
+我将 \(e_b[n]\) 平方，选出最大的 \(1\%\) 样点，1350 点中取 14 个。设这些点的索引为 \(I_b\)，则
+\[
+F_{b,1}=\frac{\sum_{n\in I_b}e_b[n]^2}
+{\max\!\left(\sum_ne_b[n]^2,\,10^{-16}\right)}.
+\]
+如果少量高幅值点贡献了大部分包络平方和，\(F_{b,1}\) 就会较高。这个量只描述样点上的集中程度，无法区分高点来自缺陷、偶发干扰还是其他机械源。
+
+\eyebrow{02\quad 谱是铺开的，还是聚在少数位置？}
+我在 \(k=1,\ldots,675\) 上取 \(\widetilde P_b[k]=\max(P_b[k],10^{-16})\)，用几何均值除以算术均值得到谱平坦度 \(F_{b,5}\)。频点功率越接近，比值越接近 1。少数尖峰占据大部分功率时，比值通常较小。低功率下数值下限也会影响比值。
+
+\eyebrow{03\quad 最高峰出现在什么位置？}
+我在同一组正频点上寻找功率最大的点，以包络频率上限归一化：
+\[
+\rho_b=\frac{f_b^{\mathrm{peak}}}{1500\,\mathrm{Hz}}.
+\]
+例如，若包络谱最高峰在 300 Hz，\(\rho_b=0.20\)。峰的位置可能对应故障节律、转频或其他调制。正频功率总和过低时，V5 将 \(\rho_b\) 置零。
+
+\eyebrow{最后把四条包络放在一起}
+我取四条包络的均方根 \(q_b=\sqrt{\operatorname{mean}_n(e_b[n]^2)}\)，以第 4 带作参照：
+\[
+L_i=\log\frac{q_i+10^{-8}}{q_4+10^{-8}},\qquad i=1,2,3.
+\]
+\(L_i>0\) 表示第 \(i\) 带的包络 RMS 高于第 4 带，等于 0 表示两带相同。三个量共用参照，名义频带宽度也不同，因而我将它们解读为相对幅值响应。
+
+\begin{takeaway}
+精简时，我保留一个高幅值集中指标，移出峭度和峰值因子。我也移出谐波覆盖率、偏移频率对照和事件数统计，并用三个对数比替代四个归一化 RMS 份额。删减减少了描述量，也可能损失原方案中的区分信息。
+\end{takeaway}
+
+\clearpage
+\pageheading{08}{我如何把特征交给模型，并核对边界}{特征顺序与方法来源}
+我在每个频带使用相同的列顺序：
+\[
+\phi_b=[R_{b,\mathrm{FTF}},\,R_{b,\mathrm{BSF}},\,R_{b,\mathrm{BPFO}},\,R_{b,\mathrm{BPFI}},\,
+U_b,\,V_b,\,F_{b,1},\,F_{b,5},\,\rho_b].
+\]
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\linewidth}{@{}l*{5}{>{\centering\arraybackslash}X}@{}}
+\toprule
+特征组 & 带 1 & 带 2 & 带 3 & 带 4 & 跨带\\
+\midrule
+零基索引 & 0--8 & 9--17 & 18--26 & 27--35 & 36--38\\
+追加顺序 & \(\phi_1\) & \(\phi_2\) & \(\phi_3\) & \(\phi_4\) & \(L_1,L_2,L_3\)\\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\eyebrow{固定提取，训练集拟合，可学习编码}
+每列用当前训练划分的中位数和四分位距标准化。尺度下限为 0.05，结果裁剪到 \([-8,8]\)。验证和测试沿用同一组训练统计量。固定提取器不参与反向传播。物理编码器从 39 维映射至 64 维，再映射至 32 维，保持原融合输入接口。第一层后依次接 LayerNorm、ReLU 与 Dropout(0.3)，第二层后接 LayerNorm。
+
+\eyebrow{我怎样检查这套描述符？}
+\textbf{先核对计算。} 用已知频率的信号检验谐波邻域、2BSF 归属、相位、跨带比值和边界条件。单窗与批量都应返回固定顺序的 39 维，空延迟、零功率及越界情形应产生预期输出。
+
+\textbf{再检验分类。} 性能按具体版本、数据划分和实验协议单独报告。对比 39 维与 212 维时，输入层参数量也随之变化，整体差值无法分解出单项特征的贡献。独立的 2BSF 周期描述被移出后，我会特别核对滚动体类别的召回。
+
+\begin{takeaway}
+我使用轴承阶次和记录转速构造统计量。测试时需要可用转速。强变速、不同轴承几何和不同振动传递路径下的适用性，需要单独验证。
+\end{takeaway}
+
+\eyebrow{方法依据}
+{\small
+项目原稿及 V5 方法记录 \texttt{PHYSICS\_39.md} 给出处理口径和索引。Wu 等（2026）的 PG-RDGFN 用包络谱幅值计算归一化谱集中度。我借鉴其频率邻域汇总思路，改用包络功率。%
+\href{https://doi.org/10.3390/app16168337}{PG-RDGFN 原文}\par
+冲击响应及解调参见%
+\href{https://doi.org/10.1016/0022-460X(84)90595-9}{McFadden 与 Smith（1984）}、%
+\href{https://doi.org/10.1016/j.ymssp.2010.07.017}{Randall 与 Antoni（2011）}。%
+CWRU 基准研究参见 \href{https://doi.org/10.1016/j.ymssp.2015.04.021}{Smith 与 Randall（2015）}。%
+相位统计和谱平坦度分别参见 \href{https://doi.org/10.18637/jss.v031.i10}{Berens（2009）} 与 \href{https://doi.org/10.1109/49.608}{Johnston（1988）}。\par
+}
+
+\end{document}

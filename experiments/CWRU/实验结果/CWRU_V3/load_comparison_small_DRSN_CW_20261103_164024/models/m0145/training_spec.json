@@ -1,0 +1,23 @@
+{
+  "variant": "DRSN_CW",
+  "protocol": "clean_only",
+  "seed": 1710,
+  "subset": 4102,
+  "spec": {
+    "aux_weight": 0.1,
+    "physics_fit": "clean",
+    "aux_head": "shared",
+    "val_noise_seeds": [
+      6201
+    ],
+    "max_epochs": 200,
+    "schedule_epochs": 200,
+    "patience": 20,
+    "fit_noise_seed": 6301,
+    "fit_noise_repeats": 3
+  },
+  "fit": {
+    "physics_fit": "not_applicable",
+    "fit_observations": 0
+  }
+}

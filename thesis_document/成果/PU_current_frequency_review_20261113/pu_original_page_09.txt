@@ -1,0 +1,74 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+The examination of the data with established methods will     6. ENVELOPE ANALYSIS FOR VIBRATION SIGNALS
+be addressed in the next chapter, so that the provided data
+                                                                       First of all, the bearing damage diagnostic is performed with
+set  and  the  corresponding  documentation   fulfill  the
+                                                                 the envelope analysis based on the vibration, as this is arequirements. Therefore,  it  is assumed  that  the data  is
+                                                       well-known and established procedure. The objective of this
+beneficial to further research.
+                                                          examination is to verify the data and check the execution of
+To enable and encourage  collaboration  in  the  field  of    experiments  for  mistakes  and  errors.  Moreover,  the
+bearing condition monitoring and to allow researchers to use    detection of the damages provides a first estimate of the
+the  generated  data  as benchmark  data  sets  for  further     attitude  of  signals and  corresponding damages  to  the
+research, the data is published online. The data is licensed     authors.
+under the Creative Commons Attribution-NonCommercial
+                                                                                     It can be demonstrated  that the results of the envelope4.0 International License.5 Noncommercial academic use of
+                                                                 analysis correspond to the description in  literature. The
+the data is explicitly allowed, but a citation of the origin is
+                                                             bearing damages  cause  typical  characteristic  kinematicrequired and expected.6 For commercial use, please contact
+                                                              frequencies  that can be observed  in the  signals. These
+the author. The download page  is available at the KAt-
+                                                              frequencies can be calculated for localized damages when
+DataCenter  website  of  the Chair  of Design and Drive
+                                                                 the position of the damage (e.g. outer or inner ring) and theTechnology, Paderborn University, Germany:
+                                                             geometrical parameters of the bearing are known. (Randall,
+         http://mb.uni-paderborn.de/kat/datacenter            2011)
+
+The  data  consists  of  measurements  from 32  different   Two single point damages, one at the inner ring (KA04) and
+bearing experiments. The bearings belong to three main    one at the outer ring (KI18) are considered exemplarily. The
+groups:                                                   envelope spectra in Figure 6 clearly shows the ballpass
+                                                           frequency of the outer raceway (fo) and their harmonics. The   Undamaged (healthy) bearings (6x), see Table 6.                                                          envelope spectra of the damage at the inner raceway in
+    Artificially damaged bearings (12x), see Table 4.           Figure 7 shows the fundamental rotation frequency of the
+   Bearings  with  real damages caused by  accelerated     shaft and its harmonics (fn), the ballpass frequency of the
+     lifetime tests, (14x) see Table 5.                            inner race (fi), and its sidebands as well as its corresponding
+                                                           harmonics.
+The specifications of the bearings are listed in the tables
+above.                                                                                                                        0
+                                                                                                                                                                                                                                                                                                                                                                                fn=25Hz;
+                                                                                                                                                      -10                                     fo                           2fo                                                          fo =76,25HzIn summary, the main characteristic of the data set are:
+                                                                                                                                                                                     [dB] -20                                                                                        3fo
+   Synchronously measured motor currents and vibration                  -30
+     signals with high resolution and sampling rate of 26                                                                                                                                                                                                                                                                                                                                                                                                                      Amplitude -40
+    damaged bearing  states and 6 undamaged (healthy)
+     states for reference.                                                                                                  -50
+                                                                                                                                                      -60
+   Supportive measurement of speed, torque, radial load,                  0   data set: N15_M07_F10_KA04_150              100       Frequency[Hz]150             200             250             300
+    and temperature.                                                                   Figure 6. Envelope spectra of vibration signal
+   Four different operating conditions (Table 6).                            for bearing damage at the outer ring.
+   20 measurements of 4 seconds each for each setting,
+    saved as a matlab file with a name consisting of the              0                                                                                                                                                  fn =25Hz;
+
+                                                                                                                                                                                                                                                                                                                                                                     fi    code                                                                                                                       -10                                                                             f=123,3Hzi          of              the                  operating                             condition and  the  four-digit                                                                                                                                                                                                              f-fi  n
+                                                                                                                                                                                                                         n                                                                                                                                                                                        f+fi                                                                                                                                                                2fn     f-2fi   n
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      i  n                                                                                                                                                                                                                                 2f-f                                                                                                                                                                     [dB] -20             fn                                                                                                                                                                                                                                                                                                                                                                                                                                                           fi      2f+fi  n                                                                                                                                                                                   f+2fi    n  2f-2fi   n
+                                                                                                                                                          f-3fi   n                                                                                                                                                                                                                                                   n    bearing           code                    (e.g.                  N15_M07_F10_KA01_1.mat).                                                                                                                                                                            3fn                                                                                                                                                                                               f+3fi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   i   n                                                                                                                                                                                         2f-3f                                                                                                                                                                                                       f+4fi    n                                                                                                                                                                                      4fn
+   Systematic  description  of  the  bearing damage by             -30   f-4fi   n                                           5fn                                                                                                                                                                                                                                                                                                                                                                                   Amplitude -40
+    uniform fact sheets (according to the categorization in
+    section 2 - Categorization of Bearing Damage).                               -50
+                                                                                                                                          -60
+                                                                                                                          0               50              100             150             200             250             300
+                                                                                                                        data set: N15_M07_F10_KI18_1       Frequency [Hz]
+                                                                   Figure 7. Envelope spectra of vibration signal
+                                                                                for bearing damage at the inner ring.
+
+5                                                                    7. CLASSIFICATION ALGORITHM AND RESULTS
+ To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc/4.0/6                                                  The most common analysis for bearing damages involving Please cite this paper and give name of the author, institute and link to the                                     MCS  is  to  convert  the  time domain  signals  into  theKat-DataCenter: Christian Lessmeier et al., KAt-DataCenter: http://mb.uni-
+paderborn.de/kat/datacenter,  Chair  of  Design  and  Drive  Technology,    frequency domain and check for the bearing characteristic
+University Paderborn.
+
+
+
+                                                                                                               9

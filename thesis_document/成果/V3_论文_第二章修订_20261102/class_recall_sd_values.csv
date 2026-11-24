@@ -1,0 +1,25 @@
+﻿ratio,variant,category,mean_pct,sd_pct,sd_basis
+0.1,baseline_data,recall_N,24.9,7.00737706516021,3 subset means after averaging five seeds and 12 directions
+0.2,baseline_data,recall_N,68.02777777777779,7.212187473169849,3 subset means after averaging five seeds and 12 directions
+0.5,baseline_data,recall_N,87.27777777777777,1.60072321617911,3 subset means after averaging five seeds and 12 directions
+0.1,baseline_data,recall_IR,26.59646464646465,13.445223028780278,3 subset means after averaging five seeds and 12 directions
+0.2,baseline_data,recall_IR,62.35269360269361,6.6454395054905,3 subset means after averaging five seeds and 12 directions
+0.5,baseline_data,recall_IR,83.09107744107745,2.13386565838364,3 subset means after averaging five seeds and 12 directions
+0.1,baseline_data,recall_OR,76.32592592592592,21.41151929303976,3 subset means after averaging five seeds and 12 directions
+0.2,baseline_data,recall_OR,85.94074074074074,11.62494170081404,3 subset means after averaging five seeds and 12 directions
+0.5,baseline_data,recall_OR,91.14814814814815,3.820487063082,3 subset means after averaging five seeds and 12 directions
+0.1,baseline_data,recall_B,16.87222222222222,12.73713706033766,3 subset means after averaging five seeds and 12 directions
+0.2,baseline_data,recall_B,38.3,7.57412138896749,3 subset means after averaging five seeds and 12 directions
+0.5,baseline_data,recall_B,55.142592592592585,4.12714715286469,3 subset means after averaging five seeds and 12 directions
+0.1,data_aux_ce,recall_N,99.15,0.36552853665767,3 subset means after averaging five seeds and 12 directions
+0.2,data_aux_ce,recall_N,99.94444444444443,0.03469443332443,3 subset means after averaging five seeds and 12 directions
+0.5,data_aux_ce,recall_N,99.61666666666667,0.36094013046178997,3 subset means after averaging five seeds and 12 directions
+0.1,data_aux_ce,recall_IR,94.72693602693603,1.8015779690557998,3 subset means after averaging five seeds and 12 directions
+0.2,data_aux_ce,recall_IR,94.72575757575757,1.50762533123237,3 subset means after averaging five seeds and 12 directions
+0.5,data_aux_ce,recall_IR,96.58148148148148,0.62386318064934,3 subset means after averaging five seeds and 12 directions
+0.1,data_aux_ce,recall_OR,80.84444444444443,2.26184809174343,3 subset means after averaging five seeds and 12 directions
+0.2,data_aux_ce,recall_OR,84.20370370370371,0.33501120919764,3 subset means after averaging five seeds and 12 directions
+0.5,data_aux_ce,recall_OR,91.3,1.51762281623125,3 subset means after averaging five seeds and 12 directions
+0.1,data_aux_ce,recall_B,69.13333333333333,7.4780935214832205,3 subset means after averaging five seeds and 12 directions
+0.2,data_aux_ce,recall_B,71.77592592592593,3.4536898023749605,3 subset means after averaging five seeds and 12 directions
+0.5,data_aux_ce,recall_B,68.67222222222223,1.41389707485078,3 subset means after averaging five seeds and 12 directions

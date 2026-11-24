@@ -1,0 +1,481 @@
+﻿task,ratio,condition,variant,seed,balanced_acc_percent,definition,noise
+window,0.1,white_+4,baseline_data,1706,96.53225806451614,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+4,baseline_data,1707,90.24193548387098,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+4,baseline_data,1708,87.4336917562724,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+4,baseline_data,1709,93.8136200716846,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+4,baseline_data,1710,48.799283154121866,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+4,data_aux_ce,1706,94.9731182795699,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+4,data_aux_ce,1707,92.93010752688173,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+4,data_aux_ce,1708,97.87634408602152,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+4,data_aux_ce,1709,98.8978494623656,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+4,data_aux_ce,1710,95.77956989247312,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+2,baseline_data,1706,96.20967741935483,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+2,baseline_data,1707,90.40322580645163,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+2,baseline_data,1708,87.4336917562724,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+2,baseline_data,1709,94.36021505376345,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+2,baseline_data,1710,48.691756272401435,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+2,data_aux_ce,1706,95.08064516129032,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+2,data_aux_ce,1707,92.93010752688173,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+2,data_aux_ce,1708,97.76881720430107,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+2,data_aux_ce,1709,98.73655913978496,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+2,data_aux_ce,1710,96.42652329749104,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+0,baseline_data,1706,95.72580645161291,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+0,baseline_data,1707,90.40322580645164,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+0,baseline_data,1708,87.7562724014337,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+0,baseline_data,1709,94.6326164874552,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+0,baseline_data,1710,48.69354838709678,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+0,data_aux_ce,1706,94.91935483870968,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+0,data_aux_ce,1707,92.44623655913978,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+0,data_aux_ce,1708,97.4462365591398,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+0,data_aux_ce,1709,98.36021505376345,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_+0,data_aux_ce,1710,96.05017921146954,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-2,baseline_data,1706,94.27598566308245,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-2,baseline_data,1707,90.77956989247312,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-2,baseline_data,1708,87.69713261648745,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-2,baseline_data,1709,94.46953405017922,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-2,baseline_data,1710,48.58781362007168,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-2,data_aux_ce,1706,94.16666666666667,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-2,data_aux_ce,1707,92.44623655913978,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-2,data_aux_ce,1708,97.01612903225806,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-2,data_aux_ce,1709,98.36200716845879,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-2,data_aux_ce,1710,95.7293906810036,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-4,baseline_data,1706,92.12724014336916,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-4,baseline_data,1707,90.99462365591398,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-4,baseline_data,1708,88.82437275985664,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-4,baseline_data,1709,93.50358422939068,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-4,baseline_data,1710,47.83870967741936,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-4,data_aux_ce,1706,92.9283154121864,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-4,data_aux_ce,1707,92.0698924731183,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-4,data_aux_ce,1708,96.10215053763442,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-4,data_aux_ce,1709,97.6111111111111,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,white_-4,data_aux_ce,1710,94.8673835125448,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,clean,baseline_data,1706,96.4695340501792,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,clean,baseline_data,1707,90.56451612903226,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,clean,baseline_data,1708,87.59856630824373,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,clean,baseline_data,1709,92.66129032258065,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,clean,baseline_data,1710,48.9068100358423,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,clean,data_aux_ce,1706,98.62903225806451,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,clean,data_aux_ce,1707,98.36021505376345,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,clean,data_aux_ce,1708,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,clean,data_aux_ce,1709,98.8978494623656,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.1,clean,data_aux_ce,1710,98.8978494623656,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+4,baseline_data,1706,98.61827956989248,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+4,baseline_data,1707,98.7921146953405,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+4,baseline_data,1708,98.79032258064517,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+4,baseline_data,1709,98.78136200716847,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+4,baseline_data,1710,99.11827956989248,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+4,data_aux_ce,1706,99.00537634408605,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+4,data_aux_ce,1707,98.84408602150539,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+4,data_aux_ce,1708,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+4,data_aux_ce,1709,99.22222222222223,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+4,data_aux_ce,1710,99.11290322580646,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+2,baseline_data,1706,98.67383512544805,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+2,baseline_data,1707,98.7921146953405,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+2,baseline_data,1708,98.62903225806451,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+2,baseline_data,1709,98.62007168458783,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+2,baseline_data,1710,99.06451612903227,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+2,data_aux_ce,1706,99.05913978494625,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+2,data_aux_ce,1707,98.84408602150539,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+2,data_aux_ce,1708,99.16845878136202,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+2,data_aux_ce,1709,99.11290322580646,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+2,data_aux_ce,1710,99.16845878136202,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+0,baseline_data,1706,98.51254480286741,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+0,baseline_data,1707,98.73835125448029,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+0,baseline_data,1708,98.62903225806453,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+0,baseline_data,1709,98.3494623655914,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+0,baseline_data,1710,98.79390681003585,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+0,data_aux_ce,1706,99.05913978494625,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+0,data_aux_ce,1707,98.73655913978496,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+0,data_aux_ce,1708,99.22222222222223,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+0,data_aux_ce,1709,99.22401433691758,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_+0,data_aux_ce,1710,99.22401433691758,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-2,baseline_data,1706,98.07885304659499,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-2,baseline_data,1707,98.41756272401435,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-2,baseline_data,1708,98.08602150537635,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-2,baseline_data,1709,97.70071684587815,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-2,baseline_data,1710,98.36200716845879,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-2,data_aux_ce,1706,98.8978494623656,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-2,data_aux_ce,1707,98.5215053763441,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-2,data_aux_ce,1708,99.00537634408605,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-2,data_aux_ce,1709,99.1146953405018,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-2,data_aux_ce,1710,99.17025089605737,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-4,baseline_data,1706,97.32795698924731,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-4,baseline_data,1707,97.34408602150538,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-4,baseline_data,1708,96.84408602150539,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-4,baseline_data,1709,97.54480286738351,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-4,baseline_data,1710,97.39068100358423,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-4,data_aux_ce,1706,98.51792114695343,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-4,data_aux_ce,1707,97.82258064516131,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-4,data_aux_ce,1708,98.63082437275986,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-4,data_aux_ce,1709,98.90143369175628,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,white_-4,data_aux_ce,1710,98.62724014336918,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,clean,baseline_data,1706,98.62007168458783,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,clean,baseline_data,1707,98.8978494623656,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,clean,baseline_data,1708,98.8978494623656,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,clean,baseline_data,1709,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,clean,baseline_data,1710,98.8978494623656,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,clean,data_aux_ce,1706,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,clean,data_aux_ce,1707,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,clean,data_aux_ce,1708,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,clean,data_aux_ce,1709,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.2,clean,data_aux_ce,1710,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+4,baseline_data,1706,99.05555555555557,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+4,baseline_data,1707,99.05555555555557,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+4,baseline_data,1708,98.88888888888889,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+4,baseline_data,1709,98.61111111111111,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+4,baseline_data,1710,99.2777777777778,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+4,data_aux_ce,1706,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+4,data_aux_ce,1707,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+4,data_aux_ce,1708,99.22222222222223,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+4,data_aux_ce,1709,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+4,data_aux_ce,1710,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+2,baseline_data,1706,99.05555555555557,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+2,baseline_data,1707,99.05555555555557,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+2,baseline_data,1708,98.88888888888889,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+2,baseline_data,1709,98.61111111111111,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+2,baseline_data,1710,99.22222222222224,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+2,data_aux_ce,1706,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+2,data_aux_ce,1707,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+2,data_aux_ce,1708,99.22222222222223,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+2,data_aux_ce,1709,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+2,data_aux_ce,1710,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+0,baseline_data,1706,98.78315412186383,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+0,baseline_data,1707,99.00000000000003,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+0,baseline_data,1708,98.66845878136202,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+0,baseline_data,1709,98.50537634408603,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+0,baseline_data,1710,99.0573476702509,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+0,data_aux_ce,1706,99.11290322580646,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+0,data_aux_ce,1707,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+0,data_aux_ce,1708,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+0,data_aux_ce,1709,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_+0,data_aux_ce,1710,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-2,baseline_data,1706,98.46057347670252,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-2,baseline_data,1707,98.89247311827958,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-2,baseline_data,1708,98.29032258064517,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-2,baseline_data,1709,98.12903225806453,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-2,baseline_data,1710,98.56989247311829,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-2,data_aux_ce,1706,98.95161290322582,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-2,data_aux_ce,1707,99.11290322580646,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-2,data_aux_ce,1708,99.11290322580646,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-2,data_aux_ce,1709,99.00537634408605,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-2,data_aux_ce,1710,99.11290322580646,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-4,baseline_data,1706,97.92114695340503,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-4,baseline_data,1707,98.46236559139786,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-4,baseline_data,1708,97.86021505376344,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-4,baseline_data,1709,97.86021505376343,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-4,baseline_data,1710,97.81541218637993,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-4,data_aux_ce,1706,98.5752688172043,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-4,data_aux_ce,1707,98.8978494623656,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-4,data_aux_ce,1708,98.8978494623656,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-4,data_aux_ce,1709,98.84408602150539,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,white_-4,data_aux_ce,1710,98.84408602150539,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,clean,baseline_data,1706,98.88888888888889,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,clean,baseline_data,1707,98.88888888888889,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,clean,baseline_data,1708,98.88888888888889,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,clean,baseline_data,1709,98.61111111111111,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,clean,baseline_data,1710,99.44444444444444,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,clean,data_aux_ce,1706,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,clean,data_aux_ce,1707,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,clean,data_aux_ce,1708,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,clean,data_aux_ce,1709,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,0.5,clean,data_aux_ce,1710,99.16666666666669,mean across 3 subsets at fixed seed,mean of five instances except clean
+window,1.0,white_+4,baseline_data,1706,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+4,baseline_data,1707,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+4,baseline_data,1708,100.0,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+4,baseline_data,1709,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+4,baseline_data,1710,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+4,data_aux_ce,1706,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+4,data_aux_ce,1707,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+4,data_aux_ce,1708,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+4,data_aux_ce,1709,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+4,data_aux_ce,1710,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+2,baseline_data,1706,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+2,baseline_data,1707,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+2,baseline_data,1708,100.0,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+2,baseline_data,1709,99.00537634408605,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+2,baseline_data,1710,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+2,data_aux_ce,1706,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+2,data_aux_ce,1707,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+2,data_aux_ce,1708,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+2,data_aux_ce,1709,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+2,data_aux_ce,1710,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+0,baseline_data,1706,99.00537634408605,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+0,baseline_data,1707,99.33333333333334,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+0,baseline_data,1708,100.0,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+0,baseline_data,1709,99.00537634408605,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+0,baseline_data,1710,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+0,data_aux_ce,1706,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+0,data_aux_ce,1707,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+0,data_aux_ce,1708,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+0,data_aux_ce,1709,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_+0,data_aux_ce,1710,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-2,baseline_data,1706,98.84408602150539,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-2,baseline_data,1707,99.1720430107527,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-2,baseline_data,1708,99.6774193548387,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-2,baseline_data,1709,98.84408602150539,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-2,baseline_data,1710,99.1720430107527,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-2,data_aux_ce,1706,99.1720430107527,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-2,data_aux_ce,1707,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-2,data_aux_ce,1708,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-2,data_aux_ce,1709,99.00537634408605,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-2,data_aux_ce,1710,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-4,baseline_data,1706,97.86559139784949,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-4,baseline_data,1707,99.01075268817205,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-4,baseline_data,1708,99.19354838709677,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-4,baseline_data,1709,98.5215053763441,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-4,baseline_data,1710,99.1720430107527,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-4,data_aux_ce,1706,98.84408602150539,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-4,data_aux_ce,1707,99.00537634408605,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-4,data_aux_ce,1708,99.00537634408605,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-4,data_aux_ce,1709,98.68279569892474,full-budget fixed seed,mean of five instances except clean
+window,1.0,white_-4,data_aux_ce,1710,98.84408602150539,full-budget fixed seed,mean of five instances except clean
+window,1.0,clean,baseline_data,1706,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,clean,baseline_data,1707,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,clean,baseline_data,1708,100.0,full-budget fixed seed,mean of five instances except clean
+window,1.0,clean,baseline_data,1709,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,clean,baseline_data,1710,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,clean,data_aux_ce,1706,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,clean,data_aux_ce,1707,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,clean,data_aux_ce,1708,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,clean,data_aux_ce,1709,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+window,1.0,clean,data_aux_ce,1710,99.16666666666669,full-budget fixed seed,mean of five instances except clean
+load,0.1,white_+4,baseline_data,1706,47.4743265993266,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+4,baseline_data,1707,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+4,baseline_data,1708,67.8760521885522,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+4,baseline_data,1709,25.62731481481481,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+4,baseline_data,1710,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+4,data_aux_ce,1706,86.57807239057237,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+4,data_aux_ce,1707,86.89941077441077,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+4,data_aux_ce,1708,87.95517676767676,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+4,data_aux_ce,1709,86.67340067340066,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+4,data_aux_ce,1710,86.79987373737376,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+2,baseline_data,1706,47.4793771043771,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+2,baseline_data,1707,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+2,baseline_data,1708,67.66456228956228,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+2,baseline_data,1709,25.53703703703703,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+2,baseline_data,1710,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+2,data_aux_ce,1706,86.66245791245792,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+2,data_aux_ce,1707,86.89414983164983,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+2,data_aux_ce,1708,87.78745791245791,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+2,data_aux_ce,1709,86.79755892255892,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+2,data_aux_ce,1710,86.83901515151517,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+0,baseline_data,1706,47.06860269360269,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+0,baseline_data,1707,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+0,baseline_data,1708,67.17340067340066,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+0,baseline_data,1709,25.50694444444444,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+0,baseline_data,1710,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+0,data_aux_ce,1706,86.79903198653199,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+0,data_aux_ce,1707,86.7817760942761,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+0,data_aux_ce,1708,87.51683501683503,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+0,data_aux_ce,1709,86.8459595959596,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_+0,data_aux_ce,1710,86.76452020202021,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-2,baseline_data,1706,45.676767676767675,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-2,baseline_data,1707,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-2,baseline_data,1708,64.73295454545455,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-2,baseline_data,1709,25.49305555555555,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-2,baseline_data,1710,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-2,data_aux_ce,1706,86.77756734006734,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-2,data_aux_ce,1707,86.69739057239057,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-2,data_aux_ce,1708,87.197601010101,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-2,data_aux_ce,1709,86.66729797979798,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-2,data_aux_ce,1710,86.60521885521885,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-4,baseline_data,1706,44.07659932659933,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-4,baseline_data,1707,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-4,baseline_data,1708,61.35879629629629,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-4,baseline_data,1709,25.43287037037037,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-4,baseline_data,1710,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-4,data_aux_ce,1706,86.28598484848486,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-4,data_aux_ce,1707,85.87563131313131,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-4,data_aux_ce,1708,85.93560606060606,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-4,data_aux_ce,1709,85.57912457912458,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,white_-4,data_aux_ce,1710,86.14204545454545,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,clean,baseline_data,1706,46.83291245791246,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,clean,baseline_data,1707,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,clean,baseline_data,1708,67.80723905723906,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,clean,baseline_data,1709,25.87962962962963,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,clean,baseline_data,1710,25.0,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,clean,data_aux_ce,1706,88.9162457912458,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,clean,data_aux_ce,1707,90.69339225589226,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,clean,data_aux_ce,1708,91.00168350168349,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,clean,data_aux_ce,1709,88.57112794612794,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.1,clean,data_aux_ce,1710,90.92171717171716,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+4,baseline_data,1706,70.63846801346801,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+4,baseline_data,1707,68.34343434343434,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+4,baseline_data,1708,73.41582491582491,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+4,baseline_data,1709,68.57554713804714,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+4,baseline_data,1710,50.78577441077441,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+4,data_aux_ce,1706,88.93644781144782,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+4,data_aux_ce,1707,88.63257575757576,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+4,data_aux_ce,1708,88.9520202020202,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+4,data_aux_ce,1709,88.61489898989899,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+4,data_aux_ce,1710,88.26283670033669,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+2,baseline_data,1706,70.40803872053873,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+2,baseline_data,1707,67.86973905723906,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+2,baseline_data,1708,73.4067760942761,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+2,baseline_data,1709,68.02861952861953,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+2,baseline_data,1710,50.57912457912458,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+2,data_aux_ce,1706,88.9682239057239,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+2,data_aux_ce,1707,88.59154040404042,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+2,data_aux_ce,1708,88.85248316498317,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+2,data_aux_ce,1709,88.73211279461279,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+2,data_aux_ce,1710,88.22348484848486,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+0,baseline_data,1706,70.23316498316498,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+0,baseline_data,1707,67.71212121212122,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+0,baseline_data,1708,72.91813973063974,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+0,baseline_data,1709,67.0854377104377,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+0,baseline_data,1710,50.192550505050505,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+0,data_aux_ce,1706,89.09743265993266,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+0,data_aux_ce,1707,88.33249158249158,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+0,data_aux_ce,1708,88.59448653198653,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+0,data_aux_ce,1709,88.66266835016835,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_+0,data_aux_ce,1710,88.07723063973064,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-2,baseline_data,1706,69.7449494949495,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-2,baseline_data,1707,68.2678872053872,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-2,baseline_data,1708,72.2483164983165,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-2,baseline_data,1709,65.53619528619528,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-2,baseline_data,1710,49.52988215488216,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-2,data_aux_ce,1706,89.10479797979797,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-2,data_aux_ce,1707,88.09638047138047,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-2,data_aux_ce,1708,88.42129629629629,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-2,data_aux_ce,1709,88.34343434343435,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-2,data_aux_ce,1710,87.82260101010101,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-4,baseline_data,1706,68.91666666666666,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-4,baseline_data,1707,67.55597643097643,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-4,baseline_data,1708,69.83985690235689,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-4,baseline_data,1709,63.370791245791246,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-4,baseline_data,1710,48.59322390572391,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-4,data_aux_ce,1706,88.42866161616162,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-4,data_aux_ce,1707,87.64457070707071,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-4,data_aux_ce,1708,87.50925925925927,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-4,data_aux_ce,1709,87.41393097643098,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,white_-4,data_aux_ce,1710,87.315867003367,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,clean,baseline_data,1706,70.88594276094277,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,clean,baseline_data,1707,69.15824915824916,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,clean,baseline_data,1708,72.56418350168352,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,clean,baseline_data,1709,69.44128787878789,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,clean,baseline_data,1710,50.733375420875426,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,clean,data_aux_ce,1706,90.74810606060608,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,clean,data_aux_ce,1707,92.63783670033669,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,clean,data_aux_ce,1708,91.84132996632997,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,clean,data_aux_ce,1709,89.96212121212123,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.2,clean,data_aux_ce,1710,91.83922558922558,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+4,baseline_data,1706,84.66414141414141,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+4,baseline_data,1707,79.35585016835017,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+4,baseline_data,1708,85.54082491582491,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+4,baseline_data,1709,83.3989898989899,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+4,baseline_data,1710,75.39036195286197,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+4,data_aux_ce,1706,90.16098484848486,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+4,data_aux_ce,1707,90.14478114478116,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+4,data_aux_ce,1708,91.10311447811448,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+4,data_aux_ce,1709,90.60774410774411,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+4,data_aux_ce,1710,90.31144781144782,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+2,baseline_data,1706,84.6233164983165,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+2,baseline_data,1707,79.36468855218854,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+2,baseline_data,1708,85.40067340067341,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+2,baseline_data,1709,82.96064814814814,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+2,baseline_data,1710,75.2918771043771,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+2,data_aux_ce,1706,90.0290404040404,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+2,data_aux_ce,1707,89.91561447811449,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+2,data_aux_ce,1708,90.81902356902357,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+2,data_aux_ce,1709,90.58922558922559,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+2,data_aux_ce,1710,90.19107744107745,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+0,baseline_data,1706,84.4023569023569,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+0,baseline_data,1707,79.56460437710439,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+0,baseline_data,1708,85.02272727272727,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+0,baseline_data,1709,82.0307239057239,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+0,baseline_data,1710,74.96864478114476,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+0,data_aux_ce,1706,89.87563131313131,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+0,data_aux_ce,1707,89.6294191919192,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+0,data_aux_ce,1708,90.57828282828281,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+0,data_aux_ce,1709,90.36595117845117,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_+0,data_aux_ce,1710,90.03829966329967,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-2,baseline_data,1706,83.90782828282828,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-2,baseline_data,1707,79.05260942760944,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-2,baseline_data,1708,83.9050925925926,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-2,baseline_data,1709,80.46106902356902,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-2,baseline_data,1710,74.37478956228956,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-2,data_aux_ce,1706,89.70707070707071,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-2,data_aux_ce,1707,89.23905723905725,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-2,data_aux_ce,1708,90.24389730639732,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-2,data_aux_ce,1709,90.12794612794613,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-2,data_aux_ce,1710,89.7756734006734,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-4,baseline_data,1706,82.84027777777779,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-4,baseline_data,1707,78.424031986532,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-4,baseline_data,1708,82.45012626262627,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-4,baseline_data,1709,78.80555555555556,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-4,baseline_data,1710,73.30450336700336,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-4,data_aux_ce,1706,89.18034511784512,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-4,data_aux_ce,1707,88.51073232323232,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-4,data_aux_ce,1708,89.14814814814815,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-4,data_aux_ce,1709,89.2739898989899,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,white_-4,data_aux_ce,1710,89.09974747474747,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,clean,baseline_data,1706,85.04734848484848,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,clean,baseline_data,1707,79.66435185185185,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,clean,baseline_data,1708,85.29356060606061,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,clean,baseline_data,1709,84.08985690235691,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,clean,baseline_data,1710,75.3777356902357,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,clean,data_aux_ce,1706,92.65782828282828,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,clean,data_aux_ce,1707,94.91792929292929,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,clean,data_aux_ce,1708,94.29292929292929,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,clean,data_aux_ce,1709,92.90930134680134,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,0.5,clean,data_aux_ce,1710,93.50589225589226,mean across 3 subsets at fixed seed,mean of five instances except clean
+load,1.0,white_+4,baseline_data,1706,86.5145202020202,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+4,baseline_data,1707,84.8655303030303,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+4,baseline_data,1708,90.3510101010101,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+4,baseline_data,1709,87.33017676767676,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+4,baseline_data,1710,83.40782828282829,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+4,data_aux_ce,1706,89.72348484848486,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+4,data_aux_ce,1707,90.8276515151515,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+4,data_aux_ce,1708,93.13320707070707,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+4,data_aux_ce,1709,91.52209595959596,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+4,data_aux_ce,1710,89.79987373737374,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+2,baseline_data,1706,86.42171717171718,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+2,baseline_data,1707,84.14772727272727,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+2,baseline_data,1708,90.37878787878788,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+2,baseline_data,1709,87.52146464646464,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+2,baseline_data,1710,83.14330808080808,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+2,data_aux_ce,1706,89.70265151515152,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+2,data_aux_ce,1707,90.86237373737374,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+2,data_aux_ce,1708,92.86237373737373,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+2,data_aux_ce,1709,91.53598484848486,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+2,data_aux_ce,1710,89.50505050505052,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+0,baseline_data,1706,85.91098484848484,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+0,baseline_data,1707,83.64646464646466,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+0,baseline_data,1708,90.35290404040404,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+0,baseline_data,1709,87.18055555555554,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+0,baseline_data,1710,82.89393939393939,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+0,data_aux_ce,1706,89.43876262626263,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+0,data_aux_ce,1707,90.69570707070707,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+0,data_aux_ce,1708,92.66287878787878,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+0,data_aux_ce,1709,91.41666666666667,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_+0,data_aux_ce,1710,89.19444444444444,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-2,baseline_data,1706,85.27967171717172,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-2,baseline_data,1707,83.06565656565658,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-2,baseline_data,1708,89.77777777777777,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-2,baseline_data,1709,86.5385101010101,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-2,baseline_data,1710,82.20454545454547,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-2,data_aux_ce,1706,88.99810606060606,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-2,data_aux_ce,1707,90.61931818181819,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-2,data_aux_ce,1708,92.43939393939394,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-2,data_aux_ce,1709,91.31313131313131,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-2,data_aux_ce,1710,88.94444444444444,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-4,baseline_data,1706,84.20580808080808,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-4,baseline_data,1707,82.50063131313131,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-4,baseline_data,1708,88.6578282828283,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-4,baseline_data,1709,85.07575757575758,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-4,baseline_data,1710,81.11300505050507,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-4,data_aux_ce,1706,88.40593434343434,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-4,data_aux_ce,1707,89.98863636363636,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-4,data_aux_ce,1708,90.86237373737374,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-4,data_aux_ce,1709,90.38636363636363,full-budget fixed seed,mean of five instances except clean
+load,1.0,white_-4,data_aux_ce,1710,87.89646464646465,full-budget fixed seed,mean of five instances except clean
+load,1.0,clean,baseline_data,1706,87.53156565656566,full-budget fixed seed,mean of five instances except clean
+load,1.0,clean,baseline_data,1707,86.1489898989899,full-budget fixed seed,mean of five instances except clean
+load,1.0,clean,baseline_data,1708,89.71275252525253,full-budget fixed seed,mean of five instances except clean
+load,1.0,clean,baseline_data,1709,87.26641414141415,full-budget fixed seed,mean of five instances except clean
+load,1.0,clean,baseline_data,1710,84.44760101010101,full-budget fixed seed,mean of five instances except clean
+load,1.0,clean,data_aux_ce,1706,91.0290404040404,full-budget fixed seed,mean of five instances except clean
+load,1.0,clean,data_aux_ce,1707,94.95265151515152,full-budget fixed seed,mean of five instances except clean
+load,1.0,clean,data_aux_ce,1708,95.50820707070707,full-budget fixed seed,mean of five instances except clean
+load,1.0,clean,data_aux_ce,1709,94.70959595959596,full-budget fixed seed,mean of five instances except clean
+load,1.0,clean,data_aux_ce,1710,92.87247474747474,full-budget fixed seed,mean of five instances except clean

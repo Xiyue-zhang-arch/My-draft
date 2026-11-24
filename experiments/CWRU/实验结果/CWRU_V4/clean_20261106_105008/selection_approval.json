@@ -1,0 +1,47 @@
+{
+  "status": "awaiting_approval",
+  "approval_granted": false,
+  "requested_at": "2026-11-06T10:55:01.263937+08:00",
+  "controller_pid": 99860,
+  "training_pid": 46976,
+  "expected_selection_models": 30,
+  "automatic_resume": false,
+  "barrier": "D:\\Project\\MY draft\\results\\CWRU_V4\\clean_20261106_105008\\models\\m0031",
+  "verified_at": "2026-11-06T13:05:17.034413+08:00",
+  "selection_models": 30,
+  "transfer_models": 0,
+  "selected_aux_weight": 1.0,
+  "candidates": [
+    {
+      "aux_weight": 0.01,
+      "mean_best_validation_ce": 9.020970781385736e-06,
+      "sample_sd": 1.2623360576562477e-06,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 0.03,
+      "mean_best_validation_ce": 7.3140963473474796e-06,
+      "sample_sd": 6.068362283733049e-07,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 0.1,
+      "mean_best_validation_ce": 6.374086025035352e-06,
+      "sample_sd": 8.886150243010008e-07,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 0.3,
+      "mean_best_validation_ce": 5.986832399588097e-06,
+      "sample_sd": 7.481201141546604e-07,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 1.0,
+      "mean_best_validation_ce": 5.754202261546771e-06,
+      "sample_sd": 9.027325176656809e-07,
+      "seeds": 5
+    }
+  ],
+  "report": "D:\\Project\\MY draft\\results\\CWRU_V4\\clean_20261106_105008\\selection\\REPORT.md"
+}

@@ -1,0 +1,52 @@
+  Condition Monitoring of Bearing Damage in Electromechanical Drive
+     Systems by Using Motor Current Signals of Electric Motors: A
+         Benchmark Data Set for Data-Driven Classification
+
+
+                     Christian Lessmeier1, James Kuria Kimotho2, Detmar Zimmer3 and Walter Sextro4
+
+                                  1,3 Chair of Design and Drive Technology, Faculty of Mechanical Engineering,
+                       Paderborn University, Pohlweg 47 – 49, 33098 Paderborn, Germany
+                                               christian.lessmeier@uni-paderborn.de
+                                             detmar.zimmer@uni-paderborn.de
+
+                                   2,4 Chair of Mechatronics and Dynamics, Faculty of Mechanical Engineering,
+                       Paderborn University, Pohlweg 47 – 49, 33098 Paderborn, Germany
+                                             james.kuria.kimotho@uni-paderborn.de
+                                                 walter.sextro@uni-paderborn.de
+
+
+              ABSTRACT
+                                                                     1. INTRODUCTION
+This paper presents a benchmark data  set for condition
+monitoring  of  rolling  bearings  in combination with an    According to statistics, 40-70% of electro-mechanic drive
+extensive description of the corresponding bearing damage,    systems and motor failures are caused by rolling bearing
+the data set generation by experiments and results of data-    damages, which can lead  to high  costs  in  applications
+driven  classifications used as a diagnostic method. The    because of downtimes (Bonnett & Yung, 2008; Djeddi,
+diagnostic method uses the motor  current  signal of an    Granjon, & Leprettre, 2007). Thus, high-risk applications or
+electromechanical drive system for bearing diagnostic. The    those  with  high  maintenance  costs  are  continuously
+advantage of this approach in general is that no additional    monitored.  Detection  of  bearing  damage  is  typically
+sensors  are  required,  as  current measurements  can be    monitored by vibration analysis using acceleration sensors.
+performed in existing frequency inverters. This will help to    These additional acceleration sensors are widely utilized,
+reduce the cost of future condition monitoring systems. A     especially in large applications such as wind power turbines
+particular novelty of the present approach is the monitoring    or cement mills. In industrial applications which use a great
+of damage in external bearings which are installed in the    number  of  inexpensive  small  electric  motors  with an
+drive system but outside the electric motor. Nevertheless,    approximate power consumption of around 1 kW or less, the
+the motor current signal is used as input for the detection of     cost for additional sensors is financially not feasible. For
+the damage. Moreover,  a wide  distribution  of  bearing     this reason, several research projects focus on detecting
+damage  is considered  for the benchmark data  set. The    bearing damage by using existing signals such as motor
+results of the classifications show that the motor current     currents, which can be measured by the already existing
+signal can be used to identify and classify bearing damage    frequency   inverters.   Researchers   prefer   data-driven
+within  the  drive  system.  However,  the  classification     classification methods that are based on machine learning
+accuracy is still low compared to classifications based on    algorithms  to  detect damage  states by using the motor
+vibration signals. Further, dependency on properties of those     current signals (MCS). These methods are often examined
+bearing damage that were used for the generation of training     in case studies of special applications and damages such as
+data are observed, because training with data of artificially    broken  rotor  bars  or  bearing  damages. The  condition
+generated  and  real  bearing damages  lead  to  different    monitoring (CM) methods based on MCS are  still being
+accuracies.  Altogether  a   verified  and  systematically    investigated and not yet prevalent in industrial applications
+generated data set  is presented and published online for    as they continue to have restrictions.  (Bellini,  Filippetti,
+further research.                                               Tassoni, & Capolino, 2008; Herold, Piantsop Mbo’o, &
+                                                     Hameyer, 2013; Paschke et  al., 2013; Picot et  al., 2014;
+Christian Lessmeier et al. This is an open-access article distributed under                                                                Stack, Habetler, & Harley, 2003)the terms of the Creative Commons Attribution 3.0 United States License,
+which permits unrestricted use,  distribution, and reproduction in any
+medium, provided the original author and source are credited.

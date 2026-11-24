@@ -1,0 +1,1178 @@
+[
+  {
+    "case_id": "N15_M07_F10__clean",
+    "target": "N15_M07_F10",
+    "noise_seed": null,
+    "snr_db": null,
+    "noise_instance": null,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr-5_n7201",
+    "target": "N15_M07_F10",
+    "noise_seed": 7201,
+    "snr_db": -5,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr-5_n7202",
+    "target": "N15_M07_F10",
+    "noise_seed": 7202,
+    "snr_db": -5,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr-5_n7203",
+    "target": "N15_M07_F10",
+    "noise_seed": 7203,
+    "snr_db": -5,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr-5_n7204",
+    "target": "N15_M07_F10",
+    "noise_seed": 7204,
+    "snr_db": -5,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr-5_n7205",
+    "target": "N15_M07_F10",
+    "noise_seed": 7205,
+    "snr_db": -5,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr0_n7201",
+    "target": "N15_M07_F10",
+    "noise_seed": 7201,
+    "snr_db": 0,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr0_n7202",
+    "target": "N15_M07_F10",
+    "noise_seed": 7202,
+    "snr_db": 0,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr0_n7203",
+    "target": "N15_M07_F10",
+    "noise_seed": 7203,
+    "snr_db": 0,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr0_n7204",
+    "target": "N15_M07_F10",
+    "noise_seed": 7204,
+    "snr_db": 0,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr0_n7205",
+    "target": "N15_M07_F10",
+    "noise_seed": 7205,
+    "snr_db": 0,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr5_n7201",
+    "target": "N15_M07_F10",
+    "noise_seed": 7201,
+    "snr_db": 5,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr5_n7202",
+    "target": "N15_M07_F10",
+    "noise_seed": 7202,
+    "snr_db": 5,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr5_n7203",
+    "target": "N15_M07_F10",
+    "noise_seed": 7203,
+    "snr_db": 5,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr5_n7204",
+    "target": "N15_M07_F10",
+    "noise_seed": 7204,
+    "snr_db": 5,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr5_n7205",
+    "target": "N15_M07_F10",
+    "noise_seed": 7205,
+    "snr_db": 5,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr10_n7201",
+    "target": "N15_M07_F10",
+    "noise_seed": 7201,
+    "snr_db": 10,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr10_n7202",
+    "target": "N15_M07_F10",
+    "noise_seed": 7202,
+    "snr_db": 10,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr10_n7203",
+    "target": "N15_M07_F10",
+    "noise_seed": 7203,
+    "snr_db": 10,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr10_n7204",
+    "target": "N15_M07_F10",
+    "noise_seed": 7204,
+    "snr_db": 10,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F10__vibration_snr10_n7205",
+    "target": "N15_M07_F10",
+    "noise_seed": 7205,
+    "snr_db": 10,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__clean",
+    "target": "N09_M07_F10",
+    "noise_seed": null,
+    "snr_db": null,
+    "noise_instance": null,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr-5_n7201",
+    "target": "N09_M07_F10",
+    "noise_seed": 7201,
+    "snr_db": -5,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr-5_n7202",
+    "target": "N09_M07_F10",
+    "noise_seed": 7202,
+    "snr_db": -5,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr-5_n7203",
+    "target": "N09_M07_F10",
+    "noise_seed": 7203,
+    "snr_db": -5,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr-5_n7204",
+    "target": "N09_M07_F10",
+    "noise_seed": 7204,
+    "snr_db": -5,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr-5_n7205",
+    "target": "N09_M07_F10",
+    "noise_seed": 7205,
+    "snr_db": -5,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr0_n7201",
+    "target": "N09_M07_F10",
+    "noise_seed": 7201,
+    "snr_db": 0,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr0_n7202",
+    "target": "N09_M07_F10",
+    "noise_seed": 7202,
+    "snr_db": 0,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr0_n7203",
+    "target": "N09_M07_F10",
+    "noise_seed": 7203,
+    "snr_db": 0,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr0_n7204",
+    "target": "N09_M07_F10",
+    "noise_seed": 7204,
+    "snr_db": 0,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr0_n7205",
+    "target": "N09_M07_F10",
+    "noise_seed": 7205,
+    "snr_db": 0,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr5_n7201",
+    "target": "N09_M07_F10",
+    "noise_seed": 7201,
+    "snr_db": 5,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr5_n7202",
+    "target": "N09_M07_F10",
+    "noise_seed": 7202,
+    "snr_db": 5,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr5_n7203",
+    "target": "N09_M07_F10",
+    "noise_seed": 7203,
+    "snr_db": 5,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr5_n7204",
+    "target": "N09_M07_F10",
+    "noise_seed": 7204,
+    "snr_db": 5,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr5_n7205",
+    "target": "N09_M07_F10",
+    "noise_seed": 7205,
+    "snr_db": 5,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr10_n7201",
+    "target": "N09_M07_F10",
+    "noise_seed": 7201,
+    "snr_db": 10,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr10_n7202",
+    "target": "N09_M07_F10",
+    "noise_seed": 7202,
+    "snr_db": 10,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr10_n7203",
+    "target": "N09_M07_F10",
+    "noise_seed": 7203,
+    "snr_db": 10,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr10_n7204",
+    "target": "N09_M07_F10",
+    "noise_seed": 7204,
+    "snr_db": 10,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr10_n7205",
+    "target": "N09_M07_F10",
+    "noise_seed": 7205,
+    "snr_db": 10,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__clean",
+    "target": "N15_M01_F10",
+    "noise_seed": null,
+    "snr_db": null,
+    "noise_instance": null,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr-5_n7201",
+    "target": "N15_M01_F10",
+    "noise_seed": 7201,
+    "snr_db": -5,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr-5_n7202",
+    "target": "N15_M01_F10",
+    "noise_seed": 7202,
+    "snr_db": -5,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr-5_n7203",
+    "target": "N15_M01_F10",
+    "noise_seed": 7203,
+    "snr_db": -5,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr-5_n7204",
+    "target": "N15_M01_F10",
+    "noise_seed": 7204,
+    "snr_db": -5,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr-5_n7205",
+    "target": "N15_M01_F10",
+    "noise_seed": 7205,
+    "snr_db": -5,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr0_n7201",
+    "target": "N15_M01_F10",
+    "noise_seed": 7201,
+    "snr_db": 0,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr0_n7202",
+    "target": "N15_M01_F10",
+    "noise_seed": 7202,
+    "snr_db": 0,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr0_n7203",
+    "target": "N15_M01_F10",
+    "noise_seed": 7203,
+    "snr_db": 0,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr0_n7204",
+    "target": "N15_M01_F10",
+    "noise_seed": 7204,
+    "snr_db": 0,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr0_n7205",
+    "target": "N15_M01_F10",
+    "noise_seed": 7205,
+    "snr_db": 0,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr5_n7201",
+    "target": "N15_M01_F10",
+    "noise_seed": 7201,
+    "snr_db": 5,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr5_n7202",
+    "target": "N15_M01_F10",
+    "noise_seed": 7202,
+    "snr_db": 5,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr5_n7203",
+    "target": "N15_M01_F10",
+    "noise_seed": 7203,
+    "snr_db": 5,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr5_n7204",
+    "target": "N15_M01_F10",
+    "noise_seed": 7204,
+    "snr_db": 5,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr5_n7205",
+    "target": "N15_M01_F10",
+    "noise_seed": 7205,
+    "snr_db": 5,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr10_n7201",
+    "target": "N15_M01_F10",
+    "noise_seed": 7201,
+    "snr_db": 10,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr10_n7202",
+    "target": "N15_M01_F10",
+    "noise_seed": 7202,
+    "snr_db": 10,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr10_n7203",
+    "target": "N15_M01_F10",
+    "noise_seed": 7203,
+    "snr_db": 10,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr10_n7204",
+    "target": "N15_M01_F10",
+    "noise_seed": 7204,
+    "snr_db": 10,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr10_n7205",
+    "target": "N15_M01_F10",
+    "noise_seed": 7205,
+    "snr_db": 10,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__clean",
+    "target": "N15_M07_F04",
+    "noise_seed": null,
+    "snr_db": null,
+    "noise_instance": null,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr-5_n7201",
+    "target": "N15_M07_F04",
+    "noise_seed": 7201,
+    "snr_db": -5,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr-5_n7202",
+    "target": "N15_M07_F04",
+    "noise_seed": 7202,
+    "snr_db": -5,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr-5_n7203",
+    "target": "N15_M07_F04",
+    "noise_seed": 7203,
+    "snr_db": -5,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr-5_n7204",
+    "target": "N15_M07_F04",
+    "noise_seed": 7204,
+    "snr_db": -5,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr-5_n7205",
+    "target": "N15_M07_F04",
+    "noise_seed": 7205,
+    "snr_db": -5,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr0_n7201",
+    "target": "N15_M07_F04",
+    "noise_seed": 7201,
+    "snr_db": 0,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr0_n7202",
+    "target": "N15_M07_F04",
+    "noise_seed": 7202,
+    "snr_db": 0,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr0_n7203",
+    "target": "N15_M07_F04",
+    "noise_seed": 7203,
+    "snr_db": 0,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr0_n7204",
+    "target": "N15_M07_F04",
+    "noise_seed": 7204,
+    "snr_db": 0,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr0_n7205",
+    "target": "N15_M07_F04",
+    "noise_seed": 7205,
+    "snr_db": 0,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr5_n7201",
+    "target": "N15_M07_F04",
+    "noise_seed": 7201,
+    "snr_db": 5,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr5_n7202",
+    "target": "N15_M07_F04",
+    "noise_seed": 7202,
+    "snr_db": 5,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr5_n7203",
+    "target": "N15_M07_F04",
+    "noise_seed": 7203,
+    "snr_db": 5,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr5_n7204",
+    "target": "N15_M07_F04",
+    "noise_seed": 7204,
+    "snr_db": 5,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr5_n7205",
+    "target": "N15_M07_F04",
+    "noise_seed": 7205,
+    "snr_db": 5,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr10_n7201",
+    "target": "N15_M07_F04",
+    "noise_seed": 7201,
+    "snr_db": 10,
+    "noise_instance": 0,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr10_n7202",
+    "target": "N15_M07_F04",
+    "noise_seed": 7202,
+    "snr_db": 10,
+    "noise_instance": 1,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr10_n7203",
+    "target": "N15_M07_F04",
+    "noise_seed": 7203,
+    "snr_db": 10,
+    "noise_instance": 2,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr10_n7204",
+    "target": "N15_M07_F04",
+    "noise_seed": 7204,
+    "snr_db": 10,
+    "noise_instance": 3,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr10_n7205",
+    "target": "N15_M07_F04",
+    "noise_seed": 7205,
+    "snr_db": 10,
+    "noise_instance": 4,
+    "kind": "main",
+    "waveform_input_sha256": "synthetic-wave",
+    "descriptor_input_sha256": {
+      "physical": "synthetic-physical",
+      "wrong": "synthetic-wrong",
+      "statistics": "synthetic-statistics"
+    }
+  }
+]

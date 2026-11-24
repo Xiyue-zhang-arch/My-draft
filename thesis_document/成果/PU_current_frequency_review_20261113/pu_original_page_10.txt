@@ -1,0 +1,60 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+
+
+
+     Figure 8. Frequency spectrum from MCS for (a) healthy bearing, (b) outer ring damage and (c) inner ring damage.
+
+frequencies (Blödt et al., 2008). However, in most cases the    (CART), random forests (RF), Boosted Trees (BT), neural
+raw signals are masked by external noise, what makes this    networks (NN), support vector machines with parameters
+method very difficult to apply. Figure 8 shows exemplary    optimally tuned using particle swarm optimization (SVM-
+plots of the power spectral density of a healthy bearing, a    PSO), extreme  learning machine (ELM), and  k-nearest
+bearing with outer ring damage, and a bearing with inner    neighbors (kNN).
+ring damage. From Figure  8, only the  electrical supply
+frequency (𝑓𝑒) and its harmonics are easily observable. This
+is mainly due  to  the masking of bearing  characteristic
+frequencies by external noise and  also  the presence of
+distributed damages which  are  difficult  to  detect using
+characteristic frequency approaches (Yang, Merrild, Runge,
+Pedersen, & Hakon Børsting, 2009).
+
+However, by extracting features from the raw MCS,  it is
+possible to observe the clustering of various damage classes
+of the bearing through a feature plot as seen in Figure 9.
+This shows that machine learning (ML) algorithms can be
+trained to identify various damages on the bearings from
+extracted features.
+
+Figure 10 shows the workflow of the application of machine
+learning for the classification of various bearing damages.
+The machine learning algorithm learns to map the input
+features to the corresponding target which consists of a class
+label representing the type of damage. A  classification
+model is obtained which can be used to predict the type of
+damage for a given set of input features. In this work, the
+bearings were categorized in three classes as either healthy,
+having inner ring damage, or having outer ring damage.
+                                                             Figure 9. Clustering of bearing health states for (a) features
+Seven state of the art algorithms and an ensemble of the
+                                                                from MCS and (b) vibration signals.
+algorithms using majority voting were implemented. These
+algorithms  include:  classification  and  regression  trees
+
+
+                                             Target                                 TRAINING
+
+
+                                                             Feature                                                ML              Classification                                   Data                                                           Extraction and                                   Acquisition                                Algorithm          Model                                                               Selection
+
+
+
+                            Data               Extraction of                Fault                  Predicted
+                                                                                   Classification                            Acquisition          Selected Features                                      Class
+                                                              Model
+
+                                   TESTING/ONLINE DIAGNOSIS
+
+                          Figure 10. Application of machine learning (ML) for fault diagnosis.
+
+                                                                                                             10

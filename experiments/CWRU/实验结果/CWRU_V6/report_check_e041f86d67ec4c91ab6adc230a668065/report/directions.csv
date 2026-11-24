@@ -1,0 +1,13 @@
+source_load_hp,target_load_hp,protocol,method,condition,acc,balanced_acc,f1_macro,recall_N,recall_IR,recall_OR,recall_B
+0,1,clean_only,data,clean,0.875,0.875,0.8666666666666667,0.5,1.0,1.0,1.0
+0,1,clean_only,data,white_+0,0.875,0.875,0.8666666666666668,0.5,1.0,1.0,1.0
+0,1,clean_only,data,white_+2,0.875,0.875,0.8666666666666668,0.5,1.0,1.0,1.0
+0,1,clean_only,data,white_+4,0.875,0.875,0.8666666666666668,0.5,1.0,1.0,1.0
+0,1,clean_only,data,white_-2,0.875,0.875,0.8666666666666668,0.5,1.0,1.0,1.0
+0,1,clean_only,data,white_-4,0.875,0.875,0.8666666666666668,0.5,1.0,1.0,1.0
+0,1,clean_only,fusion,clean,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+0,1,clean_only,fusion,white_+0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+0,1,clean_only,fusion,white_+2,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+0,1,clean_only,fusion,white_+4,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+0,1,clean_only,fusion,white_-2,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+0,1,clean_only,fusion,white_-4,1.0,1.0,1.0,1.0,1.0,1.0,1.0

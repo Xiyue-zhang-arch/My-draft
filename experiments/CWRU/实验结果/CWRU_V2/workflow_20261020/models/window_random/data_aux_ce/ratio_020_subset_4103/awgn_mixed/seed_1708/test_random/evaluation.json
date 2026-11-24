@@ -1,0 +1,11 @@
+{
+  "domain": "window_random",
+  "variant": "data_aux_ce",
+  "ratio": 0.2,
+  "subset": 4103,
+  "protocol": "awgn_mixed",
+  "seed": 1708,
+  "origin": "V2",
+  "source_load_hp": -1,
+  "target_load_hp": -1
+}

@@ -1,0 +1,18 @@
+{
+  "adopted": true,
+  "selected_physics_fit": "matched_noise",
+  "checks": {
+    "mean_gain": true,
+    "positive_pairs": true,
+    "clean_preservation": true,
+    "or_preservation": true,
+    "each_budget_preservation": true
+  },
+  "noisy_ba_gain_pp": 2.017780172413794,
+  "clean_ba_gain_pp": 1.8229166666666667,
+  "or_gain_pp": 0.78125,
+  "positive_pair_fraction": 0.8333333333333334,
+  "sd_is_hard_gate": false,
+  "decision_data": "fixed validation only",
+  "scope": "one fixed subset, three seeds, 30 epochs; provisional screening"
+}

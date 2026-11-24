@@ -1,0 +1,932 @@
+{
+  "stage": "complete",
+  "started_at": "2026-11-15 21:37:42",
+  "pid": 21756,
+  "cache": "D:\\Project\\MY draft\\experiments\\PU_0_concat\\data\\source_20261115_a",
+  "source_hashes": {
+    "common.py": "6e1aa7c089bee9cfc3a39a9ae0ea4b878ce7ccd7f9d5f514f24fa09021bb4c8a",
+    "encoder.py": "03a734efe5ec277fa5b25734de8adde495aee167c5a7f9094b0c959ada1389a6",
+    "descriptors.py": "d5c0779973ffbbc06bc6496f0cf6e60a01352ba33aca74e438aa8240f6c42075",
+    "reference.py": "ec4cdd82d67a9766633d1e1409e403dab8f397a8ebf8797f2e8fec176d17b08b",
+    "model.py": "6fa02ceaa5114d40705e7b4580a7c7dba89a868b00e380c840071633c7d3d3d7",
+    "prepare.py": "15269735b015bef94b8cb1ba2f524b88f7c7aa9e50c9f3ea708e39618a7f8eaa",
+    "support.py": "dcaf2a3f4a3e0953e3eb2ffecf95b6616068446220c755b7bb0a19d5d51584d2",
+    "run.py": "762acd6f5b06cbd1c85f2a0a2ea27d9d327c1e12b839dd3bc955cd7079e3f7a6",
+    "report.py": "eee0ee171d51aab58dffbcfadb886b87bb44b4adfff57dd0638e3d5195ca9cd7",
+    "audit.py": "b41ba098796c713d9a3db5f5902b45ac34e1145d12b254e90915cba7ec2a17d3",
+    "preflight.py": "862b7cfb7d85c9aa16757e5dc7621c0be109d811710a17221310f449d1dd7494",
+    "PROTOCOL.md": "ba3e4d8647e9118103dd11d48dc11f9f74236e0c6de8b0e8c19ede637441e912"
+  },
+  "completed_models": [
+    {
+      "model_id": "m0001",
+      "method": "vibration_plain",
+      "seed": 1706,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        0
+      ],
+      "parameters": 37284,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "vibration": "e141b25a343ec873cf0fbc7cc7fc634c9ee14ef6e8fcdf19c60ed6c5c8b9b16f",
+        "classifier_reference64": "0446e6f4b9f56713765a5d2a8a86a62bf518e64553abebc0706498b3bcc54a77"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.8406565841115885e-05,
+      "val_BA": 1.0,
+      "seconds": 13.721774799982086,
+      "artifacts_sha256": {
+        "history.csv": "a224bc36efb88b6ab72bcb36346bb3ab30dc37ba9ea971f72bfdb14c8706f0cb",
+        "model.pt": "7be2d8c878923d46647b0f4cc6c4cfefb38c5e77e5bbba4674772acd1898d36a",
+        "training_trace.json": "3eda31b2c81e97ce14143faf31c75bd16fa89bd7cd91f199f8dda5cbbcb35476",
+        "validation.npz": "92b169f60f8e0476c43cdc33c874f56d76a58c6dea34e1fe9ff7f83547ec25c2"
+      }
+    },
+    {
+      "model_id": "m0002",
+      "method": "vibration_physical",
+      "seed": 1706,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        0
+      ],
+      "parameters": 38516,
+      "condition_parameters": 1232,
+      "shared_initialization_sha256": {
+        "vibration": "e141b25a343ec873cf0fbc7cc7fc634c9ee14ef6e8fcdf19c60ed6c5c8b9b16f",
+        "classifier_reference64": "0446e6f4b9f56713765a5d2a8a86a62bf518e64553abebc0706498b3bcc54a77"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.85479761150642e-05,
+      "val_BA": 1.0,
+      "seconds": 15.507898799958639,
+      "artifacts_sha256": {
+        "history.csv": "6d827a337d517b1f4d9b0b619941761a83f90f582130ca5e901919355a9d5201",
+        "model.pt": "c4ad27fa4f935e4f4784a72c01401df499bdb3ad24d60c427cb5303c11def682",
+        "training_trace.json": "3eda31b2c81e97ce14143faf31c75bd16fa89bd7cd91f199f8dda5cbbcb35476",
+        "validation.npz": "a1c2358b1c57480a036646b3d935a0955f6a05d6f20ef03724dce2d9e6b9d119"
+      }
+    },
+    {
+      "model_id": "m0003",
+      "method": "current_plain",
+      "seed": 1706,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        1
+      ],
+      "parameters": 37284,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "current": "28b976de18a9d5d0974c90541a64cf067fc609a21c14d64bfda69e8af19b54df",
+        "classifier_reference64": "0446e6f4b9f56713765a5d2a8a86a62bf518e64553abebc0706498b3bcc54a77"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.6053797314986673,
+      "val_BA": 0.7499999999999999,
+      "seconds": 13.240493100020103,
+      "artifacts_sha256": {
+        "history.csv": "1afd964008de56dbeb7a6aa5033812d1b03b17aa137603b533624c3fd8fc7caa",
+        "model.pt": "b580a006fbff019d42bf38a68e587e765f66eb6b9aebe085d3cc8c2873fd061a",
+        "training_trace.json": "3eda31b2c81e97ce14143faf31c75bd16fa89bd7cd91f199f8dda5cbbcb35476",
+        "validation.npz": "b58e68a641234b02976dad26f2f7e9ffac45d380ac3c80445c798c081fcfc557"
+      }
+    },
+    {
+      "model_id": "m0004",
+      "method": "current_physical",
+      "seed": 1706,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        1
+      ],
+      "parameters": 38516,
+      "condition_parameters": 1232,
+      "shared_initialization_sha256": {
+        "current": "28b976de18a9d5d0974c90541a64cf067fc609a21c14d64bfda69e8af19b54df",
+        "classifier_reference64": "0446e6f4b9f56713765a5d2a8a86a62bf518e64553abebc0706498b3bcc54a77"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.4215764834905975,
+      "val_BA": 0.77625,
+      "seconds": 15.587496300053317,
+      "artifacts_sha256": {
+        "history.csv": "57df296b049d2cb7247f3c8652b68bfcbff9b0dd9f2b740f3f5fa9888e530a36",
+        "model.pt": "9bd1d3dd940b19039d21aabc48272061417a54d09d965c2ee5c3d67c4dc2f6af",
+        "training_trace.json": "3eda31b2c81e97ce14143faf31c75bd16fa89bd7cd91f199f8dda5cbbcb35476",
+        "validation.npz": "864cf10d1d626b6b4f19abd17abe07dde7a20330a9a92c91b430c7b961234ac7"
+      }
+    },
+    {
+      "model_id": "m0005",
+      "method": "concat_plain",
+      "seed": 1706,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 128,
+      "modalities": [
+        0,
+        1
+      ],
+      "parameters": 74564,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "vibration": "e141b25a343ec873cf0fbc7cc7fc634c9ee14ef6e8fcdf19c60ed6c5c8b9b16f",
+        "current": "28b976de18a9d5d0974c90541a64cf067fc609a21c14d64bfda69e8af19b54df",
+        "classifier_reference64": "0446e6f4b9f56713765a5d2a8a86a62bf518e64553abebc0706498b3bcc54a77"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 0.0002687042596226352,
+      "val_BA": 1.0,
+      "seconds": 22.990206100046635,
+      "artifacts_sha256": {
+        "history.csv": "6c23cdb88b4e2fe477e54da9df5843ec5e4d5dc7d4f67ea0c85da7b029aa1122",
+        "model.pt": "8a28660a99cee44e360b4d653fbe8383a576d857c813d97bc0c19ed0822b1647",
+        "training_trace.json": "49ae6fc87589b780ced0396d4fc6faaba58962dc767a64c789fc04cef2230d07",
+        "validation.npz": "33fbcc7c9e345701c98d729072a12dc4935a80bf824f214281506f617f1b9bdb"
+      }
+    },
+    {
+      "model_id": "m0006",
+      "method": "concat_physical",
+      "seed": 1706,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 128,
+      "modalities": [
+        0,
+        1
+      ],
+      "parameters": 77028,
+      "condition_parameters": 2464,
+      "shared_initialization_sha256": {
+        "vibration": "e141b25a343ec873cf0fbc7cc7fc634c9ee14ef6e8fcdf19c60ed6c5c8b9b16f",
+        "current": "28b976de18a9d5d0974c90541a64cf067fc609a21c14d64bfda69e8af19b54df",
+        "classifier_reference64": "0446e6f4b9f56713765a5d2a8a86a62bf518e64553abebc0706498b3bcc54a77"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 0.00013100840141330394,
+      "val_BA": 1.0,
+      "seconds": 27.321660899964627,
+      "artifacts_sha256": {
+        "history.csv": "eb1c92d17836316de2de2302ad649eafe2ffefd69424e5234c7aa632cdcdd2f6",
+        "model.pt": "c93889ff7d35b81b8fd0a7b5d002308e805295a61b987f2704af853771c9d227",
+        "training_trace.json": "49ae6fc87589b780ced0396d4fc6faaba58962dc767a64c789fc04cef2230d07",
+        "validation.npz": "9cf5bba3059324f828932cddd3213124144cc4b90cd99f547f0bec9bd98c82d0"
+      }
+    },
+    {
+      "model_id": "m0007",
+      "method": "vibration_plain",
+      "seed": 1707,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        0
+      ],
+      "parameters": 37284,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "vibration": "41d18d3f037f8155b11f72f8e0996a4eeb30c47ee064728f97f38a46247de42b",
+        "classifier_reference64": "6e4b6e1f21cbdbd95eac418f4096e93151086794dadb240b6c46420093a06f79"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.010885936228334e-05,
+      "val_BA": 1.0,
+      "seconds": 13.310130400001071,
+      "artifacts_sha256": {
+        "history.csv": "1cec0f2c44af4cc4425713af433db33cc0f1547dc2c26fce1d69eb0cc44a6152",
+        "model.pt": "d078bb7a6ca9d0b63c304eb084e199bf66744273c9846df5399bea86de991f96",
+        "training_trace.json": "2418c2615798f644aa800feeb30602f020e8f469d2268d9a20a4a03271995fa9",
+        "validation.npz": "892a849efa2f93fed880036ba51ed0d1ddd12f4c9d8a9fa208c511bba70cb1ab"
+      }
+    },
+    {
+      "model_id": "m0008",
+      "method": "vibration_physical",
+      "seed": 1707,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        0
+      ],
+      "parameters": 38516,
+      "condition_parameters": 1232,
+      "shared_initialization_sha256": {
+        "vibration": "41d18d3f037f8155b11f72f8e0996a4eeb30c47ee064728f97f38a46247de42b",
+        "classifier_reference64": "6e4b6e1f21cbdbd95eac418f4096e93151086794dadb240b6c46420093a06f79"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.0198293753265197e-05,
+      "val_BA": 1.0,
+      "seconds": 15.708667399943806,
+      "artifacts_sha256": {
+        "history.csv": "4b7f8eb80c81ebb8f3268fd7ccde9f91a48ba812287d36f2778ede6288cfe33b",
+        "model.pt": "849aa45518ba318cc563dbc3c662b2788bd8b8f8ea27087eb469fcbaa9e476c9",
+        "training_trace.json": "2418c2615798f644aa800feeb30602f020e8f469d2268d9a20a4a03271995fa9",
+        "validation.npz": "d7651501653789b069cbac17eb6b67b6a00ef615aca2282ecbd48e245981f389"
+      }
+    },
+    {
+      "model_id": "m0009",
+      "method": "current_plain",
+      "seed": 1707,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        1
+      ],
+      "parameters": 37284,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "current": "d5fbbe40f15d91dbfa332d51eb4b6810b128bf832280d6b2737d8959691c3d51",
+        "classifier_reference64": "6e4b6e1f21cbdbd95eac418f4096e93151086794dadb240b6c46420093a06f79"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.0056497769055934,
+      "val_BA": 0.78625,
+      "seconds": 13.4528135000146,
+      "artifacts_sha256": {
+        "history.csv": "5123a20ad7eefe8524b94a91a5932b7e44af35ecd4adf7d26ddceb38ae4847be",
+        "model.pt": "adebade18bcdb034f10e49bf5518bd89e9f661aad293ce0abd26d8b893b8906b",
+        "training_trace.json": "2418c2615798f644aa800feeb30602f020e8f469d2268d9a20a4a03271995fa9",
+        "validation.npz": "e2ea680d96004bca9a7cef74bafbc28a856c770a22d4c03bc51d28bc5da138c2"
+      }
+    },
+    {
+      "model_id": "m0010",
+      "method": "current_physical",
+      "seed": 1707,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        1
+      ],
+      "parameters": 38516,
+      "condition_parameters": 1232,
+      "shared_initialization_sha256": {
+        "current": "d5fbbe40f15d91dbfa332d51eb4b6810b128bf832280d6b2737d8959691c3d51",
+        "classifier_reference64": "6e4b6e1f21cbdbd95eac418f4096e93151086794dadb240b6c46420093a06f79"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.2761152315038138,
+      "val_BA": 0.7425,
+      "seconds": 15.731363099999726,
+      "artifacts_sha256": {
+        "history.csv": "29e94b310ee21bcd1b5230c5a338375df6c4063737a38502549112224eed4fd4",
+        "model.pt": "58edfad38f5d2be768586ee9cde942fe9245d832457a1e75844eb1d64cb9f74c",
+        "training_trace.json": "2418c2615798f644aa800feeb30602f020e8f469d2268d9a20a4a03271995fa9",
+        "validation.npz": "7cc9c30b8b62c4efd26ad10de571057e5624f35b3d4089ed58eab5d5f4a990a5"
+      }
+    },
+    {
+      "model_id": "m0011",
+      "method": "concat_plain",
+      "seed": 1707,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 128,
+      "modalities": [
+        0,
+        1
+      ],
+      "parameters": 74564,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "vibration": "41d18d3f037f8155b11f72f8e0996a4eeb30c47ee064728f97f38a46247de42b",
+        "current": "d5fbbe40f15d91dbfa332d51eb4b6810b128bf832280d6b2737d8959691c3d51",
+        "classifier_reference64": "6e4b6e1f21cbdbd95eac418f4096e93151086794dadb240b6c46420093a06f79"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 0.0024665488334050566,
+      "val_BA": 0.99875,
+      "seconds": 23.12002869998105,
+      "artifacts_sha256": {
+        "history.csv": "19ff71b117698e900843cfbbd5c6994b30d2283d6ddd7bb032fe3510754d2d5e",
+        "model.pt": "67448724f8b5d899cecc0d3d00a7971f497b437c90091b4e10603825130b57fa",
+        "training_trace.json": "198fc7fc2d65e64d2e6c26db2bb54dc758fae7d28a668bd26d74aeca6a43fbd6",
+        "validation.npz": "111c916ae92535f55cbc947c9f53ce365aee39157757d989cbcee91fdfb00e3e"
+      }
+    },
+    {
+      "model_id": "m0012",
+      "method": "concat_physical",
+      "seed": 1707,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 128,
+      "modalities": [
+        0,
+        1
+      ],
+      "parameters": 77028,
+      "condition_parameters": 2464,
+      "shared_initialization_sha256": {
+        "vibration": "41d18d3f037f8155b11f72f8e0996a4eeb30c47ee064728f97f38a46247de42b",
+        "current": "d5fbbe40f15d91dbfa332d51eb4b6810b128bf832280d6b2737d8959691c3d51",
+        "classifier_reference64": "6e4b6e1f21cbdbd95eac418f4096e93151086794dadb240b6c46420093a06f79"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 0.0007772327170861282,
+      "val_BA": 1.0,
+      "seconds": 27.335470099991653,
+      "artifacts_sha256": {
+        "history.csv": "8879aeaf2fc331924c4317476eb3214c9f7a207a8085ebacc6fdc279aecb7393",
+        "model.pt": "8bc20ee161d48aa7ab25c7e3792e66dbddae2605270402bad6eab5d490336cdd",
+        "training_trace.json": "198fc7fc2d65e64d2e6c26db2bb54dc758fae7d28a668bd26d74aeca6a43fbd6",
+        "validation.npz": "95867f064cfacaf902d59c5f1107e0f79a8311ca0ce0177e72b74aa4b410f773"
+      }
+    },
+    {
+      "model_id": "m0013",
+      "method": "vibration_plain",
+      "seed": 1708,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        0
+      ],
+      "parameters": 37284,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "vibration": "bbf12e5e9a6620237de12e41c82db2a0ea1461452c869c2efceb17755009cfc0",
+        "classifier_reference64": "db88cd362993dca239d0db7433c59d7014716e5fa01a78bc00bfcf25ace9aaf9"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.4803662504230263e-05,
+      "val_BA": 1.0,
+      "seconds": 13.388562600011937,
+      "artifacts_sha256": {
+        "history.csv": "ce47a1dc00d76c1f2279a68f8a593bea4b86457b30ad23035b2aef98be359fbb",
+        "model.pt": "32ecab3d2a2eef0a7ec474d3b3edf9c10eb2506e8d313baa18441b32ac7ce474",
+        "training_trace.json": "fc4ee72b903a6e5e44e1e9e6910e38baaef320b4d0e111b2c281d6a20f03d5e9",
+        "validation.npz": "99773dbd2d9cd72063eb556eb758cdaa61553bc5f459db0191decde2f2574ffd"
+      }
+    },
+    {
+      "model_id": "m0014",
+      "method": "vibration_physical",
+      "seed": 1708,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        0
+      ],
+      "parameters": 38516,
+      "condition_parameters": 1232,
+      "shared_initialization_sha256": {
+        "vibration": "bbf12e5e9a6620237de12e41c82db2a0ea1461452c869c2efceb17755009cfc0",
+        "classifier_reference64": "db88cd362993dca239d0db7433c59d7014716e5fa01a78bc00bfcf25ace9aaf9"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.4335590217031679e-05,
+      "val_BA": 1.0,
+      "seconds": 15.749008000013418,
+      "artifacts_sha256": {
+        "history.csv": "0d909b40638dd4e66c120c80c4a85f210837c06c9f6a503ae92be98363818523",
+        "model.pt": "d449d41cf7e721e230275d5cdee3cb9ea90caac31d1c141edbce475fb107ae4a",
+        "training_trace.json": "fc4ee72b903a6e5e44e1e9e6910e38baaef320b4d0e111b2c281d6a20f03d5e9",
+        "validation.npz": "7bf14a42c98df8c5cfe30bec52016ecc277310c846983120c8582cafb0f1d5ca"
+      }
+    },
+    {
+      "model_id": "m0015",
+      "method": "current_plain",
+      "seed": 1708,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        1
+      ],
+      "parameters": 37284,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "current": "fc3879fbc78632dffc348b3aae5576b674199af4280df9a8cce324ef9a045888",
+        "classifier_reference64": "db88cd362993dca239d0db7433c59d7014716e5fa01a78bc00bfcf25ace9aaf9"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.7003069848299668,
+      "val_BA": 0.72375,
+      "seconds": 13.6106407000334,
+      "artifacts_sha256": {
+        "history.csv": "4cebb3a291c84fead29d67ef83a77333a20abe519a47e5b9818e81e2692311ab",
+        "model.pt": "26e462c4ded857bb4a61f3a6f42ebca3da96d4f5fd7a9db15c8b80a6693d6987",
+        "training_trace.json": "fc4ee72b903a6e5e44e1e9e6910e38baaef320b4d0e111b2c281d6a20f03d5e9",
+        "validation.npz": "82116d9cbf756043f27028fabfe88c7a873d1f49a13601f3f8e0f64fdec00c42"
+      }
+    },
+    {
+      "model_id": "m0016",
+      "method": "current_physical",
+      "seed": 1708,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        1
+      ],
+      "parameters": 38516,
+      "condition_parameters": 1232,
+      "shared_initialization_sha256": {
+        "current": "fc3879fbc78632dffc348b3aae5576b674199af4280df9a8cce324ef9a045888",
+        "classifier_reference64": "db88cd362993dca239d0db7433c59d7014716e5fa01a78bc00bfcf25ace9aaf9"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.8180128028382014,
+      "val_BA": 0.7162499999999999,
+      "seconds": 15.719255300005898,
+      "artifacts_sha256": {
+        "history.csv": "f4fe8c2af59d42b328ffb22fa32b491a1de65d3f8defd2552674fa41bd7ecbd0",
+        "model.pt": "ecd1f01b2d3fd29bb32c40c355debdec3c98ff979df5989c08fd29603ee23411",
+        "training_trace.json": "fc4ee72b903a6e5e44e1e9e6910e38baaef320b4d0e111b2c281d6a20f03d5e9",
+        "validation.npz": "179fb4150e4a189b00c652bd03a1f2cd804023645b0c97865e4527670df9903f"
+      }
+    },
+    {
+      "model_id": "m0017",
+      "method": "concat_plain",
+      "seed": 1708,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 128,
+      "modalities": [
+        0,
+        1
+      ],
+      "parameters": 74564,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "vibration": "bbf12e5e9a6620237de12e41c82db2a0ea1461452c869c2efceb17755009cfc0",
+        "current": "fc3879fbc78632dffc348b3aae5576b674199af4280df9a8cce324ef9a045888",
+        "classifier_reference64": "db88cd362993dca239d0db7433c59d7014716e5fa01a78bc00bfcf25ace9aaf9"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 7.697142536298829e-05,
+      "val_BA": 1.0,
+      "seconds": 23.074496300017927,
+      "artifacts_sha256": {
+        "history.csv": "e7c0dedd43254c86a14289a255132e3afada46b8e924a9fe5bff9d834c42b86f",
+        "model.pt": "e58d37c608bcba2561fc2912e2cceeccd4ac787052ecae55871f409db3388821",
+        "training_trace.json": "7c1097a8c9964ccbeef2f194bbbfa125fccae9f6f04109f8505d8699c50a1545",
+        "validation.npz": "7f05e2e014f29cc4b6302b29435094c7d265d95bab84cc2a8ba1cd6c1be378cd"
+      }
+    },
+    {
+      "model_id": "m0018",
+      "method": "concat_physical",
+      "seed": 1708,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 128,
+      "modalities": [
+        0,
+        1
+      ],
+      "parameters": 77028,
+      "condition_parameters": 2464,
+      "shared_initialization_sha256": {
+        "vibration": "bbf12e5e9a6620237de12e41c82db2a0ea1461452c869c2efceb17755009cfc0",
+        "current": "fc3879fbc78632dffc348b3aae5576b674199af4280df9a8cce324ef9a045888",
+        "classifier_reference64": "db88cd362993dca239d0db7433c59d7014716e5fa01a78bc00bfcf25ace9aaf9"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 4.5150791767175626e-05,
+      "val_BA": 1.0,
+      "seconds": 27.551887000037823,
+      "artifacts_sha256": {
+        "history.csv": "baebdecb6f395723c83ea5ae7a6fec68796c6edca02a62a5e57a31cb02bbf6cc",
+        "model.pt": "5a2904983db87e249b1f5160eaee0ff0c26a3a69768859074ee8bb90907a389c",
+        "training_trace.json": "7c1097a8c9964ccbeef2f194bbbfa125fccae9f6f04109f8505d8699c50a1545",
+        "validation.npz": "6560039a15cb64e9e2162da1c4c52c1f778083e21a7b22dd6d77b204f629772e"
+      }
+    },
+    {
+      "model_id": "m0019",
+      "method": "vibration_plain",
+      "seed": 1709,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        0
+      ],
+      "parameters": 37284,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "vibration": "6d99f243d12d3354c7eeff218d8a704ba4a9cd6b22504a8c665b96c4aafa4569",
+        "classifier_reference64": "615b6efcd6cdd542b113bfb5599b18c985bd50c931a396cf500a9edb7bea4a52"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.8786660556570077e-05,
+      "val_BA": 1.0,
+      "seconds": 13.435914199973922,
+      "artifacts_sha256": {
+        "history.csv": "7c6ba5f1fbe54cc4b37528fa0d5826dea6d8fd8c1ba073de88d3d4dff1411117",
+        "model.pt": "3f97771358ba5943d6c44371a81a73c6bf24ba081b6f6ea3886911a022a7e4fb",
+        "training_trace.json": "05b14374998e9b2217c32227d28990a5e2422c49efd324dda5d7da0004dd83d0",
+        "validation.npz": "ef913a8b26c651f55c0d313dccd954e1f6849dc0a1bc7447971bc293e9189bf6"
+      }
+    },
+    {
+      "model_id": "m0020",
+      "method": "vibration_physical",
+      "seed": 1709,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        0
+      ],
+      "parameters": 38516,
+      "condition_parameters": 1232,
+      "shared_initialization_sha256": {
+        "vibration": "6d99f243d12d3354c7eeff218d8a704ba4a9cd6b22504a8c665b96c4aafa4569",
+        "classifier_reference64": "615b6efcd6cdd542b113bfb5599b18c985bd50c931a396cf500a9edb7bea4a52"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.879484385107655e-05,
+      "val_BA": 1.0,
+      "seconds": 15.672732200007886,
+      "artifacts_sha256": {
+        "history.csv": "72a00d9ece069b734ebe662d75869faf3933036ad6e839225f7c2b40b77f1b2a",
+        "model.pt": "923993d03a2cdcc2a885bdaa1f1943ec03034e933e2c05b3e954be50ab55dd8a",
+        "training_trace.json": "05b14374998e9b2217c32227d28990a5e2422c49efd324dda5d7da0004dd83d0",
+        "validation.npz": "bb7d4a7411cdefd6d150966e345c6d76a3d7b5052ea786b1a3b22c47d083d730"
+      }
+    },
+    {
+      "model_id": "m0021",
+      "method": "current_plain",
+      "seed": 1709,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        1
+      ],
+      "parameters": 37284,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "current": "b41bb7dc540638acbf83590b82d998413ea4627ea6581b9f7d780a988f6f8154",
+        "classifier_reference64": "615b6efcd6cdd542b113bfb5599b18c985bd50c931a396cf500a9edb7bea4a52"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.4096813608436107,
+      "val_BA": 0.7625,
+      "seconds": 13.44481790001737,
+      "artifacts_sha256": {
+        "history.csv": "27039bc7402c2c437e554222eb4ae38010d90f0a26e9c12cc782b1b7100e29c5",
+        "model.pt": "a1a13b99d303354c7ba83059ade4b8436fbaf82a346037c6aa3644cc82e76d92",
+        "training_trace.json": "05b14374998e9b2217c32227d28990a5e2422c49efd324dda5d7da0004dd83d0",
+        "validation.npz": "7d0683f93e1545ba75ee67b88d43efadd31bf840c03fbba7b09640f942b86bcb"
+      }
+    },
+    {
+      "model_id": "m0022",
+      "method": "current_physical",
+      "seed": 1709,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        1
+      ],
+      "parameters": 38516,
+      "condition_parameters": 1232,
+      "shared_initialization_sha256": {
+        "current": "b41bb7dc540638acbf83590b82d998413ea4627ea6581b9f7d780a988f6f8154",
+        "classifier_reference64": "615b6efcd6cdd542b113bfb5599b18c985bd50c931a396cf500a9edb7bea4a52"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.3580686948300977,
+      "val_BA": 0.78625,
+      "seconds": 15.790329199982807,
+      "artifacts_sha256": {
+        "history.csv": "0edf7edded084ffdc9534233f37af2d54da2fb420a2c67c03718085b0bfa4105",
+        "model.pt": "6ad287fa6974061d6eaffe3bcbdf9bc629c5b25eb21635e42ae3033f97eb1db0",
+        "training_trace.json": "05b14374998e9b2217c32227d28990a5e2422c49efd324dda5d7da0004dd83d0",
+        "validation.npz": "cb7067e38f2049463dcd79a4ad366cd0dad6f091f32784f32c6a960924dbc361"
+      }
+    },
+    {
+      "model_id": "m0023",
+      "method": "concat_plain",
+      "seed": 1709,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 128,
+      "modalities": [
+        0,
+        1
+      ],
+      "parameters": 74564,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "vibration": "6d99f243d12d3354c7eeff218d8a704ba4a9cd6b22504a8c665b96c4aafa4569",
+        "current": "b41bb7dc540638acbf83590b82d998413ea4627ea6581b9f7d780a988f6f8154",
+        "classifier_reference64": "615b6efcd6cdd542b113bfb5599b18c985bd50c931a396cf500a9edb7bea4a52"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 0.00012164068955518915,
+      "val_BA": 1.0,
+      "seconds": 23.244764799950644,
+      "artifacts_sha256": {
+        "history.csv": "a19720327b3e8428e2ef74736b6dabcf43f0ce699d5e2faa371dcf214ee2ee57",
+        "model.pt": "978ee3720bced2398bd86da91a65d606f180d9f493fdb7c33086758fe1b85f40",
+        "training_trace.json": "3719f05ce71a6851784481bcb7a6f8cc0c52d8100e934c5f916a8d1a69e53abf",
+        "validation.npz": "5d26b6166074d8a81607e8f83101a389357156a217f2e69021299c9959482103"
+      }
+    },
+    {
+      "model_id": "m0024",
+      "method": "concat_physical",
+      "seed": 1709,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 128,
+      "modalities": [
+        0,
+        1
+      ],
+      "parameters": 77028,
+      "condition_parameters": 2464,
+      "shared_initialization_sha256": {
+        "vibration": "6d99f243d12d3354c7eeff218d8a704ba4a9cd6b22504a8c665b96c4aafa4569",
+        "current": "b41bb7dc540638acbf83590b82d998413ea4627ea6581b9f7d780a988f6f8154",
+        "classifier_reference64": "615b6efcd6cdd542b113bfb5599b18c985bd50c931a396cf500a9edb7bea4a52"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 2.725886345522177e-05,
+      "val_BA": 1.0,
+      "seconds": 27.657365299994126,
+      "artifacts_sha256": {
+        "history.csv": "9f1b4df22c6f8a22699441939725fe73e6026f03896f1a36fddac71ffcbf42a4",
+        "model.pt": "1b41fe58688212fb43e47e9af929d16fb2a65287bbfe9aabb740d04682176de1",
+        "training_trace.json": "3719f05ce71a6851784481bcb7a6f8cc0c52d8100e934c5f916a8d1a69e53abf",
+        "validation.npz": "301a0d1689a242cd240eea085c9b5a0095110b6876cce90ddb4a3dbbb2e88c14"
+      }
+    },
+    {
+      "model_id": "m0025",
+      "method": "vibration_plain",
+      "seed": 1710,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        0
+      ],
+      "parameters": 37284,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "vibration": "95730f0f49f06a3433a88f916c4f3844d91b93e6859cd443777827681543c363",
+        "classifier_reference64": "ca6e5bfecf1571eceab7f2b9f932c50eb475d59df7619239b0947a6552a07cce"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.6652930003469013e-05,
+      "val_BA": 1.0,
+      "seconds": 13.407525600050576,
+      "artifacts_sha256": {
+        "history.csv": "51120a300e126472ad98b42c06be148a8f6733f607c85a9775e5fcc99a1529c3",
+        "model.pt": "ba072e8db9b8d7e7b27b05ee95fc108d29acfffff6f02d5a19c1807c789bdfba",
+        "training_trace.json": "83181f97cb72b65bdef75b9257686a7247cdd9518363842cdf9909953ae348f1",
+        "validation.npz": "67e70b42b28ce11cac98492237003bacc59c92806ce32a157f6195309cd8e2e0"
+      }
+    },
+    {
+      "model_id": "m0026",
+      "method": "vibration_physical",
+      "seed": 1710,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        0
+      ],
+      "parameters": 38516,
+      "condition_parameters": 1232,
+      "shared_initialization_sha256": {
+        "vibration": "95730f0f49f06a3433a88f916c4f3844d91b93e6859cd443777827681543c363",
+        "classifier_reference64": "ca6e5bfecf1571eceab7f2b9f932c50eb475d59df7619239b0947a6552a07cce"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.667189464570784e-05,
+      "val_BA": 1.0,
+      "seconds": 15.789423000009265,
+      "artifacts_sha256": {
+        "history.csv": "f47218fb0e105028c5d08c6120b189ed5597e016d6c9d4d8dea361e8535b0550",
+        "model.pt": "4140750755446b13eea9ff21aefdf9f9fda6af6f98677ee56f984dc85fce5335",
+        "training_trace.json": "83181f97cb72b65bdef75b9257686a7247cdd9518363842cdf9909953ae348f1",
+        "validation.npz": "7af9639cec744cb7eaf226a67e6698ed1cdbf2db30178cae1813284d0fc8e499"
+      }
+    },
+    {
+      "model_id": "m0027",
+      "method": "current_plain",
+      "seed": 1710,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        1
+      ],
+      "parameters": 37284,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "current": "c50d1f3f654a2b2ab528688399956532a0a036e0d208c4c43ab73f71d59e8f7a",
+        "classifier_reference64": "ca6e5bfecf1571eceab7f2b9f932c50eb475d59df7619239b0947a6552a07cce"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.5016579971358552,
+      "val_BA": 0.77,
+      "seconds": 13.525810800027102,
+      "artifacts_sha256": {
+        "history.csv": "56d3960e7d3a41c03214d621c2ce259fbda9f90fa00a9d0218808846d73b7b4f",
+        "model.pt": "5f7326f7fa1c8c68651c78e0f97277ae14b78ad346b1bc4c59ec62d5bbbe8635",
+        "training_trace.json": "83181f97cb72b65bdef75b9257686a7247cdd9518363842cdf9909953ae348f1",
+        "validation.npz": "d56d08283303164f04c8bdc9e24ba67cfb8d26d12111b467fc0b50389cebe1f7"
+      }
+    },
+    {
+      "model_id": "m0028",
+      "method": "current_physical",
+      "seed": 1710,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 64,
+      "modalities": [
+        1
+      ],
+      "parameters": 38516,
+      "condition_parameters": 1232,
+      "shared_initialization_sha256": {
+        "current": "c50d1f3f654a2b2ab528688399956532a0a036e0d208c4c43ab73f71d59e8f7a",
+        "classifier_reference64": "ca6e5bfecf1571eceab7f2b9f932c50eb475d59df7619239b0947a6552a07cce"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 1.503884442523127,
+      "val_BA": 0.755,
+      "seconds": 15.770913499989547,
+      "artifacts_sha256": {
+        "history.csv": "fc32ab890514a17c11b9075a896c9bc04cc8ba93af3c465a308d2d00011f9fe9",
+        "model.pt": "9874a2219e71cf60773665ad1319a1a2a31e07e482a280a3e896bcdf2fb8d73e",
+        "training_trace.json": "83181f97cb72b65bdef75b9257686a7247cdd9518363842cdf9909953ae348f1",
+        "validation.npz": "30efc82fb92a53654007c31fef36acee4ba18eedb1658080b39dbcc4f49bac8f"
+      }
+    },
+    {
+      "model_id": "m0029",
+      "method": "concat_plain",
+      "seed": 1710,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 128,
+      "modalities": [
+        0,
+        1
+      ],
+      "parameters": 74564,
+      "condition_parameters": 0,
+      "shared_initialization_sha256": {
+        "vibration": "95730f0f49f06a3433a88f916c4f3844d91b93e6859cd443777827681543c363",
+        "current": "c50d1f3f654a2b2ab528688399956532a0a036e0d208c4c43ab73f71d59e8f7a",
+        "classifier_reference64": "ca6e5bfecf1571eceab7f2b9f932c50eb475d59df7619239b0947a6552a07cce"
+      },
+      "condition_updated": false,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 7.339653902147969e-05,
+      "val_BA": 1.0,
+      "seconds": 23.305152499990072,
+      "artifacts_sha256": {
+        "history.csv": "9763a6c1ae06a5fb3afb6d743b3259427e45044b2b6a37691086226bc1726646",
+        "model.pt": "db10096393d0f318f2c64b31e5ec20c5ec74f2bbcd63eb664394cef76d5be63b",
+        "training_trace.json": "ca7e37d7990c00809d085ccb942b685f16b0e1025a6ea4e941c6c3860bc772c7",
+        "validation.npz": "62b7df325957ff8fbb3357a040bb53f8ab5135a5a8e699f5b1fbe314ec49cb02"
+      }
+    },
+    {
+      "model_id": "m0030",
+      "method": "concat_physical",
+      "seed": 1710,
+      "functional": false,
+      "epochs": 50,
+      "updates": 2500,
+      "head_width": 128,
+      "modalities": [
+        0,
+        1
+      ],
+      "parameters": 77028,
+      "condition_parameters": 2464,
+      "shared_initialization_sha256": {
+        "vibration": "95730f0f49f06a3433a88f916c4f3844d91b93e6859cd443777827681543c363",
+        "current": "c50d1f3f654a2b2ab528688399956532a0a036e0d208c4c43ab73f71d59e8f7a",
+        "classifier_reference64": "ca6e5bfecf1571eceab7f2b9f932c50eb475d59df7619239b0947a6552a07cce"
+      },
+      "condition_updated": true,
+      "zero_active_encoder_gradient_epochs": [],
+      "val_CE": 2.932606695234874e-05,
+      "val_BA": 1.0,
+      "seconds": 27.752097700024024,
+      "artifacts_sha256": {
+        "history.csv": "e0a46b7519e4b2e4e6049c3d4f02a6ceb079eb0ed3168bc60cec0600bb211cd9",
+        "model.pt": "97d95e4c0f65d51399b7185402e93e883bd9eb88eeb40bd58d435b35dcc86e37",
+        "training_trace.json": "ca7e37d7990c00809d085ccb942b685f16b0e1025a6ea4e941c6c3860bc772c7",
+        "validation.npz": "89447eabc4501c7da474ea2ac33f04f6aedcaab191a645ea3bce60c3d89bba83"
+      }
+    }
+  ],
+  "expected_models": 30,
+  "prediction_cases": 1890,
+  "expected_new_predictions": 1890,
+  "referenced_predictions": 630,
+  "decisions_locked": true,
+  "weights_verified": true,
+  "target_inference_accessed": true,
+  "active_model": {
+    "model_id": "m0030",
+    "method": "concat_physical",
+    "seed": 1710
+  },
+  "active_progress": {
+    "epoch": 50,
+    "train_CE": 7.049708627164364e-05,
+    "val_CE": 2.932606695234874e-05,
+    "val_BA": 1.0
+  },
+  "locked_at": "2026-11-15 21:47:00",
+  "finished_at": "2026-11-15 21:51:58"
+}

@@ -1,0 +1,14 @@
+{
+  "script_sha256": "200b0b8560ca5611faed4c2267e7fdaeb8666733b30d7a6b5c8f267163bd6342",
+  "protocol_sha256": "4fac721d751f6b15556ae202c464e12d3e5ac9491bdb090951d036cd1f7c3b99",
+  "original_data": "D:\\Project\\MY draft\\experiments\\PU-2\\data\\prepared_20261113_a",
+  "original_data_verification_sha256": "0a6198a724ad43e547fae3a3d81e7d9fa17b8ce4a477975ca29a24070307a0c4",
+  "corrected_angular_sampling_equivalent_hz": 9600,
+  "additional_resample_ratio": "3/5",
+  "kaiser_beta": 5,
+  "source_and_1500rpm_targets_bitwise_unchanged": true,
+  "unaffected_noise_templates_bitwise_unchanged": true,
+  "all_window_metadata_bitwise_unchanged": true,
+  "corrected_6000Hz_residual_RMS": 0.0009713477726165137,
+  "target_classification_scores_used_for_correction": false
+}

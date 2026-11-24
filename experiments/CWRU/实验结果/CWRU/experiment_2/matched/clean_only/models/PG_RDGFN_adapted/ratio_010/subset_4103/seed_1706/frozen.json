@@ -1,0 +1,22 @@
+{
+  "protocol": "clean_only",
+  "method": "PG_RDGFN_adapted",
+  "ratio": 0.1,
+  "subset_seed": 4103,
+  "model_seed": 1706,
+  "from_scratch": true,
+  "training_windows": 29,
+  "paired_inputs": false,
+  "maximum_batch_inputs": 32,
+  "selected_epoch": 150,
+  "selected_update": 150,
+  "updates_trained": 300,
+  "validation_nll": 0.175792787631508,
+  "model_sha256": "b38e063b00c3205a52ca72156f90997673b29a37a1b689169cfbc2a353b5a2dd",
+  "selected_windows_sha256": "0abbe77ea97f3196eed7448c4e4ed276ec1eb81d3b8de0a921637b3996eaa61d",
+  "trace_sha256": "5933df2a8cf640acc50f116cf21a3b1b0d41aabbdecf8ad26cf2e831225034ed",
+  "training_wall_seconds": 7.788866099901497,
+  "fit_seconds": 0.0039588999934494495,
+  "precision": "FP32",
+  "adapted": true
+}

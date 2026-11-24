@@ -1,0 +1,16 @@
+{
+  "approved_aux_weight": 0.3,
+  "original_grid_winner": 1.0,
+  "approved_scope": "39_dim_awgn_full_and_10_20_50_percent",
+  "approval": "user_requested_noise_transfer_after_clean_transfer",
+  "constraint": "0 < auxiliary loss weight < fusion loss weight of 1",
+  "constraint_set_after_original_validation": true,
+  "source": "D:\\Project\\MY draft\\results\\CWRU_V5\\selection_20261109_114155\\selection\\selection.json",
+  "constrained_validation": {
+    "aux_weight": 0.3,
+    "mean_best_validation_ce": 6.113909779018181e-06,
+    "sample_sd": 9.502097619413286e-07,
+    "seeds": 5
+  },
+  "clean_coefficient_reused_without_new_selection": true
+}

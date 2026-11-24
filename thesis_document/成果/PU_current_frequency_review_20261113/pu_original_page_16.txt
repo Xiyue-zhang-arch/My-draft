@@ -1,0 +1,74 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+Niknam, S. A., Thomas, T., Hines, W. J., & Sawhney, R.            Industrial Electronics Society, 2005. IECON 2005 (pp. 6
+   (2013). Analysis of Acoustic Emission Data for Bearings        pp).
+    subject to Unbalance. International Journal of              Smith, W. A., & Randall, R. B. (2015). Rolling element
+   Prognostics and Health Management, 2013(015).               bearing diagnostics using the Case Western Reserve
+Obaid, R. R., Habetler, T. G., & Stack, J. R. (2003). Stator          University data: A benchmark study. Mechanical
+    current analysis for bearing damage detection in               Systems and Signal Processing.
+   induction motors. In IEEE International Symposium on         doi:10.1016/j.ymssp.2015.04.021
+   Diagnostics for Electric Machines, Power Electronics       Stack, J. R., Habetler, T. G., & Harley, R. G. (2003,
+   and Drives (pp. 182–187).                                    August). Fault classification and fault signature
+Pacas, M., Villwock, S., & Dietrich, R. Bearing damage            production for rolling element bearings in electric
+   detection in permanent magnet synchronous machines          machines. IEEE. Diagnostics for Electric Machines,
+   (2009). In 2009 IEEE Energy Conversion Congress and       Power Electronics and Drives,
+   Exposition. ECCE 2009 (pp. 1098–1103).                 Tandon, N., & Choudhury, A. (1999). A review of vibration
+Paschke, F., Bayer, C., Bator, M., Mönks, U., Dicks, A.,          and acoustic measurement methods for the detection of
+   Enge-Rosenblatt, O., & Lohwe, V. (2013). Sensorlose           defects in rolling element bearings. Tribology
+   Zustandsüberwachung an Synchronmotoren. In F.                International, 32(8), pp. 469–480. doi:10.1016/S0301-
+   Hoffmann & E. Hüllermeier (Eds.), Schriftenreihe des         679X(99)00077-8
+    Instituts für Angewandte Informatik,                 VDI 3832 (2013). Measurement of structure-borne sound of
+   Automatisierungstechnik am Karlsruher Institut für              rolling element bearings in machines and plants for
+   Technologie: Vol. 46. Proceedings / 23. Workshop              evaluation of condition. Verein Deutscher Ingenieure
+   Computational Intelligence. Dortmund, 5. - 6. Dezember         e.V., Düsseldorf: Beuth Verlag GmbH.
+   2013 . Karlsruhe: KIT Scientific Publ.
+                                                           Villwock, S. (2007). Identifikationsmethoden für die
+Patil, M. S., Mathew, J., Rajendrakumar, P. K., & Desai, S.         automatisierte Inbetriebnahme und
+   (2010). A theoretical model to predict the effect of            Zustandsüberwachung elektrischer Antriebe
+    localized defect on vibrations associated with ball                (Dissertation). Universität Siegen.
+    bearing. Special Issue on Advances in Materials and
+                                                      Yang, H., Mathew, J., & Ma, L. (2005). Fault diagnosis of   Processing Technologies, 52(9), pp. 1193–1201.
+                                                                         rolling element bearings using basis pursuit. Mechanical
+   doi:10.1016/j.ijmecsci.2010.05.005
+                                                             Systems and Signal Processing, 19(2), pp. 341–356.
+Picot, A., Obeid, Z., Régnier, J., Poignant, S., Darnis, O., &        doi:10.1016/j.ymssp.2004.03.008
+   Maussion, P. (2014). Statistic-based spectral indicator
+                                                      Yang, Z., Merrild, U. C., Runge, M. T., Pedersen, G. K., &
+    for bearing fault detection in permanent-magnet
+                                                    Hakon Børsting. (2009). A Study of Rolling-Element
+   synchronous machines using the stator current.
+                                                             Bearing Fault Diagnosis Using Motor’s Vibration and   Mechanical Systems and Signal Processing, 46(2), pp.
+                                                               Current Signatures. I F A C Workshop Series, pp. 354–
+   424–441. doi:10.1016/j.ymssp.2014.01.006
+                                                               359.
+Qiu, H., Lee, J., Lin, J., & Yu, G. (2006). Wavelet filter-
+                                                                   Zarei, J., & Poshtan, J. (2009). An advanced Park’s vectors
+   based weak signature detection method and its
+                                                            approach for bearing fault detection. Tribology
+    application on rolling element bearing prognostics.
+                                                                      International, 42, pp. 213–219.
+   Journal of Sound and Vibration, 289(4-5), pp.1066–
+   1090. doi:10.1016/j.jsv.2005.03.007                      Zoubek, H., Villwock, S., & Pacas, M. (2008). Frequency
+                                                          Response Analysis for Rolling-Bearing Damage
+Randall, R. B. (2011). Vibration-based Condition
+                                                                 Diagnosis. IEEE Transactions on Industrial Electronics,
+   Monitoring. Chichester, UK: John Wiley & Sons, Ltd.
+                                                                  55(12), 4270–4276. doi:10.1109/TIE.2008.2005020
+Schaeffler Technologies AG & Co. KG. (2015).
+   Wälzlagerpraxis: Handbuch zur Gestaltung und                                                  BIOGRAPHIES
+   Berechnung von Wälzlagerungen (4. Aufl.). Mainz:
+   Vereinigte Fachverl.                                                 Christian Lessmeier (Dipl.-Ing.) was born in
+                                                                                 Bielefeld, Germany in 1985. He received hisSchoen, R. R., Habetler, T. G., Kamran, F., & Bartfield, R.
+                                                                        degree  in  Mechanical  Engineering  from   G. (1995). Motor bearing damage detection using stator
+                                                                     Paderborn  University,  Germany,  in  2010.    current monitoring. IEEE Transactions on Industry
+                                                                        Since 2010, he has been working as a research   Applications, 31(6), 1274–1279. doi:10.1109/28.475697
+                                                                                     assistant with Prof. Zimmer at the Chair of
+Silva, J., & Cardoso, A. (2005). Bearing failures diagnosis                                                                   Design  and  Drive  Technology,  Paderborn
+    in three-phase induction motors by extended Park's                                                                University. He has managed and worked  in a publicly
+   vector approach. In 31st Annual Conference of IEEE                                                         funded research project, assists different lectures, and  is
+                                                                presently working on his PhD thesis. His current research
+
+
+
+                                                                                                             16

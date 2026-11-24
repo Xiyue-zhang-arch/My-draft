@@ -1,0 +1,119 @@
+{
+  "experiment_id": "CWRU48_fixed212_exclude_OR014_3",
+  "execution": "from_scratch",
+  "excluded_record": "OR014_3",
+  "only_test_membership_changed": true,
+  "training_windows": 287,
+  "validation_windows": 200,
+  "test_windows": 180,
+  "test_support": [
+    20,
+    60,
+    40,
+    60
+  ],
+  "updates": 600,
+  "seeds": [
+    1706,
+    1707,
+    1708
+  ],
+  "subset_seeds": [
+    4101,
+    4102,
+    4103
+  ],
+  "ratios": [
+    1.0,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "methods": [
+    "fusion",
+    "data_only"
+  ],
+  "protocols": [
+    "clean_only",
+    "awgn_mixed"
+  ],
+  "model_config": {
+    "window_samples": 24000,
+    "width": 32,
+    "dropout": 0.3,
+    "bands_hz": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "orders": [
+      1.0,
+      0.39828,
+      2.35675,
+      4.7135,
+      3.5848,
+      5.4152
+    ],
+    "families": [
+      "shaft",
+      "FTF",
+      "BSF",
+      "2BSF",
+      "BPFO",
+      "BPFI"
+    ],
+    "sham_multipliers": [
+      0.72,
+      0.82,
+      0.92,
+      1.08,
+      1.18,
+      1.28
+    ]
+  },
+  "hardware": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "numpy": "1.26.4",
+  "device": "cuda",
+  "cpu_threads": 2,
+  "precision": "BF16 encoder on CUDA, remainder FP32",
+  "batch_size": 32,
+  "optimizer": "AdamW lr=0.0005 weight_decay=0.001; cosine eta_min=0.00001",
+  "label_smoothing": 0.05,
+  "early_stopping": "epoch 1 and at least every 50 updates; min200/patience150, max600",
+  "selection": "class-record balanced validation NLL; clean1 or clean0.5 and each noisy condition0.1",
+  "scaler": "selected clean training subset median/IQR, floor0.05, clip[-8,8]",
+  "latency": "batch1 normalization+live features+network, no disk/H2D; 10 warmups/50 repeats",
+  "training_timing": "all actual epochs, including online features and backward; excludes validation",
+  "noise": "per occurrence 50% clean, otherwise U[-4,4] dB AWGN; one CE, no paired inputs",
+  "test_noise": "generated in original 200-window order before restriction; 7201..7205 for each fixed SNR",
+  "evaluation_snrs": [
+    -4,
+    -2,
+    0,
+    2,
+    4
+  ],
+  "validation_noise_seed": 6201,
+  "quality_input": false,
+  "frequency_correction": false,
+  "prior_test_exposed": true,
+  "model_reuse": false,
+  "prediction_reuse": false,
+  "stage": "complete",
+  "trained_models": 66,
+  "prediction_groups": 891
+}

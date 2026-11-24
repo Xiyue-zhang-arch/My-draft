@@ -1,0 +1,2 @@
+condition,noise_seed,validation_nll,acc,balanced_acc,f1_macro,recall_N,recall_IR,recall_OR,recall_B
+clean,0,0.3422428250312805,0.8,0.8333333333333334,0.8273601398601398,1.0,1.0,0.75,0.5833333333333334

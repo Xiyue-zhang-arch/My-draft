@@ -1,0 +1,19 @@
+{
+  "variant": "data_aux_ce",
+  "protocol": "awgn_mixed",
+  "seed": 1708,
+  "subset": 4103,
+  "spec": {
+    "aux_weight": 1.0,
+    "physics_fit": "matched_noise",
+    "aux_head": "shared",
+    "val_noise_seeds": [
+      6201
+    ],
+    "max_epochs": 30,
+    "schedule_epochs": 100,
+    "patience": 20,
+    "fit_noise_seed": 6301,
+    "fit_noise_repeats": 3
+  }
+}

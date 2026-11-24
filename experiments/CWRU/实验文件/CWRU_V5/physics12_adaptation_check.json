@@ -1,0 +1,256 @@
+{
+  "scope": "synthetic_only_no_training_no_bearing_data",
+  "seed": 20261113,
+  "checks": {
+    "known_40dB_score_and_missing_harmonic_stop": true,
+    "zero_and_amplitude_offset_invariance": true,
+    "levinson_matches_independent_linear_solve": true,
+    "known_AR2_selected_order": 2,
+    "rolling_CHNR_stronger_for_periodic_than_random_impacts": true
+  },
+  "white_noise": {
+    "12000": {
+      "windows": 300,
+      "pointwise_pooled_exceedance": 0.009333333333333334,
+      "families_with_any_detection": [
+        0.01,
+        0.016666666666666666,
+        0.02
+      ],
+      "any_family_window_rate": 0.04,
+      "any_family_window_95pct_interval": [
+        0.020836576306413706,
+        0.0688289881894961
+      ],
+      "BIC_orders": {
+        "0": 300
+      }
+    },
+    "24000": {
+      "windows": 300,
+      "pointwise_pooled_exceedance": 0.010070472163495419,
+      "families_with_any_detection": [
+        0.03,
+        0.01,
+        0.02
+      ],
+      "any_family_window_rate": 0.056666666666666664,
+      "any_family_window_95pct_interval": [
+        0.0333533115166846,
+        0.08918040443416297
+      ],
+      "BIC_orders": {
+        "0": 299,
+        "1": 1
+      }
+    },
+    "48000": {
+      "windows": 300,
+      "pointwise_pooled_exceedance": 0.009964838255977496,
+      "families_with_any_detection": [
+        0.03333333333333333,
+        0.02,
+        0.02
+      ],
+      "any_family_window_rate": 0.07,
+      "any_family_window_95pct_interval": [
+        0.0438503447554294,
+        0.1050139995500499
+      ],
+      "BIC_orders": {
+        "0": 300
+      }
+    }
+  },
+  "responses": {
+    "white_noise": {
+      "windows": 40,
+      "median_features": [
+        0.005636578648216938,
+        0.007915518028183955,
+        0.003751732781351465,
+        0.013372386713289972,
+        0.012797411130174616,
+        0.013075302100408252,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_features": [
+        0.005702409440367354,
+        0.007928930876499984,
+        0.0038022183155632513,
+        0.014186581649827177,
+        0.012686793702992635,
+        0.013176196445627886,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rolling_detected_rate": 0.0,
+      "BIC_orders": {
+        "0": 40
+      }
+    },
+    "colored_AR2": {
+      "windows": 40,
+      "median_features": [
+        0.022867408362228697,
+        0.03148603882790552,
+        0.016938899947583,
+        0.018081080071991842,
+        0.015166632484304424,
+        0.017507824979374587,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_features": [
+        0.023049253038154662,
+        0.03146727743562331,
+        0.01698210744705777,
+        0.018663505319579086,
+        0.015424794312704878,
+        0.017427752640484292,
+        0.0,
+        0.1410872796229361,
+        0.0,
+        0.0,
+        0.025,
+        0.0
+      ],
+      "rolling_detected_rate": 0.0,
+      "BIC_orders": {
+        "2": 40
+      }
+    },
+    "equal_impacts": {
+      "windows": 40,
+      "median_features": [
+        0.0950696281397507,
+        0.015873862089140323,
+        0.5242062210823206,
+        0.1099391536742963,
+        -0.026040529383061905,
+        0.754036894231699,
+        0.0,
+        0.0,
+        119.03284355178238,
+        0.0,
+        0.0,
+        6.0
+      ],
+      "mean_features": [
+        0.0950615494066771,
+        0.015632275742509718,
+        0.5235832260662094,
+        0.11008045130826379,
+        -0.026289615376001402,
+        0.7538748202837047,
+        0.16860359219910087,
+        0.0,
+        118.7341617843377,
+        0.025,
+        0.0,
+        6.0
+      ],
+      "rolling_detected_rate": 1.0,
+      "BIC_orders": {
+        "16": 9,
+        "15": 29,
+        "11": 2
+      }
+    },
+    "alternating_impacts": {
+      "windows": 40,
+      "median_features": [
+        0.11041329193422199,
+        0.03619345889938426,
+        0.5829365453703736,
+        0.14158488812004183,
+        -0.05908102932263934,
+        0.374543729704894,
+        4.2916404699103525,
+        0.0,
+        111.74342173089978,
+        2.0,
+        0.0,
+        6.0
+      ],
+      "mean_features": [
+        0.1107107191011528,
+        0.0359696270622851,
+        0.5822624375992459,
+        0.14172046328929608,
+        -0.05915180497943782,
+        0.37490070582405516,
+        3.954366017086025,
+        0.0,
+        111.73716328957698,
+        1.775,
+        0.0,
+        6.0
+      ],
+      "rolling_detected_rate": 1.0,
+      "BIC_orders": {
+        "16": 9,
+        "15": 28,
+        "14": 3
+      }
+    },
+    "random_impacts": {
+      "windows": 40,
+      "median_features": [
+        0.0431319789373897,
+        0.035199855821506865,
+        0.05280455313864722,
+        0.004051893780568791,
+        0.0038415256749124637,
+        0.0037162279174801282,
+        1.4751163394109743,
+        2.0252954418167124,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "mean_features": [
+        0.044151361187563645,
+        0.034902148853887524,
+        0.05199354857927559,
+        0.0056734420134904205,
+        0.003156059555432026,
+        0.0018621364876660954,
+        2.70368915354192,
+        2.5226414235414056,
+        2.477873584440803,
+        1.45,
+        1.525,
+        1.25
+      ],
+      "rolling_detected_rate": 0.475,
+      "BIC_orders": {
+        "15": 25,
+        "16": 10,
+        "17": 1,
+        "14": 3,
+        "11": 1
+      }
+    }
+  },
+  "limitations": [
+    "Synthetic response checks do not establish classification improvement.",
+    "Gaussian null thresholds are approximate after adaptive AR fitting.",
+    "1% is per searched harmonic under an approximate null, not overall family/window error.",
+    "Within-window BIC prewhitening is a project adaptation, not an author setting."
+  ]
+}

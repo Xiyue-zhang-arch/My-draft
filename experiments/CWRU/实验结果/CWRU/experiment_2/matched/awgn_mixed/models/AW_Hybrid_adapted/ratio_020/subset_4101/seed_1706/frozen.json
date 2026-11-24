@@ -1,0 +1,22 @@
+{
+  "protocol": "awgn_mixed",
+  "method": "AW_Hybrid_adapted",
+  "ratio": 0.2,
+  "subset_seed": 4101,
+  "model_seed": 1706,
+  "from_scratch": true,
+  "training_windows": 58,
+  "paired_inputs": false,
+  "maximum_batch_inputs": 32,
+  "selected_epoch": 125,
+  "selected_update": 250,
+  "updates_trained": 400,
+  "validation_nll": 0.22709913715370933,
+  "model_sha256": "80f9b6ae13a615a46a249b3c3a6d2543d0a3f8b4fab8da85c0c134edcf2b8916",
+  "selected_windows_sha256": "c0da3ec4908630c8d4b7fd7f1dae52b40f6a994f82fd69d5707ab78ef644a945",
+  "trace_sha256": "fd0ab4925e9a4e4134971ebf165808345246bfc0215dda621b452cfa251fe95f",
+  "training_wall_seconds": 10.149241500068456,
+  "fit_seconds": 1.0200077667832375e-05,
+  "precision": "FP32",
+  "adapted": true
+}

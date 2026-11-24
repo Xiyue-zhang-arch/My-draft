@@ -1,0 +1,10 @@
+{
+  "selected_physics_fit": "matched_noise",
+  "coefficients": [
+    0.1,
+    0.3,
+    1.0
+  ],
+  "best_lambda_not_selected": true,
+  "scope": "30轮探索，不以短程测试决定最终方案"
+}

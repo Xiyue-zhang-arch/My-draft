@@ -1,0 +1,5 @@
+role,0,1,2,3
+train,8,17,24,24
+unused,50,137,150,150
+unused_source_train,8,31,24,24
+validation,4,12,12,12

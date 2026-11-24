@@ -1,0 +1,50 @@
+# Original datasets and regenerable signal caches
+/data/raw/
+/data/cache/
+/data/pu_v2/raw/
+
+# Model weights and high-dimensional exports stay local
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Machine-specific settings and credentials
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+*.tmp
+*.log
+
+# Track only lightweight, reviewable experiment evidence
+/experiments/*/实验结果/**
+!/experiments/*/实验结果/**/
+!/experiments/*/实验结果/**/*.csv
+!/experiments/*/实验结果/**/*.json
+!/experiments/*/实验结果/**/*.png
+!/experiments/*/实验结果/**/*.md
+# pytest runtime artifacts
+.pytest_cache/
+pytest-cache-files-*/

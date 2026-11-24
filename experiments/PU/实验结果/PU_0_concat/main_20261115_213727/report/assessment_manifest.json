@@ -1,0 +1,16 @@
+{
+  "stage": "post_completion_report_only",
+  "new_training_calls": 0,
+  "new_network_inference_calls": 0,
+  "description": "完成后据冻结CSV和审计整理结果判断，不替代completion_manifest.json。",
+  "files_sha256": {
+    "report/ASSESSMENT.md": "8261958a19ef09247ed5898f16d8ba36aff401c99c8116b541ddc5998d4d0434",
+    "report/endpoints_summary.csv": "dc01bc455a89657f629581567893f54dfc941065199dabb89b6efef7be8d68fd",
+    "report/paired_differences.csv": "9cbf3838ff1fe99b3baf813d48477c414412cf2b841fd94477b33bff66af29e7",
+    "report/target_SNR_summary.csv": "ba75e59aebc7640af1eec8d16491a8be1380c97a8f81b1b4dc543325720c3b82",
+    "report/degeneration_summary.csv": "09aa42307c75b80d0428b64b566f1b53ca113a1d819e7e54b2da62da77ab2706",
+    "config.json": "4004b80e377279f210636e494bacfdb40121be978a171652cc04bba948dcfd46",
+    "independent_audit.json": "32d02baa0d5c8ad4806833159c62333e74cf80a268939841051cec7ddd2da120",
+    "completion_manifest.json": "c509d4d2794afddb4f2304cecb2f089967b478a5a36f347725a9ae9081891ea3"
+  }
+}

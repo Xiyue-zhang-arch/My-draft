@@ -1,0 +1,47 @@
+{
+  "stage": "complete",
+  "watched": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_author_small_DWCN_SDGFD_20261104_1940",
+  "started_at": "2026-11-04T19:43:12.025007+08:00",
+  "pid": 133476,
+  "steps": [
+    {
+      "method": "DWCN_SDGFD",
+      "sample": "full",
+      "output": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_author_full_DWCN_SDGFD_20261104_chain",
+      "status": "complete",
+      "pid": 130960,
+      "started_at": "2026-11-04T21:28:35.224466+08:00",
+      "log": "D:\\Project\\MY draft\\results\\CWRU_V3\\author_sequence_20261104_chain\\01_DWCN_SDGFD_full.log",
+      "exit_code": 0,
+      "ended_at": "2026-11-04T22:05:31.468860+08:00"
+    },
+    {
+      "method": "ClassBD_WDCNN",
+      "sample": "small",
+      "output": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_author_small_ClassBD_WDCNN_20261104_chain",
+      "status": "complete",
+      "pid": 37684,
+      "started_at": "2026-11-04T22:05:31.493018+08:00",
+      "log": "D:\\Project\\MY draft\\results\\CWRU_V3\\author_sequence_20261104_chain\\02_ClassBD_WDCNN_small.log",
+      "exit_code": 0,
+      "ended_at": "2026-11-04T23:49:13.904869+08:00"
+    },
+    {
+      "method": "ClassBD_WDCNN",
+      "sample": "full",
+      "output": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_author_full_ClassBD_WDCNN_20261104_chain",
+      "status": "complete",
+      "pid": 61684,
+      "started_at": "2026-11-04T23:49:13.965914+08:00",
+      "log": "D:\\Project\\MY draft\\results\\CWRU_V3\\author_sequence_20261104_chain\\03_ClassBD_WDCNN_full.log",
+      "exit_code": 0,
+      "ended_at": "2026-11-05T00:06:35.844723+08:00"
+    }
+  ],
+  "current_stage": "testing",
+  "trained_models": 180,
+  "active_model": null,
+  "updated_at": "2026-11-05T00:06:35.849958+08:00",
+  "current_step": 3,
+  "completed_at": "2026-11-05T00:06:35.849958+08:00"
+}

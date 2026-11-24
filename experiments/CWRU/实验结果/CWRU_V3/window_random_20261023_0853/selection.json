@@ -1,0 +1,11 @@
+{
+  "selected_aux_weight": 0.3,
+  "lambda_selection_source": "D:\\Project\\MY draft\\results\\CWRU_V3\\run_20261022_2105\\selection_evaluation\\selection.json",
+  "decisions_locked": true,
+  "decision_scope": "window_random_only",
+  "historical_test_exposure": true,
+  "selection_test_already_accessed": true,
+  "model_cases": 200,
+  "new_models": 190,
+  "referenced_models": 10
+}

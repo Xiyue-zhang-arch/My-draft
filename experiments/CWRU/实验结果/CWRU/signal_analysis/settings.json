@@ -1,0 +1,35 @@
+{
+  "bands": [
+    [
+      500,
+      3000
+    ],
+    [
+      3000,
+      6000
+    ],
+    [
+      6000,
+      12000
+    ],
+    [
+      12000,
+      20000
+    ]
+  ],
+  "samples_per_window": 24000,
+  "windows_per_record": 10,
+  "interval": "first 5 s of each of 12 records",
+  "overview_band_hz": [
+    3000,
+    6000
+  ],
+  "overview_band_selected_before_analysis": true,
+  "envelope_sample_rate": 3000,
+  "trim_seconds_each_end": 0.025,
+  "fft_effective_seconds": 0.45,
+  "peak_search": "max(2Hz,1.5% harmonic frequency)",
+  "background": "within max(12Hz,15% harmonic frequency), outside peak tolerance+2Hz",
+  "periodic_search": "1,2,3 theoretical periods, tolerance max(1 sample,2% lag)",
+  "aggregation": "record/window descriptive, no independent-window inference"
+}

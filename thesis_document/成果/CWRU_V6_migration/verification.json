@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "verified_at": "2026-11-12T20:39:12.063053+08:00",
+  "files_checked": 2406,
+  "files_byte_identical": 2399,
+  "path_only_changed_files": 7,
+  "weight_files_byte_identical": 154,
+  "npz_files_byte_identical": 938,
+  "formal_model_folders_verified": 150,
+  "prediction_paths_verified": 780,
+  "original_experiment_directory_absent": true,
+  "original_results_directory_absent": true,
+  "training_snapshot_hashes_preserved": true,
+  "stage": "complete",
+  "metrics": 20280,
+  "legacy_unreadable_items_preserved": [
+    {
+      "path": "D:\\Project\\MY draft\\results\\CWRU_Physics6\\report_check_t0kfk6p1",
+      "error": "[WinError 5] 拒绝访问。: 'D:\\\\Project\\\\MY draft\\\\results\\\\CWRU_Physics6\\\\report_check_t0kfk6p1'"
+    }
+  ],
+  "models_retrained": 0,
+  "test_inferences_performed": 0,
+  "v6_read_only_plan_passed": true,
+  "original_checkpoint_strict_load_passed": true
+}

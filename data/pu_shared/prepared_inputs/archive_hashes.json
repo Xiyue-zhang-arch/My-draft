@@ -1,0 +1,34 @@
+{
+  "K003": {
+    "path": "D:\\Project\\MY draft\\data\\raw\\PU\\artificial damage\\Health\\K003.rar",
+    "sha256": "d7d1edf6047fac088efe118198abd0856c5280dd8653496fbac9a5d877180f1e"
+  },
+  "K005": {
+    "path": "D:\\Project\\MY draft\\data\\raw\\PU\\artificial damage\\Health\\K005.rar",
+    "sha256": "2faf0ee4ee66055bcc066e5b6d9ed9fc44638b2c1ea397a279261103aa83caaa"
+  },
+  "KA01": {
+    "path": "D:\\Project\\MY draft\\data\\raw\\PU\\artificial damage\\OR\\KA01.rar",
+    "sha256": "6a6be1e11132730cc6f560d51eacedcbfd5fd74b829e9d8d3728c6c8a7cd4c0e"
+  },
+  "KA04": {
+    "path": "D:\\Project\\MY draft\\data\\raw\\PU\\real damage\\OR\\KA04.rar",
+    "sha256": "6fc317157e2cd4cb55bc54d6fac1b1753f8ab31abcccd1ac68cbfb78e5e8299d"
+  },
+  "KI14": {
+    "path": "D:\\Project\\MY draft\\data\\raw\\PU\\real damage\\IR\\KI14.rar",
+    "sha256": "16911b5f8c723b568b6aa69397b00796fea41e43bf627a1a0158a7294f2b7a60"
+  },
+  "KI05": {
+    "path": "D:\\Project\\MY draft\\data\\raw\\PU\\artificial damage\\IR\\KI05.rar",
+    "sha256": "5a936f170f4188e38c537b05a260a3cf60cc3b671f90502a008636aac6c66bf4"
+  },
+  "KB23": {
+    "path": "D:\\Project\\MY draft\\data\\raw\\PU\\real damage\\IR+OR\\KB23.rar",
+    "sha256": "a07e976b285438c33492650c4f5b28250a49e7855990191b30b6bcb541831c6c"
+  },
+  "KB24": {
+    "path": "D:\\Project\\MY draft\\data\\raw\\PU\\real damage\\IR+OR\\KB24.rar",
+    "sha256": "ae5928ee2ed02773e3787aeceaae73074b15ff3ae158cd932c7a6865fbc9c1ff"
+  }
+}

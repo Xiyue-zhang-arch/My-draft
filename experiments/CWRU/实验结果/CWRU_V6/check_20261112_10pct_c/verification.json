@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "gpu_cpu_max_error": 5.466077781374201e-09,
+  "fixed_split_count": 15,
+  "single_epoch_models": 4,
+  "reference_preflight_models": 150,
+  "target_test_accessed": false
+}

@@ -1,0 +1,383 @@
+{
+  "date": "2026-11-05",
+  "scope": "ALL40 full raw records including tails; no train/validation/test filtering",
+  "chronology": "post-hoc full-data exploration after historical training/testing; may be presented in preprocessing section but not claimed as chronologically pretraining",
+  "raw_analysis": "all samples enter raw descriptive statistics and full-record FFT; Welch/STFT add final unpadded segment aligned with record end",
+  "no_changes": "no model training/inference, no band changes, no frozen output modification",
+  "energy": "full-record mean-removed FFT squared, real-spectrum weights, nominal regions; no window normalization; within-record relative energy",
+  "welch": {
+    "segment": 4096,
+    "hop": 2048,
+    "window": "periodic Hann",
+    "detrend": "segment mean",
+    "tail": "append last full segment aligned to record end; no padding"
+  },
+  "sk": {
+    "segments": [
+      128,
+      256,
+      512
+    ],
+    "overlap": "50%",
+    "window": "periodic Hann",
+    "formula": "mean|Z|4/[mean|Z|2]^2-2; DC/Nyquist excluded",
+    "tail": "append final full segment, no padding"
+  },
+  "local_analysis": "all complete 0.5s segments from every record independent of roles; 687 expected; tails participate in full-record FFT, raw statistics, Welch and SK but are not padded into model-length segments",
+  "local_normalization": "per-segment own mean/population std; NOT training-fitted feature normalization",
+  "feature_algorithm": "unchanged existing Evidence: carrier |Butterworth response|^2 analytic mask; envelope48k→3k;75samples each end removed;6harmonics and fixed offset references",
+  "references": [
+    "shaft",
+    "FTF",
+    "BSF",
+    "2BSF",
+    "BPFO",
+    "BPFI"
+  ],
+  "schemes": {
+    "base": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "low_100": [
+      [
+        100,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "low_250": [
+      [
+        250,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "low_1000": [
+      [
+        1000,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "high_16000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        16000
+      ]
+    ],
+    "high_18000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        18000
+      ]
+    ],
+    "high_22000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        22000
+      ]
+    ],
+    "edge1_2000": [
+      [
+        500,
+        2000
+      ],
+      [
+        2000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "edge1_4000": [
+      [
+        500,
+        4000
+      ],
+      [
+        4000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "edge2_5000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        5000
+      ],
+      [
+        5000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "edge2_7000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        7000
+      ],
+      [
+        7000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "edge3_10000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        10000
+      ],
+      [
+        10000,
+        20000
+      ]
+    ],
+    "edge3_14000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        14000
+      ],
+      [
+        14000,
+        20000
+      ]
+    ]
+  },
+  "bands": [
+    [
+      500,
+      3000
+    ],
+    [
+      3000,
+      6000
+    ],
+    [
+      6000,
+      12000
+    ],
+    [
+      12000,
+      20000
+    ],
+    [
+      100,
+      3000
+    ],
+    [
+      250,
+      3000
+    ],
+    [
+      1000,
+      3000
+    ],
+    [
+      12000,
+      16000
+    ],
+    [
+      12000,
+      18000
+    ],
+    [
+      12000,
+      22000
+    ],
+    [
+      500,
+      2000
+    ],
+    [
+      2000,
+      6000
+    ],
+    [
+      500,
+      4000
+    ],
+    [
+      4000,
+      6000
+    ],
+    [
+      3000,
+      5000
+    ],
+    [
+      5000,
+      12000
+    ],
+    [
+      3000,
+      7000
+    ],
+    [
+      7000,
+      12000
+    ],
+    [
+      6000,
+      10000
+    ],
+    [
+      10000,
+      20000
+    ],
+    [
+      6000,
+      14000
+    ],
+    [
+      14000,
+      20000
+    ]
+  ],
+  "aggregation": "segment mean within record; equal records within load/class; equal loads and fault classes; no window-based inferential test",
+  "primary_fault_references": {
+    "IR": "BPFI",
+    "OR": "BPFO",
+    "B": "2BSF"
+  },
+  "B_secondary": "BSF",
+  "controls": "ALL6 references on ALL4 classes, including normal, for same-reference descriptive comparison; metadata label used for stratification not blind detection",
+  "limitations": [
+    "all loads and historically tested data included; not independent generalization evidence",
+    "energy is not fault-information quantity; signal metrics do not establish classification contribution",
+    "multiple references and bands are dependent; record labels share bearing/rig and are not independent equipment replications"
+  ],
+  "raw_samples": 16773271,
+  "raw_duration_s": 349.44314583333335,
+  "tail_samples": 285271,
+  "complete_segments": 687,
+  "records": 40,
+  "unique_bands": 22,
+  "schemes_count": 13
+}

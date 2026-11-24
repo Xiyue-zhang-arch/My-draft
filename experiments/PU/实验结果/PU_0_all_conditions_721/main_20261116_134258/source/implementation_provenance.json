@@ -1,0 +1,35 @@
+{
+  "encoder.py": {
+    "original": "D:\\Project\\MY draft\\experiments\\PU_0\\encoder.py",
+    "sha256": "03a734efe5ec277fa5b25734de8adde495aee167c5a7f9094b0c959ada1389a6",
+    "byte_identical": true
+  },
+  "descriptors.py": {
+    "original": "D:\\Project\\MY draft\\experiments\\PU_0\\descriptors.py",
+    "sha256": "d5c0779973ffbbc06bc6496f0cf6e60a01352ba33aca74e438aa8240f6c42075",
+    "byte_identical": true
+  },
+  "model.py": {
+    "original": "D:\\Project\\MY draft\\experiments\\PU_0\\model.py",
+    "sha256": "59328f3e30e070416cb4de03ecd9970ea58afdeec92f8ff84c72f129ea55536d",
+    "byte_identical": true
+  },
+  "reference.py": {
+    "original": "D:\\Project\\MY draft\\experiments\\PU_0\\reference.py",
+    "sha256": "ec4cdd82d67a9766633d1e1409e403dab8f397a8ebf8797f2e8fec176d17b08b",
+    "byte_identical": true
+  },
+  "raw_prepare.py": {
+    "original": "D:\\Project\\MY draft\\experiments\\PU_0\\raw_prepare.py",
+    "sha256": "f15dbeedf47bc0103f1792fd9ad698eb2e59d5f67fc8a2a2dc81b7a4a06c9f33",
+    "byte_identical": true
+  },
+  "engine.py": {
+    "original": "D:\\Project\\MY draft\\experiments\\PU_0_within_condition\\engine.py",
+    "changes": [
+      "expected updates 50 to 175",
+      "finite zero gradients recorded, NaN/Inf still rejected"
+    ],
+    "optimization_algorithm_unchanged": true
+  }
+}

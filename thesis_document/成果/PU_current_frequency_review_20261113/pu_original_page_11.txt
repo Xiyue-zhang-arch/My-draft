@@ -1,0 +1,60 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+    7.1 Feature Extraction and Selection                    In the current study, a selection criterion of 𝑑̅𝑗≥0.7 was
+                                                        found to yield the best results. In this case, 9 out of 23Feature extraction involves deriving time-, frequency,- and
+                                                                  features are selected from each of the two MCS per sampletime-frequency-domain  features  from  the  raw  signals.
+                                                       and 15 features from the vibration signals.Signals acquired from machinery components such as faulty
+bearings are normally considered non-stationary, meaning
+                                                                   7.2 Training with Data from Bearings withthat frequency components of the signal vary over time.
+                                                                            Artificially Induced DamagesTherefore,  the  extraction  of  time-frequency  features  is
+necessary.  In  this work,  wavelet  packet decomposition    At first, the algorithms were trained with features extracted
+(WPD) is employed for the extraction of the time-frequency    from  measurements  with   artificially  induced  bearing
+features. The raw signal is decomposed up to 3 levels. The    damages  (see  Table  8). The  objective was  to  use  a
+detailed coefficients and approximate coefficients of level 1    combination of healthy bearings and  artificial damaged
+to 3 are obtained and from which the wavelet energy is    bearings to identify bearings with real damages and classify
+computed. Fast Fourier Transform (FFT) and power spectral    them as either healthy, inner ring damage or outer ring
+density (PSD) are used to extract the frequency domain    damage  (3-class approach). In the  testing  part,  features
+features. A total of 23 features are extracted from each    extracted from data with real damages (Table 8) were used
+signal. A  list of the extracted features can be found in    as the input to the classification model. The output was the
+(Kimotho &  Sextro,  2014). Since  not  all  features  are     class label.
+suitable for  fault  classification,  it  is necessary to select
+                                                         Table 9 shows the classification accuracy of the machinefeatures that contain most information on the health status of
+                                                                learning algorithms used with features extracted from MCSa component to avoid over-fitting and to improve accuracy.
+                                                       and vibration signals under operating conditions in setting 0Suitable  features  for  fault  or  health  state  classification
+should provide a good separation between different classes.     (see  Table  6),  which  was  found  to  produce  better
+In this study, a feature selection method based on maximum    performance. Features from vibration signals result in a
+separation  distance between  different  health  states was     better classification accuracy than those from MCS.
+employed.                                                      Table 8. List of data sets used for training and
+                                                                                testing the machine learning algorithms.Given  a  feature  set  of  𝑗 = 1, 2, . . . 𝑄  features  in 𝑐 =
+ 1, 2, . . . 𝑁𝑐 classes or health states, the feature selection is            Class               Training  Testing
+performed as follows:                                                             1      Healthy     K002    K001
+     1.  Normalize the features between 0 and 1.                                        KA22
+                                                                 KA01    KA04
+     2.  Compute the mean (𝑚𝑗𝑐) of each feature 𝑗 within            2   OR Damage   KA05    KA15
+         class 𝑐 as follows                                                                 KA07    KA30
+                1  𝑛                                                           KA16
+      𝑚𝑗𝑐= 𝑛∑ 𝑖=1 𝑥𝑖𝑗𝑐 ,                                                                 KI14
+       where 𝑥 is the feature and 𝑛 is the number of                              KI01     KI21
+        samples.                                               3    IR Damage    KI05     KI17
+                                                                             KI07     KI18
+     3.  Compute  the mean  of  the  squared  Euclidean
+                                                                                      KI16
+         distance (𝑑𝑗) between each feature data point 𝑖 and
+         the mean of the same feature in each class
+                1   𝑁𝑐   𝑁𝑐   𝑛               2                  Table 9. Performance of various algorithms trained with      𝑑𝑗=   ∑ 𝑘=1 ∑ 𝑐=1 ∑ 𝑖=1 (𝑥𝑖𝑗𝑘−𝑚𝑗𝑐)  .                 𝑛𝑁𝑐2                                                   features of bearings with artificially induced damages and
+                                                                          tested with features of bearings with real damages.     4.  Normalize  the  separation  distance  with  the
+      maximum feature separation distance to produce a           Algorithm   Classification Accuracy [%]
+        performance evaluation criteria                          MCS   Vibration Signals
+                  𝑑𝑗                                  CART       26.8           65.9
+        𝑑̅𝑗= max (𝑑).                                   RF           45.0           64.1
+                                               BT           38.6           62.3     5.   Select the distance with a performance greater than
+                                          NN          45.5           65.5        a predetermined threshold. The threshold can be
+                                                SVM-PSO    60.9           65.5        defined by evaluating the classification accuracy
+         for each combined set of features.                  ELM         45.5           65.9
+                                              kNN         45.5           63.2
+                                                             Ensemble     45.9           75.0
+
+
+
+                                                                                                             11

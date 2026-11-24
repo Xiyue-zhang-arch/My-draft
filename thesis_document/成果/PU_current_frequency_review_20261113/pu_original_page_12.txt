@@ -1,0 +1,64 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+Using features extracted from MCS, the support vector                                       Vibration Signals
+machine approach with parameters optimally tuned by using                            20     0      0   100%                                                                                         1
+particle swarm optimization (SVM-PSO) shows the best                          9.1%  0.0%  0.0%  0.0%
+performance of  all algorithms with 60.9%  classification                             0     45     0   100%                                                                                                                                                                                                  Class 2  0.0%  20.5%  0.0%  0.0%accuracy. Figure 11 depicts the confusion matrix for SVM-
+PSO. On the confusion matrix, the rows correspond to the
+                                                                                              0     55    100   64.5%
+                                                                                         3predicted  class and the columns  to the  true  class. The                                                                                       0.0%  25.0%  45.5% 35.5%                                                                                                                                                                                                                                                                                                                                                            Predicted
+diagonal cells represent the correctly predicted class, while
+the  off-diagonal  cells show  misclassifications. The  left                       100%  45.0%  100%  75.0%                                                                                       0.0%  55.0%  0.0%  25.0%
+column  displays  the  false  positives  (healthy  samples
+                                                                                              1      2      3classified as damaged) and the upper row the false negatives
+(samples with damages classified as healthy). The bottom                                            Target Class
+row indicate the accuracy and misclassification rate for each          Figure 12. Confusion matrix for ensemble of all
+true class while the right column shows the accuracy and      algorithms trained with features extracted from vibration
+misclassification rate of each predicted class. The cell in the       signals of bearings with artificially induced damages and
+bottom right gives the overall accuracy. Bearings with inner          tested with features of bearings with real damages.
+ring damages (class 3) record the highest misclassification
+rate, with the majority of the cases being  classified as         7.3 Training with Data of Bearings with Real
+having outer ring damages (class 2).                            Damages
+                       MCS                        The data sets in Table 10 of healthy bearings and those with
+                        20     0      4    83.3%                      real damages were used for training and testing in a 5-fold                   1
+                      9.1%   0.0%   1.8%  16.7%                     cross-validation manner. For each combination, three data
+                                    Class 2  0.0%0    35.5%78   27.3%60   56.5%43.5%                      setsfor testing,from eachresultingclass werein 10 usedcombinations.for training and the other two
+
+                        0     22     36   62.1%                        Table 10. Categorization of data sets for healthy                   3                                                                 Predicted    0.0%  10.0%  16.4%  37.9%                             bearings and bearings with real damages.
+                   100%  78.0%  36.0%  60.9%
+                      0.0%  22.0%  64.0%  39.1%                    Healthy  Outer ring damage  Inner ring damage
+                                                               (Class 1)        (Class 2)             (Class 3)
+                        1      2      3
+                                                  K001        KA04              KI04
+                                      Target Class
+                                                  K002        KA15              KI14
+  Figure 11. Confusion matrix for SVM-PSO trained with        K003        KA16              KI16
+  features extracted from MCS of bearings with artificially        K004        KA22              KI18
+ induced damages and tested with MCS features of bearings       K005        KA30              KI21
+                   with real damages.
+
+Using  features  extracted  from  vibration  signals,  the                                                                  Similarly, features from both MCS and vibration signals
+ensemble algorithms with majority voting shows the best                                                      were used separately. The mean classification accuracy for
+performance  of  all  algorithms  with 75%  classification                                                                 the 10 combinations was computed and  is presented in
+accuracy and no false positives or false negatives (Figure                                                         Table 11. Random Forest and the ensemble algorithm have
+12). However, bearings with outer ring damages have the                                                                 the highest classification rates of 93.3% using the MCS data
+highest misclassification rate, with the majority of samples                                                           while  CART,  RF,  and  ensemble  have  the  highest
+being classified as having inner ring damages.                                                                     classification  rate  of 98.5%  using  the  vibration  data.
+                                                     However,  the  overall  performance  of  other  algorithms
+                                                          remains relatively the same regardless of the sensor data
+                                                               used.
+
+                                                            Figure  13  is  the  confusion  matrix  of  the  ensemble
+                                                                 predictions using features from MCS. There are no false
+                                                                  positives    or    negatives.   However,    the    highest
+                                                                  misclassification rate is recorded with the outer ring damage
+                                                                     (class 2), as is the case with the ML methods trained with
+                                                               data of bearings with artificially induced damages. A closer
+                                                           look at the results indicates that the misclassified samples
+                                                          belong  to  the  data  sets KA04 and KA22 which have
+                                                    damages of level 1 (see Table 5).
+
+
+
+                                                                                                             12

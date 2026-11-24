@@ -1,0 +1,14 @@
+{
+  "stage": "paused_after_10_percent",
+  "scope": "full_and_10_percent",
+  "report": "D:\\Project\\MY draft\\results\\CWRU_V5\\load_awgn_full_10_20261109_231117\\REPORT.md",
+  "result_dir": "D:\\Project\\MY draft\\results\\CWRU_V5\\load_awgn_full_10_20261109_231117",
+  "completed_at": "2026-11-10T00:01:51.425924+08:00",
+  "evaluated_pairs": 480,
+  "metric_rows": 12240,
+  "control_file": "D:\\Project\\MY draft\\results\\CWRU_V5\\load_awgn_20261109_210313\\models\\m0081",
+  "remaining_budgets": [
+    0.2,
+    0.5
+  ]
+}

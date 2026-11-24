@@ -1,0 +1,92 @@
+[
+  {
+    "name": "load_comparison_small_WDCNN_20261103_161215",
+    "sample": "small",
+    "method": "WDCNN",
+    "stage": "complete",
+    "models": 180,
+    "pairs": 540,
+    "rows": 540
+  },
+  {
+    "name": "load_comparison_small_DRSN_CW_20261103_164024",
+    "sample": "small",
+    "method": "DRSN_CW",
+    "stage": "complete",
+    "models": 180,
+    "pairs": 540,
+    "rows": 540
+  },
+  {
+    "name": "load_comparison_small_PG_RDGFN_adapted_20261103_174118",
+    "sample": "small",
+    "method": "PG_RDGFN_adapted",
+    "stage": "complete",
+    "models": 180,
+    "pairs": 540,
+    "rows": 540
+  },
+  {
+    "name": "load_comparison_small_AW_Hybrid_adapted_20261103_180621",
+    "sample": "small",
+    "method": "AW_Hybrid_adapted",
+    "stage": "complete",
+    "models": 180,
+    "pairs": 540,
+    "rows": 540
+  },
+  {
+    "name": "load_comparison_full_WDCNN_20261103_193929",
+    "sample": "full",
+    "method": "WDCNN",
+    "stage": "complete",
+    "models": 20,
+    "pairs": 60,
+    "rows": 60
+  },
+  {
+    "name": "load_comparison_full_DRSN_CW_20261103_194132",
+    "sample": "full",
+    "method": "DRSN_CW",
+    "stage": "complete",
+    "models": 20,
+    "pairs": 60,
+    "rows": 60
+  },
+  {
+    "name": "load_comparison_full_PG_RDGFN_adapted_20261103_195544",
+    "sample": "full",
+    "method": "PG_RDGFN_adapted",
+    "stage": "complete",
+    "models": 20,
+    "pairs": 60,
+    "rows": 60
+  },
+  {
+    "name": "load_comparison_full_AW_Hybrid_adapted_20261103_200104",
+    "sample": "full",
+    "method": "AW_Hybrid_adapted",
+    "stage": "complete",
+    "models": 20,
+    "pairs": 60,
+    "rows": 60
+  },
+  {
+    "name": "load_small_20261025_2017",
+    "sample": "small",
+    "method": "reference",
+    "stage": "complete",
+    "models": 360,
+    "pairs": 1080,
+    "rows": 1080
+  },
+  {
+    "name": "load_full_20261024_0950",
+    "sample": "full",
+    "method": "reference",
+    "stage": "complete",
+    "models": 40,
+    "pairs": 120,
+    "rows": 120
+  }
+]

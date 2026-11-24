@@ -1,0 +1,77 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+For MCS-based methods, it has to be distinguished between    the development of reliable CM systems based on MCS.
+bearing damage in the motor itself (internal bearings) and     (Bellini et al., 2008; Stack et al., 2003).
+bearings in the remaining drive train (external bearings).
+                                                          Thus,  it  is no surprise that some authors report a high
+Damage of the internal motor bearings or other faults in the    discrepancy between the proposed methods in science and
+motor  itself, as for example broken rotor bars or  rotor     their application in industry. Stack assumes that one reason
+eccentricity, directly influence the airgap of the motor and     for this discrepancy is the use of the simple artificial defects
+induce vibrations at characteristic frequencies in the motor     in the form of single point damages in research. For a more
+current. Detection of damage in external bearings is more     detailed  consideration,  bearing  damage   is  nowadays
+complex as the damage signature has to be transmitted    separated into single point and distributed damage. (Nandi,
+indirectly through torque variations along the drive train.     Toliyat, &  Li,  2005;  Stack  et  al.,  2003; Tandon &
+Therefore, it is damped and superimposed with disturbances    Choudhury, 1999)
+from  the powered  process,  leading  to  noisy and  hard
+                                                              Single  point damages  are  characterized by  their  small
+detectable signals. (Blödt, Granjon, Raison, & Rostaing,
+                                                           extend at a localized position, for example a crack or a small
+2008; Herold et  al., 2013; Schoen, Habetler, Kamran, &
+                                                                                pit. When the rolling elements run across these defects,
+Bartfield, 1995).
+                                                        shock  pulses  stimulate  vibrations  at  the  characteristic
+Schön  et  al. (1995) discuss both  situations, damage  in    bearing frequencies (Randall, 2011). Distributed damages,
+internal and external bearings, and derive formulas for the     also called generalized roughness (Stack et  al., 2003) or
+theoretically expected frequencies and sidebands in each    extended   faults   (Randall,   2011),  induce  broadband
+situation. However, these frequencies can only be detected     vibrations which are often not easy to separate from the
+reliably in special cases because they are influenced by    noise of the signal. In general, these damages are caused by
+operating conditions, machine design, external noise etc.    wear, corrosion or plastic deformation, but also by extensive
+and have usually only been investigated for large scale     pitting (fatigue) damages (Nandi et al., 2005). The authors
+damages. (Bellini et al., 2008; Mbo'o, Herold, & Hameyer,    of  the present paper  also observed  the combination of
+2004). Hence, additional investigations are required.             different damage types  in one  bearing, which leads  to
+                                                         superimposed signals for CM.
+It  is assumed  that good  results  for diagnostics can be
+achieved  with  data-driven  classification  methods  using    While the bearing damage signature of vibrations is well
+machine  learning (ML)  (Bellini  et  al.,  2008;  Kankar,    known, there is little experience with the MCS of external
+Sharma, & Harsha, 2011; Paschke et al., 2013). The low    bearing damage and the correlation of the artificial damages
+availability of training and testing data with the MCS of    used in research with real damages in the industry (Bellini et
+external bearing for ML procedures limits further research,      al., 2008). Especially for MCS-based condition monitoring,
+so that there is insufficient knowledge about the capability     the authors of this paper think a more detailed description of
+of industrial usage. To overcome this limitation, research    damage is required as the separation into single point and
+has to address the systematic generation of training data     distributed damage  is not sufficient. Moreover, a precise
+with mechanical bearing damage. (Nectoux et  al., 2012;     description  of  specific  test  damages  and  test  bearing
+Stack et al., 2003; Zarei & Poshtan, 2009)                        specifications for experimental examinations are needed.
+                                                              Therefore,  a  systematic  methodology  is  necessary  to
+This results in two subjects of activity, which should be
+                                                                 characterize the appearance of damage for CM, as existing
+considered in more detail for the generation of training data:
+                                                          methodologies are not very specific. Given the need for
+a systematic generation of the bearing damages themselves                                                                    further research the present paper focuses on the systematic
+and their systematic specification.
+                                                              generation of training data for ML classification algorithms
+In the industry, a wide variety of bearing damages occur.    based on MCS.
+Especially the development of fatigue damages or damages
+                                               To create a systematic data  set,  first a method  for the
+caused  by  solid  particles  is  randomly  influenced;  in
+                                                              systematic description of the  rolling bearing damage  is
+addition, the appearance of damages can change over time.                                                             described (section 2). Afterwards, the generation of artificial
+In the literature, six main damage modes and more than 20
+                                                       and  real bearing damages  to be used  for  training data
+different damage symptoms in bearings are treated. (ISO
+                                                              generation  in  the  experiments  (section  3)  and  the
+15243, 2010; Bartz, 1985; Schaeffler Technologies AG &
+                                                            experimental set-up itself (section 4) are explained. Section
+Co. KG, 2015) Recent research studies on CM address only
+                                                    5 gives details on the database and their availability for
+some of these damages. Furthermore, many of the available
+                                                                    further research.
+research papers focus only on artificial bearing damages
+because these are easy to generate. (Pacas, Villwock, &   To validate the data set and as a proof of concept for the
+Dietrich, 2009) Publications show that in most cases only    general method, the paper points out some damage detection
+single point damages are used for research, which inhibits     results as  well. In section 6 the established method of
+                                                          envelope  analysis  is  used  to  prove  the  proper  data
+
+
+
+                                                                                                               2

@@ -1,0 +1,16 @@
+{
+  "stage": "complete_and_frozen",
+  "new_models": 30,
+  "reference_models": 10,
+  "new_predictions": 1890,
+  "reference_predictions": 630,
+  "new_confusion_cells": 30240,
+  "combined_confusion_cells": 40320,
+  "files_sha256": {
+    "config.json": "4004b80e377279f210636e494bacfdb40121be978a171652cc04bba948dcfd46",
+    "independent_audit.json": "32d02baa0d5c8ad4806833159c62333e74cf80a268939841051cec7ddd2da120",
+    "report/REPORT.md": "9e120c87b696db4440f5f665190fadf1f32c454366246cb902d04e1e4d5ee2d9",
+    "report/REVIEW.md": "089f4aaabb6117490c5e867e0a7cabaa5385020d6707b53916ef7be375b93f34",
+    "report/verification.json": "4361f2469e4bc22d8b9c5e480de76bf906888d883fbef308589bc9c5f849a700"
+  }
+}

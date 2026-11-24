@@ -1,0 +1,22 @@
+{
+  "protocol": "clean_only",
+  "method": "WDCNN",
+  "ratio": 1.0,
+  "subset_seed": 0,
+  "model_seed": 1708,
+  "from_scratch": true,
+  "training_windows": 287,
+  "paired_inputs": false,
+  "maximum_batch_inputs": 32,
+  "selected_epoch": 23,
+  "selected_update": 207,
+  "updates_trained": 360,
+  "validation_nll": 0.22089884589659048,
+  "model_sha256": "24399c3a5f057c189e47507db9cdf0ba054f13b3331a087dfda1d1b4a00820c9",
+  "selected_windows_sha256": "ac47330a920dc3f4a76378433b96ddbab88ae6cf37d49b312246b809d7db862f",
+  "trace_sha256": "6767dc67d06597e23dcc8c081d1cdc25f677622cd2383f247c309a07141c4150",
+  "training_wall_seconds": 2.9298986999783665,
+  "fit_seconds": 1.00000761449337e-05,
+  "precision": "FP32",
+  "adapted": true
+}

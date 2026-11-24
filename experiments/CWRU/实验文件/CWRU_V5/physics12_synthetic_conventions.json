@@ -1,0 +1,254 @@
+{
+  "scope": "synthetic_gaussian_noise_only",
+  "paper_detector_validated": false,
+  "note": "Neither a threshold calibration nor permission to alter the paper formula.",
+  "trials_per_length": 1000,
+  "cases": [
+    {
+      "N": 6000,
+      "fs": 12000,
+      "duration_seconds": 0.5,
+      "frequencies_Hz": [
+        50.0,
+        100.0,
+        200.0,
+        400.0,
+        800.0
+      ],
+      "conventions": [
+        {
+          "power_divisor": "1",
+          "pointwise_exceedance": [
+            1.0,
+            1.0,
+            0.999,
+            0.999,
+            1.0
+          ],
+          "mean_SES_over_S": [
+            22846.095670793293,
+            22953.655861140192,
+            24632.406356142666,
+            24867.076927799426,
+            24761.422859710026
+          ]
+        },
+        {
+          "power_divisor": "N",
+          "pointwise_exceedance": [
+            0.087,
+            0.083,
+            0.104,
+            0.104,
+            0.12
+          ],
+          "mean_SES_over_S": [
+            3.807682611798882,
+            3.8256093101900306,
+            4.10540105935711,
+            4.144512821299903,
+            4.1269038099516715
+          ]
+        },
+        {
+          "power_divisor": "N_squared",
+          "pointwise_exceedance": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_SES_over_S": [
+            0.0006346137686331473,
+            0.0006376015516983384,
+            0.0006842335098928517,
+            0.0006907521368833172,
+            0.000687817301658612
+          ]
+        }
+      ]
+    },
+    {
+      "N": 12000,
+      "fs": 24000,
+      "duration_seconds": 0.5,
+      "frequencies_Hz": [
+        50.0,
+        100.0,
+        200.0,
+        400.0,
+        800.0
+      ],
+      "conventions": [
+        {
+          "power_divisor": "1",
+          "pointwise_exceedance": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_SES_over_S": [
+            49044.95338248516,
+            45458.3856115716,
+            46297.58110535819,
+            49076.72152835831,
+            49359.272847857465
+          ]
+        },
+        {
+          "power_divisor": "N",
+          "pointwise_exceedance": [
+            0.1,
+            0.088,
+            0.095,
+            0.107,
+            0.099
+          ],
+          "mean_SES_over_S": [
+            4.087079448540431,
+            3.7881988009642993,
+            3.8581317587798503,
+            4.0897267940298585,
+            4.113272737321456
+          ]
+        },
+        {
+          "power_divisor": "N_squared",
+          "pointwise_exceedance": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_SES_over_S": [
+            0.00034058995404503587,
+            0.00031568323341369157,
+            0.0003215109798983208,
+            0.00034081056616915484,
+            0.0003427727281101213
+          ]
+        }
+      ]
+    },
+    {
+      "N": 24000,
+      "fs": 48000,
+      "duration_seconds": 0.5,
+      "frequencies_Hz": [
+        50.0,
+        100.0,
+        200.0,
+        400.0,
+        800.0
+      ],
+      "conventions": [
+        {
+          "power_divisor": "1",
+          "pointwise_exceedance": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_SES_over_S": [
+            92817.31950043929,
+            94163.20408970994,
+            100710.98082938339,
+            102743.34131243921,
+            98221.18711694464
+          ]
+        },
+        {
+          "power_divisor": "N",
+          "pointwise_exceedance": [
+            0.081,
+            0.094,
+            0.099,
+            0.105,
+            0.101
+          ],
+          "mean_SES_over_S": [
+            3.8673883125183024,
+            3.9234668370712473,
+            4.196290867890975,
+            4.280972554684966,
+            4.092549463206027
+          ]
+        },
+        {
+          "power_divisor": "N_squared",
+          "pointwise_exceedance": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_SES_over_S": [
+            0.00016114117968826265,
+            0.00016347778487796867,
+            0.00017484545282879063,
+            0.00017837385644520692,
+            0.0001705228943002511
+          ]
+        }
+      ]
+    }
+  ],
+  "native_2Hz_bin_geometry": [
+    {
+      "rpm": 1720,
+      "family": "BPFO",
+      "f0_Hz": 102.76426666666667,
+      "half_width_Hz": 2.569106666666667,
+      "M_per_side": 9,
+      "native_bins_in_first_target": 2
+    },
+    {
+      "rpm": 1720,
+      "family": "BPFI",
+      "f0_Hz": 155.23573333333331,
+      "half_width_Hz": 3.880893333333333,
+      "M_per_side": 9,
+      "native_bins_in_first_target": 4
+    },
+    {
+      "rpm": 1720,
+      "family": "2BSF",
+      "f0_Hz": 135.12033333333332,
+      "half_width_Hz": 3.3780083333333333,
+      "M_per_side": 9,
+      "native_bins_in_first_target": 4
+    },
+    {
+      "rpm": 1797,
+      "family": "BPFO",
+      "f0_Hz": 107.36476,
+      "half_width_Hz": 2.6841190000000004,
+      "M_per_side": 9,
+      "native_bins_in_first_target": 3
+    },
+    {
+      "rpm": 1797,
+      "family": "BPFI",
+      "f0_Hz": 162.18524,
+      "half_width_Hz": 4.054631,
+      "M_per_side": 9,
+      "native_bins_in_first_target": 4
+    },
+    {
+      "rpm": 1797,
+      "family": "2BSF",
+      "f0_Hz": 141.169325,
+      "half_width_Hz": 3.5292331249999997,
+      "M_per_side": 9,
+      "native_bins_in_first_target": 4
+    }
+  ],
+  "decision": "Do not lock the global detector until SES and Eq27 scaling are reconciled."
+}

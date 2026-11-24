@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "prediction_files": 4,
+  "metric_rows": 104,
+  "confusion_cells": 1664,
+  "recomputed_conditions": 104,
+  "max_metric_error": 0.0,
+  "noise_instances_averaged_first": true,
+  "source_target_directions_equally_weighted": true,
+  "subsets_equally_weighted": true
+}

@@ -1,0 +1,5 @@
+variant,parameters,conv_linear_flops,flops_scope,auxiliary_training_head_flops_per_sample
+baseline_fusion,53068,1525288704,"batch1 Conv1d/Linear only; FFT, reductions, normalization, activation, elementwise excluded",0
+baseline_data,33964,1525251328,"batch1 Conv1d/Linear only; FFT, reductions, normalization, activation, elementwise excluded",0
+data_aux_ce,53068,1525288704,"batch1 Conv1d/Linear only; FFT, reductions, normalization, activation, elementwise excluded",2304
+residual_scale,53069,1525288704,"batch1 Conv1d/Linear only; FFT, reductions, normalization, activation, elementwise excluded",0

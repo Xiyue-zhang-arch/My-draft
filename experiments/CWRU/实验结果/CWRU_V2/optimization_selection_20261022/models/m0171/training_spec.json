@@ -1,0 +1,19 @@
+{
+  "variant": "data_aux_ce",
+  "protocol": "clean_only",
+  "seed": 1708,
+  "subset": 4102,
+  "spec": {
+    "aux_weight": 0.3,
+    "physics_fit": "matched_noise",
+    "aux_head": "shared",
+    "val_noise_seeds": [
+      6201
+    ],
+    "max_epochs": 30,
+    "schedule_epochs": 100,
+    "patience": 20,
+    "fit_noise_seed": 6301,
+    "fit_noise_repeats": 3
+  }
+}

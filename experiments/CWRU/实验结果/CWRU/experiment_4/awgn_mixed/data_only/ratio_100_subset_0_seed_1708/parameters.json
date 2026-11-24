@@ -1,0 +1,17 @@
+{
+  "protocol": "awgn_mixed",
+  "method": "data_only",
+  "ratio": 1.0,
+  "subset": 0,
+  "seed": 1708,
+  "best_update": 600,
+  "updates_trained": 600,
+  "validation_nll": 0.1803413516081249,
+  "training_windows": 287,
+  "validation_windows": 200,
+  "from_scratch": true,
+  "fit_seconds": 0.010864200070500374,
+  "parameters": 33964,
+  "train_seconds_per_epoch": 0.7572907806137827,
+  "peak_gpu_mib": 1195.58251953125
+}

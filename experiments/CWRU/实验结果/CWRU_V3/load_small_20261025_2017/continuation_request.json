@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "requested_at": "2026-10-26T13:25:58.029286+08:00",
+  "controller": "built_in_training_boundary",
+  "training_pid": 109180,
+  "after_source_load_hp": 3,
+  "expected_completed_models": 720,
+  "automatic_resume": false,
+  "test_after_all_models": true,
+  "user_authorized_interrupted_retry": "m0312",
+  "preserved_attempt_folder": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_small_20261025_2017\\models\\m0312",
+  "retry_folder": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_small_20261025_2017\\models\\m0312_retry1",
+  "updated_at": "2026-10-26T13:26:00.956522+08:00",
+  "trained_models": 720,
+  "decisions_locked_at": "2026-10-26T21:01:06.786937+08:00",
+  "completed_at": "2026-10-26T22:59:53.923544+08:00",
+  "evaluated_pairs": 2160,
+  "metric_rows": 29160
+}

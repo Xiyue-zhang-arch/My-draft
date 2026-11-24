@@ -1,0 +1,75 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+defect  states are seldom. Therefore, often only a small    characterized according to the damage with the highest
+number of damage states are available. Moreover, there are     extent.
+many different bearing types, sizes and machine types, and
+                                                             Table 5. Test bearings with real damages caused bythe operating conditions may change irregularly as they
+                                                                                  accelerated lifetime test.
+depend on the application. Therefore, measurements are
+expected to be influenced by various factors. This is helpful
+                                                                                                    ofat later development stages to increase the robustness, but           code                 mode
+distracting for the development of the basic methods. To                                                                                                                                                                                                                                                                                                  symptom)                                                                                                         damage                                                                                                                                                                                                                                                                                        Bearing element                                                                                                                                                                                                             Damage                                                                                                                                                                                                                                                                                                            Extent damage                                                                                                             ofreduce the external influences, scientific test rigs are used,                                                                                                                                                                                (main                                                                                                                                                                                                                 Bearing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Combination                           Arrangement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Characteristic                                                                                                             andwhich enable the generation of realistic bearing damages by
+accelerated  lifetime  tests. Furthermore, damages  for the                                            no                single
+                                                      KA04    fatigue: pitting   OR    S              1
+needed bearing types and geometries can be systematically                                                      repetition            point
+generated    at   reproducible   conditions.   The   main    KA15    Plastic deform.:   OR    S      no      1       single
+                                                                                          Indentations                       repetition            pointdisadvantage  is  that  this consumes a  lot  of time and                                                                                                                                                      single
+resources. (Nectoux et al., 2012; Qiu, Lee, Lin, & Yu, 2006)    KA16    fatigue: pitting   OR   R    random    2       point
+                                                                                                        no                single
+For  the present research paper,  ball bearings with  real    KA22    fatigue: pitting   OR    S              1                                                                                                                                     repetition            point
+damages were obtained from an accelerated life time test.                Plastic deform.:
+                                                      KA30              OR   R    random    1    distributedThe accelerated  life time  test  rig consists of a bearing                 Indentations
+housing and an electric motor, which powers a shaft with    KB23    fatigue: pitting     IR   M    random    2       single
+four test bearings of type 6203 in the housing (Figure 2).                           (+OR)                               point
+                                                                                            IR            no
+The test bearings rotate under a radial load which is applied    KB24    fatigue: pitting   (+OR)  M    repetition   3    distributed
+by a spring-screw mechanism. The applied radial force is                Plastic deform.:  OR +
+                                                       KB27               M    random    1    distributed
+higher than in usual bearing applications to accelerate the                 Indentations      IR
+appearance of fatigue damages, but still low enough to not     KI04     fatigue: pitting     IR   M      no      1       single
+                                                                                                                                     repetition            point
+exceed the static load capacity of the bearing. Moreover,                                                                                                        no                single
+low  viscosity  oil was  used, which  leads  to  improper     KI14     fatigue: pitting     IR   M    repetition   1       point
+lubrication  conditions  and  favors  the  appearance  of                                            no                single
+                                                                KI16     fatigue: pitting     IR     S              3
+damages.                                                                                                                         repetition            point
+                                                                                                                                                      single
+                                                                KI17     fatigue: pitting     IR    R    random    1
+                                                                                                                                                 point
+                                                                                                        no                single
+                                                                KI18     fatigue: pitting     IR     S              2
+                                                                                                                                     repetition            point
+                                                                                                        no                single
+                                                                KI21     fatigue: pitting     IR     S              1
+                                                                                                                                     repetition            point
+                                                           OR: outer ring;  IR: inner ring;
+                                                                              S: single damage;  R: repetitive damage;  M: multiple damage
+
+
+                                                            Figure 3 shows two examples of bearing damages generated
+                                                                   in the accelerated lifetime test.
+
+     Figure 2. Apparatus for accelerated life time test.
+Several damaged bearings were obtained by the lifetime test                                   outer ring
+and categorized according to the developed  criteria (see                                                               inner ring
+section 2). 33 damages were recognized in 18 bearings out
+of a test amount of 108 bearings used in the lifetime test.
+Around 70 %  of  the  occurred damages were  fatigue
+damages, which arise in the form of pittings. The rest of the
+bearings, except for one fracture, were damaged by plastic
+deformation,  i.e.  in the form of indentations caused by                   inner ring                                        outer ring
+debris. Pitting damages occurred both on the inner and outer
+ring of the bearings. Indentations were found at the outer     Figure 3. Indentation at the raceway of the outer ring (left);
+ring only. Damage at the rolling elements was not observed.        small pitting at the raceway of the inner ring (right).
+The extent of the damage was categorized by the length of
+                                                          Bearing KB27   (left)  shows  indentations  from  debris
+the damaged surface in rolling direction into the levels 1 to
+                                                                     particles at the outer ring. As the damage is repeated along
+3 (compare Table 2 and Table 5). Multiple damages were
+                                                                 the raceway only some of them are shown. Bearing KI14
+                                                                        (right) has a very small pitting at an early stage (level 1) at
+
+
+
+                                                                                                               6

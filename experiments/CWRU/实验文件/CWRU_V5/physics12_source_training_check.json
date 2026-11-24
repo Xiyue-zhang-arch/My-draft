@@ -1,0 +1,39 @@
+{
+  "scope": "source_0_training_support_only",
+  "windows": 73,
+  "labels_used_for_selection": false,
+  "validation_windows_processed": 0,
+  "target_windows_processed": 0,
+  "models_trained": 0,
+  "failures": [],
+  "valid_windows": 73,
+  "BIC_orders": {
+    "61": 16,
+    "60": 7,
+    "62": 14,
+    "63": 14,
+    "64": 20,
+    "59": 1,
+    "56": 1
+  },
+  "AR_cap_hits": 20,
+  "median_features": [
+    0.08068000614431077,
+    0.04956377710797822,
+    0.040302787522659526,
+    0.07968871801141,
+    0.039372300950185096,
+    -0.018161301889758265,
+    0.0,
+    16.431356852798555,
+    0.0,
+    0.0,
+    3.0,
+    0.0
+  ],
+  "zero_detected_harmonic_fraction": [
+    0.6301369863013698,
+    0.3287671232876712,
+    0.6712328767123288
+  ]
+}

@@ -1,0 +1,283 @@
+[
+  {
+    "n": 1,
+    "doi": "10.1016/j.ymssp.2010.07.017",
+    "status": 200,
+    "title": "Rolling element bearing diagnostics—A tutorial",
+    "author": "Randall, Antoni",
+    "year": 2011,
+    "container": "Mechanical Systems and Signal Processing",
+    "pages": "485-520",
+    "volume": "25",
+    "issue": "2"
+  },
+  {
+    "n": 2,
+    "doi": "10.1016/j.ymssp.2015.04.021",
+    "title": "Rolling element bearing diagnostics using the Case Western Reserve University data: A benchmark study",
+    "author": "Smith, Randall",
+    "year": 2015,
+    "journal": "Mechanical Systems and Signal Processing",
+    "vol": "64-65",
+    "issue": null,
+    "page": "100-131",
+    "article": null
+  },
+  {
+    "n": 3,
+    "doi": "10.1109/TIE.2016.2582729",
+    "status": 200,
+    "title": "Real-Time Motor Fault Detection by 1-D Convolutional Neural Networks",
+    "author": "Ince, Kiranyaz, Eren, Askar, Gabbouj",
+    "year": 2016,
+    "container": "IEEE Transactions on Industrial Electronics",
+    "pages": "7067-7075",
+    "volume": "63",
+    "issue": "11"
+  },
+  {
+    "n": 4,
+    "doi": "10.3390/s17020425",
+    "title": "A New Deep Learning Model for Fault Diagnosis with Good Anti-Noise and Domain Adaptation Ability on Raw Vibration Signals",
+    "author": "Zhang, Peng, Li, Chen",
+    "year": 2017,
+    "journal": "Sensors",
+    "vol": "17",
+    "issue": "2",
+    "page": "425",
+    "article": null
+  },
+  {
+    "n": 5,
+    "doi": "10.1109/TII.2019.2943898",
+    "status": 200,
+    "title": "Deep Residual Shrinkage Networks for Fault Diagnosis",
+    "author": "Zhao, Zhong, Fu, Tang, Pecht",
+    "year": 2020,
+    "container": "IEEE Transactions on Industrial Informatics",
+    "pages": "4681-4690",
+    "volume": "16",
+    "issue": "7"
+  },
+  {
+    "n": 6,
+    "doi": "10.1016/j.isatra.2019.08.040",
+    "status": 200,
+    "title": "A diagnosis framework based on domain adaptation for bearing fault diagnosis across diverse domains",
+    "author": "Ma, Zhang, Fan, Wang",
+    "year": 2020,
+    "container": "ISA Transactions",
+    "pages": "465-478",
+    "volume": "99",
+    "issue": null
+  },
+  {
+    "n": 7,
+    "doi": "10.1016/j.measurement.2020.108767",
+    "title": "A novel transfer learning method for bearing fault diagnosis under different working conditions",
+    "author": "Zou, Liu, Deng, Jiang",
+    "year": 2021,
+    "journal": "Measurement",
+    "vol": "171",
+    "issue": null,
+    "page": "108767",
+    "article": "108767"
+  },
+  {
+    "n": 8,
+    "doi": "10.1109/TIA.2021.3091958",
+    "status": 200,
+    "title": "Few-Shot Bearing Fault Diagnosis Based on Model-Agnostic Meta-Learning",
+    "author": "Zhang, Ye, Wang, Habetler",
+    "year": 2021,
+    "container": "IEEE Transactions on Industry Applications",
+    "pages": "4754-4764",
+    "volume": "57",
+    "issue": "5"
+  },
+  {
+    "n": 9,
+    "doi": "10.1016/j.neucom.2021.01.099",
+    "status": 200,
+    "title": "Meta-learning for few-shot bearing fault diagnosis under complex working conditions",
+    "author": "Li, Li, Zhang, He, Liao, Hu",
+    "year": 2021,
+    "container": "Neurocomputing",
+    "pages": "197-211",
+    "volume": "439",
+    "issue": null
+  },
+  {
+    "n": 10,
+    "doi": "10.1016/j.measurement.2022.111899",
+    "status": 200,
+    "title": "A novel intelligent fault diagnosis method of rolling bearings with small samples",
+    "author": "Yang, Liu, Xiang, Hu, Xu",
+    "year": 2022,
+    "container": "Measurement",
+    "pages": "111899",
+    "volume": "203",
+    "issue": null
+  },
+  {
+    "n": 11,
+    "doi": "10.13700/j.bh.1001-5965.2022.0927",
+    "status": 404
+  },
+  {
+    "n": 12,
+    "doi": "10.1016/j.ymssp.2021.108732",
+    "title": "Towards better benchmarking using the CWRU bearing fault dataset",
+    "author": "Hendriks, Dumond, Knox",
+    "year": 2022,
+    "journal": "Mechanical Systems and Signal Processing",
+    "vol": "169",
+    "issue": null,
+    "page": "108732",
+    "article": "108732"
+  },
+  {
+    "n": 13,
+    "doi": "10.1038/s42254-021-00314-5",
+    "status": 200,
+    "title": "Physics-informed machine learning",
+    "author": "Karniadakis, Kevrekidis, Lu, Perdikaris, Wang, Yang",
+    "year": 2021,
+    "container": "Nature Reviews Physics",
+    "pages": "422-440",
+    "volume": "3",
+    "issue": "6"
+  },
+  {
+    "n": 14,
+    "doi": "10.1016/j.measurement.2022.112085",
+    "status": 200,
+    "title": "M2FN: An end-to-end multi-task and multi-sensor fusion network for intelligent fault diagnosis",
+    "author": "Cui, Xie, Wang, Wang, He, Jiang",
+    "year": 2022,
+    "container": "Measurement",
+    "pages": "112085",
+    "volume": "204",
+    "issue": null
+  },
+  {
+    "n": 15,
+    "doi": "10.1016/j.ymssp.2023.110171",
+    "title": "A physics-informed feature weighting method for bearing fault diagnostics",
+    "author": "Lu, Pavan Nemani, Barzegar, Allen",
+    "year": 2023,
+    "journal": "Mechanical Systems and Signal Processing",
+    "vol": "191",
+    "issue": null,
+    "page": "110171",
+    "article": "110171"
+  },
+  {
+    "n": 16,
+    "doi": "10.1016/j.ymssp.2023.110544",
+    "title": "Physics-Informed Residual Network (PIResNet) for rolling element bearing fault diagnostics",
+    "author": "Ni, Ji, Halkon, Feng",
+    "year": 2023,
+    "journal": "Mechanical Systems and Signal Processing",
+    "vol": "200",
+    "issue": null,
+    "page": "110544",
+    "article": "110544"
+  },
+  {
+    "n": 17,
+    "doi": "10.3390/app16168337",
+    "status": 200,
+    "title": "A Physics-Guided Raw-Dominant Gated Fusion Method for Fine-Grained Bearing Fault Diagnosis",
+    "author": "Wu, Jiao, Zhang, Jin, Zhang, Li",
+    "year": 2026,
+    "container": "Applied Sciences",
+    "pages": "8337",
+    "volume": "16",
+    "issue": "16"
+  },
+  {
+    "n": 18,
+    "doi": "10.1109/TEC.2026.3726800",
+    "title": "Physics-Guided Dual-Stream Fusion Network for Fault Detection of Induction Motors Using Multi-Sensor Signals",
+    "author": "Huang, Ruzimov, Zhang, Cheng",
+    "year": 2026,
+    "journal": "IEEE Transactions on Energy Conversion",
+    "vol": null,
+    "issue": null,
+    "page": "1-11",
+    "article": null
+  },
+  {
+    "n": 19,
+    "doi": null
+  },
+  {
+    "n": 20,
+    "doi": "10.3390/s18051466",
+    "status": 200,
+    "title": "Multiband Envelope Spectra Extraction for Fault Diagnosis of Rolling Element Bearings",
+    "author": "Duan, Shi, Zhou, Xuan, Zhang",
+    "year": 2018,
+    "container": "Sensors",
+    "pages": "1466",
+    "volume": "18",
+    "issue": "5"
+  },
+  {
+    "n": 21,
+    "doi": "10.1016/j.ymssp.2017.12.009",
+    "status": 200,
+    "title": "The Autogram: An effective approach for selecting the optimal demodulation band in rolling element bearings diagnosis",
+    "author": "Moshrefzadeh, Fasana",
+    "year": 2018,
+    "container": "Mechanical Systems and Signal Processing",
+    "pages": "294-318",
+    "volume": "105",
+    "issue": null
+  },
+  {
+    "n": 22,
+    "doi": "10.1086/161288",
+    "status": 200,
+    "title": "On searches for periodic pulsed emission - The Rayleigh test compared to epoch folding",
+    "author": "Leahy, Elsner, Weisskopf",
+    "year": 1983,
+    "container": "The Astrophysical Journal",
+    "pages": "256",
+    "volume": "272",
+    "issue": null
+  },
+  {
+    "n": 23,
+    "doi": null
+  },
+  {
+    "n": 24,
+    "doi": null
+  },
+  {
+    "n": 25,
+    "doi": "10.1080/01621459.1993.10476408",
+    "status": 200,
+    "title": "Alternatives to the Median Absolute Deviation",
+    "author": "Rousseeuw, Croux",
+    "year": 1993,
+    "container": "Journal of the American Statistical Association",
+    "pages": "1273-1283",
+    "volume": "88",
+    "issue": "424"
+  },
+  {
+    "n": 26,
+    "doi": "10.1016/j.jsv.2007.02.029",
+    "status": 200,
+    "title": "Cyclic spectral analysis of rolling-element bearing signals: Facts and fictions",
+    "author": "Antoni",
+    "year": 2007,
+    "container": "Journal of Sound and Vibration",
+    "pages": "497-529",
+    "volume": "304",
+    "issue": "3-5"
+  }
+]

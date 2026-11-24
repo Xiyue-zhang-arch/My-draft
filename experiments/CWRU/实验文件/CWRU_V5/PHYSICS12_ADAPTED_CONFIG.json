@@ -1,0 +1,52 @@
+{
+  "version": "adapted_reference_v1",
+  "status": "reference_and_functional_checks_complete_not_integrated_for_training",
+  "configuration": {
+    "fs": 48000.0,
+    "bpfo_order": 3.5848,
+    "bpfi_order": 5.4152,
+    "bsf_order": 2.35675,
+    "max_harmonics": 6,
+    "search_fraction": 0.025,
+    "harmonic_alpha": 0.01,
+    "prediction_period_fraction": 0.5
+  },
+  "feature_names": [
+    "R_O",
+    "R_I",
+    "R_B",
+    "U_O",
+    "U_I",
+    "U_B",
+    "C_O",
+    "C_I",
+    "C_B",
+    "N_O",
+    "N_I",
+    "N_B"
+  ],
+  "prewhitening": "per_window_Yule_Walker_BIC_including_order_zero",
+  "order_cap": "min(floor(fs/(2*max(BPFO,BPFI,2BSF))),floor(N/20))",
+  "whiten_only": [
+    "C",
+    "N"
+  ],
+  "SES": "abs(FFT(abs(Hilbert(x))**2 - mean(abs(Hilbert(x))**2)))**2/(2*effective_N)",
+  "window": "rectangular",
+  "global_threshold": "mean_q**2*(1-frequency/(fs/2))*log(target_bin_count/0.01)",
+  "local_threshold_dB": 0,
+  "harmonic_cap": 6,
+  "stop_after_consecutive_misses": 2,
+  "synthetic_windows": 1100,
+  "source_training_windows_checked": 73,
+  "target_windows_processed": 0,
+  "models_trained": 0,
+  "files_sha256": {
+    "physics12_adapted_reference.py": "383d8e32d6880e4b4bad64294d432714357a8b642ebddff72132cda96ef7c8d5",
+    "check_physics12_adaptation.py": "76e893ed26192a9f4fbb08b695ba8b8350ce19649bee767c8e43060708f36d6a",
+    "check_physics12_source_training.py": "3eec522e733738bdf29ad2d597e616134c19c63af4956b6d55c94ddeb077b202",
+    "physics12_adaptation_check_v2.json": "8f929eece213914950f33b20ee141a2841388aff1724e147e4b932ef08ee5ec1",
+    "physics12_source_training_check_v2.json": "8be9fdccc678ad98768e4a32d351312c37a75eb1c45e5a6d1670c137a83c8438",
+    "PHYSICS12_ADAPTED_PROTOCOL.md": "3c816ad6902b752ec73b4c0a1988092294a7e9fb3dc90a5ad3a8446acfb4b9a7"
+  }
+}

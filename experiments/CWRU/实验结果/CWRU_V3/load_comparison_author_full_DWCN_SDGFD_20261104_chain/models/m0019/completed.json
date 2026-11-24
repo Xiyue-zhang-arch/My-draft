@@ -1,0 +1,16 @@
+{
+  "variant": "DWCN_SDGFD",
+  "protocol": "clean_only",
+  "seed": 1709,
+  "subset": 0,
+  "training_windows": 160,
+  "validation_windows": 40,
+  "epochs_trained": 118,
+  "updates_trained": 590,
+  "best_epoch": 98,
+  "validation_nll": 0.021189672499895097,
+  "total_train_seconds": 72.85342680010945,
+  "parameters": 535720,
+  "selection": "source_validation_ce",
+  "upstream_commit": "0719172456687c43e52ea9a0eb09f856ad902b37"
+}

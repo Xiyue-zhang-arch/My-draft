@@ -1,0 +1,168 @@
+{
+  "experiment_id": "experiment_3_data_small_supplement",
+  "stage": "complete",
+  "execution": "from_scratch",
+  "planned_models": 54,
+  "trained_models": 54,
+  "evaluated_models": 54,
+  "split_seed": 20261018,
+  "split_ratio": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "split_unit": "within each original recording after non-overlapping windows",
+  "training_windows": 467,
+  "validation_windows": 100,
+  "test_windows": 100,
+  "training_budget_windows": {
+    "1.0": 467,
+    "0.1": 48,
+    "0.2": 95,
+    "0.5": 235
+  },
+  "test_support": [
+    10,
+    29,
+    30,
+    31
+  ],
+  "excluded_record": "OR014_3",
+  "short_record_exception": [
+    {
+      "record_index": 16,
+      "record_id": "IR014_0",
+      "label": 1,
+      "load_hp": 0,
+      "total": 2,
+      "train": 1,
+      "validation": 1,
+      "test": 0,
+      "short_record_exception": true
+    }
+  ],
+  "same_record_train_test_overlap": 38,
+  "cross_load_generalization": false,
+  "record_independent_test": false,
+  "prior_test_exposed": true,
+  "historical_test_windows_now_training": 126,
+  "models_reused": false,
+  "predictions_reused": false,
+  "model_config": {
+    "window_samples": 24000,
+    "width": 32,
+    "dropout": 0.3,
+    "bands_hz": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "orders": [
+      1.0,
+      0.39828,
+      2.35675,
+      4.7135,
+      3.5848,
+      5.4152
+    ],
+    "families": [
+      "shaft",
+      "FTF",
+      "BSF",
+      "2BSF",
+      "BPFO",
+      "BPFI"
+    ],
+    "sham_multipliers": [
+      0.72,
+      0.82,
+      0.92,
+      1.08,
+      1.18,
+      1.28
+    ]
+  },
+  "hardware": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "numpy": "1.26.4",
+  "device": "cuda",
+  "cpu_threads": 2,
+  "precision": "BF16 encoder on CUDA, remainder FP32",
+  "batch_size": 32,
+  "updates": 600,
+  "seeds": [
+    1706,
+    1707,
+    1708
+  ],
+  "subset_seeds": [
+    4101,
+    4102,
+    4103
+  ],
+  "ratios": [
+    0.1,
+    0.2,
+    0.5
+  ],
+  "methods": [
+    "data_only"
+  ],
+  "protocols": [
+    "clean_only",
+    "awgn_mixed"
+  ],
+  "optimizer": "AdamW lr0.0005 weight_decay0.001; cosine eta_min0.00001",
+  "early_stopping": "min200 updates; patience150; max600; epoch1 and crossing50 updates",
+  "selection": "class-record balanced NLL; clean1 or clean0.5+each noisy0.1",
+  "label_smoothing": 0.05,
+  "scaler": "selected clean training subset median/IQR; floor0.05, clip[-8,8]",
+  "noise": "per occurrence 50% clean, otherwise U[-4,4]dB AWGN; one CE, no pairs",
+  "evaluation_snrs": [
+    -4,
+    -2,
+    0,
+    2,
+    4
+  ],
+  "validation_noise_seed": 6201,
+  "test_noise_seeds": [
+    7201,
+    7202,
+    7203,
+    7204,
+    7205
+  ],
+  "test_noise_order": "new100 test windows in saved order; not old180/200 observations",
+  "training_timing": "all actual epochs, online physical extraction and backward; excludes validation",
+  "latency": "batch1 normalization+online physics+network; excludes disk/H2D; 10 warmups/50 repeats",
+  "started_at": "2026-10-20T14:12:51.056874+08:00",
+  "last_completed_case": [
+    "awgn_mixed",
+    "data_only",
+    0.5,
+    4103,
+    1708
+  ],
+  "prediction_groups": 729,
+  "source_result": "D:\\Project\\MY draft\\results\\CWRU\\experiment_3",
+  "planned_metric_rows": 729,
+  "new_models_from_scratch": true,
+  "old_fusion_predictions_reused_for_comparison": true,
+  "old_models_retrained": false,
+  "old_models_retested": false,
+  "completed_at": "2026-10-20T15:00:45.656977+08:00"
+}

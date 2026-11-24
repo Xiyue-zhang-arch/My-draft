@@ -1,0 +1,8 @@
+{
+  "split": "load_transfer",
+  "source_load_hp": 2,
+  "protocol": "awgn_mixed",
+  "method": "fusion",
+  "seed": 1708,
+  "target_load_hp": 3
+}

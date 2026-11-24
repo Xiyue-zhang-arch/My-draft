@@ -1,0 +1,22 @@
+{
+  "variant": "DWCN_SDGFD",
+  "protocol": "clean_only",
+  "seed": 1710,
+  "subset": 4103,
+  "upstream_commit": "0719172456687c43e52ea9a0eb09f856ad902b37",
+  "selection": "source_validation_ce",
+  "adaptation": "V3 train split, 4 outputs, Adam lr=0.0005 and cosine schedule; no target-label selection",
+  "spec": {
+    "aux_weight": 0.1,
+    "physics_fit": "clean",
+    "aux_head": "shared",
+    "val_noise_seeds": [
+      6201
+    ],
+    "max_epochs": 200,
+    "schedule_epochs": 200,
+    "patience": 20,
+    "fit_noise_seed": 6301,
+    "fit_noise_repeats": 3
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "path": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_small_WDCNN_20261103_161215",
+    "sample": "small",
+    "method": "WDCNN",
+    "stage": "complete",
+    "models": 180,
+    "pairs": 540,
+    "rows": 540
+  },
+  {
+    "path": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_small_DRSN_CW_20261103_164024",
+    "sample": "small",
+    "method": "DRSN_CW",
+    "stage": "complete",
+    "models": 180,
+    "pairs": 540,
+    "rows": 540
+  },
+  {
+    "path": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_author_small_DWCN_SDGFD_20261104_1940",
+    "sample": "small",
+    "method": "DWCN_SDGFD",
+    "stage": "complete",
+    "models": 180,
+    "pairs": 540,
+    "rows": 540
+  },
+  {
+    "path": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_author_small_ClassBD_WDCNN_20261104_chain",
+    "sample": "small",
+    "method": "ClassBD_WDCNN",
+    "stage": "complete",
+    "models": 180,
+    "pairs": 540,
+    "rows": 540
+  },
+  {
+    "path": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_full_WDCNN_20261103_193929",
+    "sample": "full",
+    "method": "WDCNN",
+    "stage": "complete",
+    "models": 20,
+    "pairs": 60,
+    "rows": 60
+  },
+  {
+    "path": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_full_DRSN_CW_20261103_194132",
+    "sample": "full",
+    "method": "DRSN_CW",
+    "stage": "complete",
+    "models": 20,
+    "pairs": 60,
+    "rows": 60
+  },
+  {
+    "path": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_author_full_DWCN_SDGFD_20261104_chain",
+    "sample": "full",
+    "method": "DWCN_SDGFD",
+    "stage": "complete",
+    "models": 20,
+    "pairs": 60,
+    "rows": 60
+  },
+  {
+    "path": "D:\\Project\\MY draft\\results\\CWRU_V3\\load_comparison_author_full_ClassBD_WDCNN_20261104_chain",
+    "sample": "full",
+    "method": "ClassBD_WDCNN",
+    "stage": "complete",
+    "models": 20,
+    "pairs": 60,
+    "rows": 60
+  }
+]

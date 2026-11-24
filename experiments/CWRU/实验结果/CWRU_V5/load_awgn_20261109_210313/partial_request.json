@@ -1,0 +1,8 @@
+{
+  "requested_at": "2026-11-09T23:07:52.128441+08:00",
+  "scope": "full_and_10_percent",
+  "stop_before": "m0081",
+  "expected_completed_models": 80,
+  "original_training_pid": 80712,
+  "authorization": "user_requested_full_and_10_percent_report_before_other_budgets"
+}

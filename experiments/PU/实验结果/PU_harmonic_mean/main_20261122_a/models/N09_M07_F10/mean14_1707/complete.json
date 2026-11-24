@@ -1,0 +1,29 @@
+{
+  "model_id": "mean14_1707",
+  "protocol": "N09_M07_F10",
+  "method": "physical",
+  "seed": 1707,
+  "functional": false,
+  "epochs": 50,
+  "updates": 2200,
+  "parameters": 76772,
+  "condition_parameters": 2464,
+  "shared_initialization_sha256": "bbbf6d4b3c4eab8e8d166c3fb643d35ac57360d6e097c6911598c7f68e48b5c4",
+  "role_initialization_sha256": {
+    "v": "09d3e35867765b239132203961420048e9c0fdeea505ce37154943bf9751088c",
+    "c": "105c08fecdf29f2a7a4d94e5a4464da9b969f4bbea7fa0185f14db9ab4e1a872",
+    "head": "06ace98f849809290b901befb7f24701d55aeed03848e3aa1cc7584cad981491"
+  },
+  "val_CE": 0.0002321558201270768,
+  "val_BA": 1.0,
+  "final_train_eval_CE": 1.6161781864601884e-05,
+  "final_train_eval_BA": 1.0,
+  "seconds": 26.174353100010194,
+  "checkpoint_reproduction_max_error": 0.0,
+  "artifacts_sha256": {
+    "history.csv": "637de8bfc11200aae8f68107b1ccd5f9fee9870a07ecfbc42c71b488d84b9530",
+    "model.pt": "d9f35dce5deb33d0c3a832965ae524a0511a21bef5ed54824113270c073da722",
+    "training_trace.json": "ea486897ed19eb93ee40c996eff285980ed72335f9cb81b8ae11f814ae46f4b1",
+    "validation.npz": "3b936bc33845d4a05ad9bd465511eb312358516821279dc9d5f99a5247975800"
+  }
+}

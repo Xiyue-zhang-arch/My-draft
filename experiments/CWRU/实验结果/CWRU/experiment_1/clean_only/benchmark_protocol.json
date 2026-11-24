@@ -1,0 +1,11 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "precision": "BF16 encoder FP32 remaining",
+  "batch": 1,
+  "warmups": 10,
+  "repeats": 50,
+  "includes": "live GPU normalization, complete physical features for fusion, network",
+  "excludes": "disk MAT decode H2D",
+  "training": "complete epochs after5 excluding validation; cached clean features with preparation costs reported separately",
+  "memory": "peak PyTorch allocated MiB"
+}

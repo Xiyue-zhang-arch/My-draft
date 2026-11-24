@@ -1,0 +1,157 @@
+{
+  "verified_count": 30,
+  "shared_initialization_equal": true,
+  "batch_order_and_dropout_streams_equal": true,
+  "records": [
+    {
+      "model_id": "m0001",
+      "checkpoint_sha256": "4b22f4f1afdd9023b9b8ee2994436e70f71c5d1eb46f1550c0e18dad28b44188",
+      "val_CE": 4.4468214967223474e-05
+    },
+    {
+      "model_id": "m0002",
+      "checkpoint_sha256": "d6013f5110d37920791ad93170225055037c4e5a2dd04eb0f291c6b7530fc4f2",
+      "val_CE": 6.154854402592169e-06
+    },
+    {
+      "model_id": "m0003",
+      "checkpoint_sha256": "303095252e833c77ac97cc41e4c13b31265398da2b407e6e5b5c41844624035e",
+      "val_CE": 0.0002789780528644176
+    },
+    {
+      "model_id": "m0004",
+      "checkpoint_sha256": "25dc6255ba58764b827d10702e7b2557ca02dbb119f6f5b2dd808fa48b0d9131",
+      "val_CE": 9.38549735380767e-06
+    },
+    {
+      "model_id": "m0005",
+      "checkpoint_sha256": "25d2248efc5edaacf4596eab42afd5e7d8364862492e633a29416515055ba778",
+      "val_CE": 8.901063101225681e-06
+    },
+    {
+      "model_id": "m0006",
+      "checkpoint_sha256": "4a7f89688c921cdd16f7794b0feffa21d7a7bd225caee67a00230fe046e9db52",
+      "val_CE": 0.00023883237340969644
+    },
+    {
+      "model_id": "m0007",
+      "checkpoint_sha256": "7e0a5b2be047277e0bcbaa954c1ed379c983c5e6513f38c3ca0bd6fa856255b0",
+      "val_CE": 7.480836843077377e-05
+    },
+    {
+      "model_id": "m0008",
+      "checkpoint_sha256": "1b7d3fc96f5db7543bc3b6052d69d64ca8a97b9b2c02c6a87941f548f28113dd",
+      "val_CE": 0.0001011229631728694
+    },
+    {
+      "model_id": "m0009",
+      "checkpoint_sha256": "0c8484d78e60421fb3625797476ceb116d6aa18c4198e39855ae8f246f66f63a",
+      "val_CE": 2.44366101079474e-06
+    },
+    {
+      "model_id": "m0010",
+      "checkpoint_sha256": "3c32746bcf02de55257b88f045034320e9b8384aa0b8aa692f58b7408990899b",
+      "val_CE": 1.553502742857399e-05
+    },
+    {
+      "model_id": "m0011",
+      "checkpoint_sha256": "004f4c2f061b5f16a7e5d8e214008c76c6e3e8996d52ee542181628fe8980fec",
+      "val_CE": 3.7067566627652095e-06
+    },
+    {
+      "model_id": "m0012",
+      "checkpoint_sha256": "6a37fc13e4b8a705eb0b0dac151d83c115dc3a3251e8c81ba018035a8ff4fd19",
+      "val_CE": 7.663339329872898e-05
+    },
+    {
+      "model_id": "m0013",
+      "checkpoint_sha256": "c4dbb96f339ff6771902d97786381d0ff86fa14668c6ba89c86031927e67aa74",
+      "val_CE": 1.9436955422049982e-05
+    },
+    {
+      "model_id": "m0014",
+      "checkpoint_sha256": "54ddd11fa0946e475cca3214e534e59508712eef8c10093b8d0d43038105621a",
+      "val_CE": 8.147050698138841e-05
+    },
+    {
+      "model_id": "m0015",
+      "checkpoint_sha256": "613b06a3948da87ed842cd26e822b45f74aa91c64cd9e635d0b74bd92ae43913",
+      "val_CE": 0.0001372686821494237
+    },
+    {
+      "model_id": "m0016",
+      "checkpoint_sha256": "75160be8fdc44ab9859210bed39d9c3330f2f2e8ae0b1265ca4fe7c43ba1dfee",
+      "val_CE": 0.0005729423405188036
+    },
+    {
+      "model_id": "m0017",
+      "checkpoint_sha256": "5d8dc290b54dccf5e19952ab38f9401d30a0b80a65fab3d04e211bcdb940efdb",
+      "val_CE": 4.362701615234221e-06
+    },
+    {
+      "model_id": "m0018",
+      "checkpoint_sha256": "744cd4e7324debcc01ae9b387a431ca43dc8ddcf775cf1fb85df70d12ee5d487",
+      "val_CE": 0.00025064355613119453
+    },
+    {
+      "model_id": "m0019",
+      "checkpoint_sha256": "e3385bf39c212db16f365da4fc83eadb4c4c1688ce40ce9bdc270d75abb4739d",
+      "val_CE": 0.00011686919872832103
+    },
+    {
+      "model_id": "m0020",
+      "checkpoint_sha256": "f7043699fb98206ab147d46c045b97372157ccf4fc193414971e30d47ac7f047",
+      "val_CE": 0.00023891892615284294
+    },
+    {
+      "model_id": "m0021",
+      "checkpoint_sha256": "659ae9f9d9eb696eeabdc14e7b818b49bd24e54a5e69e98b1857818f01c2d57b",
+      "val_CE": 0.00011049417493696173
+    },
+    {
+      "model_id": "m0022",
+      "checkpoint_sha256": "1459835bb012504518ab4184f8072c63caa29de0bf84ac2de0b2f03028340123",
+      "val_CE": 1.0615621539949437e-05
+    },
+    {
+      "model_id": "m0023",
+      "checkpoint_sha256": "6642e7b0149c4a3640de47169a60436adf681b75c643d5fa78dd0dc8b16bdbbe",
+      "val_CE": 8.314089064154206e-07
+    },
+    {
+      "model_id": "m0024",
+      "checkpoint_sha256": "12fe5c523e6b4927c1ccc4c24f10ecbbdd74c6dcc2f06c8f3b6194aa5c360e20",
+      "val_CE": 1.855558452320022e-05
+    },
+    {
+      "model_id": "m0025",
+      "checkpoint_sha256": "224f6710bd16016e230a47a0d975b9da8619405f8b764bf0d0df2927cf537420",
+      "val_CE": 1.3564665944662268e-05
+    },
+    {
+      "model_id": "m0026",
+      "checkpoint_sha256": "e571468ef1edea3f09a1375aa05678c1fbf28bc3aeef60f0e063a03f9002722d",
+      "val_CE": 0.0004593294125241612
+    },
+    {
+      "model_id": "m0027",
+      "checkpoint_sha256": "c241a70128a350cc007e3804c9ee6f7f301e6bb1a93aedd7c859cba6e9ea88f8",
+      "val_CE": 0.0057566662642904295
+    },
+    {
+      "model_id": "m0028",
+      "checkpoint_sha256": "beaf9a6ee2a3723fb56515fc447eceaa7d36d69a92eb92c053cda1f42a41297a",
+      "val_CE": 0.0001365602886919376
+    },
+    {
+      "model_id": "m0029",
+      "checkpoint_sha256": "137ccb65a4cf59adaa4971d0bf609b111915d06cae3defbeecd25f799cf50875",
+      "val_CE": 0.0002790146354319775
+    },
+    {
+      "model_id": "m0030",
+      "checkpoint_sha256": "7b474fceef021e8f1e2f87eb2180578bb195fec9ecc6b99ae538682efc218d95",
+      "val_CE": 0.0011533054292336767
+    }
+  ]
+}

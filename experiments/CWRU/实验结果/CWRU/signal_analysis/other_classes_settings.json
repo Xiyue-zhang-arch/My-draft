@@ -1,0 +1,46 @@
+{
+  "reference_orders": {
+    "shaft": 1.0,
+    "BPFI": 5.4152,
+    "BSF": 2.35675,
+    "twice_BSF": 4.7135
+  },
+  "bands_hz": [
+    [
+      500,
+      3000
+    ],
+    [
+      3000,
+      6000
+    ],
+    [
+      6000,
+      12000
+    ],
+    [
+      12000,
+      20000
+    ]
+  ],
+  "overview_band_hz": [
+    3000,
+    6000
+  ],
+  "samples_per_window": 24000,
+  "windows_per_record": "IR014: 2; other families: 10",
+  "interval": "IR014: first 1 second at every load; others: first 5 seconds",
+  "unique_records_for_evidence": 28,
+  "ball_references": "BSF and 2BSF, both reported; no best-reference selection",
+  "normal_reference": "shaft speed only; not a fault frequency",
+  "input": "clean DE vibration; no added noise",
+  "rpm": "records.csv rpm and rpm_source retained in metric tables",
+  "envelope_fs": 3000,
+  "edge_trim_seconds": 0.025,
+  "effective_duration_seconds": 0.45,
+  "harmonic_count": 6,
+  "peak_search": "max(2Hz,1.5% target)",
+  "background": "max(12Hz,15% target) neighborhood, excluding peak tolerance plus 2Hz",
+  "recurrence": "mean local-max normalized autocorrelation around periods 1,2,3; max(1 sample,2% lag)",
+  "uncertainty": "window IQR, descriptive only; not independent repeats or confidence intervals"
+}

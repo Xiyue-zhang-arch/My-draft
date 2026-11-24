@@ -1,0 +1,9 @@
+{
+  "stage": "complete_frozen",
+  "finished_at": "2026-11-16 17:27:20",
+  "result": "D:\\Project\\MY draft\\results\\PU_0_small10_imbalance\\main_20261116_171613",
+  "formal_models": 90,
+  "prediction_cases": 7560,
+  "assessment_sha256": "eedf6302a1fa57615d7870f561ddff0226b908fd5f856407107c1c03c251d5e1",
+  "run_complete_sha256": "dfb193b9d6f12d0c63df22727648c2f401b22cb0e564154c7f36f224084cdb28"
+}

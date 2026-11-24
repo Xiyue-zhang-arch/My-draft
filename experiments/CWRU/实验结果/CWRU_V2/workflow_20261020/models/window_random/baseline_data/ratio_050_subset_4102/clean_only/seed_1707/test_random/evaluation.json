@@ -1,0 +1,11 @@
+{
+  "domain": "window_random",
+  "variant": "baseline_data",
+  "ratio": 0.5,
+  "subset": 4102,
+  "protocol": "clean_only",
+  "seed": 1707,
+  "origin": "V2",
+  "source_load_hp": -1,
+  "target_load_hp": -1
+}

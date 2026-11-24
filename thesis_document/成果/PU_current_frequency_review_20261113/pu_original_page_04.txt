@@ -1,0 +1,69 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+location, geometry, and occurrence. If there is more than a    Extent of damage: The extent of the damage describes the
+single damage to one bearing, the criteria of the last group     size  of  the damage  in  normalized  levels,  which  are
+are repeated to get a detailed and full description of all    independent of the bearing size. The levels are based on the
+occurring damages.                                            length of the damage, as this is a determining factor for the
+                                                                  signal output in CM and the intensity of the damage from
+As this paper focuses on CM of bearing damages, some of
+                                                                 the point of view of a machine operator. For  this the
+the most important criteria concerning the description of
+                                                             percentage  of  length  relative  to  pitch circumference  is
+bearing damages for CM are explained in detail. For a better
+                                                                 calculated and then assigned to five levels according to
+understanding, an example is given in the last column of
+                                                         Table 2.
+Table 1.
+                                                          Table 2. Damage levels to determine the extent of damage.
+Damage  combination:  This  criterion  characterizes  the
+occurrence of combined or repetitive damage based on the                   Assigned
+                                                Damage                  Limits for bearingdamage symptoms. This  is important  for  real damages                   percentage
+                                                                          level                        6203which are not plain single point damages. It is described by                      values
+the following three options:                                     1         0-2 %           ≤ 2 mm
+                                                           2         2-5 %           >2 mm   Single damage: One single component of the rolling
+                                                           3        5-15 %            >4.5 mm    bearing is affected by a single damage, for example a
+                                                           4        15-35 %          >13.5 mm     single pitting on the inner ring.
+                                                           5       >35%           >31.5 mm
+   Repetitive damage:  Identical damage symptoms are
+    repeated  at  several  places  on  the  same  bearing
+    component,   for  example   several,  non-continuous     Characteristic  of damage: The  characteristic of damage
+     pittings on the inner ring raceway.                          assigns the damages into the already mentioned groups of
+                                                                  single point and distributed damages. For a clear and easy   Multiple damage: Different damage symptoms occur in
+                                                                 division between these groups the dividing value is set to     the bearing or identical damage symptoms occur on
+                                                                 the diameter of the rolling elements, to which the damage     different bearing components. This option can include
+                                                               length is compared. This guarantees that for the single point     repetitive damages.
+                                                                 defects only one rolling element has contact to the damage
+Arrangement of the repetitive and multiple damages: This                                                                   in  all cases and the extent of the damage  is small  in
+criterion  characterizes  the  arrangement  of  the damage                                                        comparison to the bearing size.
+symptoms on each component (e.g., the inner ring) for the
+repetitive and multiple damages (see above). This criterion      It should be noted that the appearance of the damages can
+is described by the following options:                        have a simultaneous influence on several of the  critera.
+                                                            Therefore the criteria are not independent. The dependency
+   Regular: The damage symptoms recur  in a regular                                                                               is  tolerated  in  order  to  gain a  detailed  description  of
+     pattern on the component.                                                        damages, due to the facts, that the damage diversity is high
+   Random: Random  distribution of  the  local damage    and the real phenomena intermix.
+    symptoms.                                                                Altogether, this method of categorizing gives a very detailed
+  No repetition: The damage occurs only once and this     description of the regarded bearings and their damages. The
+     criterion does not apply.                                       difficulty is to collect all the information and parameters, as
+Geometrical size: The geometrical size of the damage is   some of them are not obvious and hard to obtain. The
+described by the length, width, and depth of the damage,    method was developed using a wide approach and can thus
+according to the directions quoted in VDI 3832 (2013) and    be used to investigate the damage causes or other bearing
+depicted in Figure 1.                                   damage related issues as well.
+
+                            position of rolling element         rolling element
+                                                                     3. GENERATION OF BEARING DAMAGE
+                                length
+                                    A main focus of this research paper is to generate systematic
+rolling direction                                                    data of measurement signals for condition monitoring with a
+                                                                                   width                           broad variety of bearing damage. As an intermediate step,
+                                                                 the bearing damages had to be generated, requiring a special
+                                                   damage preparation for the bearings.
+             damage                               depth          To keep the amount of experiments manageable, research
+          Figure 1. Parameters for describing the            was limited to ball bearings of type 6203. The types of
+             geometry of bearing damages.               damage  were  processed  and  selected  respecting  the
+                                                                 technical  possibilities  of  their  manufacturing and  their
+
+
+
+                                                                                                               4

@@ -1,0 +1,152 @@
+[
+  {
+    "model_id": "m0001",
+    "method": "vibration_plain",
+    "seed": 1706
+  },
+  {
+    "model_id": "m0002",
+    "method": "vibration_physical",
+    "seed": 1706
+  },
+  {
+    "model_id": "m0003",
+    "method": "current_plain",
+    "seed": 1706
+  },
+  {
+    "model_id": "m0004",
+    "method": "current_physical",
+    "seed": 1706
+  },
+  {
+    "model_id": "m0005",
+    "method": "concat_plain",
+    "seed": 1706
+  },
+  {
+    "model_id": "m0006",
+    "method": "concat_physical",
+    "seed": 1706
+  },
+  {
+    "model_id": "m0007",
+    "method": "vibration_plain",
+    "seed": 1707
+  },
+  {
+    "model_id": "m0008",
+    "method": "vibration_physical",
+    "seed": 1707
+  },
+  {
+    "model_id": "m0009",
+    "method": "current_plain",
+    "seed": 1707
+  },
+  {
+    "model_id": "m0010",
+    "method": "current_physical",
+    "seed": 1707
+  },
+  {
+    "model_id": "m0011",
+    "method": "concat_plain",
+    "seed": 1707
+  },
+  {
+    "model_id": "m0012",
+    "method": "concat_physical",
+    "seed": 1707
+  },
+  {
+    "model_id": "m0013",
+    "method": "vibration_plain",
+    "seed": 1708
+  },
+  {
+    "model_id": "m0014",
+    "method": "vibration_physical",
+    "seed": 1708
+  },
+  {
+    "model_id": "m0015",
+    "method": "current_plain",
+    "seed": 1708
+  },
+  {
+    "model_id": "m0016",
+    "method": "current_physical",
+    "seed": 1708
+  },
+  {
+    "model_id": "m0017",
+    "method": "concat_plain",
+    "seed": 1708
+  },
+  {
+    "model_id": "m0018",
+    "method": "concat_physical",
+    "seed": 1708
+  },
+  {
+    "model_id": "m0019",
+    "method": "vibration_plain",
+    "seed": 1709
+  },
+  {
+    "model_id": "m0020",
+    "method": "vibration_physical",
+    "seed": 1709
+  },
+  {
+    "model_id": "m0021",
+    "method": "current_plain",
+    "seed": 1709
+  },
+  {
+    "model_id": "m0022",
+    "method": "current_physical",
+    "seed": 1709
+  },
+  {
+    "model_id": "m0023",
+    "method": "concat_plain",
+    "seed": 1709
+  },
+  {
+    "model_id": "m0024",
+    "method": "concat_physical",
+    "seed": 1709
+  },
+  {
+    "model_id": "m0025",
+    "method": "vibration_plain",
+    "seed": 1710
+  },
+  {
+    "model_id": "m0026",
+    "method": "vibration_physical",
+    "seed": 1710
+  },
+  {
+    "model_id": "m0027",
+    "method": "current_plain",
+    "seed": 1710
+  },
+  {
+    "model_id": "m0028",
+    "method": "current_physical",
+    "seed": 1710
+  },
+  {
+    "model_id": "m0029",
+    "method": "concat_plain",
+    "seed": 1710
+  },
+  {
+    "model_id": "m0030",
+    "method": "concat_physical",
+    "seed": 1710
+  }
+]

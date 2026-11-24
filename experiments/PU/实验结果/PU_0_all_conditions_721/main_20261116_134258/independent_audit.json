@@ -1,0 +1,13 @@
+{
+  "stage": "independent_audit_passed",
+  "metric_max_error": 8.881784197001252e-16,
+  "probability_max_error": 1.7763568394002505e-15,
+  "validation_CE_max_error": 2.0440599083140776e-17,
+  "prediction_cases": 2520,
+  "confusion_cells": 40320,
+  "protected_old_files_verified": 35936,
+  "original_archives_verified": 8,
+  "record_overlap": 0,
+  "train_only_calibration_verified": true,
+  "no_additional_network_inference": true
+}

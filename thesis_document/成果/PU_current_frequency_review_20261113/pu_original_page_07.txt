@@ -1,0 +1,65 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+the inner ring. For the experiments, representative samples    modulation of the  inverter. (Lessmeier, Piantsop Mbo'o,
+with different properties were selected (see Table 5).           Coenen, Zimmer, & Hameyer, 2012)
+
+                                                            Figure 5 shows the schema of the measurement procedure
+4. EXPERIMENTAL SET-UP                                                       and the recorded measurands. The motor phase currents are
+To generate the experimental data for the development of    measured by a current transducer of the type LEM CKSR
+CM methods of damaged bearings by using motor current   15-NP with an accuracy of 0.8 % of IPN = 15 A. The MCS
+signals, a specific test rig was designed and operated at the    are then filtered by a 25 kHz low-pass filter and converted
+Chair  of  Design  and  Drive  Technology,  Paderborn    from an analogue to a digital signal with a sampling rate of
+University. The  test  rig  is a modular system to ensure    64 kHz. The current transducers are used instead of the
+flexible use of  different  defects  in an  electrical driven     internal ammeters of the inverter because of  their easy
+mechanical drive train. Defects in mechanical components,     signal access as the currents can be measured externally
+as they occur  in gearboxes  or  electrical machines,  are    between motor and inverter.
+experimentally reproduced to generate failure data using the
+test rig. For the generation of the measurement data, the
+                                                                                        motor                                                                                                                                                                   load motorcurrent  signals  of  the  electric  motor  are  recorded.                               measuring             bearing                                                                                                                                     shaft             module
+Additionally, the vibration signal of the housing of the test                                                                                          testbed
+                                                                                                                                                               surface                                                                                                                                                                         acceleration                                                                                                                                                                                                                                                           - abearings are measured as reference.                                                                         speed - n
+                                                                                                                                                                                         radial                                                                                                                                                                                     force- F
+                                                                                                       current                    torque- M             temperature - T
+4.1. Test Rig                                                                                transducer           Current
+The test rig consists of several modules: an electric motor                                         u, v            A/D
+                                                                                                                                          converter(1), a torque-measurement shaft (2), a rolling bearing test            frequency                                                                                                                                                                data
+module  (3), a flywheel  (4) and a load motor  (5), see              inverter                                                         storage
+Figure 4. The ball bearings with different types of damage
+are mounted in the bearing  test module to generate the                                                                   Figure 5. Schema of measurement procedure.
+experimental data.
+                                                     At this scientific level of development, a high sampling rate
+The rolling bearing module provides the possibility of using                                                       and  accuracy  are  additional  advantages  of  this  setup.
+a test bearing under a constant radial load, which can be                                                               Nevertheless, the used transducers are similar to the ones
+continuously adjusted up to 10 kN before each experiment.                                                 commonly  used  in  industry  applications,  so  that few
+An adapter gives the possibility to measure the vibration of                                                                         difficulties are expected transferring the research outcomes
+the inner housing, which holds the test bearing in the main                                                                   to industrial CM systems.
+direction of the load. The precise design of the bearing
+module and additional features, such as the possibility to    The acceleration of the bearing housing is measured at the
+simulate  tilting  faults or the use of  roller bearings, are    adapter at the top end of the rolling bearing module using a
+described  by  Lessmeier,  Enge-Rosenblatt,  Bayer, &     piezoelectric  accelerometer  (Model  No.  336C04, PCB
+Zimmer, 2014.                                                  Piezotronics, Inc.) and a charge amplifier (Type 5015A,
+                                                                   Kistler Group) with a low-pass filter at 30 kHz. The signal
+                                                                               is digitalized and saved synchronously to the MCS with a
+                                                         sampling rate of 64 kHz.
+
+                                                  The flywheel and the load machine simulate inertia and load
+                                                               of the driven equipment, respectively. The load motor is a
+                                    PMSM with a nominal torque of 6 Nm (power of 1.7 kW).
+
+                Figure 4. Modular test rig.               To record the operating conditions the following additional
+The motor (1) is a 425 W Permanent Magnet Synchronous    parameters  are  measured  synchronously  to  the  motor
+Motor (PMSM) with a nominal torque of T = 1.35 Nm, a     currents and vibration signal but with lower sampling rates:
+nominal speed of n = 3,000 rpm, a nominal current of    the radial force on the bearings (Compression and Tension
+I = 2.3 A and a pole pair number p = 4 (Type SD4CDu8S-    Force Sensor Type K11, Lorenz, 10 kN), the load torque at
+009, Hanning Elektro-Werke GmbH & Co. KG).  It  is    the torque-measuring shaft, the rotational speed (Torque
+operated by a frequency inverter (KEB Combivert 07F5E    Transducer Model  305,  Magtrol, 2 Nm)  and  the  oil
+1D-2B0A) with a switching frequency of 16 kHz. This    temperature in the bearing module.
+standard industrial inverter  is used to provide conditions
+similar to motors used in the industry because the current     4.2. Experiments
+signals show  significant  noise  due  to  the  pulse-width                                                  The  test  rig  was  operated  under  different  operating
+                                                               conditions to analyze the influence of operation parameters
+
+
+
+                                                                                                               7

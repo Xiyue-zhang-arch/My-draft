@@ -1,0 +1,81 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+acquisition and to allow an initial evaluation of the bearing    important when model based approaches are used and, for
+damages.   Section  7  shows   that  machine   learning    example,  the  geometry   is  needed  to  calculate  the
+classification algorithms are able to identify the damaged     characteristic frequencies.
+bearings in industrial drive trains using MSC, but require
+                                                                     Criteria   in  the   third  category  “application   specific
+sophisticated training data, as classification accuracies differ
+                                                             information” list the specific information of the individual
+depending  on  the  training  data  sets.  Therefore,  the
+                                                             bearing in the form of  distinct identification codes and
+dependency of the classification results on different damage
+                                                             information concerning  the  place  of  operation and  the
+types and manifestations of damage is examined.
+                                                           corresponding  operating  conditions.  This information  is
+                                                                 especially valuable to help figure out the damage causes in
+2. CATEGORIZATION OF BEARING DAMAGE                                                                industry applications. Further on in this paper the four-digit
+For systematic approaches of the examination of bearing    code for each specific bearing is used for identification. It
+damages, a comprehensive methodology for categorizing     consists of two letters and two numbers, e.g. KA01, KB23.
+bearings and their specific damages is needed. The proper
+                                                  The damage itself in the fourth group is described by its
+description and categorization of bearing damages and their
+                                                             type and  subtype  according  to ISO 15243  (2010),  its
+cause is not an easy task as bearing damages occur as an
+interaction of different causes and conditions. Moreover, the            Table 1. Categorization of bearing damage.
+patterns of damages may vary widely and often occur in
+combinations.  Bearing  damages  can  have   different      Category and sub-category        Criterion                   Example
+development states and not all of them lead to a sudden                                        Bearing Type                      ball bearing
+                                                                                                                     Bearing designation
+failure.                                                                     General info                      (dimension series, bore            6203
+                                                                                       (bearing)                                                                                                                       code)
+ISO 15243 gives a methodology for the classification of                                            Suffix                                 n/a
+bearing damage and failures. The damages are categorized                                       Diameter of inner raceway        24.0 mm
+into six main damage modes and their sub-modes. The six                                       DiameterPitch circleofdiameterouter raceway        28.5533.1 mmmm
+main damage modes are: fatigue, wear, corrosion, electrical                     Geometry      Number of rolling elements        8 pc.
+                                                                           Manufacturer
+erosion, plastic deformation, and fracture and cracking.               specific                           Rolling element diameter          6.75 mm
+                                                                                                                Length of rolling element         6.75 mm
+                                                                                  information
+This existing methodology of categorization is helpful to      about bearing                  Nominal pressure angle             0° N
+                                                                                                                                            Static load rating                4750 N
+describe  damages  and   to  figure  out   their  causes.                        Parameters      Dynamic load rating             9500 N
+Nevertheless, it only considers the damage modes in general                                     Speed limit                   12000 rpm
+and does not describe the detailed physiognomy of the                                        Manufacturer               FAG
+                                                                                                                     Bearing code (used for
+damage.                                                                                                          Identification     datasets)                   KB24
+                                                                                                           Sample number                   12-01
+The authors do not know of any extensive and established                                                 Installation site                   01
+method to describe the physiognomy of bearing damages in                         Place of           Installation type (system      KAt - lifetime
+detail. Therefore, a method for general categorization and       Application      operation         type)Operator                                testKAtrig
+detailed  specification was developed.  It focuses on the        specific                     Number of load cycles           2769500
+detailed  description  of  the damage  as  well  as on  the       information                       Lifetime                       15:01 h:min
+                                                                                                        Load                         3800 N
+corresponding  bearing  and  its  application.  Description                        Operation       Dynamic equivalent load         3800 N
+criteria were gathered using brainstorming methods and                          conditions        Rotational speed               2900 rpm
+sorting them into a hierarchic structure of categories. The                                    Load direction                   0 °
+categories and criteria are shown in Table 1.                                                 Comment                             n/a
+                                                                                           Mode                                fatigue
+                                                                                         Type of
+The criteria were grouped into four main categories, the first                   Damage        Sub-mode                             n/a
+three giving information about the bearing and the fourth                                 Symptom                             pitting                                                                                                      Component                       outer ring
+providing detailed information about the damage. According                                            Position of damage              raceway
+to these criteria, a detailed profile (or fact sheet) can be                   Damage        Damage combination              multiple
+                                                                                                                 location         Arrangement of the
+created for any damaged bearing.                                                                                          repetitive and multiple         no repetition
+                                                                                                           damages
+The  criteria of the  first group “general info” name the     Damage                         Length                            9.4 mm
+bearing type and the standardized code according to the                                          Extent of damage                  3
+standards of each bearing series.                                                      Geometry       Width                               total raceway
+                                                                                                            Depth                                 n/a
+The  criteria in the second group “manufacturer specific                                              Characteristic of damage          distributed                                                                                                                                                                        acc. lifetime
+information” give information about the internal geometry                                 Damage method                         test
+                                                                                  Damage
+and parameters of the bearing as these are not standardized.                        occurrence      Cause of damage (category)       operating
+Consequently, these parameters differ from manufacturer to                                     Cause of damage (detailed)      load,conditionslubricant
+manufacturer. Especially for CM, these parameters may be
+
+
+
+                                                                                                               3

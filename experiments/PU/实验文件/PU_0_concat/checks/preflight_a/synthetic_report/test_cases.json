@@ -1,0 +1,632 @@
+[
+  {
+    "case_id": "N09_M07_F10__clean",
+    "target": "N09_M07_F10",
+    "snr_db": null,
+    "noise_seed": null,
+    "noise_instance": null,
+    "waveform_input_sha256": "b60fd767b899236444507f0e7336e61a40278384c8e8b5aad31a97ae29f4e662",
+    "descriptor_input_sha256": "1a4fce19254c7d5f2414125b908434b0f0ecf860f7d17b5d5b69f8e6a2f683b0",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr-5_n7201",
+    "target": "N09_M07_F10",
+    "snr_db": -5,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "0ca6c43e028c05e189636421c9757f797ca1d9aee819ca86e2e2d58ef41a2ff6",
+    "descriptor_input_sha256": "248a49957c514f4ac740c2fbde660ecfab55a512631a0ed6133b13f3989f64b2",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr-5_n7202",
+    "target": "N09_M07_F10",
+    "snr_db": -5,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "5bdf9450a9f6da7e21986873ac9011cd7e52426ff341af6fea518389da296ff5",
+    "descriptor_input_sha256": "fcacf83a9786ab805cf308a2626c0963a85dea9789bcecd598de163acde275d9",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr-5_n7203",
+    "target": "N09_M07_F10",
+    "snr_db": -5,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "b7bb78e11c1d530109674e021117628aeb849faf16653233d0aabc0c6c708be5",
+    "descriptor_input_sha256": "bcaafb5e64cff221d161bf9718aa4e4dbe6cf137e82c89bc633129208c3fafa2",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr-5_n7204",
+    "target": "N09_M07_F10",
+    "snr_db": -5,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "4c8abb0cc141ab208e080b922e25bac3ec3f84d081a31283d226c4a022571cd2",
+    "descriptor_input_sha256": "f7d223a4f478bba2ab853889284fe52670be5baee57d4bc7ac02f7ea1eb61356",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr-5_n7205",
+    "target": "N09_M07_F10",
+    "snr_db": -5,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "571030f96d8ea2e505b9913d65b93aeb4a1d97688315a881a0d38eb0baa1fce7",
+    "descriptor_input_sha256": "32dc8f42b750dfaecdd6081ecb99100c59ed1874d6098becbdb639937208c377",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr0_n7201",
+    "target": "N09_M07_F10",
+    "snr_db": 0,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "e792468bfc288aa836f5387562c538bc4ca4a87b80945f7f77046eff572be808",
+    "descriptor_input_sha256": "8dcce3f6a7c14092d04f0b7d24a7d7df46e42e451ac28cb0165b7a8f76991227",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr0_n7202",
+    "target": "N09_M07_F10",
+    "snr_db": 0,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "73201d0f34d08df6feade640d2f59b32236f06f990e66dedf8b5506de8003fd4",
+    "descriptor_input_sha256": "ca16332a018eaa1a2e4ab7e62f6905836b26a8d9bc3bfe7138a11141adec24e0",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr0_n7203",
+    "target": "N09_M07_F10",
+    "snr_db": 0,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "740b405b7cf7d7fd96c3d2a86b6a513de9c34135b067a6021c97982cbe88cd72",
+    "descriptor_input_sha256": "47653d3bcc7b3f7123e97982dec6fab9bf7482d0aeef6cfa0d436a808898b803",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr0_n7204",
+    "target": "N09_M07_F10",
+    "snr_db": 0,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "89ca87af04342cfb175c0ba1f150788b275e97a80d2617e32d7a7dd0ac47d9c5",
+    "descriptor_input_sha256": "15dd698edcdac4343fb0680ccb2d32eda57298c003d6cff5ddbd5ebdf5d7e339",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr0_n7205",
+    "target": "N09_M07_F10",
+    "snr_db": 0,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "2c349eb6f8ae2b89c60559e1090c6bd3070dfe9ec7f6e8ef7809b8644066b4cd",
+    "descriptor_input_sha256": "f8ecc394b1933e865a0f8fcb96c1242ec7556e4458f8989eae7125d03f2edb95",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr5_n7201",
+    "target": "N09_M07_F10",
+    "snr_db": 5,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "2e750eb0f8c9cc55815cce35ede90ea1006f721b4921ed52ea38269cc7e5efeb",
+    "descriptor_input_sha256": "8b6b798bd0db7b8dd485247e910ddf1ad7f8c1bcdb6b17d6a99a75999e99b593",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr5_n7202",
+    "target": "N09_M07_F10",
+    "snr_db": 5,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "90576257a66df1fb54bfe87bdf1556003312592475a7e7ee5e3a93107c4b5b34",
+    "descriptor_input_sha256": "3b377d496efc0ab92b79cc3a566af23ed916d943cb6909968ed80c816f9f9f88",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr5_n7203",
+    "target": "N09_M07_F10",
+    "snr_db": 5,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "2ff4d8c7307c25113d15e3c698fd56add746a100acb1c9c6b59e1604e6da3ab5",
+    "descriptor_input_sha256": "959131e27b6aeec14543e7598ff2f5c11ba3a9730c9ea55da3572a2af01b1174",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr5_n7204",
+    "target": "N09_M07_F10",
+    "snr_db": 5,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "ed694bff2638694da021184259efe30f5e0d2785ae148c7a9912a3dc3f7c7dad",
+    "descriptor_input_sha256": "79f90c50a8e85eee79276457c8fcd622024c480a60a66636b8838a390b0a7c23",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr5_n7205",
+    "target": "N09_M07_F10",
+    "snr_db": 5,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "7d745b48269afb03388ac19439de957976b4fcbc18d2bdd5aae238908165dc49",
+    "descriptor_input_sha256": "8b83720b06d71299fbe42488338872e693519a47afa6a89e2d380f1586eff08d",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr10_n7201",
+    "target": "N09_M07_F10",
+    "snr_db": 10,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "5dfca05d4cbca016751c4768f27b0b9f478e79209594c0d0fa518209ef5a6e8d",
+    "descriptor_input_sha256": "19a434c893cbb4c2620f44cb6046fadd189ff4b42b5ebbc245e2dc280f81478e",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr10_n7202",
+    "target": "N09_M07_F10",
+    "snr_db": 10,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "6e3c4be94515a8f21fce08e83e89bde124bd49c511989fdbb8a992138cb8811a",
+    "descriptor_input_sha256": "6f4d1e44594527b8bb97bbdb6d4a58efefbf0b566293dfa0af1bab98fc1fea98",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr10_n7203",
+    "target": "N09_M07_F10",
+    "snr_db": 10,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "10879b778b6abdddc27ab1665da51dc29efa402512785db20fa37116e9f3025b",
+    "descriptor_input_sha256": "7b9b8d2238e604b23eed92f18563190da3850acbe43886a890db5f870b6450b5",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr10_n7204",
+    "target": "N09_M07_F10",
+    "snr_db": 10,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "024da57d4399941b77c99f3ca1ec8498a80e9d8c029107fa314b531d500773fd",
+    "descriptor_input_sha256": "d78d8c5609cfa9f3082624afc1a1e5fb041cccbc47203ca5ded7fb329a7fa94e",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N09_M07_F10__vibration_snr10_n7205",
+    "target": "N09_M07_F10",
+    "snr_db": 10,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "9f6b994a1a217a7e8b2f54883097976652f14137969e21c327b2955fe466523e",
+    "descriptor_input_sha256": "8b983a147d7523ed0095981a0e350db3ace288a5730853703f928737537f6864",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__clean",
+    "target": "N15_M01_F10",
+    "snr_db": null,
+    "noise_seed": null,
+    "noise_instance": null,
+    "waveform_input_sha256": "81b6de7fdcbd4a3c7fdff26bf484ae6673ebac3c18639c2995aaeffdbe368a99",
+    "descriptor_input_sha256": "d5b1a74f5e9ec938de72441e777170afd529a3c2c99460268e69ad882937c887",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr-5_n7201",
+    "target": "N15_M01_F10",
+    "snr_db": -5,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "f7d77dd480e2c54404e16fb6578109774226ebd98e989ce51704f8106870d2bd",
+    "descriptor_input_sha256": "33d37a7c11634b32c779e80533bfe429593971adfb52b0f2f134ef95623da652",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr-5_n7202",
+    "target": "N15_M01_F10",
+    "snr_db": -5,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "1c3cfa4b4714231dd8785bd8e8d2b84c829df74c4b90f3a387c3f6140cfe6d1a",
+    "descriptor_input_sha256": "f9464085ceb6b9dc7218ef007cd0a9dda231fe810f8fdb764ecfa2ce273e7acf",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr-5_n7203",
+    "target": "N15_M01_F10",
+    "snr_db": -5,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "09c31836d8375e71e276d5a806d72765b837a104bbb2f257bcd30b10e17c071a",
+    "descriptor_input_sha256": "5d429ecb470daf3579253d191d48082c59461f66ffc8cf633ebcb79eb8e85a72",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr-5_n7204",
+    "target": "N15_M01_F10",
+    "snr_db": -5,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "d38bf7fe8f0a55eaa5dd750662891aca37c25934982c36d800ee14af619d724b",
+    "descriptor_input_sha256": "cd4675f65cc554361fc49f37da45da9365e8d5ffaece67f51133c7d17228cbe1",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr-5_n7205",
+    "target": "N15_M01_F10",
+    "snr_db": -5,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "916bc1c1bd13c796cee31ef5bb998bb14901fb0189f960d02ef1fe67a25d1d86",
+    "descriptor_input_sha256": "efd4ec56c09ca7aff8cc867b359df38b0180ac4671970475e0af3e98fdb21694",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr0_n7201",
+    "target": "N15_M01_F10",
+    "snr_db": 0,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "3e3b175a3cd6e2c0a54dd3b6eaed255a30c95b6e15182894c37b91477f3bfc28",
+    "descriptor_input_sha256": "025022bf1dcbfb81f5ed577f0d75bd3103bc9ee3d2ca17db82b89e8948775362",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr0_n7202",
+    "target": "N15_M01_F10",
+    "snr_db": 0,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "489b069ee9d7962fa01e73554941718f40a2324a94c70df84942ff86418c54d4",
+    "descriptor_input_sha256": "1a7dc530ca588beba868fed27bc5c162f178c7d64794c44a2c0fac185e333092",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr0_n7203",
+    "target": "N15_M01_F10",
+    "snr_db": 0,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "a02522f9e21667ff33fde9839bcfcf444df8378dce8e048ba289b4e357d96c1e",
+    "descriptor_input_sha256": "7c100846f4e5d880c2d30ca810a9d82280da41f1201437085ca3f0cc431ada1e",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr0_n7204",
+    "target": "N15_M01_F10",
+    "snr_db": 0,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "c463380209ca8646fe0f0616a9a83c3fa75f055a004013f03a4bdbe45d34e9c1",
+    "descriptor_input_sha256": "ce070a0e780d31d3b8b9a6dd71110a406b8dff2a30d527d6535e846bd85f9b53",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr0_n7205",
+    "target": "N15_M01_F10",
+    "snr_db": 0,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "1fedbdeaf86ddb6472768ca7197ad24f10d673b52fee0da09b8aeeacae31f2da",
+    "descriptor_input_sha256": "ead3dfadd1362476b4e1a3de21b3828aec4a7536251464ef010f6a6fe0a93306",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr5_n7201",
+    "target": "N15_M01_F10",
+    "snr_db": 5,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "9947e6b8aafd264f228f6b72b7b602d31f94b731d00e3e1ea99f78c83209157c",
+    "descriptor_input_sha256": "56a9ec89f8209450dad0f68d69f024480fd013841d3294ece22837a4b85c9f4f",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr5_n7202",
+    "target": "N15_M01_F10",
+    "snr_db": 5,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "bcdb03246b0dda2f76eb80fd1d86b9b956c419b77a88a53511b891e7b6bbb02b",
+    "descriptor_input_sha256": "1f020141558c7d732621919db46bd28acb4d27c5aace0735e767bc12211c336b",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr5_n7203",
+    "target": "N15_M01_F10",
+    "snr_db": 5,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "12391f095b9f5c6b3db174780ce68b8b916f7266445a4ecb98d266529cb366fd",
+    "descriptor_input_sha256": "ade589c3b9868d4ea5ed05e4d9d49d50a69090ee98bbc18edb63758444d4d54b",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr5_n7204",
+    "target": "N15_M01_F10",
+    "snr_db": 5,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "afa5ed0fd79454e4b933f4ff6c33f252761b473098c6c38516765fd26b500c6f",
+    "descriptor_input_sha256": "b89270d030cf28a41c8f1c0ca7a50842f63f8f6df056a43d4698146e29eef83b",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr5_n7205",
+    "target": "N15_M01_F10",
+    "snr_db": 5,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "d6ce6a19c457763b9bdd6a8af9d5fd103e50359f4e521d66e9a57bd1107a0589",
+    "descriptor_input_sha256": "3c782988568cdd9157e7e4bed6b68957c1b798519ae3a53c90b692c70e03c54a",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr10_n7201",
+    "target": "N15_M01_F10",
+    "snr_db": 10,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "a496ec217f2a0008404444f8229c01fe0b3d8ad85405257cfd32eee697b4d62c",
+    "descriptor_input_sha256": "e646bece7700116bd823a20491856089b221052071124773267f5bc54eeeae30",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr10_n7202",
+    "target": "N15_M01_F10",
+    "snr_db": 10,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "df01a3b709df8f1538583ea523ee74b0485203be818e5a7fe1d6563fcb4c5013",
+    "descriptor_input_sha256": "5f39059ae697fe5ff21f04f9ef5d72c7ebb25f2aef2bbbc2f75e42e95e4bae56",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr10_n7203",
+    "target": "N15_M01_F10",
+    "snr_db": 10,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "01d8c7f50abf43f527b76f0538a24cb2e90d0869a5c87a8d9b58cab29bf35abe",
+    "descriptor_input_sha256": "826bba33aeeec1f397e95452549564eeca6412d4aedba02e2fa43c4db4d7266c",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr10_n7204",
+    "target": "N15_M01_F10",
+    "snr_db": 10,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "5a3239c3414f69f4425d68f21368460f045b26d0ad193d1b865e87e91eac1981",
+    "descriptor_input_sha256": "e6348f70e29bc2bf4028bbec0650ec501d0698a589e174278d14a83bcae88070",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M01_F10__vibration_snr10_n7205",
+    "target": "N15_M01_F10",
+    "snr_db": 10,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "c0c6f853aefd0deafbfd4f7d9dd942898031b47a070cb3c62ad35747ac43f63a",
+    "descriptor_input_sha256": "beaf4fe0c21cc610f169798cff161eeaa161715f52f8bf3069ef7c1164f06cea",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__clean",
+    "target": "N15_M07_F04",
+    "snr_db": null,
+    "noise_seed": null,
+    "noise_instance": null,
+    "waveform_input_sha256": "586f8c7f5807d2520972f2fcccca20be83ca4469d706a9506db2f15f9e808841",
+    "descriptor_input_sha256": "fd2735c6243399a0b1514fde321044ce9cc813b4236c4d8ade8e801f48679cc9",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr-5_n7201",
+    "target": "N15_M07_F04",
+    "snr_db": -5,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "f116584d97906c711020c61fc86a01a35a712736e683fdb68021e0383e0704b2",
+    "descriptor_input_sha256": "ce337960742f48272f4691e57339ca321e5406e9f90922944a2e001e91d500dc",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr-5_n7202",
+    "target": "N15_M07_F04",
+    "snr_db": -5,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "3cf58baadbd09c605b1a87c1e346214c6a28969ffaf6cd0f3fb573bc1386b5de",
+    "descriptor_input_sha256": "96638519c7d73529d9b335de94a2741b56bf4b39e8c195a8f1e2f93f033a5519",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr-5_n7203",
+    "target": "N15_M07_F04",
+    "snr_db": -5,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "b623766095e38a5e7df85e853a9ca92eef99e818a0d9c17c7ca26c469ce1f6ce",
+    "descriptor_input_sha256": "45aa738ab72cc07c729c01365ca199cff9cd37046c4a7a66665171f01f6ad592",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr-5_n7204",
+    "target": "N15_M07_F04",
+    "snr_db": -5,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "25bd565117b68f720f4cc3cb8c705ed2296bf1d30a6f28dc1550e640a8fb1943",
+    "descriptor_input_sha256": "a5092dc7269876c35d79365b55b1425ac065481e0d277e75d81531e4a0a133cb",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr-5_n7205",
+    "target": "N15_M07_F04",
+    "snr_db": -5,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "03187df29ec42c48ad7cad3233b4fc2adb59d7a723087ba511bf6890a7d29238",
+    "descriptor_input_sha256": "2cfdb6e2639e45c5e465ad8400f722cac326da5d89baddafab9e617d141ce002",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr0_n7201",
+    "target": "N15_M07_F04",
+    "snr_db": 0,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "fe375368c687a52d1052febf2aa4941c8d407ba6313e44ab0eaf362f5d3f95e1",
+    "descriptor_input_sha256": "d705ff9abf44462d78a89f89462ca89966fbbe3235a85ea38c20b235a6639b2b",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr0_n7202",
+    "target": "N15_M07_F04",
+    "snr_db": 0,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "328334972501c96cd6f24ee897fedae286a64a0fce3807be8d2eb7b466ee1770",
+    "descriptor_input_sha256": "49515f49fa931f5d1e573dddb32c1fca8500a6ef299186ac72960c988f0237e0",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr0_n7203",
+    "target": "N15_M07_F04",
+    "snr_db": 0,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "a73ebbaba9a8cf221d3bf22d5cfe22b6a9797f08606f3fef56770819cbf54804",
+    "descriptor_input_sha256": "fd10cbe6b39f221aa5add36792135b95d8b553411185ce1ddd02ed7af348c70e",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr0_n7204",
+    "target": "N15_M07_F04",
+    "snr_db": 0,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "05ddcd0ddf517fa876031c59c20026766e3ee774345b6e9c83468ee64e7e8fcb",
+    "descriptor_input_sha256": "c518a958448a667a4b8fb04ba176c0de337e0ff1c8199a6b04bf2870b660c0a5",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr0_n7205",
+    "target": "N15_M07_F04",
+    "snr_db": 0,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "50cc19a1e7b633c8bd6e94854af78fded23cdb447bab4537791e9bea700147e7",
+    "descriptor_input_sha256": "b4879a91db7d4a930937406a492b828bd15f661233f5fd442b1a0425c910ead5",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr5_n7201",
+    "target": "N15_M07_F04",
+    "snr_db": 5,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "2f63d8fd2ead1948d8387edd5f2389ced7186ed402abaf1015b3b33762e905ac",
+    "descriptor_input_sha256": "d8dd323a3c42e3e7ff5b6703d66abfc0ecb080ccc5820ec0c41f9cfa2eb49ea1",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr5_n7202",
+    "target": "N15_M07_F04",
+    "snr_db": 5,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "d234b797e8a1ee1913609c635cdb0e5bce67b38efaafcbd3e3e4c93ae2190016",
+    "descriptor_input_sha256": "33ab65110ba0c3b3827c09385ec2284b9d19720ae772979100d1a21f348e0809",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr5_n7203",
+    "target": "N15_M07_F04",
+    "snr_db": 5,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "637b557ee47e0f42e1f69316188d0425580757bd76bff41dfe48658214c6e424",
+    "descriptor_input_sha256": "3688e7223fcfefb566ba06423532fe544ec0755a863eff8867cd5c33482a70d2",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr5_n7204",
+    "target": "N15_M07_F04",
+    "snr_db": 5,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "46b791bbdd97f5b80a468ac430f12521afa65d32eb6d00b7f52feda8c2406057",
+    "descriptor_input_sha256": "dca443a9e0a3767a84ed9548b192acf884572e63fca448ae309ccbca84c773cc",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr5_n7205",
+    "target": "N15_M07_F04",
+    "snr_db": 5,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "72692bd7f80d2d1d9e9cabc08dd2987abb3b57a80861332929bdc6c64e401f9b",
+    "descriptor_input_sha256": "129f65e1d0de909984829e3fe58f3434a46c8ce6498ebcde3fb5763641c35d8b",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr10_n7201",
+    "target": "N15_M07_F04",
+    "snr_db": 10,
+    "noise_seed": 7201,
+    "noise_instance": 0,
+    "waveform_input_sha256": "fa2010db2a645387f308d7cb462025e94b019020ca9151bf96fa32bb51e93abc",
+    "descriptor_input_sha256": "7bdda9382ba3e4169d3764bd88c4df84b79adc1c5d11dadf50fc424bc60ae1ce",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr10_n7202",
+    "target": "N15_M07_F04",
+    "snr_db": 10,
+    "noise_seed": 7202,
+    "noise_instance": 1,
+    "waveform_input_sha256": "8cf8ce792717220b8348c4aea4ce4c14167dd5a28883b4f7dd9197789ebe5e7b",
+    "descriptor_input_sha256": "f36dafe24c6eb8951cda23905b9c5930211b530eb75e5980c6dfe67db28d7ed1",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr10_n7203",
+    "target": "N15_M07_F04",
+    "snr_db": 10,
+    "noise_seed": 7203,
+    "noise_instance": 2,
+    "waveform_input_sha256": "08c6a71b599edbc2679dd1bdde02cd98672395bcba67dd2d5ff2d833f57dd1e4",
+    "descriptor_input_sha256": "2f3549d246455edcf297b8380d67329507ce74a538ce9aa99878e850fb61027a",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr10_n7204",
+    "target": "N15_M07_F04",
+    "snr_db": 10,
+    "noise_seed": 7204,
+    "noise_instance": 3,
+    "waveform_input_sha256": "0c42a354a23375bb4256e389284a092d913eea83139efb014e5b674d96efe78f",
+    "descriptor_input_sha256": "e448999eb647ca8f9e5791cbebb22223e76adc946052cf334824cfe06d8791d2",
+    "input_matches_original": true
+  },
+  {
+    "case_id": "N15_M07_F04__vibration_snr10_n7205",
+    "target": "N15_M07_F04",
+    "snr_db": 10,
+    "noise_seed": 7205,
+    "noise_instance": 4,
+    "waveform_input_sha256": "9fb8bd33e012d52c48ef2cc6efaabeb17e1cdbb664fa19d895e7b90d507ce43d",
+    "descriptor_input_sha256": "f0379b89ece6b1fcc8025931c4403060412522c25964bdc2631dd95da7a1f0ff",
+    "input_matches_original": true
+  }
+]

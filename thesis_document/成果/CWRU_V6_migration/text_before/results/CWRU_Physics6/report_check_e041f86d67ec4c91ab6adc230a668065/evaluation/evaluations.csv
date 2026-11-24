@@ -1,0 +1,5 @@
+job_id,scene,source_load_hp,target_load_hp,subset,protocol,seed,method,domain,ratio,prediction_path,test_windows
+window_fusion,window,-1,-1,4101,clean_only,1706,fusion,window_random,0.1,D:\Project\MY draft\results\CWRU_Physics6\report_check_e041f86d67ec4c91ab6adc230a668065\evaluation\predictions\window_fusion.npz,8
+window_data,window,-1,-1,4101,clean_only,1706,data,window_random,0.1,D:\Project\MY draft\results\CWRU_Physics6\report_check_e041f86d67ec4c91ab6adc230a668065\evaluation\predictions\window_data.npz,8
+load_fusion,load,0,1,4101,clean_only,1706,fusion,load_source_0,0.1,D:\Project\MY draft\results\CWRU_Physics6\report_check_e041f86d67ec4c91ab6adc230a668065\evaluation\predictions\load_fusion.npz,8
+load_data,load,0,1,4101,clean_only,1706,data,load_source_0,0.1,D:\Project\MY draft\results\CWRU_Physics6\report_check_e041f86d67ec4c91ab6adc230a668065\evaluation\predictions\load_data.npz,8

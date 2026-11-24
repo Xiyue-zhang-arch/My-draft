@@ -1,0 +1,7 @@
+{
+  "role": "validation",
+  "conditions": [],
+  "clean_sha256": "2c0a599cae79d96b780586faa4b7dce95a93eb7dc972737f8801b939b4e10eb9",
+  "windows": 200,
+  "identical_to_reference": true
+}

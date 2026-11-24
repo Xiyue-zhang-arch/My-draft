@@ -1,0 +1,40 @@
+{
+  "selected_aux_weight": 1.0,
+  "candidates": [
+    {
+      "aux_weight": 0.01,
+      "mean_best_validation_ce": 1.073130650854968e-05,
+      "sample_sd": 2.0053072479260643e-06,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 0.03,
+      "mean_best_validation_ce": 8.464049015564898e-06,
+      "sample_sd": 1.6126966229558117e-06,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 0.1,
+      "mean_best_validation_ce": 7.014800841045268e-06,
+      "sample_sd": 1.1530347942011547e-06,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 0.3,
+      "mean_best_validation_ce": 6.113909779018181e-06,
+      "sample_sd": 9.502097619413286e-07,
+      "seeds": 5
+    },
+    {
+      "aux_weight": 1.0,
+      "mean_best_validation_ce": 5.4396290738402316e-06,
+      "sample_sd": 9.241062108717958e-07,
+      "seeds": 5
+    }
+  ],
+  "criterion": "mean_of_five_best_validation_window_mean_ce; exact_tie_lower_lambda",
+  "trained_models": 25,
+  "weights_verified": true,
+  "test_accessed": false,
+  "transfer_requires_explicit_approval": true
+}

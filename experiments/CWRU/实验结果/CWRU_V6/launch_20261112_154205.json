@@ -1,0 +1,7 @@
+{
+  "launcher_pid": 9856,
+  "output": "D:\\Project\\MY draft\\results\\CWRU_V6\\small10_20261112_154205",
+  "started": "2026-11-12T15:42:05.2211137+08:00",
+  "check": "check_20261112_10pct_c",
+  "scope": "150 new fusion, 150 baseline reference, window/load 10 percent clean and AWGN, lambda 0.3"
+}

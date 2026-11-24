@@ -1,0 +1,4 @@
+domain,ratio,subset,role,windows,N,IR,OR,B
+window_random,1.0,0,train,481,49,138,147,147
+window_random,1.0,0,validation,103,10,29,32,32
+window_random,1.0,0,test,103,11,30,31,31

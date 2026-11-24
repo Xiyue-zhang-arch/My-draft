@@ -1,0 +1,16 @@
+{
+  "stage": "independent_audit_passed",
+  "metric_max_error": 4.440892098500626e-16,
+  "probability_max_error": 8.881784197001252e-16,
+  "validation_CE_max_error": 2.220446049250313e-16,
+  "models": 90,
+  "prediction_cases": 7560,
+  "confusion_cells": 120960,
+  "protected_old_files_verified": 41317,
+  "original_archives_verified": 8,
+  "train_only_calibration_verified": true,
+  "common_validation_test_verified": true,
+  "matched_training_random_streams_verified": true,
+  "degenerate_model_count": 0,
+  "no_additional_network_inference": true
+}

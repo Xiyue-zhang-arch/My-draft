@@ -1,0 +1,9 @@
+{
+  "stage": "complete_frozen",
+  "finished_at": "2026-11-16 14:45:17",
+  "result": "D:\\Project\\MY draft\\results\\PU_0_all_conditions_721\\main_20261116_134258",
+  "formal_models": 30,
+  "prediction_cases": 2520,
+  "assessment_sha256": "5909d491c88941feb1d630fe74ea8985118b19c72e3cbcff0ca6a322eee3e130",
+  "run_complete_sha256": "d83ae05d5b5f5fb60605c50bbb35a22cbd4552a944b2ad93b9c544cd24bcb2d6"
+}

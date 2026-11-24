@@ -1,0 +1,13 @@
+{
+  "summary_values_checked": 168,
+  "paired_delta_values_checked": 56,
+  "data_verification": {
+    "metric_rows_recomputed": 2400,
+    "confusion_cells_recomputed": 38400,
+    "baseline_predictions_exact": 600,
+    "matched_splits": 40,
+    "maximum_metric_absolute_error": 1.1102230246251565e-16
+  },
+  "formula_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "workbook": "D:\\Project\\MY draft\\outputs\\cwru_v3_v4_summary_20261107\\CWRU_V3_V4_纯干净跨负载对比汇总.xlsx"
+}

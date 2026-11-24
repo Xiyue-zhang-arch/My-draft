@@ -1,0 +1,9 @@
+{
+  "variant": "data_aux_ce",
+  "parameters": 53068,
+  "inference_parameters": 53068,
+  "auxiliary_only_parameters": 0,
+  "conv_linear_flops": 1525288704,
+  "auxiliary_training_head_flops_per_sample": 2304,
+  "flops_scope": "batch1 Conv1d/Linear multiply+add=2; excludes physical FFT, normalization, activations, elementwise, backward"
+}

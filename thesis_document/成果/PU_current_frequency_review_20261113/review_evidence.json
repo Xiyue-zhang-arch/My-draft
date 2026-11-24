@@ -1,0 +1,24 @@
+{
+  "attached_pdf_image_based": true,
+  "visual_pages_checked": [
+    3,
+    4,
+    5,
+    7,
+    8,
+    10,
+    11,
+    12,
+    14,
+    16
+  ],
+  "pu_original_visual_page": 7,
+  "github_url": "https://github.com/ztwqzfy/M-IPISincNet/",
+  "github_status": "404 in connector and public web",
+  "paper_test_condition": "N15_M07_F14",
+  "local_replacement": "N15_M07_F04",
+  "replacement_is_documented_inference": true,
+  "raw_records_listed": 640,
+  "new_training_started": false,
+  "protocol": "experiments/PU-1/M_IPISINCNET_ALIGNMENT.md"
+}

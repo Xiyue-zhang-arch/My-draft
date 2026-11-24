@@ -1,0 +1,22 @@
+{
+  "protocol": "clean_only",
+  "method": "DRSN_CW",
+  "ratio": 0.5,
+  "subset_seed": 4102,
+  "model_seed": 1708,
+  "from_scratch": true,
+  "training_windows": 144,
+  "paired_inputs": false,
+  "maximum_batch_inputs": 32,
+  "selected_epoch": 110,
+  "selected_update": 550,
+  "updates_trained": 600,
+  "validation_nll": 0.31993504700561365,
+  "model_sha256": "0511aef1b9304e1f027d50a3e741a9bfe54c8ff6861ab26104cf780e8f37f886",
+  "selected_windows_sha256": "57f58e3783136684d7615e8b0f5771804786308569ae2a755a0686445ef011f9",
+  "trace_sha256": "c4a405955cfa09e777939dad82f8e7faad97e45aeb14f890451e899e4e0167be",
+  "training_wall_seconds": 26.86789959995076,
+  "fit_seconds": 1.100008375942707e-05,
+  "precision": "FP32",
+  "adapted": true
+}

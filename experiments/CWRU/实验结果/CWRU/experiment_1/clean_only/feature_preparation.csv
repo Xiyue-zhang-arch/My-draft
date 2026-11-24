@@ -1,0 +1,4 @@
+role,windows,live_feature_seconds
+train,287,0.5653713999781758
+validation,200,0.055396700045093894
+test,200,0.03749040002003312

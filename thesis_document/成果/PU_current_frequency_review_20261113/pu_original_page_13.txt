@@ -1,0 +1,65 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+                                                                   7.4 Training with Data of Bearings with Multiple
+                                                      Damages
+  Table 11. Performance of various algorithms trained and
+     tested with features of bearings with real damages.         Further tests were carried out by including data sets from
+                                                              bearings with multiple damages at both raceways, at inner
+       Algorithm   Classification Accuracy [%]                                                       and outer ring (KB23, KB24 and KB27). According to the
+            MCS   Vibration Signals                                                       dominant damage type KB23 and KB24 were assigned to
+     CART       66.7           98.3                                                                 the inner ring damage (class 3), while KB27 was assigned to
+      RF           83.3           98.3                                                                 the outer ring damage (class 2).
+     BT           81.7           83.3
+     NN          65.8           44.2                    Training and testing was done in a 5-fold cross validation
+                                                     manner based on the KAxx and KIxx data sets as described     SVM-PSO    56.7           75.8
+                                                                   in section 7.3. In addition, KB23 and KB24 were used     ELM         69.2           60.8
+                                                             interchangeably for training and testing in a way that when     kNN         68.3           62.5
+                                                      one was used for training, the other was used for testing.       Ensemble     93.3           98.3
+                                            KB27 was only used for testing since it is the only data set
+                                                      where the outer ring damage is dominant. Table 13 shows
+Figure 14  is  the confusion matrix of  the ensemble of    the average performance of the algorithms for this case. For
+algorithms using features from vibration signals. A few    the neural networks, parameters such as the number of
+misclassification instances are observed in samples with    hidden layers and neurons were not tuned and this explains
+outer ring (KA04) and inner ring (KI21) damages also with    the poor performance.
+damages of level 1.
+                                                           Table 13. Performance of various algorithms trained and
+                       MCS                                     tested with features of bearings with real damages.
+                       400     0      0   100%
+                   1                     33.3%  0.0%  0.0%  0.0%                                          Classification Accuracy [%]                                                            Algorithm
+                                               MCS   Vibration Signals
+                                             CART       86.3           91.3                                    Class 2  0.0%0   26.7%320   0.0%0   100%0.0%
+                                                 RF           68.1           91.3
+                        0     80    400   83.3%                  BT           63.7           79.4                   3                                                                 Predicted    0.0%  6.7%  33.3% 16.7%                                         NN          66.3           33.2
+                   100%  80.0%  100%  93.3%                   SVM-PSO    80.6           70.8
+                     0.0%  20.0%  0.0%  6.7%                 ELM         81.9           71.9
+                        1      2      3                       kNN         61.3           70.0
+                                      Target Class                              Ensemble     86.3           91.3
+       Figure 13. Confusion matrix for ensemble of
+      algorithms trained and tested with MCS features                                                             Figures 15 and 16  are  the confusion  matrices  for  the
+              of bearings with real damages.                                                       ensemble of algorithms with the inclusion of the data sets of
+                                                              bearings with multiple damages. The inclusion of these data
+                                                                      sets  reduces  classification  accuracy,  with  the  highest
+                                 Vibration Signals
+                                                                  misclassification rate falling within the KB27 and with most
+                       400     0      0   100%                    of  the  samples  being  classified  as  having  inner  ring                   1                     33.3%  0.0%  0.0%  0.0%
+                                                        damages.
+                                    Class 2  0.0%0   32.5%390   0.8%10   97.5%2.5%
+
+                        0     10    390   97.5%                   3                                                                 Predicted    0.0%  0.8%  32.5%  2.5%
+
+                   100%  97.5%  97.5%  98.3%
+                     0.0%  2.5%  2.5%  1.7%
+
+                        1      2      3
+                                      Target Class
+
+       Figure 14. Confusion matrix for ensemble of
+    algorithms trained and tested with vibration features
+              of bearings with real damages.
+
+
+
+
+
+                                                                                                             13

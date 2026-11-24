@@ -1,0 +1,86 @@
+\contentsline {chapter}{中文摘要}{i}{chapter*.1}%
+\contentsline {chapter}{Abstract}{ii}{chapter*.2}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}研究目的与意义}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}研究问题与技术思路}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}本文主要工作}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.5}论文结构安排}{6}{section.1.5}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}国内外研究现状及不足}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}轴承故障机理与信号分析研究}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}从原始振动信号学习深度表示}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}面向噪声与工况变化的研究}{9}{section.2.3}%
+\contentsline {section}{\numberline {2.4}小样本故障诊断研究}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.5}物理引导学习与特征融合研究}{11}{section.2.5}%
+\contentsline {section}{\numberline {2.6}现有研究不足与本文切入点}{13}{section.2.6}%
+\contentsline {section}{\numberline {2.7}本章小结}{14}{section.2.7}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}物理引导双流门控融合模型}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}问题描述与模型设计思路}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}轴承局部故障的振动基础}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}周期冲击与特征频率}{16}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}包络分析与多频带观察}{17}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}物理描述的构造}{18}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}设计原则与描述维数}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}谐波强度与覆盖率}{19}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}周期重复性与冲击相位}{19}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}波形形状统计}{20}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}训练集内稳健标准化}{21}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}数据驱动振动编码器}{21}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}通道映射与注意力}{21}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}膨胀残差卷积与统计汇聚}{21}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}物理映射与门控残差融合}{22}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}物理特征映射}{22}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}逐通道门控与残差表达}{23}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}主分类与辅助监督}{24}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}数据单分支与模型复杂度}{24}{section.3.6}%
+\contentsline {section}{\numberline {3.7}本章小结}{25}{section.3.7}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}实验设计与评价方法}{26}{chapter.4}%
+\contentsline {section}{\numberline {4.1}实验问题与阶段安排}{26}{section.4.1}%
+\contentsline {section}{\numberline {4.2}数据来源与样本构造}{26}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}数据对象与分类任务}{26}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}记录内随机窗口划分}{27}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}随机窗口小样本子集}{27}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}单一来源跨负载实验设计}{28}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}划分方式与迁移方向}{28}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}来源训练预算}{28}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}噪声协议与观测构造}{29}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}纯干净训练}{29}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}AWGN混合训练}{29}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}验证与测试噪声}{30}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}训练、验证与选模}{30}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}模型训练设置}{30}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}验证准则}{31}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}辅助系数选择与实际测试顺序}{31}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}模型数量与测试规模}{31}{section.4.6}%
+\contentsline {section}{\numberline {4.7}评价指标与汇总规则}{32}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}总体准确率和均衡准确率}{32}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}宏平均F1与混淆矩阵}{32}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}种子、子集与方向的汇总}{33}{subsection.4.7.3}%
+\contentsline {section}{\numberline {4.8}对照公平性和有效性边界}{33}{section.4.8}%
+\contentsline {section}{\numberline {4.9}本章小结}{34}{section.4.9}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}实验结果与分析}{35}{chapter.5}%
+\contentsline {section}{\numberline {5.1}本章分析思路}{35}{section.5.1}%
+\contentsline {section}{\numberline {5.2}辅助损失系数选择与训练过程}{36}{section.5.2}%
+\contentsline {section}{\numberline {5.3}记录内随机窗口实验结果}{37}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}全样本识别结果}{41}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}不同训练比例下的识别能力}{41}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}随机窗口结果的适用范围}{42}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}全样本跨负载实验结果}{42}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}十二个迁移方向的总体表现}{43}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}不同信噪比下的变化}{44}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}迁移方向与类别差异}{45}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}小样本跨负载实验结果}{45}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}不同预算下的总体表现}{49}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}固定子集与训练种子差异}{50}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}噪声强度和训练预算的共同影响}{50}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}类别召回与负差方向}{51}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.5}训练标签预算与迁移任务的解释}{52}{subsection.5.5.5}%
+\contentsline {section}{\numberline {5.6}计算开销与实现代价}{52}{section.5.6}%
+\contentsline {section}{\numberline {5.7}结果讨论与研究局限}{54}{section.5.7}%
+\contentsline {section}{\numberline {5.8}本章小结}{55}{section.5.8}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}结论与展望}{56}{chapter.6}%
+\contentsline {section}{\numberline {6.1}研究工作总结}{56}{section.6.1}%
+\contentsline {section}{\numberline {6.2}主要结论}{56}{section.6.2}%
+\contentsline {section}{\numberline {6.3}研究不足}{57}{section.6.3}%
+\contentsline {section}{\numberline {6.4}后续研究展望}{58}{section.6.4}%
+\contentsline {chapter}{参考文献}{59}{chapter*.4}%

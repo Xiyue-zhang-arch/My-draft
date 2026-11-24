@@ -1,0 +1,29 @@
+{
+  "variant": "data_aux_ce",
+  "ratios": [
+    0.1,
+    0.2
+  ],
+  "passed": false,
+  "checks": {
+    "noisy_gain": true,
+    "positive_pairs": true,
+    "or_preservation": true,
+    "clean_preservation": true,
+    "fixed_subset_seed_sd": false,
+    "paired_gain_sd": false,
+    "data_reference": true
+  },
+  "noisy_gain_pp": 1.0832734674329498,
+  "positive_pair_fraction": 0.7777777777777778,
+  "or_gain_pp": 3.038194444444444,
+  "clean_gain_pp": {
+    "clean_only": 0.13020833333333331,
+    "awgn_mixed": 0.0
+  },
+  "max_seed_sd_pp": 2.8168369339562416,
+  "max_paired_sd_pp": 2.4222230828772435,
+  "min_data_gap_pp": null,
+  "decision_data": "fixed validation only; no test metrics",
+  "stage": "screen"
+}

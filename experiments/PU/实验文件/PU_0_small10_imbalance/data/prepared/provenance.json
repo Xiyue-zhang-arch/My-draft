@@ -1,0 +1,44 @@
+{
+  "parent_data": "D:\\Project\\MY draft\\experiments\\PU_0_all_conditions_721\\data\\prepared",
+  "parent_verification_sha256": "e234b72e260eba13c9b4bc13f8c4cb62e9cd7f4f34c013aae09e638787ef5906",
+  "reduction_unit": "windows within original condition/bearing/record roles",
+  "parent_split_preserved": true,
+  "new_raw_or_window_extraction": false,
+  "base_counts": {
+    "train": 1120,
+    "val": 320,
+    "test": 160
+  },
+  "training_counts": {
+    "balanced10": 1120,
+    "imbalanced": 364,
+    "matched_balanced": 364
+  },
+  "training_class_counts": {
+    "balanced10": [
+      280,
+      280,
+      280,
+      280
+    ],
+    "imbalanced": [
+      280,
+      28,
+      28,
+      28
+    ],
+    "matched_balanced": [
+      91,
+      91,
+      91,
+      91
+    ]
+  },
+  "common_validation_and_test": true,
+  "noise_bitwise_subset": true,
+  "records_retained_in_balanced10": [
+    445,
+    127,
+    64
+  ]
+}

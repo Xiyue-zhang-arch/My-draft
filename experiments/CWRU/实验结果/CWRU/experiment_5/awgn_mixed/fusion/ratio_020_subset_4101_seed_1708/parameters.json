@@ -1,0 +1,31 @@
+{
+  "protocol": "awgn_mixed",
+  "method": "fusion",
+  "ratio": 0.2,
+  "subset": 4101,
+  "seed": 1708,
+  "best_update": 550,
+  "updates_trained": 600,
+  "validation_nll": 0.19725232117114394,
+  "training_windows": 58,
+  "validation_windows": 100,
+  "from_scratch": true,
+  "training_class_support": [
+    6,
+    16,
+    18,
+    18
+  ],
+  "training_records": 39,
+  "train_test_shared_records": 38,
+  "historical_test_windows_now_training": 14,
+  "fit_seconds": 0.011912399902939796,
+  "parameters": 53068,
+  "train_seconds_per_epoch": 0.17611833601025864,
+  "total_train_seconds": 52.83550080307759,
+  "peak_gpu_mib": 1196.25732421875,
+  "validation_forward_seconds": 7.122506600106135,
+  "validation_forward_calls": 72,
+  "fit_train_validation_save_seconds": 61.59503059997223,
+  "latency_ms": 9.089114000089467
+}

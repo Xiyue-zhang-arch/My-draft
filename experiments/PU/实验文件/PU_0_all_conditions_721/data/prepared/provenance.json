@@ -1,0 +1,25 @@
+{
+  "underlying_data": "D:\\Project\\MY draft\\experiments\\PU_0\\data\\prepared_inputs",
+  "underlying_verification_sha256": "c678023496502b7b5b7bf2a3119f5a91cf7e88d6e2859b87712a98f33674fbda",
+  "old_windows_retained": 15981,
+  "new_or_additional_window_identities": 19,
+  "preprocessing_unchanged": true,
+  "split_seed": [
+    20261116,
+    2
+  ],
+  "record_counts": [
+    445,
+    127,
+    64
+  ],
+  "ratio_unit": "window_count",
+  "split_counts": {
+    "train": 11200,
+    "val": 3200,
+    "test": 1600
+  },
+  "test_noise_uses_raw_record_power": true,
+  "test_descriptors_cached_deterministically": true,
+  "test_statistics_used_for_fitting": false
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-13",
+  "new_training_models": 0,
+  "new_target_inference_groups": 0,
+  "sources": [
+    {
+      "key": "lu2023",
+      "title": "A physics-informed feature weighting method for bearing fault diagnostics",
+      "year": 2023,
+      "venue": "Mechanical Systems and Signal Processing 191, 110171",
+      "url": "https://doi.org/10.1016/j.ymssp.2023.110171",
+      "read": "author-hosted full PDF; Section 2, Equations 5-7",
+      "scope": "vibration single modality"
+    },
+    {
+      "key": "pg2026",
+      "title": "A Physics-Guided Raw-Dominant Gated Fusion Method for Fine-Grained Bearing Fault Diagnosis",
+      "year": 2026,
+      "venue": "Applied Sciences 16(16), 8337",
+      "url": "https://www.mdpi.com/2076-3417/16/16/8337",
+      "read": "primary full HTML, Sections 3.1-3.3 and 4.1",
+      "scope": "raw vibration and envelope representation, not independent sensors"
+    },
+    {
+      "key": "film2018",
+      "title": "FiLM: Visual Reasoning with a General Conditioning Layer",
+      "year": 2018,
+      "venue": "AAAI",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/11671",
+      "read": "primary venue and author full HTML Section 2",
+      "scope": "visual question answering, proposed physics adaptation untested"
+    },
+    {
+      "key": "mmdynamics2022",
+      "title": "Multimodal Dynamics: Dynamical Fusion for Trustworthy Multimodal Classification",
+      "year": 2022,
+      "venue": "CVPR",
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Han_Multimodal_Dynamics_Dynamical_Fusion_for_Trustworthy_Multimodal_Classification_CVPR_2022_paper.html",
+      "read": "venue indexed abstract plus full author model.py and train_test.py; PDF returned 403",
+      "code": "https://github.com/TencentAILabHealthcare/mmdynamics",
+      "scope": "medical multiomics; not evidence on PU"
+    },
+    {
+      "key": "wenderoth2024",
+      "title": "Exploring Multi-Modality Dynamics: Insights and Challenges in Multimodal Fusion for Biomedical Tasks",
+      "year": 2024,
+      "status": "preprint",
+      "url": "https://arxiv.org/abs/2411.00725",
+      "read": "author full HTML methods and results Sections 4.1-4.2",
+      "scope": "negative replication evidence restricted to its biomedical settings"
+    },
+    {
+      "key": "ogm2022",
+      "title": "Balanced Multimodal Learning via On-the-Fly Gradient Modulation",
+      "year": 2022,
+      "venue": "CVPR",
+      "url": "https://arxiv.org/abs/2203.15332",
+      "read": "primary abstract and full author HTML Section 3 Equations 1-11",
+      "scope": "optimization imbalance principle; not established cause of PU-2 failure"
+    },
+    {
+      "key": "qmf2023",
+      "title": "Provable Dynamic Fusion for Low-Quality Multimodal Data",
+      "year": 2023,
+      "venue": "ICML",
+      "url": "https://proceedings.mlr.press/v202/zhang23ar.html",
+      "read": "author full HTML theoretical framework and limitations",
+      "scope": "decision-level fusion; conditional error-bound comparison, not guarantee of feature-fusion accuracy"
+    },
+    {
+      "key": "alam2025",
+      "title": "Physics-Informed Multimodal Bearing Fault Classification under Variable Operating Conditions using Transfer Learning",
+      "year": 2025,
+      "status": "preprint",
+      "url": "https://arxiv.org/abs/2508.07536",
+      "read": "author HTML Sections 3.3-3.8",
+      "scope": "PU and feature concatenation; hard-prediction physical loss needs differentiability check"
+    }
+  ]
+}

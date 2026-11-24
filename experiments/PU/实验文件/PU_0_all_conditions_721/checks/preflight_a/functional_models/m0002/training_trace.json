@@ -1,0 +1,7 @@
+[
+  {
+    "epoch": 1,
+    "global_window_permutation_sha256": "cf38275eeb48cfe4d20007846bf56492c789375a602fc422930eaa6a799b8280",
+    "CUDA_rng_start_sha256": "aee149e3503d5a01d4ed60895b9b1ac48df8d4600b022f9ba18ee165863baf58"
+  }
+]

@@ -1,0 +1,63 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+and to ensure the robustness of the CM methods at different    bearing diagnostics employing ML-algorithms.
+operating conditions.
+                                              Some diagnostic data sets for bearing damages are publicly
+The rotational speed of the drive system, the radial force     available; the most popular and comprehensive ones are
+onto the test bearing and the load torque in the drive train     listed below:
+are the main operation parameters. To ensure comparability
+                                                           CWRU: Bearing Data Center/ Seeded Fault Test Data1of the experiments,  fixed  levels were defined  for each
+parameter  (Table  6).  All  three  parameters  were  kept      FEMTO Bearing Data Set2
+constant for the time of each measurement. At the basic      MFPT Fault Data Sets3
+setup (Set no. 0) of the operation parameters, the test rig                                                            Bearing Data Set IMS4runs at n = 1,500 rpm with a load torque of M = 0.7 Nm and
+a  radial  force on  the bearing of F = 1,000 N. Three    These  data  sets  focus on  different  aspects. Some  use
+additional settings are used by reducing the parameters one     artificial damages (CWRU, MFPT), others use real damages
+by one to n = 900 rpm, M = 0.1 Nm and F = 400 N (set No.   (FEMTO,  IMS). CWRU  and FEMTO  use  different
+1-3), respectively. For each of the settings, 20 measurements    operating conditions by varying load and speed; others use
+of 4 seconds each were recorded. Another parameter is the    only different load situations (MFPT) or just one condition
+temperature, which was kept roughly at 45-50 °C during all    (IMS). The FEMTO data set provides run-to-failure data
+experiments.                                               with measurements over a long period, but does not give
+                                                      any information about the properties of the damages.
+In  total,  experiments  with 32  different  bearings  were
+performed: 12 bearings with  artificial damages and 14    Altogether,  the  data  sets  mentioned  use  the  classical
+bearings with damages from accelerated lifetime tests (see     vibration  signals  for  bearing  diagnostics. To  the  best
+Table 4 and Table 5). Moreover, experiments with 6 healthy    knowledge of the authors of the present paper, no publicly
+bearings and a different time of operation were performed as     available data set providing data for diagnostics of external
+reference states as shown in Table 7.                           bearing damages based on MCS is known.
+                                                              Therefore, the focus was to systematically create a high
+5. DATABASE                                                                  quality data set which takes into account several operating
+Nowadays, a huge amount of data is collected in industry    conditions and a wide distribution of artificial as well as
+and science for different purposes; some of it is made public     realistic bearing damages.
+in repositories or on websites. But obtaining the appropriate                                                       Smith and Randall demand some properties for benchmark
+data  in the needed quality and quantity  for specialized                                                               data sets which are based on their experience with different
+research often is still challenging, especially, if a wide range                                                                diagnostic methods used on a vibration-based CM data set
+of different types of damages or the yet rarely used MCS are                                                                    for bearings. They list three requirements (Smith & Randall,
+the target of interest. This also applies to training data for                                                            2015), which can be applied accordingly to MCS data sets:
+              Table 6. Operating parameters.                   Systematic and comprehensive documentation.
+        Rotational   Load    Radial    Name of          High sampling rates (>40 kHz).
+  No.     speed     Torque    force       Setting           Data  verification  with  established  methods  before
+          [rpm]      [Nm]      [N]                             publication of the data.
+   0      1500         0.7     1000   N15_M07_F10    The first two issues are already addressed in this paper by
+   1      900         0.7     1000   N09_M07_F10     the   characterization   of  damage  and   the   extensive
+                                                         documentation  of  the  experiments,  including  a  high   2      1500         0.1     1000   N15_M01_F10
+                                                         sampling rate for the two main signals (64 kHz).
+   3      1500         0.7      400   N15_M07_F04
+
+
+    Table 7. Operating parameter of healthy (undamaged)
+               bearings during run-in period.                       1 Case Western Reserve  University (CWRU),  Cleveland, Ohio, USA
+                                                                               http://csegroups.case.edu/bearingdatacenter/home
+   Bearing  Run-in Period   Radial Load    Speed           2
+                                                        FEMTO-ST    Institute,   Besançon,   France;   http://www.femto-    Code           [h]            [N]         [min-1]                                                                      st.fr/en/Research-departments/AS2M/Research-groups/PHM/IEEE-PHM-
+    K001        >50        1000-3000   1500-2000       2012-Data-challenge.php
+    K002        19          3000       2900            3 Mechanical Failures Prevention Group (MFPT) Society (a Division of the
+    K003         1           3000       3000           Vibration        Institute),     Oak      Brook,        IL,     USA,
+    K004         5           3000       3000           http://www.mfpt.org/FaultData/FaultData.htm4
+                                                                                                        J. Lee, H. Qiu, G. Yu, J. Lin, and Rexnord Technical Services, NSF
+    K005        10          3000       3000                                                             I/UCR Center for Intelligent Maintenance Systems, Milwaukee, WI, USA:
+    K006        16          3000       2900            http://ti.arc.nasa.gov/tech/dash/pcoe/prognostic-data-repository/
+
+
+
+                                                                                                               8

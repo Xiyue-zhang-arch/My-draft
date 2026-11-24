@@ -1,0 +1,356 @@
+{
+  "scope": "post-hoc support/critique of existing fixed bands; not original derivation",
+  "data": "existing source-domain training windows only; no validation or test-window statistics",
+  "selection": "no parameter changes or model training",
+  "schemes": {
+    "base": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "low_100": [
+      [
+        100,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "low_250": [
+      [
+        250,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "low_1000": [
+      [
+        1000,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "high_16000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        16000
+      ]
+    ],
+    "high_18000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        18000
+      ]
+    ],
+    "high_22000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        22000
+      ]
+    ],
+    "edge1_2000": [
+      [
+        500,
+        2000
+      ],
+      [
+        2000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "edge1_4000": [
+      [
+        500,
+        4000
+      ],
+      [
+        4000,
+        6000
+      ],
+      [
+        6000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "edge2_5000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        5000
+      ],
+      [
+        5000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "edge2_7000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        7000
+      ],
+      [
+        7000,
+        12000
+      ],
+      [
+        12000,
+        20000
+      ]
+    ],
+    "edge3_10000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        10000
+      ],
+      [
+        10000,
+        20000
+      ]
+    ],
+    "edge3_14000": [
+      [
+        500,
+        3000
+      ],
+      [
+        3000,
+        6000
+      ],
+      [
+        6000,
+        14000
+      ],
+      [
+        14000,
+        20000
+      ]
+    ]
+  },
+  "bands": [
+    [
+      500,
+      3000
+    ],
+    [
+      3000,
+      6000
+    ],
+    [
+      6000,
+      12000
+    ],
+    [
+      12000,
+      20000
+    ],
+    [
+      100,
+      3000
+    ],
+    [
+      250,
+      3000
+    ],
+    [
+      1000,
+      3000
+    ],
+    [
+      12000,
+      16000
+    ],
+    [
+      12000,
+      18000
+    ],
+    [
+      12000,
+      22000
+    ],
+    [
+      500,
+      2000
+    ],
+    [
+      2000,
+      6000
+    ],
+    [
+      500,
+      4000
+    ],
+    [
+      4000,
+      6000
+    ],
+    [
+      3000,
+      5000
+    ],
+    [
+      5000,
+      12000
+    ],
+    [
+      3000,
+      7000
+    ],
+    [
+      7000,
+      12000
+    ],
+    [
+      6000,
+      10000
+    ],
+    [
+      10000,
+      20000
+    ],
+    [
+      6000,
+      14000
+    ],
+    [
+      14000,
+      20000
+    ]
+  ],
+  "aggregation": "window mean within record; equal records within source and fault class; equal sources and fault classes",
+  "spectral_kurtosis": "STFT complex fourth/second moment ratio minus2, DC/Nyquist excluded; segments128,256,512,50%overlap",
+  "primary_fault_references": {
+    "IR": "BPFI",
+    "OR": "BPFO",
+    "B": "2BSF"
+  },
+  "secondary_reference": {
+    "B": "BSF"
+  },
+  "harmonic_pbr": "10 times original T1 (mean log10 power peak/background across6harmonics), in dB",
+  "limitations": [
+    "all four sources pooled only for descriptive analysis; target domains historically exposed",
+    "labels select diagnostic reference only; no classifier score and no independent validation",
+    "records/windows share underlying bearings; descriptive dispersion only",
+    "best-of-four score is a descriptive upper bound; not the learned gate mechanism"
+  ],
+  "analysis_date": "2026-11-05",
+  "training_windows": 549,
+  "records": 40,
+  "fault_records": 36,
+  "energy_interval_last_bin": "Nyquist point included in final 23750–24000Hz bin",
+  "raw_energy_definition": "unwindowed raw FFT squared, real-spectrum double-sided accounting; not actual filtered energy",
+  "band_scheme_count": 13,
+  "unique_bands": 22
+}

@@ -1,0 +1,26 @@
+{
+  "variant": "fusion",
+  "ratio": 0.2,
+  "subset_seed": 4101,
+  "model_seed": 1707,
+  "training_windows": 58,
+  "class_counts": {
+    "0": 6,
+    "1": 16,
+    "2": 18,
+    "3": 18
+  },
+  "from_scratch": true,
+  "training_noise": false,
+  "validation_noise": false,
+  "paired_inputs": false,
+  "maximum_batch_inputs": 32,
+  "selected_epoch": 275,
+  "selected_update": 550,
+  "updates_trained": 600,
+  "validation_nll": 0.04574093716219067,
+  "model_sha256": "455a51d9cc82e4c784a6435a400f6d45b0c791b6664849c6860c2333c6c9a4f7",
+  "scaler_sha256": "a342e113e7a600606b09267d9fcd55ece8ea5f4325c93e4f754d9e0991c51269",
+  "selected_windows_sha256": "c0da3ec4908630c8d4b7fd7f1dae52b40f6a994f82fd69d5707ab78ef644a945",
+  "training_wall_seconds": 47.46831209980883
+}

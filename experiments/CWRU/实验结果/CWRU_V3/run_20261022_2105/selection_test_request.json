@@ -1,0 +1,16 @@
+{
+  "status": "complete_paused",
+  "requested_at": "2026-10-22T21:35:21.462951+08:00",
+  "controller_pid": 68164,
+  "training_pid": 138056,
+  "process_created": 1792674399.4614298,
+  "expected_models": 30,
+  "test_scope": "fixed 103 clean windows for all 30 models",
+  "stop_after_testing": true,
+  "automatic_resume": false,
+  "training_barrier": "D:\\Project\\MY draft\\results\\CWRU_V3\\run_20261022_2105\\models\\m0031",
+  "training_stopped_at": "2026-10-22T23:14:10.849004+08:00",
+  "boundary_verified": true,
+  "completed_at": "2026-10-22T23:14:18.765430+08:00",
+  "tested_models": 30
+}

@@ -1,0 +1,1428 @@
+{
+  "scope": "sampled metadata and signal acquisition audit; not full-file certification",
+  "PU": [
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\Health\\K001.rar",
+      "member": "K001/N09_M07_F10_K001_3.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -3.122382865731544e-05,
+          "end": 3.9999683484476627,
+          "effective_fs": 4000.000427723726,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.99999957227632,
+          "effective_fs": 64000.00684357961,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.99999957227632,
+          "effective_fs": 64000.00684357961,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -3.122382865731544e-05,
+          "end": 3.9999683484476627,
+          "effective_fs": 4000.000427723726,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 899.3701779687269,
+          "rpm_median": 899.7173063910956,
+          "rpm_max": 900.1636944932712
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": -0.004734045692865313,
+          "end": 3.9952655265834545,
+          "effective_fs": 1.0000001069309314,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -3.122382865731544e-05,
+          "end": 3.9999683484476627,
+          "effective_fs": 4000.000427723726,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.99999957227632,
+          "effective_fs": 64000.00684357961,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\Health\\K001.rar",
+      "member": "K001/N15_M01_F10_K001_11.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -0.00012489531462926175,
+          "end": 3.9998746769616904,
+          "effective_fs": 4000.0004277237263,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999995722763195,
+          "effective_fs": 64000.00684357962,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999995722763195,
+          "effective_fs": 64000.00684357962,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -0.00012489531462926175,
+          "end": 3.9998746769616904,
+          "effective_fs": 4000.0004277237263,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 1499.00088322395,
+          "rpm_median": 1499.621429260151,
+          "rpm_max": 1500.04769887394
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": -0.0028127109212398166,
+          "end": 3.99718686135508,
+          "effective_fs": 1.0000001069309314,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -0.00012489531462926175,
+          "end": 3.9998746769616904,
+          "effective_fs": 4000.0004277237263,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999995722763195,
+          "effective_fs": 64000.00684357962,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\Health\\K001.rar",
+      "member": "K001/N15_M07_F04_K001_4.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.0001548359722458592,
+          "end": 3.999756197502265,
+          "effective_fs": 4001.3389963069517,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256100,
+          "time_n": 256100,
+          "start": -1.4114881447757632e-05,
+          "end": 3.9999970059342385,
+          "effective_fs": 64024.57199863385,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256100,
+          "time_n": 256100,
+          "start": -1.4114881447757632e-05,
+          "end": 3.9999970059342385,
+          "effective_fs": 64024.57199863385,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.0001548359722458592,
+          "end": 3.999756197502265,
+          "effective_fs": 4001.3389963069517,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 1499.0604015182612,
+          "rpm_median": 1499.650509570969,
+          "rpm_max": 1500.2161611080146
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": 0.0,
+          "end": 3.9987506191300275,
+          "effective_fs": 1.0003124428075099,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.0001548359722458592,
+          "end": 3.999756197502265,
+          "effective_fs": 4001.3389963069517,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256100,
+          "time_n": 256100,
+          "start": -1.4114881447757632e-05,
+          "end": 3.9999970059342385,
+          "effective_fs": 64024.57199863385,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\Health\\K001.rar",
+      "member": "K001/N15_M07_F10_K001_20.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00012489531462933634,
+          "end": 3.999836181830469,
+          "effective_fs": 4001.288935397163,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256088,
+          "time_n": 256088,
+          "start": 0.0,
+          "end": 3.999992300973756,
+          "effective_fs": 64021.87322652054,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256088,
+          "time_n": 256088,
+          "start": 0.0,
+          "end": 3.999992300973756,
+          "effective_fs": 64021.87322652054,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00012489531462933634,
+          "end": 3.999836181830469,
+          "effective_fs": 4001.288935397163,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 1499.2705172897945,
+          "rpm_median": 1499.5968626833242,
+          "rpm_max": 1500.016200046242
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": 0.0,
+          "end": 3.9987116962751257,
+          "effective_fs": 1.0003221796975448,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00012489531462933634,
+          "end": 3.999836181830469,
+          "effective_fs": 4001.288935397163,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256088,
+          "time_n": 256088,
+          "start": 0.0,
+          "end": 3.999992300973756,
+          "effective_fs": 64021.87322652054,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\OR\\KA01.rar",
+      "member": "KA01/N09_M07_F10_KA01_20.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -7.827373479917616e-05,
+          "end": 3.999921298539874,
+          "effective_fs": 4000.0004277253724,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999995722746733,
+          "effective_fs": 64000.00684360596,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999995722746733,
+          "effective_fs": 64000.00684360596,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -7.827373479917616e-05,
+          "end": 3.999921298539874,
+          "effective_fs": 4000.0004277253724,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 898.3488275426723,
+          "rpm_median": 899.7611711587195,
+          "rpm_max": 901.1302149671673
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": -0.0029688414931206795,
+          "end": 3.9970307307815527,
+          "effective_fs": 1.0000001069313431,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -7.827373479917616e-05,
+          "end": 3.999921298539874,
+          "effective_fs": 4000.0004277253724,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999995722746733,
+          "effective_fs": 64000.00684360596,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\OR\\KA01.rar",
+      "member": "KA01/N15_M01_F10_KA01_9.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -0.00021856764198021445,
+          "end": 3.9997810046326934,
+          "effective_fs": 4000.000427725372,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 255998,
+          "time_n": 255998,
+          "start": 0.0,
+          "end": 3.999988879141504,
+          "effective_fs": 63999.42793214546,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 255998,
+          "time_n": 255998,
+          "start": 0.0,
+          "end": 3.999988879141504,
+          "effective_fs": 63999.42793214546,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -0.00021856764198021445,
+          "end": 3.9997810046326934,
+          "effective_fs": 4000.000427725372,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 1495.4551219950183,
+          "rpm_median": 1499.5004973439834,
+          "rpm_max": 1501.4806202663997
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": -0.0028281198606128705,
+          "end": 3.9971714524140607,
+          "effective_fs": 1.000000106931343,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -0.00021856764198021445,
+          "end": 3.9997810046326934,
+          "effective_fs": 4000.000427725372,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 255998,
+          "time_n": 255998,
+          "start": 0.0,
+          "end": 3.999988879141504,
+          "effective_fs": 63999.42793214546,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\OR\\KA01.rar",
+      "member": "KA01/N15_M07_F04_KA01_8.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -0.0001565474695983532,
+          "end": 3.9998430248050747,
+          "effective_fs": 4000.000427725373,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999995722746733,
+          "effective_fs": 64000.00684360596,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999995722746733,
+          "effective_fs": 64000.00684360596,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -0.0001565474695983532,
+          "end": 3.9998430248050747,
+          "effective_fs": 4000.000427725373,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 1498.5266132687227,
+          "rpm_median": 1499.2813468362044,
+          "rpm_max": 1501.0086386404485
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": -0.004281530520982279,
+          "end": 3.995718041753691,
+          "effective_fs": 1.0000001069313431,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -0.0001565474695983532,
+          "end": 3.9998430248050747,
+          "effective_fs": 4000.000427725373,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999995722746733,
+          "effective_fs": 64000.00684360596,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\OR\\KA01.rar",
+      "member": "KA01/N15_M07_F10_KA01_19.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -3.122394885435309e-05,
+          "end": 3.999988879141504,
+          "effective_fs": 4001.2298907284903,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256079,
+          "time_n": 256079,
+          "start": 0.0,
+          "end": 3.999988879141504,
+          "effective_fs": 64019.677988444964,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256079,
+          "time_n": 256079,
+          "start": 0.0,
+          "end": 3.999988879141504,
+          "effective_fs": 64019.677988444964,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -3.122394885435309e-05,
+          "end": 3.999988879141504,
+          "effective_fs": 4001.2298907284903,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 1498.7320275156674,
+          "rpm_median": 1499.6162575311919,
+          "rpm_max": 1500.258935986933
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": 0.0,
+          "end": 3.9987707174108587,
+          "effective_fs": 1.0003074151222997,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -3.122394885435309e-05,
+          "end": 3.999988879141504,
+          "effective_fs": 4001.2298907284903,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256079,
+          "time_n": 256079,
+          "start": 0.0,
+          "end": 3.999988879141504,
+          "effective_fs": 64019.677988444964,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\IR\\KI01.rar",
+      "member": "KI01/N09_M07_F10_KI01_1.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -9.367108531853309e-05,
+          "end": 3.9999059011928306,
+          "effective_fs": 4000.0004277218964,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999931564503877,
+          "effective_fs": 64000.10949698113,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999931564503877,
+          "effective_fs": 64000.10949698113,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -9.367108531853309e-05,
+          "end": 3.9999059011928306,
+          "effective_fs": 4000.0004277218964,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 898.5021729381924,
+          "rpm_median": 899.6683832396533,
+          "rpm_max": 901.3936299935218
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": -0.0030000410612976737,
+          "end": 3.9969995312168516,
+          "effective_fs": 1.000000106930474,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16001,
+          "time_n": 16001,
+          "start": -9.367108531853309e-05,
+          "end": 3.9999059011928306,
+          "effective_fs": 4000.0004277218964,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256001,
+          "time_n": 256001,
+          "start": 0.0,
+          "end": 3.9999931564503877,
+          "effective_fs": 64000.10949698113,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\IR\\KI01.rar",
+      "member": "KI01/N15_M01_F10_KI01_12.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00016210658144155676,
+          "end": 3.9997711688098385,
+          "effective_fs": 4001.31674657357,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256085,
+          "time_n": 256085,
+          "start": -5.9881059106814405e-06,
+          "end": 3.9999897346755815,
+          "effective_fs": 64021.068458024725,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256085,
+          "time_n": 256085,
+          "start": -5.9881059106814405e-06,
+          "end": 3.9999897346755815,
+          "effective_fs": 64021.068458024725,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00016210658144155676,
+          "end": 3.9997711688098385,
+          "effective_fs": 4001.31674657357,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 1499.0646971159522,
+          "rpm_median": 1499.6530340409058,
+          "rpm_max": 1500.0346624172892
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": 0.0,
+          "end": 3.998693309745899,
+          "effective_fs": 1.0003267793133612,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00016210658144155676,
+          "end": 3.9997711688098385,
+          "effective_fs": 4001.31674657357,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256085,
+          "time_n": 256085,
+          "start": -5.9881059106814405e-06,
+          "end": 3.9999897346755815,
+          "effective_fs": 64021.068458024725,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\IR\\KI01.rar",
+      "member": "KI01/N15_M07_F04_KI01_5.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00010906907194629945,
+          "end": 3.999896919033965,
+          "effective_fs": 4001.2440100317726,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256085,
+          "time_n": 256085,
+          "start": 0.0,
+          "end": 3.999985029735223,
+          "effective_fs": 64021.23960372706,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256085,
+          "time_n": 256085,
+          "start": 0.0,
+          "end": 3.999985029735223,
+          "effective_fs": 64021.23960372706,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00010906907194629945,
+          "end": 3.999896919033965,
+          "effective_fs": 4001.2440100317726,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 1499.2104032117243,
+          "rpm_median": 1499.5526875746737,
+          "rpm_max": 1500.0205676975058
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": 0.0,
+          "end": 3.9987570403016637,
+          "effective_fs": 1.000310836513899,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00010906907194629945,
+          "end": 3.999896919033965,
+          "effective_fs": 4001.2440100317726,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256085,
+          "time_n": 256085,
+          "start": 0.0,
+          "end": 3.999985029735223,
+          "effective_fs": 64021.23960372706,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "archive": "data\\raw\\PU\\artificial damage\\IR\\KI01.rar",
+      "member": "KI01/N15_M07_F10_KI01_20.mat",
+      "channels": [
+        {
+          "name": "force",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00017194418400934275,
+          "end": 3.9997557708232105,
+          "effective_fs": 4001.322308888552,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256132,
+          "time_n": 256132,
+          "start": 0.0,
+          "end": 3.9999867406226257,
+          "effective_fs": 64032.962259302745,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "phase_current_2",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256132,
+          "time_n": 256132,
+          "start": 0.0,
+          "end": 3.9999867406226257,
+          "effective_fs": 64032.962259302745,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "speed",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00017194418400934275,
+          "end": 3.9997557708232105,
+          "effective_fs": 4001.322308888552,
+          "time_monotone": true,
+          "finite": true,
+          "rpm_min": 1499.3169989086982,
+          "rpm_median": 1499.5908243115227,
+          "rpm_max": 1499.950184668044
+        },
+        {
+          "name": "temp_2_bearing_module",
+          "raster": "Temp_1Hz",
+          "x_index": 3,
+          "n": 5,
+          "time_n": 5,
+          "start": 0.0,
+          "end": 3.998677911759271,
+          "effective_fs": 1.0003306313411342,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "torque",
+          "raster": "Mech_4kHz",
+          "x_index": 1,
+          "n": 16006,
+          "time_n": 16006,
+          "start": -0.00017194418400934275,
+          "end": 3.9997557708232105,
+          "effective_fs": 4001.322308888552,
+          "time_monotone": true,
+          "finite": true
+        },
+        {
+          "name": "vibration_1",
+          "raster": "HostService",
+          "x_index": 2,
+          "n": 256132,
+          "time_n": 256132,
+          "start": 0.0,
+          "end": 3.9999867406226257,
+          "effective_fs": 64032.962259302745,
+          "time_monotone": true,
+          "finite": true
+        }
+      ]
+    }
+  ],
+  "Ottawa": [
+    {
+      "file": "H_1_0.xlsx",
+      "header": [
+        "Accelerometer",
+        "Acoustic",
+        "Speed",
+        "Load",
+        "Temperature Difference"
+      ],
+      "shape": [
+        420000,
+        5
+      ],
+      "finite": true,
+      "Speed": {
+        "nonzero_count": 1,
+        "first_nonzero_indices": [
+          0
+        ],
+        "nonzero_min": 1819.0,
+        "nonzero_median": 1819.0,
+        "nonzero_max": 1819.0
+      },
+      "Load": {
+        "nonzero_count": 1,
+        "first_nonzero_indices": [
+          0
+        ],
+        "nonzero_min": 400.0,
+        "nonzero_median": 400.0,
+        "nonzero_max": 400.0
+      }
+    },
+    {
+      "file": "I_1_1.xlsx",
+      "header": [
+        "Accelerometer",
+        "Acoustic",
+        "Speed",
+        "Load",
+        "Temperature Difference"
+      ],
+      "shape": [
+        420000,
+        5
+      ],
+      "finite": true,
+      "Speed": {
+        "nonzero_count": 1,
+        "first_nonzero_indices": [
+          0
+        ],
+        "nonzero_min": 1819.0,
+        "nonzero_median": 1819.0,
+        "nonzero_max": 1819.0
+      },
+      "Load": {
+        "nonzero_count": 1,
+        "first_nonzero_indices": [
+          0
+        ],
+        "nonzero_min": 400.0,
+        "nonzero_median": 400.0,
+        "nonzero_max": 400.0
+      }
+    },
+    {
+      "file": "O_6_2.xlsx",
+      "header": [
+        "Accelerometer",
+        "Acoustic",
+        "Speed",
+        "Load",
+        "Temperature Difference"
+      ],
+      "shape": [
+        420000,
+        5
+      ],
+      "finite": true,
+      "Speed": {
+        "nonzero_count": 1,
+        "first_nonzero_indices": [
+          0
+        ],
+        "nonzero_min": 1818.0,
+        "nonzero_median": 1818.0,
+        "nonzero_max": 1818.0
+      },
+      "Load": {
+        "nonzero_count": 1,
+        "first_nonzero_indices": [
+          0
+        ],
+        "nonzero_min": 400.0,
+        "nonzero_median": 400.0,
+        "nonzero_max": 400.0
+      }
+    },
+    {
+      "file": "B_11_2.xlsx",
+      "header": [
+        "Accelerometer",
+        "Acoustic",
+        "Speed",
+        "Load",
+        "Temperature Difference"
+      ],
+      "shape": [
+        420000,
+        5
+      ],
+      "finite": true,
+      "Speed": {
+        "nonzero_count": 1,
+        "first_nonzero_indices": [
+          0
+        ],
+        "nonzero_min": 1709.0,
+        "nonzero_median": 1709.0,
+        "nonzero_max": 1709.0
+      },
+      "Load": {
+        "nonzero_count": 0,
+        "first_nonzero_indices": [],
+        "nonzero_min": null,
+        "nonzero_median": null,
+        "nonzero_max": null
+      }
+    },
+    {
+      "file": "C_16_1.xlsx",
+      "header": [
+        "Accelerometer",
+        "Acoustic",
+        "Speed",
+        "Load",
+        "Temperature Difference"
+      ],
+      "shape": [
+        420000,
+        5
+      ],
+      "finite": true,
+      "Speed": {
+        "nonzero_count": 1,
+        "first_nonzero_indices": [
+          0
+        ],
+        "nonzero_min": 1780.0,
+        "nonzero_median": 1780.0,
+        "nonzero_max": 1780.0
+      },
+      "Load": {
+        "nonzero_count": 1,
+        "first_nonzero_indices": [
+          0
+        ],
+        "nonzero_min": 400.0,
+        "nonzero_median": 400.0,
+        "nonzero_max": 400.0
+      }
+    }
+  ],
+  "MAFAULDA": [
+    {
+      "file": "data\\raw\\MAFAULDA\\normal\\12.288.csv",
+      "shape": [
+        250000,
+        8
+      ],
+      "finite": true,
+      "filename_number": 12.288,
+      "tach_peak_count": 60,
+      "pulse_hz_median_at_50k": 12.086052695189752,
+      "pulse_hz_p05_p95": [
+        10.922280074212988,
+        13.492363676205418
+      ]
+    },
+    {
+      "file": "data\\raw\\MAFAULDA\\normal\\61.44.csv",
+      "shape": [
+        250000,
+        8
+      ],
+      "finite": true,
+      "filename_number": 61.44,
+      "tach_peak_count": 300,
+      "pulse_hz_median_at_50k": 60.024009603841534,
+      "pulse_hz_p05_p95": [
+        52.57623554153523,
+        69.93006993006993
+      ]
+    },
+    {
+      "file": "data\\raw\\MAFAULDA\\ball_fault\\0g\\13.1072.csv",
+      "shape": [
+        250000,
+        8
+      ],
+      "finite": true,
+      "filename_number": 13.1072,
+      "tach_peak_count": 64,
+      "pulse_hz_median_at_50k": 12.807377049180328,
+      "pulse_hz_p05_p95": [
+        11.534298146449673,
+        14.404241038598538
+      ]
+    },
+    {
+      "file": "data\\raw\\MAFAULDA\\ball_fault\\6g\\62.0544.csv",
+      "shape": [
+        250000,
+        8
+      ],
+      "finite": true,
+      "filename_number": 62.0544,
+      "tach_peak_count": 325,
+      "pulse_hz_median_at_50k": 60.90133982947625,
+      "pulse_hz_p05_p95": [
+        52.083333333333336,
+        180.4080201542737
+      ]
+    },
+    {
+      "file": "data\\raw\\MAFAULDA\\cage_fault\\6g\\12.9024.csv",
+      "shape": [
+        250000,
+        8
+      ],
+      "finite": true,
+      "filename_number": 12.9024,
+      "tach_peak_count": 63,
+      "pulse_hz_median_at_50k": 12.632642748863063,
+      "pulse_hz_p05_p95": [
+        11.394972650610772,
+        14.19729934139659
+      ]
+    },
+    {
+      "file": "data\\raw\\MAFAULDA\\cage_fault\\6g\\62.0544.csv",
+      "shape": [
+        250000,
+        8
+      ],
+      "finite": true,
+      "filename_number": 62.0544,
+      "tach_peak_count": 303,
+      "pulse_hz_median_at_50k": 60.6060606060606,
+      "pulse_hz_p05_p95": [
+        52.79831045406547,
+        71.02272727272727
+      ]
+    },
+    {
+      "file": "data\\raw\\MAFAULDA\\outer_race\\20g\\12.9024.csv",
+      "shape": [
+        250000,
+        8
+      ],
+      "finite": true,
+      "filename_number": 12.9024,
+      "tach_peak_count": 63,
+      "pulse_hz_median_at_50k": 12.589701624071509,
+      "pulse_hz_p05_p95": [
+        11.43667524354065,
+        14.091059006718393
+      ]
+    },
+    {
+      "file": "data\\raw\\MAFAULDA\\outer_race\\6g\\61.6448.csv",
+      "shape": [
+        250000,
+        8
+      ],
+      "finite": true,
+      "filename_number": 61.6448,
+      "tach_peak_count": 300,
+      "pulse_hz_median_at_50k": 60.168471720818296,
+      "pulse_hz_p05_p95": [
+        52.515497279709365,
+        70.52186177715092
+      ]
+    }
+  ],
+  "geometry_orders_zero_contact_angle": {
+    "PU": {
+      "BPFO": 3.054290718038529,
+      "BPFI": 4.945709281961471,
+      "BSF": 1.996601154569631,
+      "FTF": 0.38178633975481613
+    },
+    "Ottawa": {
+      "BPFO": 3.0498245614035087,
+      "BPFI": 4.950175438596491,
+      "BSF": 1.986102516261111,
+      "FTF": 0.3812280701754386
+    },
+    "MAFAULDA": {
+      "BPFO": 2.9978610750727586,
+      "BPFI": 5.002138924927241,
+      "BSF": 1.87046391499991,
+      "FTF": 0.3747326343840948
+    }
+  }
+}

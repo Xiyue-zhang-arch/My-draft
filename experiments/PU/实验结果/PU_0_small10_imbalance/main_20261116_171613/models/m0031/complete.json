@@ -1,0 +1,26 @@
+{
+  "model_id": "m0031",
+  "protocol": "imbalanced",
+  "seed": 1706,
+  "method": "equal",
+  "functional": false,
+  "epochs": 50,
+  "updates": 300,
+  "parameters": 74308,
+  "condition_parameters": 0,
+  "shared_initialization_sha256": "96de6abadae92fe46242f064714ba7ed8fb5b8450f94a22271d78c326459d7d1",
+  "val_CE": 0.7490134392997605,
+  "val_BA": 0.8,
+  "final_train_eval_CE": 0.0016446958493732244,
+  "final_train_eval_BA": 1.0,
+  "seconds": 3.5699564999667928,
+  "checkpoint_reproduction_max_error": 0.0,
+  "artifacts_sha256": {
+    "history.csv": "985809b52282c24135ae0ee730d7bf889d97c674add010523a0b2523c72f4e77",
+    "model.pt": "b906debc18fb4232498b95ea3372ab18bdf7d0c2f4afe5cc99984995e6cb3efc",
+    "probe.npz": "9624843e6a775196720f673265e738a80b8aab8e56dcd83e97a69e8af9c376f3",
+    "training_trace.json": "81bc539ffe89893c6ee9aacc50e46206bd60d8faea873cf2d2b4fdd12e341818",
+    "train_features.npz": "88b3d02e1bc56e197724ea83ed4ca1a1a4ea65c71376d2b586ef9820f27f844f",
+    "validation.npz": "681a4ea4808a8c29e35f45749789c519c0717efcd425de97334ebb1021b93504"
+  }
+}

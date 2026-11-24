@@ -1,0 +1,19 @@
+{
+  "selected_spec": {
+    "aux_weight": 0.1,
+    "physics_fit": "matched_noise",
+    "aux_head": "shared",
+    "val_noise_seeds": [
+      6201
+    ],
+    "max_epochs": 100,
+    "schedule_epochs": 100,
+    "patience": 20,
+    "fit_noise_seed": 6301,
+    "fit_noise_repeats": 3
+  },
+  "decisions_locked": true,
+  "historical_test_exposure": true,
+  "selection_source": "D:\\Project\\MY draft\\results\\CWRU_V2\\optimization_selection_20261022\\selection.json",
+  "methodology": "30轮固定验证选参；100轮独立从头完整训练；不根据测试修改配置"
+}

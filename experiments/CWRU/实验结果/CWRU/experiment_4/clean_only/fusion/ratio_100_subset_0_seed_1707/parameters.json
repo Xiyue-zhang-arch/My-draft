@@ -1,0 +1,17 @@
+{
+  "protocol": "clean_only",
+  "method": "fusion",
+  "ratio": 1.0,
+  "subset": 0,
+  "seed": 1707,
+  "best_update": 450,
+  "updates_trained": 600,
+  "validation_nll": 0.03533810381777586,
+  "training_windows": 287,
+  "validation_windows": 200,
+  "from_scratch": true,
+  "fit_seconds": 0.05883529991842806,
+  "parameters": 53068,
+  "train_seconds_per_epoch": 0.7041488492569483,
+  "peak_gpu_mib": 1196.25732421875
+}

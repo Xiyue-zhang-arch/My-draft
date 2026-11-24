@@ -1,0 +1,8 @@
+{
+  "stage": "all_weights_verified",
+  "models": 30,
+  "strict_validation_reload_equal": true,
+  "max_CE_error": 0.0,
+  "paired_random_streams_equal_within_classifier_width": true,
+  "cross_width_dropout_equality_not_claimed": true
+}

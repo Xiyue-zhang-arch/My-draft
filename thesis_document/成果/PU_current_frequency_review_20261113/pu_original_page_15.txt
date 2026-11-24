@@ -1,0 +1,62 @@
+             EUROPEAN CONFERENCE OF THE PROGNOSTICS AND HEALTH MANAGEMENT SOCIETY 2016
+
+
+recognition  rate   is  quite  low.  Moreover,  significant        of Electrical and Electronics Engineers (Ed.), 2007 IEEE
+differences  are observed using  different groups of  real        International Symposium on Diagnostics for Electric
+damage (single and repetitive damages in comparison to       Machines, Power Electronics & Drives (pp. 23–28).
+multiple damages).                                              Piscataway, NJ, USA: IEEE.
+Therefore, more research should be conducted on improving    Herold, T., Piantsop Mbo’o, C., & Hameyer, K. (2013).
+bearing damage detection from MCS in order to have low       Evaluation of the use of an electrical drive as a sensor
+cost  and  accurate  condition  monitoring  system  for        for the detection of bearing damage. In Conference on
+electromechanical  drive  systems.  To  promote  further        Acoustics, AIA-DAGA 2013. Meran, Italy. Retrieved
+research, the experimental raw data is published alongside       from http://134.130.107.200/uploads/bibliotest/2013TH
+with this publication as a benchmark to develop and test        Evaluation.pdf
+data-driven   classifiers  or  other  condition  monitoring     International Standards Organization (ISO) (2004). Rolling
+methods.  More  detailed  examinations  concerning  the         bearings - Damage and failures - Terms, characteristics
+behavior of different damages as e.g. with different damage        and  causes. ISO 15243:2010. Genève,  Switzerland:
+levels can be carried out with the provided data and the         International Standards Organization.
+associated damage description. As only a few aspects of the    Kankar, P., Sharma, S. C., & Harsha, S. (2011). Fault
+classification  behavior  could  be  examined   in   this        diagnosis of ball bearings using machine learning
+publication, the examination of CM methods should be       methods. Expert Systems with Applications, 38, pp.
+intensified using the data sets.                                 1876–1886.
+Moreover, some open questions remain, which could be    Kimotho, J. K., & Sextro, W. (2014). An approach for
+examined  using  future  data  sets.  Industrial  application        feature extraction and selection from non-trending data
+requires the detection of damages under variable operating        for machinery prognosis. Second European Conference
+conditions. In addition, other mechanical faults in the drive        of the Prognostics and Health Management Society, July
+train and other bearing damages should be investigated        8-10, Nantes.
+since this work covers only two main modes of damages out    Lessmeier, C., Piantsop Mbo'o, C., Coenen, I., Zimmer, D.,
+of a possible six.  Finally, the implementation into industry    & Hameyer, K. (2012). Untersuchung von
+applications and related issues have to be discussed and       Bauteilschäden elektrischer Antriebsstränge im
+tested.                                                          Belastungsprüfstand mittels Statorstromanalyse. In K.
+                                                          Nienhaus & P. Burgwinkel (Eds.): Vol. 81. Aachener
+REFERENCES                                                       Schriften zur Rohstoff- und Entsorgungstechnik des
+                                                                             Instituts für Maschinentechnik der Rohstoffindustrie,
+Amirat, Y., Choqueuse, V., & Benbouzid, M. (2013).                                               AKIDA 2012. Aachener Kolloquium für Instandhaltung,
+   EEMD-based wind turbine bearing failure detection                                                         Diagnose und Anlagenüberwachung (1st ed., pp. 509–
+   using the generator stator current homopolar component.                                                                  521). Aachen: Zillekens.
+   Mechanical Systems and Signal Processing, 41(1-2),
+                                                            Lessmeier, C., Enge-Rosenblatt, O., Bayer, C., & Zimmer,   667–678. doi:10.1016/j.ymssp.2013.06.012
+                                                         D. (2014). Data Acquisition and Signal Analysis from
+Bartz, W. J. (1985). Wälzlagertechnik // Lagerungen,                                                        Measured Motor Currents for Defect Detection in
+   Technologie, Berechnungen, Auswahl, Konstruktion und                                                               Electromechanical Drive Systems. Second European
+   Anwendung. Sindelfingen: Expert Verlag.                                                            Conference of the Prognostics and Health Management
+Bellini, A., Filippetti, F., Tassoni, C., & Capolino, G.-A.            Society, July 8-10, Nantes.
+   (2008). Advances in Diagnostic Techniques for                                                        Mbo'o, C. P., Herold, T., & Hameyer, K. (2004). Impact of
+   Induction Machines. IEEE Transactions on Industrial                                                                    the load in the detection of bearing faults by using the
+    Electronics, 55(12), pp. 4109–4126.                                                                           stator current in PMSM's. In XXI International
+   doi:10.1109/TIE.2008.2007527                                                            Conference on Electrical Machines (ICEM) (pp. 1621–
+Blödt, M., Granjon, P., Raison, B., & Rostaing, G. (2008).          1627).
+   Models for Bearing Damage Detection in Induction                                                          Nandi, S., Toliyat, H. A., & Li, X. (2005). Condition
+   Motors Using Stator Current Monitoring. IEEE                                                            Monitoring and Fault Diagnosis of Electrical Motors—A
+   Transactions on Industrial Electronics, 55(4), pp. 1813–                                                           Review. IEEE Transactions on Energy Conversion,
+   1822. doi:10.1109/TIE.2008.917108                                                                    20(4), 719–729. doi:10.1109/TEC.2005.847955
+Bonnett, A., & Yung, C. (2008). Increased Efficiency                                                          Nectoux, P., Gouriveau, R., Medjaher, K., Ramasso, E.,
+   Versus Increased Reliability. IEEE Industry Applications                                                               Morello, B., Zerhouni, N., & Varnier, C. (2012).
+   Magazine, 14(1), 29–36. doi:10.1109/MIA.2007.909802                                            PRONOSTIA : An experimental platform for bearings
+Djeddi, M., Granjon, P., & Leprettre, B. (2007). Bearing            accelerated degradation tests. IEEE International
+   Fault Diagnosis in Induction Machine Based on Current        Conference on Prognostics and Health Management,
+   Analysis Using High-Resolution Technique. In Institute       PHM'12, July 18 -21, Denver.
+
+
+
+                                                                                                             15
